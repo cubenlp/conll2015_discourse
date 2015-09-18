@@ -5,7 +5,6 @@ CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
 # mallet bin path
 MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
 
-SCORER_PATH = "/Users/Hunter/Documents/pycharmSpace/conll15st_scorer/scorer.py"
 
 
 MALLET_FILE = CWD +"data/train.mallet"
