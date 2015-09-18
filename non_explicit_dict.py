@@ -34,7 +34,7 @@ class Non_Explicit_dict():
 
         self.cp_production_rules = util.load_dict_from_file(config.NON_EXPLICIT_DICT_CP_PRODUCTION_RULES)
 
-        # 聚类个数
+        # cluster number
         self.word2vec_cluster = self.get_word2vec_cluster(5496)
         # word2vec_cluster pairs
         self.dict_word2vec_cluster_pairs = util.load_dict_from_file(config.NON_EXPLICIT_DICT_WORD2VEC_CLUSTER_PAIRS)
@@ -190,7 +190,7 @@ class Non_Explicit_dict():
             if line == "":
                 continue
 
-            # 有些有两个polarity，取前一个
+            # if it has two polarities, choose the previous one
             _type, _, _word, _pos, _stemmed, _polarity = line.split(" ")[:6]
 
             type = _type.split("=")[-1]

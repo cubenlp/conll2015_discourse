@@ -87,7 +87,7 @@ def get_cp_production_rules(relation, parse_dict):
     return cp
 
 def get_Arg_production_rules(relation, Arg, parse_dict):
-    #1. 形成 dict[(DocID, sent_index)] = [token_list]
+    #1.  dict[(DocID, sent_index)] = [token_list]
     dict = {}
     DocID = relation["DocID"]
     Arg_TokenList = get_Arg_TokenList(relation, Arg)
@@ -105,7 +105,7 @@ def get_Arg_production_rules(relation, Arg, parse_dict):
         if syntax_tree.tree != None:
             Arg_indices = dict[(DocID, sent_index) ]
             Arg_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg_indices])
-            #进行层次遍历
+
             no_need = []
             for node in syntax_tree.tree.traverse(strategy="levelorder"):
                 if node not in no_need:
@@ -113,10 +113,9 @@ def get_Arg_production_rules(relation, Arg, parse_dict):
                         Arg_subtrees.append(node)
                         no_need.extend(node.get_descendants())
 
-    #3. 对每个子树产生production rule
+
     production_rule = []
     for tree in Arg_subtrees:
-        #层次遍历
         for node in tree.traverse(strategy="levelorder"):
             if not node.is_leaf():
                 rule = node.name + "-->" + " ".join([child.name for child in node.get_children()])
@@ -131,7 +130,7 @@ def get_dependency_rules(relation, parse_dict):
     return Arg1_dependency_rules + Arg2_dependency_rules
 
 def get_Arg_dependency_rules(relation, Arg, parse_dict):
-    #1. 形成 dict[(DocID, sent_index)] = [token_list]
+    #1.  dict[(DocID, sent_index)] = [token_list]
     dict = {}
     DocID = relation["DocID"]
     Arg_TokenList = get_Arg_TokenList(relation, Arg)
@@ -141,10 +140,8 @@ def get_Arg_dependency_rules(relation, Arg, parse_dict):
         else:
             dict[(DocID, sent_index)].append(word_index)
 
-    # 遍历dict
     dependency_rules = []
     for (DocID, sent_index) in dict:
-        #每个句子获取对应的 dependency rules
         Arg_indices = [item+1 for item in dict[(DocID, sent_index)]]#dependency 从1开始
         dependency_list = parse_dict[DocID]["sentences"][sent_index]["dependencies"]
 
@@ -156,7 +153,6 @@ def get_Arg_dependency_rules(relation, Arg, parse_dict):
                     depen_dict[word] = [dependency[0]]
                 else:
                     depen_dict[word].append(dependency[0])
-        #形成rule
         for key in depen_dict:
             rule = key + "<--" + " ".join(depen_dict[key])
             dependency_rules.append(rule)
@@ -164,7 +160,7 @@ def get_Arg_dependency_rules(relation, Arg, parse_dict):
     return dependency_rules
 
 
-#[(sent_index, index)] 句子偏移，句内偏移
+#[(sent_index, index)]
 # Arg : Arg1 or Arg2
 def get_Arg_TokenList(relation, Arg):
     return [(item[3], item[4]) for item in relation[Arg]["TokenList"]]
@@ -240,50 +236,6 @@ def get_modality_vec(words_list):
     return list
 
 
-def get_Arg_average_length_verb_phrase(relation, Arg, parse_dict):
-    #1. 形成 dict[(DocID, sent_index)] = [token_list]
-    dict = {}
-    DocID = relation["DocID"]
-    Arg_TokenList = get_Arg_TokenList(relation, Arg)
-    for sent_index, word_index in Arg_TokenList:
-        if (DocID, sent_index) not in dict:
-            dict[(DocID, sent_index)] = [word_index]
-        else:
-            dict[(DocID, sent_index)].append(word_index)
-
-    #2.
-    Arg_subtrees = []
-    for (DocID, sent_index) in dict.keys():
-        parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
-        syntax_tree = Syntax_tree(parse_tree)
-        if syntax_tree.tree != None:
-            Arg_indices = dict[(DocID, sent_index) ]
-            Arg_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg_indices])
-            #进行层次遍历
-            no_need = []
-            for node in syntax_tree.tree.traverse(strategy="levelorder"):
-                if node not in no_need:
-                    if set(node.get_leaves()) <= Arg_leaves:
-                        Arg_subtrees.append(node)
-                        no_need.extend(node.get_descendants())
-
-    #3. 对每个子树搜索VP,
-    verb_phrase_length_list = []
-    for tree in Arg_subtrees:
-        #进行层次遍历
-        no_need = []
-        for node in tree.traverse(strategy="levelorder"):
-            if node not in no_need:
-                if node.name == "VP":
-                    verb_phrase_length_list.append(len(node.get_leaves()))
-                    no_need.extend(node.get_descendants())
-                    return len(node.get_leaves())
-
-    return 0
-    # if verb_phrase_length_list == []:
-    #     return 0
-    # else:
-    #     return sum(verb_phrase_length_list)/len(verb_phrase_length_list)
 
 
 def get_main_verb_pos(relation, Arg, parse_dict):
@@ -317,12 +269,12 @@ def _get_main_verb(relation, Arg, parse_dict):
     word_list = get_Arg_Words_List(relation, Arg, parse_dict)
     pos_list = get_Arg_POS_List(relation, Arg, parse_dict)
 
-    # 动词，且不是 be have
+    # verb, but not: be have
     for word, pos in zip(word_list, pos_list):
         if pos in verb_pos and word not in be_have_words:
             word = util.lemma_word(word, pos)
             return word
-    # 只有 be have
+    # only: be have
     for word, pos in zip(word_list, pos_list):
         if word in be_have_words:
             word = util.lemma_word(word, pos)
@@ -432,13 +384,11 @@ def is_negate(wordlist):
 
 # in:('humor', 'verb') ; out: ('strongsubj', 'positive')
 def get_word_MPQA_polarity(word_pos_tuple):
-    # 加载字典
     n_stemmed_word_pos_dict = Non_Explicit_dict().n_stemmed_word_pos_dict
     y_stemmed_word_pos_dict = Non_Explicit_dict().y_stemmed_word_pos_dict
 
     word, pos = word_pos_tuple
 
-    # word_pos_tuple 是否在未stem中
     if word_pos_tuple in n_stemmed_word_pos_dict:
         return n_stemmed_word_pos_dict[word_pos_tuple]
     elif (word, "anypos") in n_stemmed_word_pos_dict:
@@ -451,14 +401,13 @@ def get_word_MPQA_polarity(word_pos_tuple):
     elif (word, "anypos") in y_stemmed_word_pos_dict:
         return y_stemmed_word_pos_dict[(word, "anypos")]
 
-    # 没有 match
+    # no match
     return ("NULL", "NULL")
 
 def get_MPQA_polarity_vec(relation, Arg, parse_dict):
     polarity_cate = ["negatepositive", "positive", "negative", "neutral"]
     subj_cate = ["strongsubj", "weaksubj"]
 
-    # 字典
     dict = {}
     t = 0
     for p in polarity_cate:
@@ -473,28 +422,22 @@ def get_MPQA_polarity_vec(relation, Arg, parse_dict):
 
     for index, (word, pos) in enumerate(zip(word_list, pos_list)):
         subj, polarity = get_word_MPQA_polarity((word, pos))# ('strongsubj', 'positive')
-        if polarity in ["NULL", "both"]: # 不统计的
+        if polarity in ["NULL", "both"]:
             continue
-        # 如果是 positive 判断是不是 negatepositive
+        # negate positive
         if polarity == "positive" and is_negate_MPQA(index, word_list):
             polarity = "negatepositive"
 
         subj_polarity = "%s_%s" % (subj, polarity)
-        # 使用计数的方式 or not
+        # count or not
         list[dict[subj_polarity]] = 1
-
-    # print "--" * 45
-    # print " ".join(word_list)
-    # print list
 
 
     return list
 
-# 采用记分的方式
 def get_MPQA_polarity_score_vec(relation, Arg, parse_dict):
     polarity_cate = ["negatepositive", "positive", "negative", "neutral", "both"]
 
-    # 字典
     polarity_dict = dict(zip(polarity_cate, range(5)))
 
     list = [0] * len(polarity_dict)
@@ -504,14 +447,14 @@ def get_MPQA_polarity_score_vec(relation, Arg, parse_dict):
 
     for index, (word, pos) in enumerate(zip(word_list, pos_list)):
         subj, polarity = get_word_MPQA_polarity((word, pos))# ('strongsubj', 'positive')
-        if polarity == "NULL": # 没有极性
+        if polarity == "NULL":
             continue
-        # 如果是 positive 判断是不是 negatepositive
+        # negate positive
         if polarity == "positive" and is_negate_MPQA(index, word_list):
             polarity = "negatepositive"
 
 
-        # 使用计数的方式, 如果是 strong ＋2， weak ＋1
+        # strong ＋2， weak ＋1
         if subj == "strongsubj":
             list[polarity_dict[polarity]] += 2
         if subj == "weaksubj":
@@ -519,11 +462,9 @@ def get_MPQA_polarity_score_vec(relation, Arg, parse_dict):
 
     return list
 
-# 不考虑，strong, weak
 def get_MPQA_polarity_no_strong_weak_vec(relation, Arg, parse_dict):
     polarity_cate = ["negatepositive", "positive", "negative", "neutral", "both"]
 
-    # 字典
     polarity_dict = dict(zip(polarity_cate, range(5)))
 
     list = [0] * len(polarity_dict)
@@ -533,13 +474,12 @@ def get_MPQA_polarity_no_strong_weak_vec(relation, Arg, parse_dict):
 
     for index, (word, pos) in enumerate(zip(word_list, pos_list)):
         subj, polarity = get_word_MPQA_polarity((word, pos))# ('strongsubj', 'positive')
-        if polarity == "NULL": # 没有极性
+        if polarity == "NULL":
             continue
-        # 如果是 positive 判断是不是 negatepositive
+        # negate positive
         if polarity == "positive" and is_negate_MPQA(index, word_list):
             polarity = "negatepositive"
 
-        # 使用计数的方式,
         list[polarity_dict[polarity]] += 1
 
     return list
@@ -547,7 +487,6 @@ def get_MPQA_polarity_no_strong_weak_vec(relation, Arg, parse_dict):
 
 def is_negate_MPQA(index, word_list):
     negate_words = Non_Explicit_dict().negate
-    # 扫描他之前的三个词
     prev1 = "NULL"; prev2 = "NULL"; prev3 = "NULL"
     if index - 1 >= 0:
         prev1 = word_list[index - 1]
@@ -649,7 +588,7 @@ def _get_Arg_first3_conn(relation, Arg, parse_dict):
     word_list = get_Arg_Words_List(relation, Arg, parse_dict)
     pos_list = get_Arg_POS_List(relation, Arg, parse_dict)
 
-    first3_words = word_list[:3]#少于3个的,没关系，python会处理。即会返回如［1，2］
+    first3_words = word_list[:3]
     conn_names, indices = _check_connective_names(first3_words)
 
     if conn_names != []:
@@ -800,32 +739,28 @@ def _get_coarse_tense(tense):
 
     return "NULL"
 
-''' 识别sentence中的连接词, 返回识别出来的连接词的name # ["but", "in particular"] '''
+# identify connectives in the sentence, and return their names: ["but", "in particular"]
 def _check_connective_names(sent_tokens):
     sent_tokens = [word.lower() for word in sent_tokens ]
     indices = []
     conn_names = []
-    tagged = set([])#已经标记列表
+    tagged = set([])
     sortedConn = Connectives_dict().sorted_conns_list
     for conn in sortedConn:
-        #判断连接词是否在句子中出现
-        if '..' in conn:#对于这种类型的在sentence中只识别一次
+        if '..' in conn:
             c1, c2 = conn.split('..')
             c1_indice = util.getSpanIndecesInSent(c1.split(), sent_tokens)#[[7]]
             c2_indice = util.getSpanIndecesInSent(c2.split(), sent_tokens)#[[10]]
-            if c1_indice!= [] and c2_indice != []:#词在句子中
-                if c1_indice[0][0] < c2_indice[0][0]:#c1,c2 的先后顺序也不能错
-                    #识别到该连接词
+            if c1_indice!= [] and c2_indice != []:
+                if c1_indice[0][0] < c2_indice[0][0]:
                     temp = set([t for t in (c1_indice[0]+c2_indice[0]) ])
-                    #判断连接词是否已经被识别过了，如 已经识别了 for example 就不用去识别for 了
-                    if tagged & temp == set([]):#没有被识别过，加入indices，加入tagged
+                    if tagged & temp == set([]):
                         indices.append(c1_indice[0]+c2_indice[0])# [[7], [10]]
                         conn_names.append(conn)
                         tagged = tagged.union(temp)
         else:
             c_indice = util.getSpanIndecesInSent(conn.split(), sent_tokens)#[[2,6],[1,3],...]
             if c_indice !=[]:
-                #检查c_indice中每一项，如果该项在tagged中存在，剔除该项
                 tt = []
                 for item in c_indice:
                     if set(item) & tagged == set([]):
@@ -841,9 +776,7 @@ def _check_connective_names(sent_tokens):
 
 
 
-#  前面一个关系是不是显性的，如果是，用他的连接词，及 sense
-# 连接词，没有则NULL
-#dict[(DocID, sent1_index, sent2_index)] = [(conn_indices_string, conn, sense)]
+# dict[(DocID, sent1_index, sent2_index)] = [(conn_indices_string, conn, sense)]
 def get_prev_context_conn(relation, parse_dict, non_explicit_context_dict):
     DocID = relation["DocID"]
     Arg1_sent_index = relation["Arg1"]["TokenList"][0][3]
@@ -851,7 +784,6 @@ def get_prev_context_conn(relation, parse_dict, non_explicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 1, Arg1_sent_index - 1) in non_explicit_context_dict:
-        # 选离的最近的那个连接词
         _list = non_explicit_context_dict[(DocID, Arg1_sent_index - 1, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -871,7 +803,6 @@ def get_prev_context_conn(relation, parse_dict, non_explicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 2, Arg1_sent_index - 1) in non_explicit_context_dict:
-        # 选离的最近的那个连接词
         _list = non_explicit_context_dict[(DocID, Arg1_sent_index - 2, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -897,7 +828,6 @@ def get_prev_context_sense(relation, parse_dict, implicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 1, Arg1_sent_index - 1) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg1_sent_index - 1, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -917,7 +847,6 @@ def get_prev_context_sense(relation, parse_dict, implicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 2, Arg1_sent_index - 1) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg1_sent_index - 2, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -944,7 +873,6 @@ def get_prev_context_conn_sense(relation, parse_dict, implicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 1, Arg1_sent_index - 1) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg1_sent_index - 1, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -964,7 +892,6 @@ def get_prev_context_conn_sense(relation, parse_dict, implicit_context_dict):
         return "NULL"
 
     if (DocID, Arg1_sent_index - 2, Arg1_sent_index - 1) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg1_sent_index - 2, Arg1_sent_index - 1)]
         nearest_item_index = 0
         x = -1
@@ -982,20 +909,16 @@ def get_prev_context_conn_sense(relation, parse_dict, implicit_context_dict):
 
     return "NULL"
 
-#  后面一个关系是不是显性的，如果是，用他的连接词，及 sense
-# 连接词，没有则NULL
 #dict[(DocID, sent1_index, sent2_index)] = [(conn_indices_string, conn, sense)]
 def get_next_context_conn(relation, parse_dict, implicit_context_dict):
     DocID = relation["DocID"]
     Arg2_sent_index = relation["Arg2"]["TokenList"][0][3]
-    # doc总的句子数
     sent_count = len(parse_dict[DocID]["sentences"])
 
     if Arg2_sent_index + 1 > sent_count - 1:
         return "NULL"
 
     if (DocID, Arg2_sent_index + 1, Arg2_sent_index + 1) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg2_sent_index + 1, Arg2_sent_index + 1)]
         nearest_item_index = 0
         x = 100
@@ -1015,7 +938,6 @@ def get_next_context_conn(relation, parse_dict, implicit_context_dict):
         return "NULL"
 
     if (DocID, Arg2_sent_index + 1, Arg2_sent_index + 2) in implicit_context_dict:
-        # 选离的最近的那个连接词
         _list = implicit_context_dict[(DocID, Arg2_sent_index + 1, Arg2_sent_index + 2)]
         nearest_item_index = 0
         x = 100

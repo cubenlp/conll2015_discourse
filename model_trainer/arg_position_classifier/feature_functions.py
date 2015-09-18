@@ -119,7 +119,7 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
 
     return util.mergeFeatures(features)
 
-# C 在句子中的位置
+# the position of C(connective) in sentence
 # 0~1/5: start
 # 1/5~4/5 : middle
 # 4/5~5/5 : end

@@ -1,7 +1,6 @@
 #coding:utf-8
 import re
 from ete2 import Tree
-from pdtb_parse import PDTB_PARSE
 import config
 import copy
 

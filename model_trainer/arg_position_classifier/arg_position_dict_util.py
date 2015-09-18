@@ -3,7 +3,7 @@ from syntax_tree import Syntax_tree
 import util
 
 def get_C_String(parse_dict ,DocID, sent_index, conn_indices):
-    #获取连接词到名称
+    # get the name of the connective
     C_String = " ".join([parse_dict[DocID]["sentences"][sent_index]["words"][word_token][0] \
                   for word_token in conn_indices ])
     return C_String
@@ -25,7 +25,7 @@ def get_prev1(parse_dict, DocID, sent_index, conn_indices):
         prev_index = -1
         if pre_sent_index < 0:
             flag = 1
-    # 连接词的前面一个词
+    # the previous word of the connective
     if flag == 1:
         prev1 = "prev1_NONE"
     else:
@@ -42,7 +42,7 @@ def get_prev1POS(parse_dict, DocID, sent_index, conn_indices):
         prev_index = -1
         if pre_sent_index < 0:
             flag = 1
-    # 连接词的前面一个词
+    # the previous word of the connective
     if flag == 1:
         prev1 = "prev1_NONE"
     else:
@@ -111,7 +111,6 @@ def get_prev2POS(parse_dict, DocID, sent_index, conn_indices):
 
 
 def get_next1_next1POS(parse_dict, DocID, sent_index, conn_indices):
-    #获取该句子长度，该doc的总句子数
     sent_count = len(parse_dict[DocID]["sentences"])
     sent_length = len(parse_dict[DocID]["sentences"][sent_index]["words"])
 
@@ -123,7 +122,7 @@ def get_next1_next1POS(parse_dict, DocID, sent_index, conn_indices):
         next_index = 0
         if next_sent_index >= sent_count:
             flag = 1
-    # 连接词的后面一个词
+    # the next word of the connective
     if flag == 1:
         next = "NONE"
     else:
@@ -140,7 +139,6 @@ def get_next1_next1POS(parse_dict, DocID, sent_index, conn_indices):
 
 
 def get_next2_next2POS(parse_dict, DocID, sent_index, conn_indices):
-    #获取该句子长度，该doc的总句子数
     sent_count = len(parse_dict[DocID]["sentences"])
     sent_length = len(parse_dict[DocID]["sentences"][sent_index]["words"])
 
@@ -162,7 +160,6 @@ def get_next2_next2POS(parse_dict, DocID, sent_index, conn_indices):
             next2_index = 0
             if next2_sent_index >= sent_count:
                 flag = 1
-    # 连接词的后面第二个词
     if flag == 1:
         next2 = "NONE"
     else:
@@ -178,7 +175,6 @@ def get_next2_next2POS(parse_dict, DocID, sent_index, conn_indices):
     return next2, next2POS
 
 def get_conn_to_root_path(parse_dict, DocID, sent_index, conn_indices):
-    #获取该句话的语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
     if syntax_tree.tree == None:

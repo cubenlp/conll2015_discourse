@@ -30,7 +30,7 @@ def get_node_Ctx(node, syntax_tree):
     nodeCtx = "-".join(Ctx)
     return nodeCtx
 
-#与之相连的上下文
+# get linked context of the node
 def get_node_linked_Ctx(node, syntax_tree):
     if node == None:
         return "None"
@@ -48,7 +48,6 @@ def get_node_linked_Ctx(node, syntax_tree):
 
     return "-".join(Ctx)
 
-#node对应的子树的production rules
 def get_node_production_rules(node, syntax_tree):
     if node == None:
         return ["None"]
@@ -56,7 +55,6 @@ def get_node_production_rules(node, syntax_tree):
         return ["Leaf"]
 
     production_rules = []
-    #层次遍历
     for T in node.traverse(strategy="levelorder"):
         if not T.is_leaf():
             rule = T.name + "-->" + " ".join([child.name for child in T.get_children()])
@@ -81,7 +79,6 @@ def get_prev(parse_dict, DocID, sent_index, conn_indices):
         prev_sent_index -= 1
         if prev_sent_index < 0:
             flag = 1
-    # 连接词的前面一个词
     if flag == 1 :
         prev = "NONE"
     else:
@@ -91,7 +88,6 @@ def get_prev(parse_dict, DocID, sent_index, conn_indices):
 
 def get_conn_name(parse_dict, DocID, sent_index, conn_indices):
     ''' conn_name '''
-    #获取连接词到名称
     conn_name = " ".join([parse_dict[DocID]["sentences"][sent_index]["words"][word_token][0] \
                   for word_token in conn_indices ])
     return conn_name
@@ -106,7 +102,6 @@ def get_prevPOS(parse_dict, DocID, sent_index, conn_indices):
         prev_sent_index -= 1
         if prev_sent_index < 0:
             flag = 1
-    # 连接词的前面一个词
     if flag == 1 :
         prevPOS = "NONE"
     else:
@@ -116,7 +111,6 @@ def get_prevPOS(parse_dict, DocID, sent_index, conn_indices):
 
 def get_next(parse_dict, DocID, sent_index, conn_indices):
     '''next'''
-    #获取该句子长度，该doc的总句子数
     sent_count = len(parse_dict[DocID]["sentences"])
     sent_length = len(parse_dict[DocID]["sentences"][sent_index]["words"])
 
@@ -128,7 +122,6 @@ def get_next(parse_dict, DocID, sent_index, conn_indices):
         next_index = 0
         if next_sent_index >= sent_count:
             flag = 1
-    # 连接词的后面一个词
     if flag == 1:
         next = "NONE"
     else:
@@ -138,7 +131,6 @@ def get_next(parse_dict, DocID, sent_index, conn_indices):
 
 def get_nextPOS(parse_dict, DocID, sent_index, conn_indices):
     '''next'''
-    #获取该句子长度，该doc的总句子数
     sent_count = len(parse_dict[DocID]["sentences"])
     sent_length = len(parse_dict[DocID]["sentences"][sent_index]["words"])
 
@@ -150,7 +142,6 @@ def get_nextPOS(parse_dict, DocID, sent_index, conn_indices):
         next_index = 0
         if next_sent_index >= sent_count:
             flag = 1
-    # 连接词的后面一个词
     if flag == 1:
         nextPOS = "NONE"
     else:

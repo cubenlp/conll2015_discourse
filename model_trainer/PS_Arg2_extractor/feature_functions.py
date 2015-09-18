@@ -21,7 +21,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_con_str = Ps_arg2_dict().dict_con_str
     dict_con_lstr = Ps_arg2_dict().dict_con_lstr
     dict_con_cat = {"subordinator": 1, "coordinator": 2, "adverbial": 3 }
-    dict_clause_conn_position = {"left": 1,"right": 2}# clause 与conn的相对位置
+    dict_clause_conn_position = {"left": 1,"right": 2} # the relative position of clause and conn
     dict_conn_position_distance = Ps_arg2_dict().dict_conn_position_distance
     dict_prev_curr_CP_production_rule = Ps_arg2_dict().dict_prev_curr_CP_production_rule
     dict_conn_to_root_path = Ps_arg2_dict().dict_conn_to_root_path
@@ -32,7 +32,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_curr_first_curr_first_lemma_verb = Ps_arg2_dict().dict_curr_first_curr_first_lemma_verb
 
 
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
@@ -43,7 +43,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     prev_last_curr_first = "%s_%s" % (prev_last, curr_first)
     curr_last_next_first = "%s_%s" % (curr_last, next_first)
 
-    #当前clause的位置信息
+    # the position of the current clause
     position = dict_util.get_curr_position(arg_clauses, clause_index, parse_dict)
 
     production_rule_list = dict_util.get_curr_production_rule(arg_clauses, clause_index, parse_dict)
@@ -147,14 +147,14 @@ def all_features(arg_clauses, clause_index, parse_dict):
     ]
 
     features = [feature_function(arg_clauses, clause_index, parse_dict) for feature_function in feature_function_list]
-    #合并特征
+    # merge features
     feature = util.mergeFeatures(features)
     return feature
 
 def lowercase_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lowercase_verbs = Ps_arg2_dict().dict_lowercase_verbs
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lowercase_verbs, lowercase_verbs_list)
@@ -162,7 +162,7 @@ def lowercase_verbs(arg_clauses, clause_index, parse_dict):
 def lemma_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lemma_verbs = Ps_arg2_dict().dict_lemma_verbs
-    # 特征
+    # feature
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lemma_verbs, lemma_verbs_list)
@@ -170,7 +170,7 @@ def lemma_verbs(arg_clauses, clause_index, parse_dict):
 def first_lowercase_verb(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_first_lowercased_verb = Ps_arg2_dict().dict_curr_first_lowercased_verb
-    # 特征
+    # feature
     first_lowercase_verb = dict_util.get_curr_first_lowercased_verb(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_first_lowercased_verb, first_lowercase_verb)
@@ -178,7 +178,7 @@ def first_lowercase_verb(arg_clauses, clause_index, parse_dict):
 def first_lemma_verb(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_first_lemma_verb = Ps_arg2_dict().dict_curr_first_lemma_verb
-    # 特征
+    # feature
     first_lemma_verb = dict_util.get_curr_first_lemma_verb(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_first_lemma_verb, first_lemma_verb)
@@ -186,7 +186,7 @@ def first_lemma_verb(arg_clauses, clause_index, parse_dict):
 def curr_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_first = Ps_arg2_dict().dict_curr_first
-    # 特征
+    # feature
     curr_first = dict_util.get_curr_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_first, curr_first)

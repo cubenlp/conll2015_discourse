@@ -21,7 +21,7 @@ def all_features(relation, parse_dict):
     ]
 
     features = [feature_function(relation, parse_dict) for feature_function in feature_function_list]
-    #合并特征
+    # merge features
     feature = mergeFeatures(features)
     return feature
 
@@ -91,7 +91,6 @@ def production_rules(relation, parse_dict):
 #
 #     return get_feature_by_feat_list(dict_brown_cluster, cluster)
 
-# 跟他论文一样
 def arg_brown_cluster(relation, parse_dict):
     # load dict
     dict_brown_cluster = Non_Explicit_dict().dict_Arg_brown_cluster
@@ -187,7 +186,7 @@ def MPQA_polarity_score(relation, parse_dict):
 
     return get_feature_by_list(feature_list)
 
-# 不考虑，strong, weak
+# dismiss strong, weak
 def MPQA_polarity_no_strong_weak(relation, parse_dict):
     vec_arg1 = dict_util.get_MPQA_polarity_no_strong_weak_vec(relation, "Arg1", parse_dict)
     vec_arg2 = dict_util.get_MPQA_polarity_no_strong_weak_vec(relation, "Arg2", parse_dict)
@@ -235,7 +234,7 @@ def modality(relation, parse_dict):
     Arg1_words = dict_util.get_Arg_Words_List(relation, "Arg1", parse_dict)
     Arg2_words = dict_util.get_Arg_Words_List(relation, "Arg2", parse_dict)
 
-    # 具体的modal
+    #
     Arg1_modality_vec = dict_util.get_modality_vec(Arg1_words)
     Arg2_modality_vec = dict_util.get_modality_vec(Arg2_words)
     cp = util.cross_product(Arg1_modality_vec, Arg2_modality_vec)
@@ -385,7 +384,7 @@ def Arg_word2vec(relation, parse_dict):
             Arg2_vec = util.vec_plus_vec(Arg2_vec, vec)
             Arg2_length += 1
 
-    # 取平均
+    # average
     if Arg1_length != 0:
         Arg1_vec = [v/Arg1_length for v in Arg1_vec]
     if Arg2_length != 0:

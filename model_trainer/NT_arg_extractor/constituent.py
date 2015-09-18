@@ -8,7 +8,7 @@ class Constituent:
         self.connective = None
         self.indices = self.get_indices()
 
-    #获取他在syntax_tree的叶子节点的indices，也就是句子中的index
+    # get the indices of the leaves of the constituent in syntax tree,
     def get_indices(self):
         leaves = self.syntax_tree.tree.get_leaves()
         const_leaves = self.node.get_leaves()

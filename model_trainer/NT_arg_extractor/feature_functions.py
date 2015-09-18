@@ -42,7 +42,6 @@ def all_features(parse_dict, constituent, i, constituents):
     dict_nt_ntParent_ctx = NT_dict().dict_nt_ntParent_ctx
 
     ''' feature '''
-    #获取该句话的语法树
     conn_indices = connective.token_indices
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -170,7 +169,7 @@ def _all_features(parse_dict, constituent, i, constituents):
     ]
 
     features = [feature_function(parse_dict, constituent, i, constituents) for feature_function in feature_function_list]
-    #合并特征
+    # merge features
     feature = util.mergeFeatures(features)
     return feature
 
@@ -178,7 +177,7 @@ def _all_features(parse_dict, constituent, i, constituents):
 def CON_Str(parse_dict, constituent, i, constituents):
     # load dict
     dict_CON_Str = NT_dict().dict_CON_Str
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -190,7 +189,7 @@ def CON_Str(parse_dict, constituent, i, constituents):
 def CON_LStr(parse_dict, constituent, i, constituents):
     # load dict
     dict_CON_LStr = NT_dict().dict_CON_LStr
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -204,7 +203,7 @@ def CON_LStr(parse_dict, constituent, i, constituents):
 def CON_Cat(parse_dict, constituent, i, constituents):
     # load dict
     dict_category = {"subordinator": 1, "coordinator": 2, "adverbial": 3 }
-    # 特征
+    # feature
     conn_category = Connectives_dict().conn_category
     connective = constituent.connective
     CON_Cat = conn_category[connective.name]
@@ -212,7 +211,7 @@ def CON_Cat(parse_dict, constituent, i, constituents):
     return get_feature_by_feat(dict_category, CON_Cat)
 
 def CON_iLSib(parse_dict, constituent, i, constituents):
-    # 特征
+    # feature
     syntax_tree = constituent.syntax_tree
     connective = constituent.connective
     conn_indices = connective.token_indices
@@ -223,7 +222,7 @@ def CON_iLSib(parse_dict, constituent, i, constituents):
     return Feature("", 1, {1: CON_iLSib})
 
 def CON_iRSib(parse_dict, constituent, i, constituents):
-    # 特征
+    # feature
     syntax_tree = constituent.syntax_tree
     connective = constituent.connective
     conn_indices = connective.token_indices
@@ -236,7 +235,7 @@ def CON_iRSib(parse_dict, constituent, i, constituents):
 def NT_Ctx(parse_dict, constituent, i, constituents):
     # load dict
     dict_NT_Ctx = NT_dict().dict_NT_Ctx
-    # 特征
+    # feature
     NT_Ctx = dict_util.get_NT_Ctx(constituent)
 
     return get_feature_by_feat(dict_NT_Ctx, NT_Ctx)
@@ -244,7 +243,7 @@ def NT_Ctx(parse_dict, constituent, i, constituents):
 def CON_NT_Path(parse_dict, constituent, i, constituents):
     # load dict
     dict_CON_NT_Path = NT_dict().dict_CON_NT_Path
-    # 特征
+    # feature
     syntax_tree = constituent.syntax_tree
     connective = constituent.connective
     conn_indices = connective.token_indices
@@ -257,7 +256,7 @@ def CON_NT_Path(parse_dict, constituent, i, constituents):
 def CON_NT_Path_iLsib(parse_dict, constituent, i, constituents):
     # load dict
     dict_CON_NT_Path_iLsib = NT_dict().dict_CON_NT_Path_iLsib
-    # 特征
+    # feature
     syntax_tree = constituent.syntax_tree
     connective = constituent.connective
     conn_indices = connective.token_indices
@@ -276,7 +275,7 @@ def CON_NT_Path_iLsib(parse_dict, constituent, i, constituents):
 def CON_NT_Position(parse_dict, constituent, i, constituents):
     # load dict
     dict_position = {"right": 1, "left": 2}
-    # 特征
+    # feature
     syntax_tree = constituent.syntax_tree
     connective = constituent.connective
     conn_indices = connective.token_indices
@@ -289,13 +288,13 @@ def CON_NT_Position(parse_dict, constituent, i, constituents):
 def NT_prev_curr_Path(parse_dict, constituent, i, constituents):
     # load dict
     dict_NT_prev_curr_Path = NT_dict().dict_NT_prev_curr_Path
-    # 特征
+    # feature
     NT_prev_curr_Path = dict_util.get_NT_prev_curr_Path(i, constituents)
 
     return get_feature_by_feat(dict_NT_prev_curr_Path, NT_prev_curr_Path)
 
 def prev_curr_some_clause(parse_dict, constituent, i, constituents):
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -326,7 +325,7 @@ def prev_curr_some_clause(parse_dict, constituent, i, constituents):
 def CON_POS(parse_dict, constituent, i, constituents):
     # load dict
     dict_CON_POS = NT_dict().dict_CON_POS
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -340,7 +339,7 @@ def CON_POS(parse_dict, constituent, i, constituents):
 def CParent_to_root_path(parse_dict, constituent, i, constituents):
     # load dict
     dict_CParent_to_root_path = NT_dict().dict_CParent_to_root_path
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -353,7 +352,7 @@ def CParent_to_root_path(parse_dict, constituent, i, constituents):
 def CParent_to_root_path_node_names(parse_dict, constituent, i, constituents):
     # load dict
     dict_CParent_to_root_path_node_names = NT_dict().dict_CParent_to_root_path_node_names
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -366,7 +365,7 @@ def CParent_to_root_path_node_names(parse_dict, constituent, i, constituents):
 def conn_connCtx(parse_dict, constituent, i, constituents):
     # load dict
     dict_conn_connCtx = NT_dict().dict_conn_connCtx
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -379,7 +378,7 @@ def conn_connCtx(parse_dict, constituent, i, constituents):
 def conn_parent_categoryCtx(parse_dict, constituent, i, constituents):
     # load dict
     dict_conn_parent_categoryCtx = NT_dict().dict_conn_parent_categoryCtx
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -392,7 +391,7 @@ def conn_parent_categoryCtx(parse_dict, constituent, i, constituents):
 def conn_rightSiblingCtx(parse_dict, constituent, i, constituents):
     # load dict
     dict_conn_rightSiblingCtx = NT_dict().dict_conn_rightSiblingCtx
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -405,7 +404,7 @@ def conn_rightSiblingCtx(parse_dict, constituent, i, constituents):
 def self_category(parse_dict, constituent, i, constituents):
     # load dict
     dict_self_category = NT_dict().dict_self_category
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -418,7 +417,7 @@ def self_category(parse_dict, constituent, i, constituents):
 def parent_category(parse_dict, constituent, i, constituents):
     # load dict
     dict_parent_category = NT_dict().dict_parent_category
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -431,7 +430,7 @@ def parent_category(parse_dict, constituent, i, constituents):
 def left_sibling_category(parse_dict, constituent, i, constituents):
     # load dict
     dict_left_sibling_category = NT_dict().dict_left_sibling_category
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -444,7 +443,7 @@ def left_sibling_category(parse_dict, constituent, i, constituents):
 def right_sibling_category(parse_dict, constituent, i, constituents):
     # load dict
     dict_right_sibling_category = NT_dict().dict_right_sibling_category
-    # 特征
+    # feature
     connective = constituent.connective
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -457,7 +456,7 @@ def right_sibling_category(parse_dict, constituent, i, constituents):
 def NT_Linked_ctx(parse_dict, constituent, i, constituents):
     # load dict
     dict_NT_Linked_ctx = NT_dict().dict_NT_Linked_ctx
-    # 特征
+    # feature
     NT_Linked_ctx = dict_util.get_NT_Linked_ctx(constituent)
 
     return get_feature_by_feat(dict_NT_Linked_ctx, NT_Linked_ctx)
@@ -465,7 +464,7 @@ def NT_Linked_ctx(parse_dict, constituent, i, constituents):
 def NT_to_root_path(parse_dict, constituent, i, constituents):
     # load dict
     dict_NT_to_root_path = NT_dict().dict_NT_to_root_path
-    # 特征
+    # feature
     NT_to_root_path = dict_util.get_NT_to_root_path(constituent)
 
     return get_feature_by_feat(dict_NT_to_root_path, NT_to_root_path)
@@ -473,7 +472,7 @@ def NT_to_root_path(parse_dict, constituent, i, constituents):
 def NT_parent_linked_ctx(parse_dict, constituent, i, constituents):
     # load dict
     dict_NT_parent_linked_ctx = NT_dict().dict_NT_parent_linked_ctx
-    # 特征
+    # feature
     NT_parent_linked_ctx = dict_util.get_NT_parent_linked_ctx(constituent)
 
     return get_feature_by_feat(dict_NT_parent_linked_ctx, NT_parent_linked_ctx)

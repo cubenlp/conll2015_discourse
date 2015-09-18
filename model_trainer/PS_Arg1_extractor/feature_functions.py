@@ -26,7 +26,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_conn_curr_position = Ps_arg1_dict().dict_conn_curr_position
     dict_is_clause_contain_comma_which = {"YES": 1, "NO": 2}
 
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
@@ -37,7 +37,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     prev_last_curr_first = dict_util.get_prev_last_curr_first(arg_clauses, clause_index, parse_dict)
     curr_last_next_first = dict_util.get_curr_last_next_first(arg_clauses, clause_index, parse_dict)
 
-    #当前clause的位置信息
+    # the position of the current clause
     position = dict_util.get_curr_position(arg_clauses, clause_index, parse_dict)
 
     production_rule_list = dict_util.get_curr_production_rule(arg_clauses, clause_index, parse_dict)
@@ -108,7 +108,7 @@ def all_features(arg_clauses, clause_index, parse_dict):
 def lowercase_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lowercase_verbs = Ps_arg1_dict().dict_lowercase_verbs
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lowercase_verbs, lowercase_verbs_list)
@@ -116,7 +116,7 @@ def lowercase_verbs(arg_clauses, clause_index, parse_dict):
 def lemma_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lemma_verbs = Ps_arg1_dict().dict_lemma_verbs
-    # 特征
+    # feature
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lemma_verbs, lemma_verbs_list)
@@ -124,7 +124,7 @@ def lemma_verbs(arg_clauses, clause_index, parse_dict):
 def curr_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_first = Ps_arg1_dict().dict_curr_first
-    # 特征
+    # feature
     curr_first = dict_util.get_curr_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_first, curr_first)

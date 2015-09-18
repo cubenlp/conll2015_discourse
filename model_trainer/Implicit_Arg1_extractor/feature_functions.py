@@ -25,7 +25,7 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_curr_first_to_prev_last_path = Implicit_arg1_dict().dict_curr_first_to_prev_last_path
 
 
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
@@ -36,13 +36,13 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     prev_last_curr_first = "%s_%s" % (prev_last, curr_first)
     curr_last_next_first = "%s_%s" % (curr_last, next_first)
 
-    # 当前clause 的词数特征
+    # the number of words in curr clause
     clause_word_num = len(arg_clauses.clauses[clause_index][0])
-    #当前clause的位置信息
+    # the position of current clause
     position = dict_util.get_curr_position(arg_clauses, clause_index, parse_dict)
-    #当前cluase的arg label
+    # the arg label of current clause
     arg_label = arg_clauses.Arg
-    #当前有nnp，并且前面有nnp or prp
+
     is_curr_NNP_prev_PRP_or_NNP = dict_util.get_is_curr_NNP_prev_PRP_or_NNP(arg_clauses, clause_index, parse_dict)
     is_NNP_WP = dict_util.get_is_NNP_WP(arg_clauses, clause_index, parse_dict)
 
@@ -129,14 +129,14 @@ def all_features(arg_clauses, clause_index, parse_dict):
     ]
 
     features = [feature_function(arg_clauses, clause_index, parse_dict) for feature_function in feature_function_list]
-    #合并特征
+    # merge features
     feature = util.mergeFeatures(features)
     return feature
 
 def lowercase_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lowercase_verbs = Implicit_arg1_dict().dict_lowercase_verbs
-    # 特征
+    # feature
     lowercase_verbs_list = dict_util.get_curr_lowercased_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lowercase_verbs, lowercase_verbs_list)
@@ -144,7 +144,7 @@ def lowercase_verbs(arg_clauses, clause_index, parse_dict):
 def lemma_verbs(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_lemma_verbs = Implicit_arg1_dict().dict_lemma_verbs
-    # 特征
+    # feature
     lemma_verbs_list = dict_util.get_curr_lemma_verbs(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_lemma_verbs, lemma_verbs_list)
@@ -152,7 +152,7 @@ def lemma_verbs(arg_clauses, clause_index, parse_dict):
 def curr_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_first = Implicit_arg1_dict().dict_curr_first
-    # 特征
+    # feature
     curr_first = dict_util.get_curr_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_first, curr_first)
@@ -160,7 +160,7 @@ def curr_first(arg_clauses, clause_index, parse_dict):
 def curr_last(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_last = Implicit_arg1_dict().dict_curr_last
-    # 特征
+    # feature
     curr_last = dict_util.get_curr_last(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_last, curr_last)
@@ -168,7 +168,7 @@ def curr_last(arg_clauses, clause_index, parse_dict):
 def prev_last(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_prev_last = Implicit_arg1_dict().dict_prev_last
-    # 特征
+    # feature
     prev_last = dict_util.get_prev_last(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_prev_last, prev_last)
@@ -176,7 +176,7 @@ def prev_last(arg_clauses, clause_index, parse_dict):
 def next_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_next_first = Implicit_arg1_dict().dict_next_first
-    # 特征
+    # feature
     next_first = dict_util.get_next_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_next_first, next_first)
@@ -184,7 +184,7 @@ def next_first(arg_clauses, clause_index, parse_dict):
 def prev_last_curr_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_prev_last_curr_first = Implicit_arg1_dict().dict_prev_last_curr_first
-    # 特征
+    # feature
     prev_last_curr_first = dict_util.get_prev_last_curr_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_prev_last_curr_first, prev_last_curr_first)
@@ -192,7 +192,7 @@ def prev_last_curr_first(arg_clauses, clause_index, parse_dict):
 def curr_last_next_first(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_last_next_first = Implicit_arg1_dict().dict_curr_last_next_first
-    # 特征
+    # feature
     curr_last_next_first = dict_util.get_curr_last_next_first(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_last_next_first, curr_last_next_first)
@@ -200,7 +200,7 @@ def curr_last_next_first(arg_clauses, clause_index, parse_dict):
 def production_rule(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_production_rule = Implicit_arg1_dict().dict_curr_production_rule
-    # 特征
+    # feature
     production_rule_list = dict_util.get_curr_production_rule(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_curr_production_rule, production_rule_list)
@@ -208,7 +208,7 @@ def production_rule(arg_clauses, clause_index, parse_dict):
 def position(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_position = {"left": 1, "middle": 2, "right": 3}
-    # 特征
+    # feature
     position = dict_util.get_curr_position(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_position, position)
@@ -216,8 +216,7 @@ def position(arg_clauses, clause_index, parse_dict):
 def is_curr_NNP_prev_PRP_or_NNP(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_is_curr_NNP_prev_PRP_or_NNP = {"NONE": 1, "yes": 2, "no": 2}
-    # 特征
-    #当前有nnp，并且前面有nnp or prp
+    # feature
     is_curr_NNP_prev_PRP_or_NNP = dict_util.get_is_curr_NNP_prev_PRP_or_NNP(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_is_curr_NNP_prev_PRP_or_NNP, is_curr_NNP_prev_PRP_or_NNP)
@@ -225,7 +224,7 @@ def is_curr_NNP_prev_PRP_or_NNP(arg_clauses, clause_index, parse_dict):
 def prev_curr_production_rule(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_prev_curr_production_rule = Implicit_arg1_dict().dict_prev_curr_production_rule
-    # 特征
+    # feature
     prev_curr_production_rule = dict_util.get_prev_curr_production_rule(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_prev_curr_production_rule, prev_curr_production_rule)
@@ -233,7 +232,7 @@ def prev_curr_production_rule(arg_clauses, clause_index, parse_dict):
 def prev_curr_CP_production_rule(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_prev_curr_CP_production_rule = Implicit_arg1_dict().dict_prev_curr_CP_production_rule
-    # 特征
+    # feature
     prev_curr_CP_production_rule = dict_util.get_prev_curr_CP_production_rule(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_prev_curr_CP_production_rule, prev_curr_CP_production_rule)
@@ -241,7 +240,7 @@ def prev_curr_CP_production_rule(arg_clauses, clause_index, parse_dict):
 def curr_next_CP_production_rule(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_next_CP_production_rule = Implicit_arg1_dict().dict_curr_next_CP_production_rule
-    # 特征
+    # feature
     curr_next_CP_production_rule = dict_util.get_curr_next_CP_production_rule(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat_list(dict_curr_next_CP_production_rule, curr_next_CP_production_rule)
@@ -249,7 +248,7 @@ def curr_next_CP_production_rule(arg_clauses, clause_index, parse_dict):
 def prev2_pos_lemma_verb(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_prev2_pos_lemma_verb = Implicit_arg1_dict().dict_prev2_pos_lemma_verb
-    # 特征
+    # feature
     prev2_pos_lemma_verb = dict_util.get_2prev_pos_lemma_verb(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_prev2_pos_lemma_verb, prev2_pos_lemma_verb)
@@ -257,7 +256,7 @@ def prev2_pos_lemma_verb(arg_clauses, clause_index, parse_dict):
 def curr_first_to_prev_last_path(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_curr_first_to_prev_last_path = Implicit_arg1_dict().dict_curr_first_to_prev_last_path
-    # 特征
+    # feature
     curr_first_to_prev_last_path = dict_util.get_curr_first_to_prev_last_path(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_curr_first_to_prev_last_path, curr_first_to_prev_last_path)
@@ -265,8 +264,7 @@ def curr_first_to_prev_last_path(arg_clauses, clause_index, parse_dict):
 def clause_word_num(arg_clauses, clause_index, parse_dict):
     # load dict
 
-    # 特征
-    # 当前clause 的词数特征
+    # feature
     clause_word_num = len(arg_clauses.clauses[clause_index][0])
 
     return Feature("", 1, {"1": clause_word_num})
@@ -274,7 +272,7 @@ def clause_word_num(arg_clauses, clause_index, parse_dict):
 def is_NNP_WP(arg_clauses, clause_index, parse_dict):
     # load dict
     dict_is_NNP_WP = {"NONE": 1, "yes": 2, "no": 3}
-    # 特征
+    # feature
     is_NNP_WP = dict_util.get_is_NNP_WP(arg_clauses, clause_index, parse_dict)
 
     return get_feature_by_feat(dict_is_NNP_WP, is_NNP_WP)

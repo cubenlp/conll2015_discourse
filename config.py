@@ -1,23 +1,18 @@
 #coding:utf-8
 
+# current working directory.
+CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
+# mallet bin path
+MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
 
+SCORER_PATH = "/Users/Hunter/Documents/pycharmSpace/conll15st_scorer/scorer.py"
+
+
+MALLET_FILE = CWD +"data/train.mallet"
 
 TRAIN = "train"
 DEV = "dev"
 TEST = "test"
-
-# current working directory.
-# CWD = "/home/lan15/conll15st_ECNU_V2/"
-# SCORER_PATH = "/home/jianxiang/SDP/conll15st-scorer/scorer.py"
-
-CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
-SCORER_PATH = "/Users/Hunter/Documents/pycharmSpace/conll15st_scorer/scorer.py"
-
-# mallet bin path
-MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
-MALLET_FILE = CWD +"data/train.mallet"
-
-
 
 # train path
 TRAIN_PATH = CWD + "data/conll15-st-03-04-15-train/"
@@ -324,7 +319,7 @@ PS_ARG2_DICT_NEXT_FIRST = PS_ARG2_DICT + "next_first.txt"
 PS_ARG2_DICT_PREV_LAST_CURR_FIRST = PS_ARG2_DICT + "prev_last_curr_first.txt"
 PS_ARG2_DICT_CURR_LAST_NEXT_FIRST = PS_ARG2_DICT + "curr_last_next_first.txt"
 PS_ARG2_DICT_CURR_PRODUCTION_RULE = PS_ARG2_DICT + "curr_production_rule.txt"
-# conn 本身
+# conn
 PS_ARG2_DICT_CONN_STR = PS_ARG2_DICT + "conn_str.txt"
 PS_ARG2_DICT_CONN_LSTR = PS_ARG2_DICT + "conn_lstr.txt"
 PS_ARG2_DICT_CONN_POSITION_DISTANCE = PS_ARG2_DICT + "conn_position_distance.txt"
@@ -359,7 +354,7 @@ PS_ARG1_DICT_NEXT_FIRST = PS_ARG1_DICT + "next_first.txt"
 PS_ARG1_DICT_PREV_LAST_CURR_FIRST = PS_ARG1_DICT + "prev_last_curr_first.txt"
 PS_ARG1_DICT_CURR_LAST_NEXT_FIRST = PS_ARG1_DICT + "curr_last_next_first.txt"
 PS_ARG1_DICT_CURR_PRODUCTION_RULE = PS_ARG1_DICT + "curr_production_rule.txt"
-# conn 本身
+# conn
 PS_ARG1_DICT_CONN_STR = PS_ARG1_DICT + "conn_str.txt"
 PS_ARG1_DICT_CONN_LSTR = PS_ARG1_DICT + "conn_lstr.txt"
 PS_ARG1_DICT_CONN_POSITION_DISTANCE = PS_ARG1_DICT + "conn_position_distance.txt"

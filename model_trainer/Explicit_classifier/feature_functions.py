@@ -63,7 +63,6 @@ def all_features(parse_dict, connective):
     dict_when_after_lemma_verbs = Explicit_dict().dict_when_after_lemma_verbs
 
     ''' feature '''
-    #获取该句话的语法树
     DocID = connective.DocID
     sent_index = connective.sent_index
     conn_indices = connective.token_indices
@@ -74,7 +73,7 @@ def all_features(parse_dict, connective):
     C_Prev = "%s|%s" % (CString, prev)
     CLString = CString.lower()
 
-    #语法树
+    # syntax tree
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
     #pitler
@@ -214,14 +213,14 @@ def _all_features(parse_dict, connective):
     ]
 
     features = [feature_function(parse_dict, DocID, sent_index, conn_indices) for feature_function in feature_function_list]
-    #合并特征
+    # merge features
     feature = util.mergeFeatures(features)
     return feature
 
 def CString(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_CString = Explicit_dict().dict_CString
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_CString, CString)
@@ -229,7 +228,7 @@ def CString(parse_dict, DocID, sent_index, conn_indices):
 def CPOS(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_CPOS = Explicit_dict().dict_CPOS
-    # 特征
+    # feature
     CPOS = dict_util.get_CPOS(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_CPOS, CPOS)
@@ -237,7 +236,7 @@ def CPOS(parse_dict, DocID, sent_index, conn_indices):
 def C_Prev(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_C_Prev = Explicit_dict().dict_C_Prev
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     prev = dict_util.get_prev1(parse_dict, DocID, sent_index, conn_indices)
     C_Prev = "%s|%s" % (CString, prev)
@@ -247,7 +246,7 @@ def C_Prev(parse_dict, DocID, sent_index, conn_indices):
 def CLString(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_CLString = Explicit_dict().dict_CLString
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
 
@@ -256,8 +255,7 @@ def CLString(parse_dict, DocID, sent_index, conn_indices):
 def self_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     self_category_dict = Explicit_dict().self_category_dict
-    # 特征
-    #语法树
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -268,8 +266,7 @@ def self_category(parse_dict, DocID, sent_index, conn_indices):
 def parent_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     parent_category_dict = Explicit_dict().parent_category_dict
-    # 特征
-     #语法树
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
     #pitler
@@ -280,8 +277,7 @@ def parent_category(parse_dict, DocID, sent_index, conn_indices):
 def left_sibling_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     left_sibling_category_dict = Explicit_dict().left_sibling_category_dict
-    # 特征
-    #语法树
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -292,8 +288,7 @@ def left_sibling_category(parse_dict, DocID, sent_index, conn_indices):
 def right_sibling_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     right_sibling_category_dict = Explicit_dict().right_sibling_category_dict
-    # 特征
-    #语法树
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
     #pitler
@@ -309,11 +304,10 @@ def conn_syn(parse_dict, DocID, sent_index, conn_indices):
     conn_left_sibling_category_dict = Explicit_dict().conn_left_sibling_category_dict
     conn_right_sibling_category_dict = Explicit_dict().conn_right_sibling_category_dict
 
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
 
-     #语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -344,7 +338,7 @@ def syn_syn(parse_dict, DocID, sent_index, conn_indices):
     parent_left_dict = Explicit_dict().parent_left_dict
     parent_right_dict = Explicit_dict().parent_right_dict
     left_right_dict = Explicit_dict().left_right_dict
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -373,11 +367,10 @@ def syn_syn(parse_dict, DocID, sent_index, conn_indices):
 def conn_self_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     conn_self_category_dict = Explicit_dict().conn_self_category_dict
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
     conn_name = CLString
-     #语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -390,12 +383,11 @@ def conn_self_category(parse_dict, DocID, sent_index, conn_indices):
 def conn_parent_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     conn_parent_category_dict = Explicit_dict().conn_parent_category_dict
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
     conn_name = CLString
 
-     #语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -408,12 +400,11 @@ def conn_parent_category(parse_dict, DocID, sent_index, conn_indices):
 def conn_left_sibling_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     conn_left_sibling_category_dict = Explicit_dict().conn_left_sibling_category_dict
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
     conn_name = CLString
 
-     #语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -427,12 +418,11 @@ def conn_right_sibling_category(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     conn_right_sibling_category_dict = Explicit_dict().conn_right_sibling_category_dict
 
-    # 特征
+    # feature
     CString = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
     CLString = CString.lower()
     conn_name = CLString
 
-     #语法树
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -445,7 +435,7 @@ def self_parent(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     self_parent_dict = Explicit_dict().self_parent_dict
 
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -464,7 +454,7 @@ def self_right(parse_dict, DocID, sent_index, conn_indices):
 
     self_right_dict = Explicit_dict().self_right_dict
 
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -487,7 +477,7 @@ def self_left(parse_dict, DocID, sent_index, conn_indices):
 
     self_left_dict = Explicit_dict().self_left_dict
 
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -509,7 +499,7 @@ def parent_left(parse_dict, DocID, sent_index, conn_indices):
 
     parent_left_dict = Explicit_dict().parent_left_dict
 
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -531,7 +521,7 @@ def parent_right(parse_dict, DocID, sent_index, conn_indices):
 
     parent_right_dict = Explicit_dict().parent_right_dict
 
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -553,7 +543,7 @@ def left_right(parse_dict, DocID, sent_index, conn_indices):
     # load dict
 
     left_right_dict = Explicit_dict().left_right_dict
-    # 特征
+    # feature
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -572,7 +562,7 @@ def left_right(parse_dict, DocID, sent_index, conn_indices):
 def conn_parent_category_ctx(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_conn_parent_category_ctx = Explicit_dict().dict_conn_parent_category_ctx
-    # 特征
+    # feature
     conn_parent_category_ctx = dict_util.get_conn_parent_category_Ctx(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_conn_parent_category_ctx, conn_parent_category_ctx)
@@ -580,7 +570,7 @@ def conn_parent_category_ctx(parse_dict, DocID, sent_index, conn_indices):
 def as_prev_conn(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_as_prev_conn = Explicit_dict().dict_as_prev_conn
-    # 特征
+    # feature
     as_prev_conn = dict_util.get_as_prev_conn(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_as_prev_conn, as_prev_conn)
@@ -588,7 +578,7 @@ def as_prev_conn(parse_dict, DocID, sent_index, conn_indices):
 def as_prev_connPOS(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_as_prev_connPOS = Explicit_dict().dict_as_prev_connPOS
-    # 特征
+    # feature
     as_prev_connPOS = dict_util.get_as_prev_connPOS(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_as_prev_connPOS, as_prev_connPOS)
@@ -596,7 +586,7 @@ def as_prev_connPOS(parse_dict, DocID, sent_index, conn_indices):
 def when_prev_conn(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_when_prev_conn = Explicit_dict().dict_when_prev_conn
-    # 特征
+    # feature
     when_prev_conn = dict_util.get_when_prev_conn(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_when_prev_conn, when_prev_conn)
@@ -604,7 +594,7 @@ def when_prev_conn(parse_dict, DocID, sent_index, conn_indices):
 def when_prev_connPOS(parse_dict, DocID, sent_index, conn_indices):
     # load dict
     dict_when_prev_connPOS = Explicit_dict().dict_when_prev_connPOS
-    # 特征
+    # feature
     when_prev_connPOS = dict_util.get_when_prev_connPOS(parse_dict, DocID, sent_index, conn_indices)
 
     return get_feature_by_feat(dict_when_prev_connPOS, when_prev_connPOS)

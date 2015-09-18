@@ -2,79 +2,11 @@
 from syntax_tree import Syntax_tree
 from constituent import Constituent
 import config
-from pdtb import PDTB
-from pdtb_parse import PDTB_PARSE
 from model_trainer.connective_classifier.conn_head_mapper import ConnHeadMapper
 import operator
 import util
 import copy
 
-# #constituent with label(arg1,arg2 or none)
-# def get_constituents_with_label(syntax_tree, conn_indices, Arg1_token_indices, Arg2_token_indices):
-#     constituent_nodes = []
-#     if len(conn_indices) == 1:# like and or so...
-#         conn_node = syntax_tree.get_leaf_node_by_token_index(conn_indices[0]).up
-#     else:
-#         conn_node = syntax_tree.get_common_ancestor_by_token_indices(conn_indices)
-#
-#         conn_leaves = set([syntax_tree.get_leaf_node_by_token_index(conn_index) for conn_index in conn_indices])
-#
-#         children = conn_node.get_children()
-#         for child in children:
-#             leaves = set(child.get_leaves())
-#             if conn_leaves & leaves == set([]):
-#                 constituent_nodes.append(child)
-#
-#     curr = conn_node
-#     while not curr.is_root():
-#         if conn_node == curr:
-#             #对于第一层的需要进一步细化。
-#             T = []
-#             siblings = syntax_tree.get_siblings(curr)
-#             for sibling in siblings:
-#                 #对每一个sibling去寻找SBARS。
-#                 flag = 0
-#
-#                 #
-#                 node_names = [node.name for node in sibling.get_descendants()]
-#                 stop_node_name = "SBAR"
-#                 if "SBAR" not in node_names and "S" in node_names:
-#                     stop_node_name = "S"
-#
-#                 for node in sibling.traverse(strategy="levelorder"):
-#                     if node.name == stop_node_name:
-#                         #向上走至sibling，同时生成constituent
-#                         flag = 1
-#                         node_ = node
-#                         T.append(node_)
-#                         while node_ != sibling:
-#                             T.extend(syntax_tree.get_siblings(node_))
-#                             node_ = node_.up
-#                         break
-#                 if flag == 0:
-#                     T.append(sibling)
-#             constituent_nodes.extend(T)
-#         else:
-#             constituent_nodes.extend(syntax_tree.get_siblings(curr))
-#         curr = curr.up
-#
-#     Arg1_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg1_token_indices])
-#     Arg2_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg2_token_indices])
-#
-#     #根据node生成Constituent对象，并标记
-#     constituents = []
-#     for node in constituent_nodes:
-#         cons = Constituent(syntax_tree, node)
-#         leaves = set(node.get_leaves())
-#         if leaves <= Arg1_leaves:
-#             cons.label = "Arg1"
-#         elif leaves <= Arg2_leaves:
-#             cons.label = "Arg2"
-#         else:
-#             cons.label = "NULL"
-#         constituents.append(cons)
-#
-#     return constituents
 
 
 #constituent with label(arg1,arg2 or none), paper
@@ -112,7 +44,6 @@ def get_constituents_with_label(parse_dict, connective):
     Arg1_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg1_token_indices])
     Arg2_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg2_token_indices])
 
-    #根据node生成Constituent对象，并标记
     constituents = []
     for node in constituent_nodes:
         cons = Constituent(syntax_tree, node)
@@ -128,8 +59,7 @@ def get_constituents_with_label(parse_dict, connective):
 
     return constituents
 
-#使用 clause
-#constituent with label(arg1,arg2 or none), paper
+#constituent with label(arg1,arg2 or none),
 def get_constituents_with_label2(parse_dict, connective):
     DocID = connective.DocID
     sent_index = connective.sent_index
@@ -164,7 +94,6 @@ def get_constituents_with_label2(parse_dict, connective):
     Arg1_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg1_token_indices])
     Arg2_leaves = set([syntax_tree.get_leaf_node_by_token_index(index) for index in Arg2_token_indices])
 
-    #根据node生成Constituent对象，并标记
     constituents = []
     for node in constituent_nodes:
         cons = Constituent(syntax_tree, node)
@@ -189,13 +118,13 @@ def get_conn_node(syntax_tree, conn_indices):
     return conn_node
 
 def get_CON_Str(parse_dict, DocID, sent_index, conn_indices):
-    #获取连接词到名称
+    # get the name of connective
     C_String = " ".join([parse_dict[DocID]["sentences"][sent_index]["words"][word_token][0] \
                   for word_token in conn_indices ])
     return C_String
 
 def get_CON_POS(parse_dict, DocID, sent_index, conn_indices):
-    #获取连接词到名称
+    # get the name of connective
     POS = " ".join([parse_dict[DocID]["sentences"][sent_index]["words"][word_token][1]["PartOfSpeech"] \
                   for word_token in conn_indices ])
     return POS
@@ -209,7 +138,7 @@ def get_prev1(parse_dict, DocID, sent_index, conn_indices):
         prev_index = -1
         if pre_sent_index < 0:
             flag = 1
-    # 连接词的前面一个词
+    # the previous word of the connective
     if flag == 1:
         prev1 = "prev1_NONE"
     else:
@@ -217,7 +146,6 @@ def get_prev1(parse_dict, DocID, sent_index, conn_indices):
 
     return prev1
 
-#连接词的左兄弟节点的个数
 def get_CON_iLSib(syntax_tree, conn_node):
     return len(syntax_tree.get_left_siblings(conn_node))
 
@@ -249,7 +177,6 @@ def get_NT_Ctx(constituent):
     return "-".join(Ctx)
 
 
-
 def get_CON_NT_Path(conn_node, constituent):
     node = constituent.node
     return constituent.syntax_tree.get_node_to_node_path(conn_node, node)
@@ -271,16 +198,6 @@ def get_NT_prev_curr_production_rule(i, constituents):
     curr = constituents[i].node
     prev = constituents[i - 1].node
     common_ancestor = constituents[i].syntax_tree.tree.get_common_ancestor([curr, prev])
-
-    # temp1 = curr
-    # while temp1 not in common_ancestor.get_children():
-    #     temp1 = temp1.up
-    #
-    # temp2 = prev
-    # while temp2 not in common_ancestor.get_children():
-    #     temp2 = temp2.up
-    #
-    # rule = common_ancestor.name + "->" + temp2.name + " " + temp1.name
 
     return common_ancestor.name
 
@@ -306,7 +223,7 @@ def get_sent_clauses(parse_dict, DocID, sent_index):
     sent_tokens = [(index, parse_dict[DocID]["sentences"][sent_index]["words"][index][0]) for index in range(0, sent_length)]
 
     punctuation = "...,:;?!~--"
-    #先按标点符号分
+    # first, use punctuation symbols to split the sentence
     _clause_indices_list = []#[[(1,"I")..], ..]
     temp = []
     for index, word in sent_tokens:
@@ -322,7 +239,7 @@ def get_sent_clauses(parse_dict, DocID, sent_index):
         if temp != []:
             clause_indices_list.append([item[0] for item in temp])
 
-    # 继续细化，根据语法树， 第一个SBAR
+    # then use SBAR tag in its parse tree to split each part into clauses.
     parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
     syntax_tree = Syntax_tree(parse_tree)
 
@@ -332,7 +249,6 @@ def get_sent_clauses(parse_dict, DocID, sent_index):
     clause_list = []
     for clause_indices in clause_indices_list:
         clause_tree = _get_subtree(syntax_tree, clause_indices)
-        # 层次遍历，
         flag = 0
         for node in clause_tree.tree.traverse(strategy="levelorder"):
             if node.name == "SBAR":
@@ -359,7 +275,6 @@ def get_sent_clauses(parse_dict, DocID, sent_index):
 
 def _get_subtree(syntax_tree, clause_indices):
     copy_tree = copy.deepcopy(syntax_tree)
-    #给每个叶子节点，赋予feature ，即对应原来树的index
 
     for index, leaf in enumerate(copy_tree.tree.get_leaves()):
         leaf.add_feature("index",index)
@@ -386,7 +301,7 @@ def get_NT_NTparent_Ctx(constituent):
     return "%s|%s" % (node.name, parent_Ctx)
 
 
-#与之相连的上下文
+# get the linked context of the node
 def get_node_linked_Ctx(node):
     if node == None:
         return "None"
@@ -442,7 +357,7 @@ def get_CParent_to_root_path_node_names(parse_dict, DocID, sent_index, conn_indi
 
 def get_conn_name(parse_dict, DocID, sent_index, conn_indices):
     ''' conn_name '''
-    #获取连接词到名称
+    # get the name of connective
     conn_name = " ".join([parse_dict[DocID]["sentences"][sent_index]["words"][word_token][0] \
                   for word_token in conn_indices ])
     return conn_name
@@ -599,103 +514,4 @@ def get_NT_parent_linked_ctx(constituent):
 
 
 if __name__ =="__main__":
-    # train_pdtb_parse = PDTB_PARSE(config.PARSERS_TRAIN_PATH_JSON, config.PDTB_TRAIN_PATH, config.TRAIN)
-    #
-    # parse_tree = train_pdtb_parse.parse_dict["wsj_2113"]["sentences"][30]["parsetree"].strip()
-
-    # parse_tree = "( (S (`` ``) (NP (PRP They)) (VP (VBP say) (, ,) (`` `) (S (S (NP (NNP Johnny) (NNP Payson)) (VP (VBD got) (NP (QP ($ $) (CD 53) (CD million))) (PP (IN for) (NP (PRP$ his))))) (, ,) (IN so) (S (ADVP (RB certainly)) (NP (QP ($ $) (CD 10) (CD million))) (VP (VBZ is) (RB n't) (NP (NP (RB too) (RB much)) (PP (IN for) (NP (NN mine)))))))) (. .) ('' ')) )"
-    #
-    #
-    #
-    #
-    # # print parse_tree
-    #
-    # syntax_tree = Syntax_tree(parse_tree)
-    #
-    # if syntax_tree.tree != None:
-    #     syntax_tree.print_tree()
-    #
-    # for c in get_constituents_with_label(syntax_tree, [14], [5, 6, 7, 8, 9, 10, 12], [15, 16, 17, 18, 19, 20, 21, 22, 23, 24]):
-    #     print c.node,c.label
-
-
-    pdtb_parse = PDTB_PARSE(config.PARSERS_TRAIN_PATH_JSON, config.PDTB_TRAIN_PATH, config.TRAIN)
-    relations = pdtb_parse.pdtb.relations
-
-    count = 0
-    lost_count =0
-    cc_dict = {}
-    No_Arg1_count = 0
-    No_Arg2_count = 0
-
-    No_Arg1_dict = {}
-    No_Arg2_dict = {}
-
-    for relation in relations:
-        if relation["Type"] =="Explicit":
-            DocID = relation["DocID"]
-            sent_index = relation["Connective"]["TokenList"][0][3]
-            conn_token_indices = [item[4] for item in relation["Connective"]["TokenList"]]
-            #需要将获取语篇连接词的头
-            raw_connective = relation["Connective"]["RawText"]
-            chm = ConnHeadMapper()
-            conn_head, indices = chm.map_raw_connective(raw_connective)
-            offset = conn_token_indices[0]
-            conn_head_indices = [index + offset for index in indices]
-
-
-            Arg1_sent_indices = sorted([item[3] for item in relation["Arg1"]["TokenList"]])
-            Arg2_sent_indices = sorted([item[3] for item in relation["Arg2"]["TokenList"]])
-
-            Arg1_token_indices = [item[4] for item in relation["Arg1"]["TokenList"]]
-            Arg2_token_indices = [item[4] for item in relation["Arg2"]["TokenList"]]
-
-
-
-            if conn_head == "either or" or conn_head == "if then" or conn_head == "neither nor":
-                continue
-
-            if len(set(Arg1_sent_indices)) == 1 and len(set(Arg2_sent_indices)) == 1:#只考虑句子长度为1
-                    if set(Arg2_sent_indices) == set(Arg1_sent_indices) :#SS
-                        parse_tree = pdtb_parse.parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
-                        syntax_tree = Syntax_tree(parse_tree)
-
-                        if syntax_tree.tree == None:
-                            print DocID, sent_index ,parse_tree
-                            continue
-
-                        Arg1_count = 0
-                        Arg2_count = 0
-                        for constituent in get_constituents_with_label(syntax_tree, conn_head_indices, Arg1_token_indices, Arg2_token_indices):
-                            if constituent.label == "Arg1":
-                                Arg1_count += 1
-                            if constituent.label == "Arg2":
-                                Arg2_count += 1
-                        if Arg1_count == 0:
-                            if conn_head not in No_Arg1_dict:
-                                No_Arg1_dict[conn_head] = 0
-                            No_Arg1_dict[conn_head] += 1
-                            No_Arg1_count += 1
-
-                        if conn_head not in cc_dict:
-                                cc_dict[conn_head] = 0
-                        cc_dict[conn_head] += 1
-
-                        if Arg2_count == 0:
-                            if conn_head not in No_Arg2_dict:
-                                No_Arg2_dict[conn_head] = 0
-                            No_Arg2_dict[conn_head] += 1
-                            No_Arg2_count += 1
-
-                            if conn_head == "and":
-                                print DocID, sent_index ,parse_tree
-                                print conn_head_indices,"|||", Arg2_token_indices
-
-                        if Arg1_count == 0 or Arg1_count == 0:
-                            lost_count += 1
-                        count += 1
-
-    print "count: %d, No_Arg1_count: %d, No_Arg2_count: %d, lost_count: %d." % (count, No_Arg1_count, No_Arg2_count, lost_count)
-    print sorted(No_Arg1_dict.iteritems(), key=operator.itemgetter(1),reverse = True)
-    print sorted(No_Arg2_dict.iteritems(), key=operator.itemgetter(1),reverse = True)
-    print sorted(cc_dict.iteritems(), key=operator.itemgetter(1),reverse = True)
+    pass

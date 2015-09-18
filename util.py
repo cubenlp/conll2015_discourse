@@ -10,7 +10,7 @@ import re
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 
-#单例模式，@singleton...
+#Singleton，usage: @singleton...
 def singleton(cls):
     instances = {}
     def _singleton(*args, **kw):
@@ -19,51 +19,11 @@ def singleton(cls):
         return instances[cls]
     return _singleton
 
-''' 从file中返回段落 [['sent1', 'sent2',...],[]]'''
-def getParagraphs(filePath):
-    file = open(filePath)
-    text = [line.strip() for line in file.readlines()]+['']
-    paragraphs = []
-    sentences = []
-    for line in text:
-        if line == '.START':
-            continue
-        if line != '':
-            sentences.append(line)
-        else:
-            if sentences != []:
-                paragraphs.append(sentences)
-                sentences = []
-    return paragraphs
-
-''' 从file中返回句子 ['sent1', 'sent2',...]'''
-def getSentences(filePath):
-    paragraphs = getParagraphs(filePath)
-    sentences = []
-    for paragraph in paragraphs:
-        sentences = sentences+paragraph
-    return sentences
-
-''' 根据paragraphs index ,返回sentence index '''
-def getSentIndexByParaIndex(paragraphs, i, j):
-    index = 0
-    for x in range(i):
-        index += len(paragraphs[x])
-    index += j
-    return index
 
 
-''' list 加offset: [1,5,6] + 7 = [8, 12, 13] '''
-def listAddOffset(list, offset):
-    list_add = []
-    for value in list:
-        list_add.append(value + offset)
-    return list_add
-
-''' 获取span在sentence中的indices,span在sentence中返回indices,否，返回[[2,3], [6,7]] '''
 def getSpanIndecesInSent(span_tokens, sent_tokens):
     indice = []
-    span_length = len(span_tokens) ; sent_length = len(sent_tokens)
+    span_length = len(span_tokens); sent_length = len(sent_tokens)
     for i in xrange(len(sent_tokens)):
         if (i+span_length) <= sent_length  and sent_tokens[i:i+span_length] == span_tokens:
             indice.append(range(i,i+span_length))
@@ -84,10 +44,8 @@ def run_multiple_threads(feature_function_list):
     for p in procs: p.start()
     for p in procs: p.join()
 
-''' 合并 feature_list中的所有feature '''
+# merge all the features in the feature_list
 def mergeFeatures(feature_list, name = ""):
-    # print "-"*80
-    # print "\n".join([feature.feat_string+feature.name for feature in feature_list])
     dimension = 0
     feat_string = ""
     for feature in feature_list:
@@ -107,14 +65,14 @@ def mergeFeatures(feature_list, name = ""):
     merged_feature.feat_string = feat_string.strip()
     return merged_feature
 
-#在字典中删除 value < threshold 的item
+# remove the item (value < threshold) from dict
 def removeItemsInDict(dict, threshold = 1):
     if threshold > 1 :
         for key in dict.keys():
             if dict[key] < threshold:
                 dict.pop(key)
 
-#将字典中的keys写入指定文件
+# write dict keys to file
 def write_dict_keys_to_file(dict, file_path):
     file_out = open(file_path,"w")
     file_out.write("\n".join([str(key) for key in dict.keys()]))
@@ -178,6 +136,7 @@ def write_dict_list_to_json_file(dict_list, json_path):
     fout.write(s)
 
 #设置字典，value为key出现的频数
+# set key value in dict where value is the frequency of the key
 def set_dict_key_value(dict, key):
     if key not in dict:
         dict[key] = 0
@@ -195,69 +154,8 @@ def list_strip_punctuation(list):
     while j >= 0 and list[j][1] in punctuation + "-RRB--RCB-":
         j -= 1
 
-    #对于-LCB--RCB- 即{}, -LRB- -RRB- 即()
-
     return list[i: j+1]
 
-
-
-
-#[(0,","), (1,"I") ]
-# def list_strip_punctuation(list):
-#     punctuation = """!"#&'*+,-..../:;<=>?@[\]^_`|~""" + "``" + "''"
-#     i = 0
-#     while i < len(list):
-#         if list[i][1] in punctuation:
-#             i += 1
-#         elif list[i][1] == "-LRB-":
-#             t = len(list) - 1
-#             flag = 0
-#             while t >= 0:
-#                 if list[t][1] in punctuation:
-#                     t -= 1
-#                 elif list[t][1] == '-RRB-':
-#                     flag = 1
-#                     break
-#                 else:
-#                     break
-#             if flag == 1:
-#                 i += 1
-#             else:#不要删
-#                 break
-#         else:
-#             break
-#
-#     if i == len(list):
-#         return []
-#
-#     j = len(list) - 1
-#     while j >= 0:
-#         if list[j][1] in punctuation:
-#             j -= 1
-#         elif list[j][1] == '-RRB-':
-#             t = 0
-#             flag = 0
-#             while t < len(list):
-#                 if list[t][1] in punctuation:
-#                     t += 1
-#                 elif list[t][1] == '-LRB-':
-#                     flag = 1
-#                     break
-#                 else:
-#                     break
-#
-#             if flag == 1:
-#                 j -= 1
-#             else:#不要删
-#                 break
-#         else:
-#             break
-#
-#
-#     #对于-LCB--RCB- 即{}, -LRB- -RRB- 即()
-#
-#
-#     return list[i: j+1]
 
 
 def stem_string(line):
