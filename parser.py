@@ -313,3 +313,4 @@ if __name__ == '__main__':
     for relation in relations:
         output.write('%s\n' % json.dumps(relation))
     output.close()
+
