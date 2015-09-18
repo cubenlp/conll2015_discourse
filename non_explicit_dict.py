@@ -28,7 +28,7 @@ class Non_Explicit_dict():
 
         self.inquirer, self.inquirer_stem = self.get_inquirer()
 
-        self.word2vec_dict = self.get_word2vec_dict()
+        # self.word2vec_dict = self.get_word2vec_dict()
 
         self.dict_main_verb_pair = util.load_dict_from_file(config.NON_EXPLICIT_DICT_MAIN_VERB_PAIR)
 
