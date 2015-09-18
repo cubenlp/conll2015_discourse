@@ -1,0 +1,655 @@
+unless|instead
+so|meanwhile
+because|if
+but|for example
+as a result|though
+NULL|until
+when|though
+but|so
+after|also
+although|because
+then|when
+while|or
+in addition|NULL
+and|and
+though|for example
+when|because
+also|later
+when|by contrast
+however|though
+and|moreover
+NULL|on the other hand
+also|although
+NULL|by then
+but|ultimately
+although|then
+until|and
+also|because
+while|after
+thereby|NULL
+until|because
+if|when
+and|although
+while|although
+NULL|accordingly
+after|in the end
+but|as
+NULL|otherwise
+indeed|but
+if|for instance
+when|until
+as|or
+though|when
+since|also
+and|otherwise
+if|before
+as|since
+unless|before
+NULL|if
+still|as
+overall|NULL
+or|NULL
+meanwhile|but
+NULL|because
+yet|NULL
+instead|and
+as|while
+if|ultimately
+nevertheless|but
+NULL|although
+because|because
+ultimately|NULL
+as|in addition
+if|since
+and|since
+once|as
+and|now that
+also|since
+if|or
+though|and
+NULL|in particular
+NULL|if then
+yet|also
+when|in addition
+if|unless
+as|later
+still|so
+as if|NULL
+lest|NULL
+for example|if
+as|then
+because|in fact
+separately|after
+yet|yet
+while|once
+though|but
+on the contrary|NULL
+if|once
+and|as soon as
+because|but
+NULL|by comparison
+because|although
+for instance|if then
+unless|because
+however|NULL
+except|in turn
+unless|though
+though|although
+however|also
+instead|NULL
+because|indeed
+until|when
+after|while
+though|after
+previously|NULL
+once|before
+although|if
+however|when
+till|NULL
+so|also
+moreover|if
+though|while
+NULL|before
+when|later
+although|when
+if|as
+once|and
+since|while
+and|meanwhile
+as|until
+also|also
+when|for example
+NULL|as though
+later|in the end
+also|yet
+if|as long as
+and|in fact
+later|although
+because|after
+and|because
+if|although
+once|NULL
+NULL|later
+conversely|NULL
+besides|when
+meanwhile|if
+also|as
+although|and
+while|still
+NULL|in turn
+because|when
+after|because
+if|so
+so that|when
+and|nor
+and|if
+until|NULL
+and|for instance
+and|when
+but|thus
+by contrast|but
+since|but
+in particular|NULL
+and|instead
+although|after
+but|when
+NULL|ultimately
+when|while
+while|finally
+likewise|NULL
+so|and
+NULL|as soon as
+NULL|before and after
+until|for instance
+ultimately|and
+then|but
+so|but
+so|though
+but|now that
+once|after
+because|moreover
+NULL|specifically
+however|however
+and|when and if
+in addition|but
+but|if
+though|moreover
+although|NULL
+but|if then
+when|after
+until|though
+NULL|in short
+because|NULL
+NULL|in other words
+but|once
+still|but
+if|though
+if|while
+while|when
+but|NULL
+although|also
+after|till
+NULL|further
+once|if
+additionally|NULL
+before|when
+while|but
+as well|NULL
+but|unless
+NULL|though
+NULL|overall
+but|while
+in turn|when
+then|NULL
+in turn|but
+NULL|in the end
+nor|after
+NULL|also
+although|while
+since|once
+and|nonetheless
+until|thus
+after|however
+insofar as|or
+previously|though
+also|separately
+instead|earlier
+for example|when
+also|so
+as soon as|if then
+and|indeed
+specifically|if then
+in turn|although
+before|then
+as if|until
+similarly|NULL
+while|because
+NULL|additionally
+while|instead
+since|until
+if|and
+if then|NULL
+because|earlier
+nor|as
+and|unless
+because|meanwhile
+for instance|while
+and|still
+however|before
+besides|NULL
+as long as|NULL
+as|when
+then|before
+then|if
+except|if
+although|but
+though|however
+thereby|thus
+though|NULL
+else|NULL
+as if|as
+but|after
+indeed|NULL
+also|meanwhile
+if|if
+after|once
+NULL|previously
+moreover|NULL
+because|while
+and|so
+but|later
+and|yet
+since|though
+NULL|lest
+still|if
+while|before
+in particular|in the end
+NULL|while
+although|as
+while|if
+NULL|since
+when|if
+since|if
+but|until
+when|yet
+neither nor|NULL
+NULL|unless
+also|previously
+but|and
+because|and
+or|on the contrary
+as|NULL
+and|for example
+separately|NULL
+before|while
+separately|also
+and|therefore
+then|still
+or|when
+NULL|similarly
+in fact|if
+until|after
+NULL|as long as
+but|as soon as
+and|as
+when|however
+for instance|since
+now that|but
+after|if then
+nonetheless|because
+thus|but
+but|earlier
+then|while
+NULL|consequently
+NULL|when
+before|although
+though|if and when
+NULL|however
+although|for example
+rather|NULL
+in fact|but
+NULL|so that
+since|although
+while|likewise
+as|but
+though|if
+in turn|because
+also|while
+later|but
+since|before
+when|before
+then|thereafter
+if|then
+NULL|NULL
+and|as a result
+instead|when
+thereafter|then
+as|as
+on the other hand|likewise
+but|although
+NULL|in fact
+NULL|instead
+after|as
+also|until
+for example|for example
+or|so
+nevertheless|NULL
+meanwhile|when
+and|before
+and|or
+in turn|if
+and|thus
+NULL|still
+although|before
+NULL|after
+if then|yet
+NULL|meanwhile
+and|if then
+if then|also
+NULL|next
+still|NULL
+although|although
+but|or
+since|thus
+however|after
+by then|NULL
+for example|but
+meanwhile|NULL
+NULL|in addition
+if|NULL
+while|then
+by contrast|and
+NULL|by contrast
+moreover|and
+so|if
+but|in addition
+but|indeed
+while|while
+as a result|NULL
+as a result|if
+if|by contrast
+and|in turn
+if|nonetheless
+NULL|furthermore
+earlier|if
+NULL|or
+meantime|NULL
+before|NULL
+since|and
+therefore|NULL
+whereas|NULL
+while|and
+NULL|but
+then|then
+after|when
+as|also
+when|when
+though|because
+otherwise|and
+though|also
+by comparison|NULL
+after|and
+as|however
+as though|NULL
+then|and
+indeed|while
+NULL|then
+furthermore|NULL
+NULL|indeed
+overall|but
+but|instead
+also|however
+and|so that
+indeed|as soon as
+instead|but
+so|yet
+if|however
+and|however
+after|NULL
+also|or
+moreover|as
+as long as|though
+in other words|but
+as|before
+NULL|earlier
+NULL|therefore
+in fact|also
+if|because
+NULL|thereby
+later|NULL
+NULL|yet
+simultaneously|NULL
+once|while
+but|before
+furthermore|as
+because|ultimately
+NULL|except
+before|after
+yet|thereby
+NULL|and
+much as|as
+before|before
+however|until
+if then|while
+NULL|for instance
+however|because
+moreover|when
+though|then
+while|however
+accordingly|NULL
+when|whereas
+once|though
+NULL|rather
+but|as long as
+unless|if
+but|as a result
+but|though
+while|as
+NULL|afterward
+afterward|NULL
+still|when
+thus|if
+NULL|much as
+NULL|separately
+NULL|for
+before|also
+however|and
+in turn|also
+if|but
+NULL|as a result
+however|as
+so|NULL
+when|also
+but|however
+otherwise|if
+but|then
+for example|and
+thereafter|NULL
+indeed|since
+thus|and
+NULL|as if
+so that|NULL
+NULL|so
+if|instead
+so|then
+or|because
+NULL|nor
+in addition|because
+still|and
+after|after
+and|after
+by contrast|NULL
+as if|and
+also|besides
+once|also
+indeed|when
+if|after
+when|but
+after|but
+as|if
+but|because
+earlier|NULL
+unless|but
+but|otherwise
+when|indeed
+NULL|for example
+also|after
+because|in turn
+after|though
+besides|but
+on the other hand|NULL
+if|if then
+still|after
+for example|so
+because|as
+since|still
+so|instead
+after|if
+thus|moreover
+after|moreover
+while|NULL
+before|if
+later|until
+if|until
+and|until
+now that|NULL
+as soon as|if
+before|though
+nor|but
+nor|NULL
+when|in fact
+as|if then
+NULL|as
+when|as
+then|though
+thus|NULL
+yet|but
+and|NULL
+since|because
+because|for example
+because|until
+on the other hand|when
+when|then
+if|indeed
+so|while
+or|as well
+in addition|however
+consequently|NULL
+until|until
+once|when
+as|after
+except|NULL
+otherwise|NULL
+because|in addition
+also|though
+NULL|thus
+instead|unless
+rather|instead
+until|but
+when|for instance
+though|therefore
+but|still
+NULL|nevertheless
+later|though
+NULL|likewise
+and|specifically
+as|and
+after|before
+instead|although
+nonetheless|NULL
+also|so that
+also|and
+if|nor
+however|but
+when|so
+NULL|nonetheless
+thereby|while
+but|meanwhile
+before|indeed
+although|so
+for instance|and
+and|also
+because|however
+NULL|insofar as
+since|NULL
+and|then
+unless|NULL
+also|but
+for example|NULL
+as soon as|NULL
+NULL|thereafter
+so|when
+once|but
+although|unless
+as|though
+when|and
+when|much as
+NULL|once
+when|or
+when|instead
+for example|because
+moreover|but
+so|until
+also|when
+because|though
+also|NULL
+since|when
+then|after
+in contrast|NULL
+if and when|NULL
+and|though
+because|otherwise
+then|also
+before|but
+however|while
+while|also
+if|simultaneously
+NULL|alternatively
+NULL|besides
+or|unless
+but|but
+after|as a result
+however|if
+and|in particular
+NULL|moreover
+until|so
+while|since
+for instance|NULL
+but|since
+meanwhile|also
+as|unless
+when|NULL
+NULL|till
+if|for example
+also|if
+after|although
+in addition|and
+next|NULL
+if then|but
+also|before
+or|then
+but|also
+in turn|NULL
+NULL|in contrast
+as long as|but
+because|for instance
+separately|as
+as|because
+though|though
+because|also
+when|by then
+when|once
+NULL|on the contrary
+while|for instance
+and|while
+so|because
+for example|as if
+in other words|NULL
+because|before
+if then|although
+if|also
+NULL|now that
+as if|but
+and|but
+in fact|NULL
+while|for example

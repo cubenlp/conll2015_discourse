@@ -1,0 +1,4 @@
+past
+future
+NULL
+present

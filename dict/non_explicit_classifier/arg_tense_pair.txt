@@ -1,0 +1,16 @@
+present|past
+future|present
+NULL|future
+present|future
+NULL|present
+NULL|NULL
+NULL|past
+future|future
+present|NULL
+future|NULL
+past|present
+past|NULL
+future|past
+present|present
+past|past
+past|future

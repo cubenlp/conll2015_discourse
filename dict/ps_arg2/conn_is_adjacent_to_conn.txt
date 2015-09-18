@@ -1,0 +1,206 @@
+in contrast|no
+finally|yes
+In the end|no
+Moreover|no
+in the end|yes
+by contrast|yes
+as well|no
+Moreover|yes
+thus|no
+for example|yes
+Further|no
+after|yes
+in other words|yes
+Rather|no
+Ultimately|no
+as well|yes
+after|no
+Additionally|no
+in turn|no
+moreover|no
+in contrast|yes
+For example|no
+for instance|no
+Afterward|no
+On the contrary|yes
+Accordingly|no
+therefore|no
+ultimately|no
+indeed|yes
+thereafter|no
+Besides|no
+Or|no
+In fact|yes
+Indeed|no
+next|no
+Afterwards|yes
+So|no
+Thereafter|yes
+Hence|yes
+though|no
+previously|no
+meanwhile|no
+by then|yes
+in turn|yes
+So|yes
+Instead|yes
+afterwards|no
+however|no
+Conversely|no
+meantime|yes
+Similarly|yes
+later|no
+Nor|no
+Alternatively|no
+Because|yes
+Thus|no
+accordingly|yes
+in fact|no
+Still|no
+For instance|no
+Conversely|yes
+Yet|no
+Nonetheless|yes
+in particular|no
+In particular|yes
+On the contrary|no
+Indeed|yes
+by contrast|no
+As a result|yes
+Nor|yes
+moreover|yes
+furthermore|no
+Afterward|yes
+nonetheless|yes
+though|yes
+Specifically|yes
+Meanwhile|no
+Before|yes
+By comparison|no
+as a result|yes
+Then|yes
+Overall|yes
+next|yes
+Unless|yes
+However|no
+consequently|no
+Otherwise|no
+Specifically|no
+because|yes
+Later|no
+Likewise|yes
+regardless|no
+on the other hand|no
+Before|no
+in fact|yes
+However|yes
+By contrast|yes
+By comparison|yes
+nonetheless|no
+Or|yes
+Consequently|yes
+still|yes
+In fact|no
+Additionally|yes
+Likewise|no
+In other words|yes
+specifically|no
+Unless|no
+simultaneously|yes
+By contrast|no
+however|yes
+In addition|yes
+by comparison|yes
+On the other hand|yes
+Furthermore|no
+likewise|yes
+likewise|no
+Separately|yes
+on the other hand|yes
+Similarly|no
+By then|yes
+Then|no
+still|no
+yet|no
+Because|no
+In contrast|no
+Previously|no
+But|yes
+Later|yes
+For|no
+Separately|no
+afterwards|yes
+then|no
+for example|no
+Nonetheless|no
+Further|yes
+Also|yes
+previously|yes
+specifically|yes
+later|yes
+As a result|no
+Overall|no
+Accordingly|yes
+finally|no
+indeed|no
+ultimately|yes
+then|yes
+thus|yes
+instead|no
+For example|yes
+in other words|no
+consequently|yes
+regardless|yes
+In particular|no
+also|yes
+Rather|yes
+As well|yes
+Furthermore|yes
+Therefore|yes
+In contrast|yes
+thereby|yes
+instead|yes
+when|yes
+earlier|no
+And|no
+additionally|yes
+Nevertheless|no
+Therefore|no
+Meanwhile|yes
+in particular|yes
+furthermore|yes
+In other words|no
+In addition|no
+therefore|yes
+In short|yes
+Instead|no
+Ultimately|yes
+Alternatively|yes
+Nevertheless|yes
+Earlier|yes
+For|yes
+Previously|yes
+Consequently|no
+meanwhile|yes
+On the other hand|no
+For instance|yes
+yet|yes
+meantime|no
+Thus|yes
+Still|yes
+Yet|yes
+earlier|yes
+thereby|no
+Also|no
+because|no
+accordingly|no
+Hence|no
+thereafter|yes
+And|yes
+for instance|yes
+In the end|yes
+Besides|yes
+But|no
+Earlier|no
+Otherwise|yes
+also|no

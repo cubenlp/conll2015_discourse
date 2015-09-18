@@ -1,0 +1,486 @@
+or|CC-S-*COMMA*-S
+and|CC-VP-VBD-SBAR
+and|CC-SBAR-*COMMA*-ADVP
+so that|SBAR-VP-ADVP-NULL
+Unless|IN-SBAR-NULL-S
+before and after|PP-VP-PP-NULL
+though|IN-SBAR-RB-S
+so|RB-S-*COMMA*-S
+While|IN-SBAR-NULL-S
+As soon as|ADVP-S-NULL-NP
+if|IN-SBAR-NULL-ADJP
+nevertheless|RB-ADJP-NULL-JJ
+and|CC-S-*COMMA*-IN
+therefore|RB-ADVP-NULL-NULL
+or|CC-VP-''-``
+when|WRB-WHADVP-RB-NULL
+when|WRB-WHADVP-ADVP-NULL
+before|IN-PP-NULL-NP
+besides|IN-PP-NULL-S
+as|RB-SBAR-NULL-S
+nor|CC-S-*COMMA*-SINV
+in turn|PP-PRN-*COMMA*-*COMMA*
+then|RB-VP-*COMMA*-VP
+and|CC-UCP-NP-S
+instead|RB-ADVP-NULL-NULL
+yet|CC-VP-VP-VP
+later|RB-ADJP-NULL-VBN
+before|IN-PP-NULL-S
+if|IN-FRAG-NULL-RB
+though|RB-ADVP-NULL-NULL
+As if|SBAR-S-NULL-*COMMA*
+before|IN-SBAR-ADVP-S
+while|IN-SBAR-NULL-PRN
+else|RB-S-*COMMA*-S
+so|RB-S-*COMMA*-VP
+as soon as|ADVP-VP-PP-NULL
+as|IN-PP-ADVP-NP
+or|CC-VP-*COLON*-RB
+if|IN-SBAR-NULL-S
+Before|IN-SBAR-NULL-S
+now that|SBAR-S-NULL-*COMMA*
+if|IN-SBAR-NULL-FRAG
+as soon as|SBAR-VP-*COLON*-NULL
+so that|SBAR-VP-S-NULL
+in turn|PP-VP-VBN-PP
+Once|IN-SBAR-NULL-S
+as long as|ADVP-VP-*COMMA*-NULL
+since|IN-SBAR-NULL-S
+but|CC-VP-VP-VP
+or|CC-S-*COMMA*-RB
+for example|PP-PRN-*COMMA*-*COMMA*
+because|IN-SBAR-ADVP-S
+and|CC-S-*COMMA*-ADVP
+previously|RB-ADVP-NULL-NULL
+because|RB-SBAR-NULL-S
+while|IN-SBAR-NULL-S
+as long as|ADVP-VP-NP-NULL
+and|CC-UCP-*COMMA*-SBAR
+and|CC-S-*COMMA*-NP
+thus|RB-NP-CC-NP
+as long as|ADVP-VP-PP-NULL
+and|CC-ADJP-ADJP-ADJP
+for example|PP-S-NULL-*COMMA*
+thus|RB-VP-CC-VP
+Now that|SBAR-S-NULL-*COMMA*
+after|IN-PP-NP-S
+for example|PP-S-*COMMA*-*COMMA*
+as long as|ADVP-S-CC-*COMMA*
+And|CC-S-*COLON*-S
+or|CC-S-PRN-S
+now that|SBAR-VP-ADVP-NULL
+besides|IN-PP-NULL-NP
+thereby|RB-ADVP-NULL-NULL
+but|CC-S-*COMMA*-SQ
+or|CC-NP-*COLON*-SBAR
+as if|SBAR-VP-NP-NULL
+though|RB-SBAR-NULL-IN
+as a result|PP-VP-VBN-NULL
+as|IN-PP-NULL-NP
+as soon as|ADVP-VP-VBG-NULL
+rather|RB-CONJP-CC-NULL
+though|IN-SBAR-ADVP-S
+yet|CC-VP-*COMMA*-VP
+as long as|ADJP-NP-NP-NULL
+so|IN-SBAR-NULL-S
+much as|ADVP-S-NULL-*COMMA*
+Because|IN-SBAR-NULL-S
+by then|ADVP-S-NULL-VP
+as soon as|ADVP-VP-S-NULL
+Besides|IN-PP-NULL-S
+for instance|PP-VP-*COMMA*-NULL
+because|IN-SBAR-NULL-PRN
+So|IN-SBAR-NULL-S
+still|RB-CONJP-CC-NULL
+instead|RB-VP-MD-VP
+as if|SBAR-VP-VBG-NULL
+whereas|IN-SBAR-NULL-S
+and|CC-S-S-SQ
+and|CC-VP-*COLON*-VP
+after|IN-PP-NULL-NP
+so that|SBAR-ADVP-RB-NULL
+while|IN-SBAR-RB-S
+thereafter|RB-ADVP-RB-NULL
+if|IN-SBAR-NP-S
+as though|SBAR-ADJP-PRN-NULL
+nor|CC-S-*COLON*-SQ
+after|IN-PP-NP-NP
+now that|SBAR-VP-ADJP-NULL
+in fact|PP-PRN-*COMMA*-*COMMA*
+and|CC-S-NP-S
+and|CC-NP-NP-NP
+till|IN-SBAR-NULL-S
+thus|RB-ADVP-NULL-NULL
+for example|PP-NP-*COMMA*-*COMMA*
+as if|SBAR-VP-ADVP-NULL
+meanwhile|RB-ADVP-NULL-NULL
+or|CC-UCP-*COMMA*-ADVP
+while|IN-SBAR-NULL-FRAG
+after|IN-PP-ADVP-S
+but|CC-UCP-ADJP-SBAR
+Now that|ADVP-S-``-*COMMA*
+thereby|RB-VP-CC-VP
+so that|SBAR-VP-NP-NULL
+so that|SBAR-VP-''-NULL
+if|IN-SBAR-RB-FRAG
+while|IN-PP-NULL-ADVP
+so|IN-S-*COLON*-S
+and|CC-SBAR-''-SBAR
+since|IN-PP-NULL-S
+and|CC-SBAR-*COLON*-SBAR
+but|CC-S-*COMMA*-SINV
+but|CC-SBAR-SBAR-SBAR
+but|CC-SBAR-*COMMA*-FRAG
+much as|ADVP-VP-NP-NULL
+then|RB-ADVP-NULL-NULL
+much as|ADVP-VP-PP-NULL
+after|IN-SBAR-NULL-S
+as long as|ADVP-VP-VB-NULL
+also|RB-ADVP-NULL-NULL
+as though|SBAR-VP-ADVP-NULL
+but|CC-S-*COMMA*-*COMMA*
+lest|IN-SBAR-NULL-S
+so|RB-ADVP-NULL-NULL
+as if|SBAR-VP-PP-NULL
+still|RB-ADVP-NULL-NULL
+consequently|RB-S-*COMMA*-S
+as if|SBAR-S-*COMMA*-*COMMA*
+so|IN-S-''-S
+and|CC-NP-*COMMA*-RRC
+by contrast|PP-S-NULL-*COMMA*
+now that|ADVP-S-CC-*COMMA*
+and|CC-SBAR-SBAR-S
+or|CC-S-S-*COMMA*
+As|IN-SBAR-NULL-S
+As soon as|ADVP-S-NULL-*COMMA*
+thus|RB-S-NULL-VP
+later|RB-ADVP-NULL-NULL
+although|IN-PP-NULL-ADJP
+once|RB-SBAR-NULL-S
+as if|SBAR-VP-NP-*COMMA*
+since|IN-SBAR-RB-S
+but|CC-NP-NN-NNS
+rather|RB-SBAR-CC-NULL
+But|CC-S-*COMMA*-S
+while|NN-NP-NULL-NULL
+and|CC-S-S-PP
+and|CC-S-*COLON*-ADVP
+however|RB-ADVP-NULL-NULL
+finally|RB-ADVP-NULL-NULL
+as|IN-SBAR-ADVP-S
+Though|IN-SBAR-NULL-S
+and|CC-S-''-S
+in the end|PP-S-NULL-*COMMA*
+separately|RB-ADVP-NULL-NULL
+as soon as|ADVP-VP-NP-PP
+but|CC-SBAR-''-SBAR
+as if|SBAR-VP-*COMMA*-NULL
+and|CC-NP-''-RB
+or|CC-SBAR-SBAR-SBAR
+so that|SBAR-VP-PP-NULL
+indeed|RB-ADVP-NULL-NULL
+after|IN-PP-NULL-S
+While|IN-SBAR-NULL-FRAG
+but|CC-S-S-S
+Once|RB-SBAR-NULL-S
+except|IN-SBAR-NULL-S
+While|IN-PP-NULL-S
+except|IN-SBAR-NULL-IN
+but|CC-VP-*COMMA*-RB
+then|RB-NP-CC-NP
+instead|RB-S-NULL-VP
+until|IN-SBAR-NULL-``
+after|IN-ADVP-RB-NULL
+so|RB-S-PRN-S
+and|CC-S-*COMMA*-PRN
+If|IN-SBAR-NULL-S
+in turn|PP-S-NULL-VP
+though|IN-SBAR-NULL-PRN
+and|CC-SBAR-*COMMA*-SBAR
+as soon as|ADVP-S-CC-*COMMA*
+and|CC-S-S-*COMMA*
+IF|IN-SBAR-NULL-S
+If|IN-SBAR-NULL-PRN
+ultimately|RB-ADVP-NULL-NULL
+if|IN-PP-NULL-UCP
+as long as|ADVP-VP-VBN-NULL
+and|CC-SBARQ-SBARQ-SBARQ
+because|IN-SBAR-RB-S
+but|CC-S-*COLON*-PRN
+and|CC-S-*COLON*-*COMMA*
+but|CC-PRN-NULL-ADVP
+Although|IN-SBAR-NULL-``
+as|IN-SBAR-NP-S
+because|IN-SBAR-NULL-*COMMA*
+if|IN-SBAR-NULL-RB
+until|IN-PP-NULL-SBAR
+as a result|PP-PRN-*COMMA*-*COMMA*
+because|IN-PP-ADVP-NP
+as if|SBAR-VP-VBZ-NULL
+WHEN|WRB-WHADVP-NULL-NULL
+alternatively|RB-ADVP-NULL-NULL
+and|CC-VP-*COMMA*-VP
+so that|SBAR-VP-ADJP-NULL
+while|IN-PP-NULL-S
+later|RB-ADVP-NULL-RB
+so|RB-ADVP-NULL-RB
+then|RB-S-CC-S
+if|IN-SBAR-NULL-PRN
+though|IN-ADVP-NULL-RB
+though|IN-SBAR-NULL-``
+After|IN-SBAR-NULL-S
+for|IN-SBAR-NULL-S
+meantime|NN-NP-DT-NULL
+nor|CC-S-*COMMA*-S
+if|IN-CONJP-NULL-RB
+earlier|RBR-ADVP-NULL-NULL
+in the end|PP-PRN-*COMMA*-*COMMA*
+before|IN-PP-RB-NP
+if|IN-ADJP-ADJP-ADJP
+but|CC-S-*COMMA*-S
+but|CC-S-S-PRN
+or|CC-S-*COMMA*-IN
+in turn|PP-S-NULL-*COMMA*
+or|CC-S-*COLON*-ADVP
+or|CC-PRN-*COMMA*-SBAR
+but|CC-VP-*COMMA*-VP
+in fact|PP-S-NULL-*COMMA*
+while|IN-SBAR-NULL-``
+rather|RB-VP-VBZ-NP
+and|CC-VP-VP-VP
+though|IN-SBAR-NULL-S
+if|IN-PRN-*COLON*-S
+though|IN-PP-NULL-IN
+once|IN-SBAR-NULL-S
+as soon as|SBAR-VP-*COMMA*-NULL
+and|CC-S-*COMMA*-RB
+and|CC-NP-*COMMA*-NP
+yet|CC-S-*COMMA*-S
+Once|RB-ADVP-NULL-RB
+as soon as|ADVP-VP-VBN-NULL
+if|IN-SBAR-RB-S
+and|CC-S-S-ADVP
+then|RB-VP-*COMMA*-ADVP
+As long as|ADVP-S-NULL-*COMMA*
+but|CC-VP-*COMMA*-SBAR
+if|IN-ADJP-*COMMA*-ADJP
+instead|RB-CONJP-CC-NULL
+while|IN-SBAR-NULL-*COMMA*
+later|RB-ADJP-NULL-JJ
+so|IN-PP-NULL-NP
+but|CC-UCP-*COMMA*-SBAR
+and|CC-NP-NN-NNS
+yet|CC-SBAR-NULL-S
+and|CC-S-*COMMA*-``
+as long as|CONJP-NP-NP-NP
+as though|SBAR-VP-*COMMA*-NULL
+and|CC-NP-NP-SBAR
+and|CC-CONJP-NULL-RB
+later|RB-S-CC-S
+until|IN-PP-NULL-NP
+Since|IN-SBAR-NULL-S
+and|CC-UCP-*COMMA*-RB
+but|CC-NP-*COMMA*-NP
+and|CC-S-``-S
+on the other hand|PP-PRN-*COMMA*-*COMMA*
+so|RB-VP-CC-VP
+As if|SBAR-S-NULL-PRN
+although|IN-S-''-S
+but|CC-S-*COLON*-FRAG
+now that|ADVP-VP-NP-NULL
+and|CC-SBAR-SBAR-SBAR
+and|CC-NP-*COMMA*-RB
+or|CC-SQ-PRN-MD
+and|CC-NP-NN-NN
+before|RB-SBAR-NULL-S
+Before|IN-PP-NULL-NP
+in other words|PP-VP-*COLON*-*COMMA*
+earlier|RBR-ADVP-NP-NULL
+as a result|PP-NP-NP-NULL
+if|IN-SBAR-ADVP-S
+further|RB-ADVP-NULL-NULL
+Before|IN-PP-NULL-S
+and|CC-VP-*COMMA*-RB
+when|WRB-WHADVP-NULL-NULL
+so|RB-S-``-S
+but|CC-S-*COMMA*-ADVP
+until|IN-SBAR-RB-S
+and|CC-SBAR-*COMMA*-PRN
+or|CC-SBAR-*COLON*-SBAR
+after|IN-SBAR-ADVP-S
+now that|VP-S-NP-NULL
+until|IN-SBAR-ADVP-S
+then|RB-PP-CC-PP
+After|IN-PP-NULL-S
+and|CC-NX-NX-NX
+but|CC-NP-NNS-NN
+until|IN-SBAR-NULL-S
+and|CC-S-''-ADVP
+then|RB-VP-*COLON*-VP
+earlier|RB-ADVP-NULL-NULL
+nor|CC-VP-*COMMA*-VP
+Since|IN-PP-NULL-S
+as|IN-SBAR-RB-S
+Until|IN-SBAR-NULL-S
+and|CC-S-*COMMA*-*COMMA*
+otherwise|RB-ADVP-NULL-NULL
+after|IN-PP-ADVP-NP
+because|IN-SBAR--LRB---RRB-
+because|RB-SBAR-NULL-PRN
+therefore|RB-ADJP-NULL-JJ
+unless|IN-SBAR-NULL-S
+but|CC-S-``-S
+and|CC-SINV-*COMMA*-SBARQ
+nor|CC-S-*COMMA*-SQ
+and|CC-NP-*COLON*-NP
+After|IN-PP-NULL-NP
+and|CC-S-*COMMA*-SINV
+so that|SBAR-VP-*COMMA*-NULL
+Now that|ADVP-S-NULL-PRN
+if|IN-ADVP-NULL-NULL
+and|CC-NP-NULL-NULL
+thereafter|RB-ADVP-NULL-NULL
+and|CC-S-S-S
+later|RB-SBAR-NULL-S
+If|IN-SBAR-NULL-FRAG
+so|IN-S-CC-S
+much as|SBAR-VP-*COMMA*-NULL
+And|CC-S-*COMMA*-S
+unless|IN-ADVP-RBR-NULL
+rather|RB-ADVP-NULL-NULL
+simultaneously|RB-CONJP-CC-NULL
+so|IN-S-*COMMA*-S
+if|IN-WHNP-NULL-NULL
+or|CC-SBAR-*COMMA*-SBAR
+as|IN-SBAR-NULL-S
+now that|SBAR-S-NULL-NP
+and|CC-NP-NNS-NNS
+for instance|PP-PRN-*COMMA*-*COMMA*
+in particular|PP-PP-CC-NULL
+instead|RB-VP-CC-VP
+and|CC-S-PRN-S
+before|IN-PP-NP-S
+but|CC-S-PRN-S
+afterward|RB-ADVP-RB-NULL
+so|IN-S-S-S
+as long as|ADVP-VP-VB-S
+afterwards|RB-ADVP-NULL-NULL
+IF|IN-PP-NULL-PP
+and|CC-UCP-ADJP-S
+specifically|RB-ADVP-NULL-NULL
+if|IN-PP-NULL-NP
+and|CC-S-*COMMA*-SQ
+nonetheless|RB-ADVP-NULL-NULL
+before|IN-SBAR-NULL-S
+later|RB-ADVP-RB-NULL
+When and if|SBAR-S-NULL-PRN
+Except|IN-SBAR-NULL-S
+but|CC-S-''-S
+But|CC-S-NULL-NP
+as a result|PP-VP-NP-NULL
+and|CC-NX-*COMMA*-NX
+since|IN-PRN-*COMMA*-S
+and|CC-NP-NN-*COMMA*
+and|CC-S-S-PRN
+then|RB-ADVP-CC-NULL
+before|IN-SBAR-NP-S
+on the other hand|PP-S-*COMMA*-*COMMA*
+and|CC-NP-NP-PRN
+Until|IN-PP-NULL-NP
+so|IN-S-PRN-S
+yet|RB-ADVP-NULL-NULL
+but|CC-S-S-ADVP
+and|CC-NP-*COMMA*-S
+as long as|ADVP-VP-``-NULL
+as if|SBAR-VP-VB-NULL
+indeed|RB-NP-NULL-NULL
+If|IN-PP-NULL-NP
+but|CC-VP-''-VP
+and|CC-VP-*COMMA*-ADVP
+before|IN-SBAR-RB-S
+then|RB-QP-NULL-TO
+but|CC-S-*COLON*-SQ
+but|CC-VP-*COMMA*-ADVP
+then|RB-S-CC-*COMMA*
+or|CC-S-S-S
+but|CC-S-*COMMA*-RB
+simultaneously|RB-ADVP-NULL-NULL
+but|CC-S-*COLON*-S
+as soon as|ADVP-S-NULL-NP
+but|CC-NP-*COMMA*-SBAR
+since|IN-SBAR-ADVP-S
+also|RB-CONJP-CC-NULL
+and|CC-S-S-``
+as a result|PP-VP-VB-NULL
+then|RB-NP-*COMMA*-NP
+Whereas|NNS-NP-NULL-NULL
+consequently|RB-ADVP-NULL-NULL
+while|IN-PP-NULL-UCP
+as well|ADVP-VP-ADVP-NULL
+But|CC-S-NULL-SBAR
+but|CC-UCP-*COMMA*-ADVP
+as long as|ADVP-VP-VBZ-NULL
+or|CC-SBAR-*COMMA*-S
+now that|SBAR-S-CC-*COMMA*
+but|CC-S-SINV-S
+or|CC-S-''-``
+after|IN-SBAR-NP-S
+before|IN-PP-NP-NP
+after|IN-SBAR-RB-S
+yet|CC-SBAR-*COMMA*-SBAR
+since|IN-PP-NULL-NP
+later|RBR-ADVP-NULL-NULL
+but|CC-S-*COMMA*-PRN
+now that|ADVP-SQ-NULL-*COMMA*
+When|WRB-WHADVP-NULL-NULL
+if and when|UCP-VP-VBP-NULL
+and|CC-S-S-RB
+ONCE|VBG-VP-NULL-NP
+so that|SBAR-VP-*COLON*-NULL
+although|IN-SBAR-NULL-``
+in fact|PP-S-NULL-NP
+and|CC-NP-*COLON*-PRN
+nevertheless|RB-ADVP-NULL-NULL
+yet|RB-VP-CC-VP
+after|IN-PP-RB-S
+thus|RB-S-*COMMA*-S
+as|IN-PP-JJ-NP
+but|CC-UCP-NP-RB
+because|IN-SBAR-NULL-``
+but|CC-S-*COMMA*-``
+and|CC-PRN-*COLON*-S
+while|IN-PP-NULL-PP
+Although|IN-SBAR-NULL-S
+so|IN-S-*COLON*-*COMMA*
+and|CC-NP-NN-PRN
+while|IN-PP-NULL-ADJP
+yet|RB-ADVP-*COMMA*-NULL
+then|RB-VP-CC-VP
+as soon as|CONJP-VP-*COMMA*-VP
+otherwise|RB-VP-CC-VP
+and|CC-S-*COMMA*-S
+afterward|RB-ADVP-NULL-NULL
+and|CC-S-*COMMA*-X
+then|RB-ADVP-RB-NULL
+though|IN-SBAR-NULL-FRAG
+while|IN-PP-NULL-NP
+Insofar as|S-NULL-NULL-NULL
+although|IN-SBAR-NULL-S
+and|CC-VP-*COLON*-``
+as soon as|ADVP-S-*COMMA*-*COMMA*
+and|CC-S-*COLON*-S
+and|CC-NP-''-NP
+except|IN-PP-NULL-S
+once|RB-ADJP-NULL-NN
+but|CC-VP-*COLON*-PRN
+and|CC-S-*COMMA*-PP
+because|IN-SBAR-NULL-S
+Now that|ADVP-S-NULL-*COMMA*
+while|IN-PP-NULL-IN
+Although|IN-SBAR-NULL-*COMMA*
+but|CC-SBAR-*COMMA*-SBAR
+before|IN-PP-ADVP-NP
+as soon as|ADVP-VP-NP-NULL
+so|RB-S-CC-S
+for instance|PP-S-*COMMA*-*COMMA*
+by then|PP-S-NULL-VP

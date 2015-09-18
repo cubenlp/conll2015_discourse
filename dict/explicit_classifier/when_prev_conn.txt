@@ -1,0 +1,41 @@
+when_as a result
+when_as
+NOT_when
+when_further
+when_either..or
+when_indeed
+when_since
+when_for example
+when_much as
+when_earlier
+when_in addition
+when_in other words
+when_though
+when_moreover
+when_thus
+when_on the other hand
+when_so
+when_in fact
+when_yet
+when_while
+when_however
+when_finally
+when_rather
+when_so that
+when_later
+when_then
+when_unless
+when_still
+when_because
+when_after
+when_and
+when_except
+when_although
+when_before
+when_NULL
+when_when
+when_but
+when_also
+when_if
+when_for
+when_or

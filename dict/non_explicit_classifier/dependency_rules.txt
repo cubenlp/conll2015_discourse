@@ -1,0 +1,7159 @@
+process<--amod amod
+not<--dep dep
+owner<--det cc conj prep
+are<--dep nsubj
+people<--vmod
+trouble<--amod
+catch<--aux dobj
+work<--aux
+had<--nsubj aux prep
+expected<--nsubj dobj
+takes<--nsubj dobj cc conj
+based<--pcomp
+chairman<--poss
+policy<--nn
+operation<--poss
+expenses<--nn
+comply<--aux prep
+bid<--det amod
+Francisco<--nn possessive
+Moody<--possessive
+offer<--det nn
+hope<--det prep
+House<--det
+U.S.<--det
+want<--nsubj xcomp
+Phelan<--nn
+stock<--det possessive
+FBI<--det
+effects<--det prep
+proposals<--nn
+pence<--num appos dep
+includes<--nsubj dobj
+man<--det vmod
+creation<--det prep
+proposal<--det nn
+loss<--det amod
+lose<--nsubj aux dobj prep
+investor<--det
+opportunity<--det vmod
+industry<--det amod
+policy<--det
+directors<--det amod
+ABC<--cc conj
+conversation<--det
+be<--nsubj aux prep prep
+ended<--nsubj prep prep
+year<--poss amod amod
+of<--pobj pcomp pobj
+under<--pobj
+Express<--nn possessive
+Campeau<--possessive
+acquisitions<--amod
+said<--nsubj dep
+level<--det nn
+Congress<--cc conj
+grew<--nsubj dobj prep prep
+German<--amod
+expected<--auxpass xcomp
+veto<--det
+amount<--det rcmod
+lower<--advmod prep
+proposal<--poss
+age<--num
+work<--poss
+union<--det
+meeting<--det prep
+value<--poss
+trip<--det
+halt<--det
+Moscow<--possessive
+yen<--num
+among<--pobj pobj
+father<--poss
+After<--pcomp
+$<--num prep vmod
+rose<--nsubj dobj prep prep
+idea<--det prep
+Thomson<--nn
+trading<--nn nn nn nn amod
+created<--prep
+had<--prep nsubj xcomp
+studies<--prep
+years<--det num
+difficulties<--amod
+seeking<--nsubj aux dobj
+between<--pcomp
+more<--cc conj
+paid<--prep
+poll<--det vmod
+decision<--det nn
+Philippines<--det
+many<--advmod advmod
+Bank<--det nn
+gain<--aux dobj
+power<--amod
+returns<--amod
+ABC<--possessive
+Until<--pobj
+agents<--nn
+program<--det amod nn
+situation<--det
+said<--dobj nsubj advmod ccomp
+Corp.<--nn nn
+market<--det amod nn
+company<--det amod rcmod
+able<--nsubj cop xcomp
+Board<--det nn
+room<--det nn
+chance<--det
+producers<--det
+trying<--nsubj aux aux xcomp
+Gelbart<--nn
+couple<--det prep
+report<--det amod
+barrel<--det
+Bank<--nn prep
+comment<--det
+forces<--amod
+research<--nn
+age<--det prep
+build<--aux dobj
+from<--pobj pobj advmod
+benefits<--amod
+Excluding<--dobj
+dispute<--det
+continue<--aux dobj
+introduced<--tmod nsubj dobj
+problem<--det prep
+gain<--det amod
+trillion<--number number
+Development<--nn
+put<--det
+Vietnam<--possessive
+options<--nn
+police<--det
+P&G<--possessive
+bonds<--nn nn nn
+be<--nsubj aux ccomp
+take<--nsubj aux dobj prep
+following<--det amod prep
+using<--dobj
+Financial<--nn
+estate<--amod
+miles<--num prep
+sold<--aux auxpass prep
+facility<--det
+given<--nsubjpass aux auxpass dobj
+finished<--nsubj prep advmod
+try<--nsubj aux xcomp
+Volume<--prep
+Inc.<--nn nn nn conj cc conj
+100<--quantmod
+models<--amod
+buy-outs<--amod
+operators<--amod
+released<--prep
+experiment<--det
+programs<--amod nn
+Pictures<--nn
+room<--det amod
+one<--det prep
+group<--det nn vmod
+chief<--det nn
+cut<--aux dobj
+McCall<--possessive
+amount<--nn
+says<--mark nsubj ccomp
+form<--det prep
+be<--nsubj aux advmod advcl
+get<--aux dobj prep
+sort<--det prep
+prevent<--aux dobj prep
+giving<--iobj dobj
+income<--amod nn
+Inc.<--nn prep
+efforts<--vmod
+inquiry<--det
+Bridge<--det nn
+Valley<--det nn
+Keating<--nn
+to<--pobj cc conj pobj
+developing<--dobj
+appointed<--prep
+Greenspan<--nn
+offices<--det prep
+Thursday<--amod
+thought<--nsubj ccomp
+cases<--amod
+offset<--prep
+chairman<--prep prep
+pass<--aux dobj
+one<--rcmod
+America<--nn
+see<--aux dobj
+had<--nsubj aux dobj prep
+$<--num appos
+lives<--nsubj prep
+businessmen<--amod
+1986<--cc conj
+magazines<--det
+December<--num
+Interstate<--nn
+deadlines<--nn
+news<--prep
+$<--num cc conj num dep
+rally<--poss
+control<--amod
+'s<--advmod expl nsubj
+Bank<--nn nn
+added<--nsubj dobj prep
+contracts<--nn
+rose<--nsubj advmod prep prep
+Ryder<--possessive
+due<--nsubj cop dep
+take<--aux dobj advcl
+$<--quantmod number dep
+resigned<--nsubj prep prep
+called<--dobj nsubj dep
+paid<--prep prep
+Arizona<--possessive
+$<--num dep num dep
+helping<--dobj
+world<--det amod
+restructuring<--amod
+decade<--det amod
+say<--ccomp
+women<--det
+suit<--poss
+law<--det nn
+makers<--det nn
+got<--advmod nsubj dobj
+makers<--nn
+first<--det
+willing<--mark nsubj cop xcomp
+Gorky<--possessive
+dealing<--prep
+Carter<--nn
+light<--prep
+in<--pobj cc conj pcomp
+Vietnam<--nsubj cop poss
+strategy<--poss prep
+company<--det
+Bork<--nn possessive
+losses<--prep
+customer<--det
+corner<--det prep
+critics<--det
+investors<--amod
+plan<--det vmod
+each<--prep
+getting<--dobj
+scandals<--det nn
+development<--amod
+fraud<--cc conj
+with<--pobj cc conj
+necessary<--xcomp
+lower<--npadvmod
+earlier<--prep
+Exchange<--poss nn
+government<--amod
+Europe<--cc conj
+two<--cc conj
+began<--prep nsubj xcomp
+sort<--det
+group<--det nn
+Miller<--nn possessive
+sure<--ccomp
+B.A.T<--possessive
+respond<--aux prep
+Ltd.<--nn nn nn
+said<--prep nsubj ccomp cc conj
+cones<--amod nn nn dep
+raises<--nsubj dobj
+reviews<--amod
+has<--prep nsubj dobj
+City<--nn
+cents<--num amod dep
+received<--nsubj prep
+has<--nsubj xcomp
+pill<--det
+pay<--aux prep
+actions<--amod
+rest<--det
+past<--pobj
+let<--ccomp
+underwriters<--vmod
+adding<--dobj
+written<--prep
+group<--det nn nn
+price<--det amod amod
+disobedience<--amod amod
+know<--nsubj aux neg dobj
+Morris<--nn possessive
+dollar<--det nn
+problems<--amod
+morning<--nn
+place<--prep
+office<--poss nn
+system<--poss amod
+small<--advmod
+Union<--det nn possessive
+Within<--pobj
+efforts<--amod vmod
+down<--prep
+consider<--nsubj xcomp
+one<--prep prep
+Europe<--nn cc conj
+Georgia-Pacific<--possessive
+reason<--det prep
+in<--pobj pcomp
+banks<--amod cc conj
+drop<--poss
+savings<--det cc conj
+posted<--prep nsubj dobj prep
+world<--det possessive
+money<--poss
+order<--amod
+Stoll<--nn
+markets<--amod amod
+many<--dep
+case<--det
+sales<--cc conj
+had<--dobj
+vote<--aux prep
+Union<--det nn
+sales<--poss
+reflects<--nsubj advmod dobj
+expansion<--poss amod
+industry<--amod
+cuts<--amod prep
+coupon<--det amod prep
+economic<--cc conj
+among<--advmod pobj
+tests<--amod
+certificates<--amod prep
+Nov.<--num
+homes<--poss
+Officials<--prep
+Kidder<--possessive
+ventures<--amod nn
+opinions<--amod
+enough<--prep
+By<--pobj
+profit<--amod amod
+assets<--det prep
+managers<--det nn
+bit<--det amod prep
+injuries<--amod
+one<--prep
+owner<--prep
+appeared<--mark nsubj xcomp
+assistance<--nn
+company<--poss possessive
+Oct.<--num cc conj
+avoid<--aux xcomp
+comment<--nsubj aux neg prep
+earned<--prep nsubj dobj advmod
+president<--det amod nn nn
+site<--det
+thrifts<--amod
+broker<--det
+question<--nsubj dobj
+believe<--aux ccomp
+number<--det amod prep
+8<--quantmod
+many<--prep
+November<--num
+tests<--nn
+change<--aux
+magazines<--amod
+Clara<--nn
+think<--nsubj ccomp
+reader<--det
+minutes<--num
+stock<--nn amod
+income<--amod prep prep
+The<--amod
+equity<--det
+have<--mark nsubj aux dobj
+difficulty<--dep
+company<--det nn possessive
+belief<--det ccomp
+spending<--nn
+city<--det amod prep
+officials<--amod nn
+Bear<--conj cc conj
+against<--pobj
+government<--poss
+is<--advmod expl nsubj
+wanted<--nsubj xcomp
+purchase<--det amod
+change<--nsubj aux dobj
+added<--nsubj
+newspaper<--det
+months<--prep
+circumstances<--amod
+submit<--aux dobj
+1991<--amod
+own<--nsubj advmod dobj
+Elsewhere<--prep
+show<--nsubj dobj
+acquiring<--dobj
+delivery<--prep
+deterioration<--det prep
+rate<--det amod nn prep
+make<--aux dobj prep
+Rally<--possessive
+weeks<--det amod num
+problem<--det
+got<--mark nsubj prep
+other<--prep
+answer<--aux dobj
+satisfaction<--nn
+building<--dobj prep
+way<--poss prep
+increased<--nsubj dobj prep prep
+Freeman<--nn
+reported<--nsubj ccomp
+ocean<--det
+mid-1980s<--det
+develop<--aux dobj prep
+risks<--amod
+interest<--poss
+working<--prep
+legislation<--det
+took<--nsubj dobj prep
+line<--det nn
+Cross<--det nn
+information<--amod
+most<--prep
+suggest<--nsubj ccomp
+reason<--amod vmod
+none<--prep
+buyers<--nn
+slow<--advmod
+Ltd<--nn nn
+slump<--det
+technology<--det
+suggests<--nsubj ccomp
+political<--advmod
+problem<--det amod
+machines<--poss
+own<--poss
+Smith<--nn
+week<--amod
+declined<--xcomp
+many<--advmod
+Fed<--det possessive
+marks<--num advmod num
+own<--nsubj aux dobj
+takeover<--det amod
+lost<--prep
+testimony<--poss
+film<--det
+money<--det amod
+Corp.<--poss
+CD<--det amod
+plus<--pobj
+gold<--cc conj
+committee<--det nn
+thing<--det amod rcmod
+record<--det prep
+bank<--det possessive
+are<--mark expl nsubj
+timing<--det prep
+measures<--vmod
+pushing<--dobj prep
+charge<--prep
+Care<--nn
+use<--amod prep
+management<--poss amod
+rose<--mark nsubj prep prep
+details<--prep
+again<--advmod
+gained<--nsubj dobj prep prep
+received<--nsubj aux dobj prep
+is<--advcl expl nsubj
+had<--nsubj dobj cc conj
+is<--nsubj
+$<--quantmod number number prep
+government<--det amod
+bonds<--det nn num nn
+weeks<--det amod amod
+market<--det nn rcmod
+denied<--nsubj dobj
+state<--det prep
+price<--det vmod
+U.K.<--det cc conj
+made<--nsubj xcomp
+Jr.<--nn
+Lorin<--nn
+Friday<--amod possessive
+seed<--det
+statute<--det
+operations<--poss
+market<--det amod amod
+business<--det nn
+Korea<--nn cc conj
+crash<--det num nn
+employees<--poss
+day<--det amod
+handed<--prt prep
+fast<--advmod
+Mixte<--nn possessive
+Guber<--nn cc conj
+Mother<--nn
+lines<--amod
+Citicorp<--possessive
+agreement<--det nn
+lead<--nsubj aux prep
+fee<--det
+exclusion<--det
+reaching<--dobj
+bill<--poss
+holder<--det
+sophisticated<--advmod
+seven<--prep
+Beach<--nn
+Despite<--pobj
+talk<--prep
+LDP<--det
+$<--quantmod number number dep
+Times<--det nn nn
+countries<--amod amod
+Army<--det
+group<--det amod
+run<--prep
+investors<--det
+available<--mark nsubj cop
+industry<--det possessive
+expected<--nsubjpass auxpass prep
+attached<--prep
+loans<--amod prep
+Drexel<--possessive
+spokeswoman<--det prep
+note<--det
+appeal<--det
+task<--det amod prep
+division<--det
+stay<--aux
+effect<--det
+was<--nsubj xcomp
+earth<--det possessive
+watching<--dobj
+firm<--det
+activity<--det
+prompted<--nsubj dobj
+unit<--det
+officials<--prep
+Gulf<--det prep
+season<--det
+next<--prep
+considered<--nsubjpass auxpass xcomp
+club<--det
+told<--prep nsubj dobj ccomp
+supply<--det nn
+%<--det amod num prep
+assets<--det amod
+Department<--det nn
+position<--poss amod
+one<--det amod
+part<--poss
+planet<--det
+activities<--poss
+Island<--nn
+fears<--nn
+Angeles<--nn
+City<--nn nn
+appropriations<--amod
+days<--det prep
+business<--nn
+officials<--nn amod
+Glass<--nn
+year<--det possessive
+day<--det det
+report<--det prep
+fetch<--nsubj aux dobj
+community<--det nn
+move<--aux advmod
+of<--advmod pcomp pobj
+decisions<--amod
+period<--det amod vmod
+are<--advmod expl nsubj
+company<--det amod amod nn
+suites<--det
+line<--det prep
+stores<--nn
+percentage<--det amod prep
+took<--nsubj dobj
+%<--num
+form<--det amod prep
+cars<--amod prep
+approach<--det amod
+analysis<--nn
+announcement<--poss
+like<--advmod pobj
+part<--det prep
+land<--poss
+shareholders<--nn
+raised<--nsubj dobj
+aid<--amod
+$<--num quantmod number number
+$<--num num dep
+Antar<--nn
+benefit<--det prep
+are<--nsubj prep
+Germany<--nn possessive
+trend<--det
+holders<--prep
+way<--det vmod
+time<--amod vmod
+midst<--det prep
+points<--num num cc conj
+jobs<--num
+eye<--det
+leadership<--poss
+partnership<--det
+close<--det prep dep
+purpose<--poss
+%<--quantmod number dep dep number
+worth<--poss prep
+has<--nsubj dobj cc conj
+loans<--prep prep
+level<--det prep
+of<--advmod mwe pobj pobj
+growth<--amod prep
+use<--nsubj dobj
+owners<--nn
+sales<--prep prep
+hear<--aux dobj
+response<--prep
+tons<--num prep
+industry<--det
+finance<--cc conj
+fund<--det amod
+net<--prep
+story<--poss
+food<--amod
+agency<--det amod
+debentures<--det
+Bush<--nn cc conj
+employer<--poss
+issues<--amod
+million<--quantmod number
+Brown<--nn
+Airport<--poss nn
+McDonald<--possessive
+filing<--det
+find<--aux dobj
+spokesman<--det nn
+17/32<--num
+settlement<--det amod prep
+gains<--prep
+House<--det nn
+said<--prep nsubj ccomp
+Against<--pobj
+Wednesday<--amod
+development<--nn
+affairs<--amod
+director<--nn prep
+volatile<--advmod
+job<--poss amod
+have<--nsubj aux xcomp cc conj
+year<--det amod vmod
+House<--nn
+attempt<--det vmod
+attended<--nsubj dobj
+comes<--nsubj advmod
+responsibility<--amod
+audience<--det
+bonds<--det
+events<--amod
+return<--poss
+accused<--nsubj dobj prep
+Housing<--cc conj
+requirements<--nn
+system<--det
+measure<--aux dobj
+move<--nsubj aux prep
+Gruberova<--nn
+allowed<--advmod nsubj xcomp
+allow<--nsubj aux xcomp
+do<--aux prep
+0.2<--quantmod
+system<--det amod rcmod
+better<--advmod
+come<--nsubj prep
+president<--det prep
+level<--det prep prep
+receive<--aux dobj prep
+case<--poss
+airwaves<--det
+trading<--nn nn
+cases<--prep
+top<--det prep
+makes<--nsubj xcomp
+tape<--amod
+carry<--aux prt dobj
+Sears<--possessive
+Area<--det nn
+division<--poss amod nn
+so<--advmod
+after<--advmod pobj
+reunification<--amod
+'s<--nsubj ccomp
+O'Kicki<--nn
+for<--pobj pobj pobj
+$<--num num num
+going<--prep
+proceedings<--amod
+sold<--nsubj dobj prep
+one<--quantmod
+price<--det nn prep
+summer<--amod
+offer<--dobj
+maximum<--det prep
+climbed<--nsubj dobj prep
+money<--vmod
+screen<--det
+lawyers<--det nn
+business<--prep
+Standard<--cc conj possessive
+night<--amod
+agency<--det possessive
+loans<--amod amod
+administration<--det nn possessive
+higher<--npadvmod cc conj
+world<--det prep
+purchase<--det amod prep
+survey<--det nn
+reduces<--nsubj dobj prep
+traders<--nn
+cost<--nsubj aux iobj dobj
+car<--det possessive
+country<--det
+%<--number dep dep number
+goods<--det
+sold<--prep
+bit<--det
+at<--pobj
+comes<--nsubj prep
+yesterday<--advmod
+hoped<--nsubj aux ccomp
+assets<--vmod
+extent<--det ccomp
+made<--prep
+woman<--det possessive
+returns<--amod prep
+defense<--det amod prep
+%<--prep nsubj cop num
+pace<--det amod
+company<--det possessive det
+beginning<--nsubj aux xcomp
+city<--det amod
+Friday<--rcmod
+off<--pobj prep
+kind<--det prep
+be<--nsubj aux advmod prep
+tied<--prep
+days<--amod
+fears<--prep
+owed<--prep
+much<--prep
+boom<--det nn
+rose<--nsubj prep
+Republicans<--amod
+chip<--det
+slipped<--nsubj dobj prep
+up<--pobj prep
+highs<--amod
+living<--prep
+June<--amod
+out<--pobj
+via<--pobj
+1960s<--det
+seats<--num
+helps<--nsubj xcomp
+Reagan<--nn possessive
+Series<--num
+acquired<--prep nsubj dobj
+Va.<--nn
+price<--det nn nn
+won<--nsubj dobj
+Co.<--nn
+times<--quantmod number
+lower<--aux dobj
+Davis<--nn
+acquisition<--det nn
+hit<--mark nsubj dobj
+people<--num prep
+October<--amod
+declined<--nsubj xcomp cc conj
+operates<--dobj
+cause<--poss
+12<--quantmod
+sought<--prep
+Johnson<--nn
+companies<--nn nn
+closed<--mark nsubj
+named<--nsubjpass auxpass xcomp xcomp
+equipment<--nn
+groups<--amod nn
+costs<--nn
+in<--pobj pobj pobj pobj
+trade<--amod
+fixed<--aux auxpass
+were<--nsubj advmod
+Morishita<--nn
+houses<--amod nn
+completed<--mark nsubjpass auxpass
+Sotheby<--possessive
+party<--det nn
+60<--quantmod
+media<--det
+damage<--det prep
+reported<--nsubj dobj
+1990<--cc conj
+strategy<--poss
+bran<--nn
+list<--det amod
+boss<--poss
+income<--prep
+reported<--nsubj advmod dobj
+paying<--prep
+culture<--amod
+production<--det prep
+Whittington<--nn
+power<--det vmod
+steal<--aux dobj
+managed<--prep
+Hooker<--nn
+'s<--nsubj prep
+10<--number dep
+delivery<--amod
+morning<--det prep
+base<--det prep
+Communists<--det
+paper<--det
+dealings<--amod
+cut<--aux dobj prep
+question<--det prep
+voted<--nsubj xcomp
+to<--pcomp pobj
+hand<--det
+period<--poss amod
+trips<--amod
+500<--quantmod
+elderly<--det
+four<--quantmod
+reduction<--det prep
+comptroller<--det possessive
+effort<--det
+rooms<--amod
+lost<--dobj prep
+years<--poss prep
+drugs<--amod
+says<--nsubj ccomp cc conj
+Engelken<--nn
+noted<--nsubj ccomp
+hour<--det
+dramatic<--advmod
+violated<--mark nsubj dobj
+trends<--nn prep dep
+laws<--det prep
+Series<--det nn
+bonds<--amod amod
+said<--ccomp nsubj prep
+return<--nsubj aux prep
+team<--det nn
+Democrats<--det
+Washington<--dep
+Lebanon<--possessive
+association<--det
+closer<--prep
+filed<--prep prep
+with<--advmod pobj
+crunch<--det nn
+leaving<--dobj prep
+leaders<--det amod
+growth<--nn
+sold<--nsubjpass auxpass prep
+direction<--det amod
+deals<--amod
+proposals<--amod
+country<--poss
+yield<--nsubj prep prep
+move<--poss
+points<--num num
+Wang<--possessive
+Corp<--nn nn nn
+investor<--det amod
+paintings<--det
+speculation<--det
+called<--acomp
+had<--prep nsubj dobj prep
+parent<--poss appos
+official<--det nn nn
+Lorenzo<--nn
+prices<--nn nn nn
+officer<--amod nn prep
+without<--pobj
+boulevard<--det
+billion<--number number number
+jumped<--nsubj dobj prep
+Moon<--nn possessive
+shares<--nn vmod
+computers<--det
+variety<--det prep
+moves<--det
+restrictions<--amod
+health<--poss amod
+operations<--amod
+$<--num dep cc conj num
+house<--det
+cash<--cc conj
+have<--nsubj aux ccomp
+account<--det
+issue<--det prep
+managers<--det
+Reagan<--nn
+crimes<--det
+paid<--nsubj dobj prep
+game<--det nn
+Westinghouse<--possessive
+up<--pobj
+RATE<--amod dep
+happened<--nsubj
+opportunities<--amod nn
+happens<--nsubj prep
+plants<--amod
+experience<--amod prep
+say<--advmod nsubj ccomp
+bid<--det nn
+$<--num prep
+tax<--det nn
+to<--pobj pobj
+$<--num prep prep
+$<--quantmod quantmod number number dep
+plants<--det
+damage<--det
+fall<--det
+union<--det possessive
+made<--prep nsubj dobj prep
+details<--det amod
+Board<--det nn prep
+company<--det det
+company<--det dep
+Carolina<--nn
+keep<--aux dobj
+attract<--aux dobj
+replete<--prep
+happens<--mark nsubj
+one<--aux cop prep
+yield<--det amod amod prep
+high<--advmod
+time<--vmod
+Germany<--nn
+At<--mwe
+rejected<--nsubj dobj
+City<--nn appos
+control<--amod prep
+engine<--det amod
+maker<--det nn
+wave<--det prep
+projects<--det
+recorders<--nn
+York-based<--amod
+having<--nsubj aux dobj
+administration<--det nn
+investment<--det amod
+mergers<--cc conj
+likely<--mark nsubj cop xcomp
+earnings<--amod
+entering<--dobj
+hope<--nsubj xcomp
+action<--det
+plans<--det amod
+quality<--det prep
+found<--nsubj ccomp
+agency<--det nn
+return<--det prep
+problems<--det nn
+do<--nsubj aux prep
+expected<--xcomp
+youth<--poss
+crisis<--det nn
+addressing<--dobj
+jurors<--det
+experience<--det
+from<--pobj cc conj pobj
+lack<--prep
+bill<--det amod nn
+sector<--det amod
+maintain<--aux
+banning<--dobj
+Green<--nn
+of<--pobj mwe pobj pobj
+had<--advmod nsubj dobj
+do<--aux advmod prep
+close<--aux prep prep
+ought<--nsubj xcomp
+sports<--amod
+investment<--det
+facts<--det
+only<--neg
+outside<--pobj
+assets<--poss
+loan<--det amod
+trial<--det nn
+million<--number
+avoid<--aux dobj
+get<--aux dobj
+seems<--nsubj
+citing<--dobj
+gave<--nsubj dobj
+below<--npadvmod pobj
+active<--advmod
+side<--det prep
+copies<--num
+women<--amod
+trading<--amod nn
+sales<--amod prep
+possibilities<--amod
+bid<--det amod prep
+Maynard<--nn
+week<--det amod
+level<--poss
+levels<--amod
+everything<--rcmod
+meeting<--det
+quarters<--det amod num
+one<--nsubj prep
+integration<--amod
+Group<--nn possessive
+experts<--amod
+currency<--poss amod
+issues<--num
+had<--tmod nsubj dobj
+raise<--nsubj aux dobj
+Co<--nn nn nn
+students<--nn
+buy<--nsubj aux dobj advmod
+viewed<--nsubjpass auxpass prep
+pressure<--amod
+do<--nsubj dobj
+For<--pcomp
+Union<--nn
+population<--poss
+Kasparov<--nn
+seen<--prep
+goods<--amod
+provide<--nsubj aux dobj prep
+introduced<--advmod nsubj dobj
+end<--mark nsubj aux prep
+landing<--det amod
+attributed<--nsubj dobj prep
+post<--poss
+backed<--nsubjpass auxpass prep
+firms<--nn
+edition<--poss
+plunge<--det amod prep
+loans<--amod nn
+money<--amod amod
+faces<--nsubj dobj prep
+live<--nsubj prep
+designing<--dobj
+is<--mark nsubj ccomp
+ended<--nsubj tmod prep
+contract<--det possessive
+asked<--dobj xcomp
+earned<--nsubj dobj prep
+contracts<--det
+rates<--poss
+on<--pobj cc conj
+received<--nsubj aux dobj
+Inc.<--nn
+countries<--det amod
+along<--pobj
+FHA<--det
+lawyer<--poss
+said<--ccomp nsubj vmod
+countries<--amod
+technology<--amod nn
+$<--num num prep
+bills<--amod
+17<--quantmod
+September<--num
+showing<--dobj
+of<--mwe pobj pobj pobj
+trucks<--amod
+International<--nn nn
+machines<--amod
+campaign<--det
+gave<--nsubj iobj dobj
+him<--cc conj
+stretch<--det amod prep
+View<--nn
+years<--prep
+legislation<--det amod
+use<--nsubj aux dobj prep
+aid<--prep
+hundreds<--prep
+put<--aux prt dobj
+ending<--tmod
+facing<--dobj
+people<--det amod
+demand<--prep
+Tuesday<--amod
+trading<--amod nn nn nn nn
+figures<--nn
+program<--poss nn
+issue<--det nn
+high<--mark nsubj cop advmod
+work<--poss amod
+before<--pobj
+expected<--prep nsubjpass auxpass xcomp
+court<--amod
+program<--poss amod nn
+information<--nn
+continue<--aux prep
+aspects<--amod prep
+show<--aux ccomp
+industry<--det nn possessive
+slowdown<--det amod
+used<--nsubjpass auxpass prep
+market<--det nn
+office<--poss amod
+thinking<--ccomp
+charter<--det
+make<--nsubj ccomp
+As<--pcomp
+deliver<--aux dobj prep
+council<--det
+premium<--det amod prep prep
+unit<--det amod
+room<--det
+president<--nn prep
+executive<--det
+items<--det
+farmer<--det
+centers<--nn
+urged<--nsubj dobj xcomp
+changes<--amod prep
+noting<--ccomp
+stake<--poss amod prep
+president<--amod nn prep
+margin<--det amod
+nothing<--cc conj
+document<--det
+depending<--prep
+months<--det num vmod
+designed<--nsubjpass auxpass xcomp
+opposing<--dobj
+$<--quantmod quantmod number dep
+homes<--amod cc conj
+Fe<--nn
+on<--pobj pobj pobj
+study<--det prep
+return<--prep
+share<--det
+bid<--aux prep
+have<--aux dobj prep
+consumers<--amod
+get<--nsubj aux dobj
+responsibility<--prep
+prices<--nn
+transactions<--amod
+return<--det amod
+have<--mark nsubj dobj
+$<--quantmod number prep
+agrees<--nsubj ccomp
+plant<--det amod
+sold<--ccomp nsubjpass aux auxpass prep
+judge<--det
+than<--pcomp
+Fund<--det nn nn
+told<--nsubjpass auxpass ccomp
+Palestinians<--det
+of<--pcomp
+see<--aux advcl
+favor<--poss
+since<--pcomp
+set<--nsubj prt dobj
+prepared<--nsubj cop xcomp
+produce<--aux dobj
+wrote<--ccomp nsubj
+rose<--nsubj dobj prep cc conj
+offering<--det amod
+of<--pobj cc conj pobj
+bunch<--det prep
+senators<--det
+glare<--det prep
+stocks<--nn nn
+lost<--nsubj aux dobj prep
+troubled<--advmod
+American<--nn
+result<--nsubj aux prep
+charged<--nsubjpass auxpass prep
+budget<--poss
+Warner<--possessive
+pressure<--nn
+putting<--dobj prep
+power<--det
+stake<--det nn
+occasions<--amod
+atop<--pobj
+demand<--nn
+added<--ccomp
+turn<--aux dobj
+chain<--det
+advantage<--det prep
+U.S.S.R.<--det
+sell<--aux advmod
+from<--pobj tmod pobj tmod
+hours<--num prep
+reoffered<--nsubjpass aux neg auxpass advmod
+playing<--dobj
+fell<--mark nsubj advmod
+reason<--vmod
+put<--nsubj dobj prep
+sense<--amod
+appears<--nsubj prep
+changes<--amod
+Airlines<--nn nn
+outcome<--det prep
+warrant<--num amod vmod
+run<--det amod
+slew<--det prep
+residents<--prep
+refused<--nsubj xcomp
+letter<--det prep vmod
+came<--nsubj prep prep
+mortgages<--amod
+recital<--det
+Corp.<--nn rcmod
+start<--det prep
+profit<--poss amod
+Some<--prep
+controls<--amod
+produces<--nsubj dobj
+want<--dobj nsubj
+bid<--poss
+Krenz<--nn possessive
+fell<--nsubj dobj prep prep
+claim<--det prep
+officer<--nn amod
+debate<--det
+Gorbachev<--nn
+brought<--prt prep
+rule<--det amod
+quake<--det
+has<--cc nsubj dobj
+dollar<--det possessive
+credit<--amod
+processing<--dobj
+Sinyard<--nn possessive
+years<--det amod num
+Valley<--nn
+technology<--poss
+device<--det
+Inc.<--nn nn nn possessive
+companies<--amod nn
+write<--nsubj aux dobj
+works<--nsubj prep
+expectations<--poss
+legislation<--amod amod
+take<--aux dobj advmod
+chamber<--det
+involved<--nsubjpass aux auxpass prep
+deficit<--det nn nn
+half<--poss amod
+Yields<--prep
+support<--aux dobj
+several<--prep
+1980s<--det
+months<--num
+off<--pobj
+1950s<--det
+seen<--nsubj aux dobj
+Ford<--cc conj
+Honecker<--nn cc conj
+serving<--dobj
+officers<--amod
+balloon<--det
+leaders<--nn
+companies<--amod prep
+job<--poss
+going<--nsubj aux xcomp
+equipment<--amod nn
+provision<--det amod
+charges<--amod prep prep
+meaning<--ccomp
+companies<--poss amod
+reached<--nsubj dobj
+%<--num prep num prep cc num conj prep
+accepting<--dobj
+as<--pobj cc conj pobj
+securities<--dep
+Bank<--nn
+Traders<--rcmod
+all<--advmod prep
+sorts<--det prep
+disclose<--nsubj aux dobj
+Brawer<--nn
+Report<--nn nn nn nn
+earthquake<--det
+settle<--aux dobj
+wish<--nsubj ccomp
+by<--advmod
+disclose<--aux dobj
+act<--aux prep
+can<--dobj nsubj
+office<--det amod
+firm<--poss
+had<--prep nsubj dobj
+million<--number num
+closed<--nsubj prep advmod prep
+crime<--det
+before<--npadvmod
+January<--amod
+stuff<--det
+Ogilvy<--cc conj
+process<--det amod
+$<--num num cc conj
+record<--poss nn
+issue<--det amod
+Gorbachev<--nn possessive
+maintain<--aux dobj prep
+share<--det amod prep
+defend<--aux dobj prep
+up<--cc conj
+raise<--aux dobj prep
+ended<--nsubj acomp advcl
+tied<--nsubjpass auxpass prep
+higher<--npadvmod
+subject<--det
+access<--amod prep
+men<--det
+banks<--nn
+some<--prep prep
+month<--amod
+exchange<--det nn
+continue<--mark nsubj xcomp
+shares<--poss amod amod
+colleagues<--poss
+news<--det amod
+Seagram<--possessive
+director<--prep
+fears<--ccomp
+movement<--det amod
+cited<--nsubj dobj
+suit<--det amod
+area<--det amod
+supposed<--nsubjpass auxpass xcomp cc conj
+continue<--nsubj xcomp
+through<--pobj pobj
+restructuring<--det prep
+was<--nsubj advmod
+values<--nsubj dobj prep
+underwriter<--det
+returns<--poss
+ceiling<--det
+$<--quantmod dep number number
+Nicaragua<--possessive
+apples<--amod
+few<--advmod
+giant<--det nn
+Proponents<--prep
+stock<--prep dep
+Islands<--det nn
+Benson<--cc conj
+ownership<--amod prep
+couple<--det amod prep
+plunge<--poss
+month<--det amod
+holiday<--det
+stocks<--amod vmod
+end<--det prep
+support<--nn prep
+operations<--det
+York<--nn
+leveraged<--advmod
+staffers<--nn
+looking<--nsubj aux advmod prep
+room<--det prep
+coming<--nsubj prep
+Mirage<--det
+efforts<--poss nn
+much<--advmod advmod
+department<--det
+planned<--det advmod num
+since<--pobj
+FTC<--det
+coast<--det
+classes<--num
+costs<--det
+shares<--num amod
+array<--det amod prep
+open<--aux dobj prep
+feel<--nsubj acomp
+magazine<--det
+control<--nn
+holds<--nsubj advmod dobj
+position<--poss
+Poland<--possessive
+increases<--amod nn
+shareholders<--det
+floor<--det nn
+side<--det amod
+Throughout<--pobj
+output<--prep
+went<--nsubj prep prep
+shares<--num amod amod
+Morgan<--nn
+Korean<--amod
+are<--nsubj prep prep
+ties<--amod
+%<--dep
+Stein<--nn
+Department<--det nn possessive
+long<--advmod
+years<--det
+Florio<--nn
+wake<--det prep
+Chicago<--cc conj
+shift<--det prep
+all<--prep
+competition<--amod
+conditions<--nn
+indicated<--nsubj ccomp
+information<--prep
+control<--poss prep
+maker<--det prep
+time<--det amod vmod
+index<--poss amod
+seem<--nsubj aux neg xcomp
+rights<--prep
+include<--nsubj advmod dobj
+aware<--nsubj cop neg prep
+consists<--nsubj prep
+attempt<--det amod vmod
+product<--poss amod amod
+Thursday<--possessive
+involves<--nsubj dobj
+president<--det
+rooms<--nn
+underwriters<--det
+He<--cc conj
+funding<--amod prep
+profit<--det amod
+part<--det amod
+Each<--prep
+named<--nsubjpass auxpass xcomp
+index<--det amod
+announced<--prep nsubj ccomp
+IMF<--det
+of<--dep pobj
+bank<--det nn
+tries<--mark nsubj xcomp
+requires<--nsubj dobj
+rate<--det rcmod
+1/4<--number number
+Friday<--det amod
+told<--ccomp nsubj dobj
+Wall<--nn
+words<--det
+compete<--aux advmod prep
+see<--nsubj aux neg dobj
+staff<--amod
+costing<--dobj
+discipline<--amod
+up<--pobj prep prep
+quarter<--det prep
+preventing<--dobj prep
+200<--quantmod
+Besides<--pcomp
+afternoon<--det
+way<--poss
+led<--nsubj prep
+able<--nsubj aux cop xcomp
+Marcos<--nn
+due<--tmod
+Lawson<--nn possessive
+note<--det amod
+dozen<--quantmod quantmod
+plan<--det amod
+ended<--nsubj prep advmod
+seem<--nsubj aux xcomp
+deal<--det amod prep
+5/8<--number number
+get<--aux advmod
+rise<--det amod prep cc conj
+signed<--prep
+common<--advmod
+address<--aux dobj
+has<--nsubj dobj prep
+million<--num
+states<--num amod
+3/8<--num
+Mae<--nn
+create<--aux dobj
+freedom<--nn
+as<--mwe pobj pobj
+pro<--dep
+year<--advmod det
+century<--det amod
+notes<--amod
+counterparts<--poss amod
+capital<--amod prep
+material<--amod
+dozen<--det
+revenue<--poss amod
+official<--det nn
+Reserve<--det nn
+it<--det
+person<--det amod
+closed<--nsubj dobj prep
+questions<--prep
+offering<--iobj dobj
+chain<--det nn
+say<--aux
+election<--det
+cabinet<--poss
+term<--det prep
+$<--quantmod quantmod number number prep
+increases<--nn prep
+announced<--prep nsubj dobj
+alleges<--nsubj ccomp
+service<--nn
+were<--mark nsubj xcomp
+deadline<--det
+lists<--nsubj dobj
+authority<--det amod nn
+reducing<--dobj
+reducing<--dobj prep
+end<--det amod prep
+weakness<--prep
+prepare<--aux prep
+receive<--nsubj dobj
+author<--det
+guy<--det
+Moon<--nn
+sources<--amod nn
+found<--prep nsubj ccomp
+gene<--det amod
+stake<--det amod
+company<--det amod vmod
+2,500<--quantmod
+say<--prep nsubj ccomp
+stock<--det nn
+center<--det
+Navy<--det
+items<--amod
+security<--amod
+Medical<--nn
+efficient<--advmod
+Board<--det nn nn
+problems<--det amod
+compares<--nsubj prep
+card<--det
+least<--det advmod
+polls<--det
+conviction<--poss
+neighborhood<--det amod
+orders<--amod
+adds<--nsubj ccomp
+basis<--det amod
+scandal<--det nn
+case<--det amod
+along<--dep
+Hampshire<--nn
+CBOE<--det
+mean<--nsubj aux ccomp
+know<--aux
+program<--poss amod
+limit<--aux dobj
+decision<--poss
+continue<--nsubj aux
+issues<--amod prep
+notion<--det ccomp
+limits<--nn
+dozens<--prep
+on<--pcomp pobj
+range<--det
+attitude<--det
+cycle<--det
+league<--det
+buy<--aux dobj advmod
+provides<--nsubj dobj prep
+11<--quantmod
+mart<--nn
+announced<--nsubj dobj
+BPCA<--det
+administration<--det
+group<--det possessive
+period<--det
+anything<--amod
+Exchange<--det nn prep
+securities<--poss
+close<--prep
+settle<--aux prep
+masters<--amod
+organization<--det
+experiments<--det
+carry<--nsubj dobj
+remained<--nsubj prep
+rebuild<--aux dobj
+cancer<--nn
+revenue<--amod
+company<--det rcmod
+tried<--nsubj xcomp
+is<--csubj ccomp
+payments<--amod
+discussions<--prep
+bottom<--det prep
+weeks<--det amod
+sense<--det amod prep
+voters<--amod
+history<--poss amod
+figures<--amod amod
+doctors<--amod
+Inc.<--nn nn nn nn
+judgment<--amod
+creating<--dobj
+February<--num
+what<--advmod
+buildings<--amod
+provide<--nsubj aux dobj
+insurer<--det
+approval<--nn
+Wald<--nn
+failed<--mark nsubj xcomp
+Ross<--nn
+one<--prep dep
+policies<--amod nn
+small<--cc conj
+pilot<--poss
+stake<--poss prep
+trading<--nn nn nn amod
+programs<--nn nn nn
+game<--det
+did<--nsubj dobj
+slipped<--nsubj dobj prep prep
+businesses<--poss amod
+Part<--prep
+meeting<--dobj
+operations<--prep
+books<--det
+proposal<--det amod nn
+used<--advmod
+parts<--amod
+data<--nn
+$<--dep number dep number dep
+buy<--aux prep
+achieved<--prep
+Donaldson<--conj cc conj
+weight<--det prep
+involved<--prep
+year<--amod amod
+spirits<--amod
+chief<--prep
+revive<--aux dobj
+volume<--det prep
+Machines<--nn nn
+Games<--det num nn
+occurred<--nsubj prep
+network<--det amod nn
+said<--nsubj
+firm<--det possessive
+table<--det
+plant<--det nn
+affect<--nsubj aux neg dobj
+14<--quantmod
+division<--det amod
+total<--det prep
+index<--det nn amod
+growth<--amod amod
+reported<--nsubj dobj tmod
+debt<--amod
+days<--det amod amod
+dropped<--nsubj dobj prep
+received<--nsubj dobj prep
+succeed<--aux dobj
+closed<--prep nsubj prep advmod
+tons<--num amod prep
+unit<--poss nn nn
+month<--num
+rate<--poss nn
+All<--prep
+employee<--det amod
+in<--dep pobj
+responsible<--prep
+supported<--prep
+money<--det
+carrying<--dobj
+statement<--poss
+time<--nsubj cop det amod rcmod
+exception<--det prep
+brother<--poss
+operations<--amod nn
+%<--det amod num
+points<--num
+chances<--det prep
+outside<--pcomp
+take<--nsubj aux neg dobj xcomp
+sell<--aux dobj advcl
+added<--nsubj ccomp
+after<--npadvmod pobj
+Kong<--nn
+any<--mark
+Commission<--det nn
+issue<--det amod rcmod
+swings<--amod prep
+meeting<--poss amod prep
+March<--num
+ignoring<--dobj
+1/2<--number
+news<--nsubj cop amod prep
+Michael<--possessive
+says<--nsubj ccomp
+signals<--amod
+Indians<--amod
+closed<--nsubj advmod
+helped<--nsubj xcomp
+$<--num dep num
+slide<--det amod prep
+pace<--det prep
+joined<--nsubj aux dobj
+items<--amod prep
+Arabs<--det
+affecting<--dobj
+consultants<--det
+Dow<--det
+TV<--nn
+company<--det nn amod
+house<--det nn
+restrictions<--nn
+financial<--cc conj
+series<--det amod prep
+one<--nsubj cop prep cc conj
+advanced<--nsubj dobj prep prep
+chair<--det
+Back<--prep
+likely<--nsubj cop neg xcomp
+prompted<--nsubj xcomp
+site<--det nn
+changes<--prep
+$<--quantmod quantmod quantmod number dep
+damaged<--prep
+holders<--det nn
+combination<--det prep
+expire<--aux tmod
+net<--amod
+walls<--det
+results<--poss
+University<--nn nn
+is<--nsubj ccomp cc conj
+media<--det amod
+reduce<--dobj
+appetite<--det prep
+cost<--det prep
+buy<--aux
+hold<--aux dobj
+offering<--nsubj aux dobj
+commit<--aux dobj
+were<--expl nsubj
+Through<--pobj
+Hanover<--nn
+operates<--nsubj dobj
+regulators<--nn nn
+bank<--det amod prep
+violations<--amod prep
+among<--pobj
+direction<--det rcmod
+company<--det vmod
+meeting<--det amod
+reserves<--nn
+above<--pobj
+Masson<--nn
+all<--advmod
+Corp.<--nn nn appos
+Hungary<--cc conj
+back<--det prep
+building<--det
+run<--nsubj aux dobj
+race<--det amod
+from<--pobj tmod
+car<--poss
+ended<--nsubj prep
+into<--pcomp
+owned<--advmod
+city<--det
+quarter<--det vmod
+evidence<--det
+maker<--det amod nn
+election<--poss
+lines<--poss nn
+selling<--prt dobj
+Management<--cc conj
+are<--dobj nsubj
+years<--det amod
+becoming<--xcomp
+is<--nsubj prep advcl
+costs<--amod prep
+society<--poss
+Organization<--det nn
+Digital<--nn
+consumption<--amod
+$<--num dep
+deals<--det
+month<--det
+competition<--prep
+correct<--aux dobj
+public<--det
+area<--det
+of<--pobj pobj pobj
+machines<--det
+brand<--det amod prep
+kill<--aux dobj
+newspaper<--poss amod amod
+resigned<--nsubj prep
+looking<--advmod nsubj aux prep
+Germans<--nn
+leaders<--poss
+having<--xcomp
+believed<--nsubj ccomp
+contract<--poss
+analyst<--det prep
+chance<--det prep
+interest<--poss prep
+core<--det prep
+million<--number number number
+One<--dep
+analysts<--det
+estimated<--nsubjpass auxpass prep
+one<--prep vmod
+century<--det
+likely<--nsubj cop advmod xcomp
+is<--nsubj dep
+as<--pobj pobj pobj
+half-hour<--det
+line<--poss amod
+from<--pobj pobj prep
+Under<--pobj
+gain<--det amod prep
+acquisition<--det amod prep
+ended<--nsubj tmod
+directs<--nsubj dobj
+rose<--mark nsubj dobj prep
+shore<--aux prt dobj
+Net<--prep
+failure<--det prep
+name<--det dep
+Hunt<--nn
+used<--prep prep
+career<--poss amod
+difference<--det
+performance<--det prep
+head<--det prep
+technology<--amod
+set<--prep
+manage<--aux dobj
+Congress<--det
+keeping<--xcomp
+profit<--prep
+aftermath<--det prep
+offer<--poss
+expected<--nsubjpass auxpass xcomp cc conj
+use<--det prep
+5<--quantmod
+loss<--det prep
+station<--det
+securities<--nn nn
+rose<--nsubj advmod
+currencies<--amod
+made<--mark nsubjpass auxpass prep
+Noriega<--nn
+choice<--det prep
+advise<--aux dobj
+Agnos<--nn
+end<--aux dobj
+materials<--amod
+ads<--prep
+truth<--det
+means<--nsubj dobj
+services<--amod
+offering<--det amod prep
+auction<--det
+deal<--det vmod
+Rated<--acomp prep cc conj
+have<--aux nsubj dobj
+road<--det
+season<--amod
+20<--quantmod quantmod quantmod
+interest<--det amod prep
+dividend<--det amod
+said<--nsubjpass auxpass xcomp
+are<--nsubj prep cc conj
+president<--poss
+yield<--det prep
+management<--poss
+holders<--det
+met<--nsubj dobj
+protection<--nn
+law<--det vmod
+money<--det vmod
+benefits<--amod nn
+subsidiary<--nsubj cop det prep
+complex<--advmod
+Co.<--nn nn prep
+firms<--det
+form<--aux dobj
+try<--aux xcomp
+cut<--det nn
+is<--mark nsubj advmod
+growth<--det prep
+anyone<--rcmod
+going<--advmod advmod
+Corp.<--nn nn prep
+funds<--nn nn nn
+style<--poss
+management<--amod
+share<--poss amod prep
+dollars<--num
+Democrats<--amod
+wanted<--nsubj dobj
+Community<--det nn
+provision<--det
+development<--det prep
+space<--nn
+week<--det vmod
+hiring<--dobj
+factors<--amod
+'s<--mark nsubj advmod
+interests<--det amod prep
+take<--aux dobj
+part<--nsubj cop advmod prep
+Stanley<--nn cc conj
+year<--det prep
+mail<--amod
+question<--nsubj ccomp
+children<--det
+weight<--amod
+declared<--nsubj dobj
+Having<--dobj
+products<--amod prep
+chairman<--nn prep
+together<--prep
+try<--nsubj xcomp
+credit<--det nn prep
+making<--dobj prep
+commercial<--cc conj
+involved<--nsubj dobj
+surged<--nsubj dobj prep
+Russians<--det
+side<--det nn
+response<--det prep
+efforts<--det
+believes<--nsubj ccomp
+part<--det amod vmod
+measures<--nn
+coupled<--prep
+are<--prep expl nsubj
+adults<--num dep
+growth<--prep
+scheduled<--prep
+disaster<--det
+earthquake<--det nn
+portfolio<--det
+net<--amod prep
+II<--nn nn
+while<--det
+Texas<--cc conj
+to<--pobj pcomp
+due<--prep
+about<--advmod pobj
+strength<--poss
+gas<--amod
+afternoon<--nn
+episode<--det
+trial<--det amod
+gap<--det
+audit<--det nn
+specialists<--det
+role<--poss amod
+information<--det prep
+Paribas<--possessive
+finding<--dobj
+selling<--amod
+bid<--det vmod
+sales<--det
+gain<--det
+less<--advmod
+survey<--poss dep
+Life<--nn cc conj
+announced<--tmod nsubj dobj
+hours<--prep
+Constitution<--det
+way<--det prep
+vote<--det prep
+life<--det amod prep
+wonder<--nsubj ccomp
+believe<--mark nsubj ccomp
+dollar<--det
+rights<--det
+months<--det amod amod
+stores<--det
+decline<--det nn
+absorb<--aux dobj
+impact<--det prep
+intended<--xcomp
+businesses<--amod nn
+units<--num
+drop<--det amod prep prep
+executive<--amod
+places<--nsubj dobj prep
+officials<--nn rcmod
+equivalent<--det prep
+provisions<--amod
+dating<--prep
+Bridge<--det nn nn
+blacks<--cc conj
+join<--aux dobj
+price<--poss
+expect<--mark nsubj
+face<--det prep
+News<--nn
+begin<--aux dobj prep
+week<--advmod amod
+hard<--advmod
+makes<--nsubj ccomp
+deficit<--det
+job<--det amod prep
+evidence<--ccomp
+saw<--nsubj dobj
+due<--dep dep
+carries<--nsubj dobj
+stake<--poss
+resignation<--poss
+business<--det
+pending<--pobj
+thinks<--nsubj ccomp
+Mac<--nn possessive
+show<--det nn
+February<--amod
+Bank<--det prep
+subsidiary<--det prep
+enough<--advmod
+groups<--num prep
+managers<--poss
+mains<--nn
+Jones<--nn
+decade<--det
+not<--dep
+tools<--nn
+Sales<--prep
+Courter<--nn
+have<--mark nsubj aux neg dobj
+%<--num cc conj prep
+remain<--nsubj aux prep
+sold<--nsubj dobj prep prep
+goal<--det amod
+before<--pcomp
+court<--det amod
+was<--prep nsubj advmod
+certificates<--dep amod nn amod
+boost<--dobj
+funds<--poss
+person<--det
+picture<--det
+told<--nsubj dobj parataxis
+view<--det prep
+Before<--pcomp
+people<--possessive
+Communications<--nn
+Lawson<--nn
+ministry<--det
+considering<--nsubj aux dobj
+protection<--amod
+markets<--poss amod nn
+promise<--poss vmod
+efficiently<--advmod
+ruling<--det
+loans<--nn
+gain<--det amod prep prep
+quoted<--nsubjpass auxpass advmod prep xcomp prep
+interest<--amod
+companies<--amod amod
+Breeden<--nn
+gains<--amod
+forces<--det prep
+at<--pobj pobj
+Street<--det
+cuts<--nn
+estimate<--det amod prep
+story<--det
+Sciences<--nn
+ounces<--nsubj cop det amod num
+use<--nsubj aux dobj xcomp
+business<--det amod nn
+Committee<--det nn nn nn
+double-A-minus<--prep
+reflect<--aux dobj
+driving<--prt dobj
+banks<--det
+sales<--amod dep
+name<--poss
+allow<--nsubj xcomp
+Corp.<--nn nn nn
+Rahn<--nn
+government<--det possessive
+settlement<--det
+cities<--num
+volume<--poss amod prep
+service<--amod nn
+daughter<--poss
+Writing<--pcomp
+'s<--expl advmod nsubj
+action<--amod
+streets<--det
+third<--cc conj
+is<--dobj nsubj
+established<--prep
+results<--amod vmod
+age<--det amod
+making<--xcomp
+computer<--det possessive
+bond<--poss amod amod
+similar<--prep
+buying<--dobj prep
+show<--aux dobj
+president<--det amod nn prep
+reporters<--nn
+tried<--mark nsubj xcomp
+chairman<--nn
+gain<--nsubj aux dobj
+priced<--nsubjpass auxpass prep
+other<--det
+income<--amod amod
+results<--amod
+best<--det prep
+about<--pcomp pcomp
+across<--pobj
+piece<--det
+has<--prep nsubj xcomp
+section<--det amod
+group<--det amod prep
+Gates<--nn
+Corry<--nn
+question<--det
+delivery<--nn
+powerful<--advmod
+Times<--det
+Power<--nn
+options<--prep
+giant<--det amod nn
+Suisse<--nn
+offset<--aux dobj
+base<--poss nn
+question<--det amod prep
+leaders<--amod amod
+firms<--amod nn nn
+Jr.<--nn nn nn rcmod
+words<--poss amod
+Services<--nn
+of<--advmod pobj
+day<--det rcmod
+point<--det prep
+were<--mark nsubj prep
+cost<--det
+something<--dep
+producers<--amod
+rate<--det amod amod nn
+claim<--det
+Those<--rcmod
+sell<--aux prep
+stocks<--num
+plans<--nn
+costs<--det prep
+lawyers<--det
+situation<--det nn
+Corp.<--nn prep
+like<--nsubj xcomp
+Average<--det nn nn nn
+project<--det
+report<--det
+used<--nsubj dobj xcomp
+TV<--nn possessive
+using<--dobj prep
+Atlantic<--det
+China<--possessive
+Britain<--possessive
+U.S.<--cc conj
+blame<--nsubj dobj prep
+American<--amod
+share<--det det
+Jr.<--nn nn nn
+environment<--det amod
+products<--poss amod
+silver<--nn
+charge<--dobj nsubj dobj prep
+Many<--prep
+billion<--quantmod number
+continued<--mark nsubj xcomp
+mind<--poss
+growth<--amod nn prep
+%<--num cc conj
+banking<--nn
+interested<--mark nsubj cop prep
+Akzo<--possessive
+Johnson<--cc conj
+type<--det prep
+option<--det prep
+future<--det amod
+said<--nsubj nsubj ccomp
+employs<--nsubj dobj
+pressure<--prep
+shows<--nn
+morning<--det
+plaintiffs<--det
+complete<--aux dobj
+provision<--det prep
+Shares<--prep
+is<--nsubj advmod
+around<--pobj
+product<--det amod rcmod
+happened<--nsubj prep
+company<--det nn rcmod
+more<--cc
+people<--det prep
+filed<--nsubj aux dobj
+Roderick<--nn
+rivals<--amod
+enough<--xcomp
+250<--quantmod
+portfolio<--poss nn
+chairman<--det prep
+area<--det nn nn
+European<--amod
+life<--det amod amod prep
+profit<--nn prep
+March<--amod
+law<--det prep
+meetings<--amod
+did<--nsubj
+efforts<--amod nn
+support<--nn
+role<--det prep
+note<--poss amod
+beginning<--prep
+ads<--amod
+expect<--nsubj aux neg dobj
+keep<--aux dep
+District<--det nn
+Trust<--nn
+%<--num dep
+called<--aux auxpass xcomp
+take<--nsubj aux prt dobj
+Pont<--nn
+stemmed<--nsubj prep
+Hammack<--nn
+plans<--vmod
+stocks<--det amod
+$<--number
+committee<--poss nn
+reflect<--nsubj aux dobj
+production<--amod nn
+order<--det
+1970s<--det
+offering<--det appos
+book<--det
+state<--det
+example<--nsubj cop det amod prep
+status<--det prep
+year<--num
+form<--det prep rcmod
+reduce<--aux dobj prep
+lot<--det prep prep
+guarantees<--amod
+communities<--amod
+held<--prep
+growth<--poss
+rates<--det nn
+record<--poss
+those<--prep
+sales<--det nn
+Bloomingdale<--possessive
+Inc.<--nn nn prep
+city<--det possessive
+Steel<--nn
+tell<--nsubj dobj dep
+be<--aux ccomp
+times<--num dep
+built<--prep
+GM<--appos
+everyone<--neg
+copies<--det prep
+given<--dep
+unchanged<--nsubj cop prep
+interests<--prep
+7<--quantmod
+family<--poss
+executive<--amod prep
+Hall<--nn
+bills<--amod nn
+exchanges<--nn
+bigger<--advmod
+low<--advmod
+portfolio<--poss
+50<--quantmod quantmod quantmod
+Kong<--nn possessive
+was<--advmod
+persuade<--aux dobj xcomp
+dollars<--num amod dep
+reflecting<--dobj
+NFL<--det
+say<--ccomp nsubj
+fund<--det nn
+fell<--nsubj prep prep prep
+program<--det amod
+currency<--poss
+accord<--det
+relies<--nsubj prep
+to<--pobj cc conj pobj pobj
+Provigo<--possessive
+part<--det amod prep
+disaster<--amod
+position<--det amod
+law<--nn
+%<--num npadvmod num dep npadvmod num dep npadvmod
+half<--quantmod
+transition<--det
+near<--pobj
+running<--dobj
+staff<--det nn
+buyer<--det prep
+see<--aux ccomp
+place<--det
+suit<--det amod vmod
+worm<--det
+earned<--nsubj dobj
+system<--det prep
+3/4<--number
+deciding<--ccomp
+show<--det
+yield<--aux dobj
+banks<--amod nn nn
+position<--poss prep
+decision<--det vmod
+debt<--amod prep
+month<--det possessive
+year<--det amod
+trying<--nsubj aux xcomp
+response<--det
+much<--advmod dep
+rate<--poss amod nn
+Going<--prep
+program<--det amod rcmod
+vehicles<--det
+Co.<--nn nn possessive
+charge<--det prep
+way<--det rcmod
+rate<--det
+world<--det
+access<--prep
+trading<--amod
+capital<--poss
+officer<--amod amod
+debt<--poss
+groups<--nn
+airline<--det possessive
+acquisition<--det
+to<--pcomp
+regarding<--dobj
+Partners<--nn
+president<--cc conj prep
+Inc.<--nn appos
+Ty<--nn
+say<--nsubj aux neg ccomp
+increase<--aux dobj prep
+husband<--poss
+was<--advmod nsubj prep
+unchanged<--nsubj cop
+improving<--dobj
+beginning<--det prep
+business<--det amod prep
+sale<--det
+Shack<--nn
+grounds<--amod
+after<--pcomp
+Allen<--nn
+gene<--det rcmod
+as<--pobj mwe pobj
+been<--nsubj aux prep prep
+end<--nn
+center<--det nn nn
+returns<--det
+society<--amod
+listed<--nsubjpass auxpass prep
+price<--det rcmod
+crops<--amod
+over<--pobj
+agreed<--mark nsubj xcomp
+think<--nsubj aux neg ccomp
+acquire<--aux dobj
+line<--prep
+competitive<--advmod
+income<--poss
+ways<--prep
+price<--det nn
+terms<--nn
+is<--nsubj prep
+cash<--prep
+quarters<--amod
+thieves<--det
+gold<--prep
+showing<--ccomp
+was<--mark expl nsubj
+cut<--det amod prep
+reduction<--det amod prep
+funds<--nn nn
+Boren<--nn
+push<--aux prep
+task<--det
+costs<--prep
+industrials<--det nn nn
+more<--advmod
+filing<--det prep
+expected<--mark
+economy<--det
+way<--det amod prep
+$<--num prep cc conj num prep
+nations<--amod
+make<--nsubj xcomp
+idea<--det amod
+violating<--dobj
+phone<--det
+business<--poss amod
+unit<--det amod nn
+go<--aux prep
+dollars<--prep
+policies<--poss
+time<--det rcmod
+in<--pcomp
+cents<--num amod
+funds<--vmod
+points<--num nn prep
+trying<--nsubj advmod aux xcomp
+partners<--amod
+policy<--det nn
+Panama<--possessive
+has<--nsubj ccomp
+provisions<--det
+to<--pobj pobj pobj
+threat<--det
+power<--det prep
+placed<--prep
+produce<--nsubj aux dobj
+roll<--det
+B<--nn
+retailers<--amod
+ways<--vmod
+amount<--det
+policies<--det
+second<--det
+second<--dep
+ensure<--nsubj aux ccomp
+do<--mark nsubj
+owner<--poss
+seeks<--nsubj dobj
+return<--det amod prep
+research<--cc conj
+point<--num
+three<--quantmod
+workers<--nn
+meeting<--prep
+repurchase<--aux dobj
+know<--nsubj ccomp
+faster<--dep
+services<--amod amod
+CBS<--possessive
+participating<--prep
+risk<--det prep
+face<--aux dobj
+those<--nsubj cop rcmod
+Exchange<--det nn nn
+point<--det amod
+people<--prep
+airlines<--det
+has<--advmod nsubj dobj
+Partners<--nn nn appos
+growth<--amod nn
+executives<--det
+estimates<--amod nn
+points<--num nn
+lot<--det
+have<--nsubj aux neg dobj
+Bakes<--nn
+Feb.<--num
+rest<--det prep
+Steinberg<--nn
+cover<--nsubj aux dobj
+needed<--nsubj dobj
+pound<--det amod
+showing<--nsubj aux dobj
+taxes<--amod
+ended<--nsubj acomp
+unit<--det nn nn nn
+from<--pobj advmod
+rumors<--prep
+income<--poss amod
+British<--det
+sliding<--prep
+begin<--aux prep
+Rouge<--det nn
+Trump<--nn
+Laff<--nn
+out<--prep
+offer<--aux dobj prep
+$<--num cc conj
+prices<--prep
+en<--pobj
+With<--pobj
+exceeding<--dobj
+detectors<--amod
+gain<--det amod amod prep
+peak<--det prep
+eye<--poss
+holdings<--poss
+Inc.<--nn rcmod
+exchange<--prep
+concern<--prep
+sales<--poss prep
+trial<--det
+yen<--num dep
+possible<--dep
+he<--cc conj
+list<--det
+veto<--det amod
+conference<--det nn
+Co.<--nn cc conj
+consultant<--det
+woman<--det vmod
+1989<--amod
+Tuesday<--possessive
+vote<--det amod prep
+terms<--det prep
+profit<--prep prep
+problem<--poss
+dropping<--dobj
+year<--possessive
+stocks<--nn
+plan<--poss nn
+developed<--prep
+have<--dobj
+trades<--amod prep
+desire<--poss vmod
+Alexander<--nn
+company<--poss
+bid<--poss amod
+credits<--nn
+elected<--nsubjpass auxpass prep
+due<--nsubj cop advmod prep
+quickly<--advmod
+more<--det
+more<--dep
+numbers<--det
+fell<--nsubj dobj tmod
+impossible<--nsubj cop advmod xcomp
+Sharpshooter<--det
+time<--nn
+loss<--det prep prep
+investments<--prep
+history<--amod
+headed<--nsubjpass auxpass prep
+require<--nsubj aux xcomp
+urging<--dobj xcomp
+position<--poss amod prep
+bulk<--det prep
+West<--det
+Friday<--possessive
+cut<--det nn nn
+estimate<--det
+is<--mark expl nsubj
+margins<--amod nn
+reduction<--det prep prep
+attempting<--nsubj aux xcomp
+so<--cc
+caused<--nsubj dobj
+schools<--det amod
+problems<--det rcmod
+Association<--det nn nn nn
+volatility<--amod
+do<--nsubj dobj prep
+direction<--det amod prep
+supporters<--poss
+table<--det nn
+exchange<--det possessive
+plans<--prep nsubj xcomp
+buyers<--amod
+life<--det prep
+increase<--det nn
+today<--possessive
+wants<--mark nsubj xcomp
+Pentagon<--det
+have<--nsubj dobj prep
+asked<--nsubj xcomp
+more<--npadvmod
+life<--prep
+December<--amod
+securities<--nn
+with<--pcomp pobj
+$<--nsubj cop num advmod num
+continues<--nsubj xcomp
+offers<--nsubj dobj
+look<--det
+Sutton<--nn
+negotiators<--nn
+producing<--dobj
+offered<--nsubj dobj
+support<--amod
+own<--aux dobj
+issue<--det amod nn
+drew<--nsubj dobj
+right<--det
+April<--num num
+years<--amod
+extent<--det
+going<--advcl nsubj aux xcomp
+quarter<--det possessive
+terms<--amod
+sort<--det amod
+sales<--num
+charge<--det
+network<--det nn
+taken<--mark nsubj aux prt dobj
+of<--pobj dep pobj pobj
+advertisers<--amod
+pay<--nsubj dobj
+have<--aux ccomp
+meantime<--det
+Phoenix<--appos
+'re<--nsubj prep
+years<--num amod
+calculated<--mark prep
+dividend<--poss amod
+nothing<--prep
+elections<--amod
+products<--nn nn
+rates<--nn prep
+power<--det amod
+securities<--det
+Co.<--nn nn cc conj
+more<--nsubj cop
+Corp.<--nn dep
+return<--aux dobj
+funds<--amod amod
+percentage<--det prep
+replace<--aux dobj
+offering<--det amod amod prep
+industry<--det prep
+children<--prep
+rape<--cc conj
+dollars<--num prep
+15<--quantmod
+trading<--nn nn amod
+supporting<--dobj
+field<--det nn
+Group<--nn
+alternatives<--amod prep
+Ridley<--nn possessive
+kids<--poss
+earnings<--amod prep
+role<--det prep prep
+crowd<--det prep
+stock<--poss amod
+interest<--det amod
+investigation<--poss prep
+President<--det
+stands<--det
+president<--nsubj cop cc conj prep
+spread<--det prep prep
+two<--cc
+more<--npadvmod prep
+searching<--prep
+support<--aux dobj prep
+suit<--poss prep
+equaling<--dobj
+used<--nsubj xcomp
+screen<--det nn
+acquired<--prep
+Peabody<--nn
+technique<--det
+cuts<--det
+capital<--amod
+exports<--nn
+plants<--poss
+sales<--nn
+care<--amod
+cents<--num dep
+want<--mark nsubj xcomp
+companies<--nn prep
+10<--quantmod quantmod quantmod
+increase<--det amod nn
+commission<--det
+social<--cc conj
+Saatchi<--cc conj
+following<--pobj
+plant<--det amod amod
+men<--det possessive
+middle<--det prep
+approve<--aux dobj
+many<--dep advmod
+plans<--det
+disappointed<--nsubjpass auxpass ccomp
+stadium<--det
+led<--prep
+point<--det rcmod
+commitments<--amod
+tourists<--amod
+outlook<--det amod
+director<--det prep
+period<--det amod
+with<--pobj
+same<--det prep
+prospects<--det prep
+have<--nsubj aux advmod xcomp
+shows<--nsubj dobj
+buy<--nsubj aux dobj
+unveil<--aux dobj
+demand<--aux dobj
+area<--det amod nn
+anything<--prep
+measure<--det nn
+March<--amod num
+help<--det prep
+said<--advcl nsubj ccomp
+attorneys<--nn
+clutter<--det prep
+cutting<--dobj
+Dinkins<--nn possessive
+proceedings<--nn
+%<--num prep
+double-A<--prep
+Thatcher<--nn
+facilities<--amod
+others<--num
+year<--advmod amod
+year<--det dep
+exercisable<--prep
+practices<--nn
+risk<--det
+bugs<--det
+excess<--prep
+cited<--nsubjpass auxpass prep
+board<--det prep
+commission<--det possessive
+was<--prep nsubj
+raise<--nsubj aux dobj prep
+plays<--nsubj dobj
+group<--num
+area<--det nn
+%<--num prep cc conj
+business<--poss nn nn
+versions<--amod prep
+demand<--det amod
+manager<--amod prep
+more<--nsubj cop prep
+Fernandez<--nn
+companies<--amod nn rcmod
+told<--nsubj dobj xcomp
+have<--nsubj xcomp
+image<--det amod
+state<--poss
+increasing<--dobj prep
+pages<--num
+Of<--pobj
+company<--poss amod nn
+successor<--det
+getting<--dobj prep
+range<--det prep
+amounts<--nsubj prep
+definition<--det prep
+earned<--prep nsubj dobj prep
+banks<--num amod
+contracts<--amod nn
+bank<--det amod amod
+deliver<--aux dobj
+call<--nsubj xcomp
+guilty<--prep
+Shevardnadze<--nn possessive
+losses<--amod prep
+was<--nsubj prep cc conj
+August<--possessive
+completed<--nsubjpass aux auxpass prep
+plants<--vmod
+standard<--det amod
+Virginia<--nn
+Dinkins<--nn
+positions<--amod nn
+Markets<--nn nn nn
+clear<--prep
+equipment<--amod
+performance<--amod
+functions<--det
+starting<--nsubj aux xcomp
+time<--det vmod
+$<--dep number number dep number number
+equaling<--nsubj dobj
+sells<--nsubj dobj prep
+date<--det nn
+held<--advmod
+Agency<--det nn nn
+PLC<--nn nn appos
+Azoff<--nn
+reduce<--nsubj aux dobj
+for<--dep pobj
+argument<--det amod
+shares<--det
+continue<--nsubj aux xcomp
+Electric<--nn
+announced<--advmod
+withdraw<--aux dobj
+has<--nsubj advmod dobj
+station<--det nn
+marks<--num num
+concern<--det dep
+Friday<--amod
+authorities<--nn
+performance<--det amod prep
+3,000<--quantmod
+officials<--amod
+against<--pcomp
+argument<--det
+earthquake<--det possessive
+give<--aux iobj dobj
+employees<--amod
+secretary<--det
+fell<--mark nsubj dobj prep
+Gonzalez<--nn
+he<--dep
+Enterprises<--nn
+willing<--nsubj cop xcomp
+Eggs<--amod
+assets<--nn
+state<--nn
+analysts<--nn
+division<--poss nn
+said<--ccomp nsubj
+came<--mark nsubj prep
+head<--poss
+model<--det amod
+lost<--nsubj dobj
+acquired<--nsubj dobj prep
+odds<--prep
+half<--quantmod quantmod prep
+payments<--prep
+box<--det
+Britain<--nn
+note<--nsubj ccomp
+estate<--det amod
+Monday<--amod
+agreements<--nn
+traders<--amod
+until<--pobj
+contract<--det nn
+stake<--poss nn
+told<--nsubj dobj ccomp
+corner<--det
+concerns<--amod
+close<--det prep vmod
+output<--poss amod prep
+Greenwich<--appos
+justify<--aux dobj
+benefit<--nsubj aux dobj
+visible<--advmod
+buy<--aux dobj
+shift<--aux dobj prep
+plan<--det amod nn
+collecting<--dobj
+quarter<--poss amod vmod
+Edelman<--nn
+accused<--prep
+relationship<--det
+use<--det prep prep
+exclude<--nsubj dobj
+mother<--poss
+countries<--det
+company<--det det possessive
+Gillett<--nn
+devices<--amod
+economists<--det
+Angeles-based<--amod
+program<--poss nn nn
+spending<--amod
+allowed<--nsubj xcomp
+firms<--amod nn
+do<--dobj nsubj
+insured<--nsubjpass auxpass cc conj
+contends<--nsubj ccomp
+office<--det prep
+University<--prep
+prices<--det prep
+trying<--mark nsubj aux xcomp
+lower<--nsubj cop prep
+offer<--poss amod
+come<--aux advmod
+lacks<--nsubj dobj
+deal<--det prep
+Patel<--nn
+shares<--poss
+structures<--amod
+Co.<--nn nn nn appos
+said<--nsubj ccomp cc conj
+lines<--amod nn
+Party<--det nn
+features<--nsubj dobj
+closed<--nsubj advmod prep
+signed<--prep nsubj dobj
+days<--num
+restrictions<--det nn
+Fuji<--det
+engineered<--advmod
+Up<--pcomp
+%<--num prep num prep
+consultant<--det prep
+demand<--amod
+rally<--det amod
+test<--det prep
+worth<--num prep
+alternative<--det
+more<--num cc
+post<--det amod prep
+consultants<--nn
+agreement<--det amod nn
+relationships<--poss prep
+estimates<--det
+deal<--det nn
+employees<--num
+Sandinistas<--det
+rubles<--num
+nothing<--vmod
+$<--num num num num
+celebrating<--dobj
+Integrated<--possessive
+dealership<--det
+language<--det amod
+hearings<--prep
+$<--quantmod quantmod quantmod number number prep
+3<--quantmod
+keyboard<--det
+sell<--dobj
+County<--nn
+ounce<--det
+companies<--amod
+return<--nsubj aux neg dobj
+theory<--det
+King<--nn possessive
+one<--dep
+want<--dobj nsubj xcomp
+do<--aux advmod
+association<--det prep
+investment<--prep
+United<--possessive
+problems<--det
+pressure<--det prep
+expect<--nsubj dobj
+bids<--amod
+unit<--det nn
+use<--aux dobj xcomp
+prices<--det amod
+Lang<--nn
+doing<--dobj nsubj aux
+D.<--appos
+gained<--nsubj dobj
+as<--pcomp
+than<--quantmod quantmod
+group<--det rcmod
+CDs<--amod
+project<--det nn
+$<--num cc conj num cc conj num dep
+announced<--advmod nsubj ccomp
+represented<--prep
+support<--poss
+rights<--poss
+A$<--num num
+created<--advmod
+thinks<--mark nsubj ccomp
+October<--num
+Journal<--det
+Journal<--det nn nn
+let<--nsubj aux ccomp
+full<--prep
+adjusted<--prep
+took<--mark nsubj dobj
+age<--poss
+Albertville<--appos
+loss<--poss
+stations<--nn
+earnings<--nn
+fund<--aux dobj
+Opponents<--prep
+shareholders<--det amod
+showed<--nsubj ccomp
+got<--nsubj dobj
+allowing<--xcomp
+Brothers<--nn
+ease<--aux dobj
+seem<--nsubj xcomp
+comparable<--nsubj advmod
+elected<--nsubjpass auxpass xcomp
+represent<--aux dobj
+down<--pobj
+rally<--det nn
+140<--quantmod
+Wolf<--nn
+price<--poss nn
+air<--det
+damage<--det amod
+customers<--amod
+name<--det nn
+$<--quantmod number prep number
+considered<--dep
+times<--number
+income<--amod prep
+had<--nsubj dobj
+commissions<--amod
+scheduled<--nsubjpass auxpass xcomp
+heads<--nsubj dobj
+of<--pcomp pobj pobj
+bailout<--det nn
+hold<--aux prt dobj
+answers<--amod
+Companies<--vmod
+Beebes<--det
+actions<--det
+unit<--det possessive
+opening<--det
+pill<--det amod nn
+prices<--poss
+topic<--det
+night<--nn
+standards<--amod
+time<--advmod
+court<--amod prep
+seek<--nsubj aux dobj
+bill<--det amod
+eased<--nsubj dobj prep prep
+words<--amod
+Laband<--nn
+Yesterday<--possessive
+firms<--nn nn
+rating<--poss prep
+stop<--aux dobj prep
+Corp<--nn
+do<--nsubj aux
+5/8<--number
+concern<--det amod
+are<--mark nsubj
+policy<--poss
+economy<--det amod prep
+upon<--pcomp
+terms<--prep
+concern<--nn
+sale<--det amod prep
+market<--det vmod
+company<--poss nn
+regulators<--amod
+groups<--det num
+Midwest<--det
+Co.<--nn nn
+shortage<--det prep
+collection<--det
+contrast<--prep
+familiar<--prep
+70,000<--quantmod
+shutdown<--det
+said<--tmod nsubj ccomp
+some<--prep
+as<--advmod pobj
+segment<--det nn
+dividend<--det amod prep
+years<--num
+disasters<--det num
+9<--quantmod
+activity<--nn
+required<--xcomp
+do<--aux dobj advmod
+deficit<--det amod
+flat<--nsubj cop prep
+end<--poss
+interest<--det prep
+lost<--nsubj dobj prep advcl
+seeing<--xcomp
+McCaw<--possessive
+investments<--det
+August<--num
+year<--det num
+standards<--poss amod
+wants<--nsubj xcomp
+calls<--nsubj dep
+excluding<--pobj
+CD<--det
+Moliere<--possessive
+stance<--poss amod
+assistance<--amod
+Earth<--det
+covered<--nsubjpass auxpass prep
+controversy<--det
+average<--det amod prep
+Witter<--nn
+lawyers<--nn
+helped<--nsubj dep
+clients<--amod
+from<--pobj prep prep
+sales<--amod
+movie<--det
+create<--nsubj aux dobj
+tumbled<--nsubj dobj prep prep
+industry<--det amod nn
+choice<--det amod
+one<--det
+list<--poss amod
+North<--nn
+use<--dobj
+To<--pobj
+shares<--poss amod
+debt<--det
+advanced<--nsubj dobj prep
+20<--quantmod
+appliances<--det
+devices<--det
+half<--advmod prep
+recession<--det
+Securities<--cc conj
+Lloyd<--possessive
+yield<--aux dobj prep
+prices<--amod nn
+allegations<--det
+slowdown<--det prep
+return<--det amod amod prep
+stores<--poss
+Amoco<--possessive
+projects<--amod amod
+measures<--det
+bikes<--amod
+fund<--det
+raising<--nsubj dobj
+meet<--aux dobj
+priced<--prep
+portion<--det amod prep
+post<--aux dobj
+lead<--mark nsubj aux prep
+one<--vmod
+future<--det prep
+Warner<--nn
+term<--det amod
+Board<--prep
+three<--number dep
+Holdings<--nn
+ship<--det
+forecast<--det
+May<--num num
+products<--poss
+France<--possessive
+promotion<--det
+venture<--det amod
+work<--aux prep
+auction<--poss
+completed<--prep
+depletion<--nn
+Until<--pcomp
+efforts<--poss vmod
+aimed<--nsubjpass auxpass prep
+House<--det prep
+due<--dep
+cost<--det amod prep
+Cos.<--nn nn
+portion<--det nn prep
+a.m.<--num
+heat<--amod
+behalf<--prep
+suggested<--prep nsubj ccomp cc nsubj conj ccomp
+those<--rcmod
+longer<--advmod
+had<--mark nsubj aux dobj
+World<--det nn
+late<--prep
+Express<--nn
+expensive<--nsubj advmod
+fraud<--nn
+eliminating<--dobj
+cents<--num
+losses<--amod
+state<--cc conj
+bond<--det amod amod
+Institute<--det nn nn
+show<--nsubj ccomp
+sold<--mark nsubjpass auxpass
+children<--poss
+apart<--prep
+give<--nsubj iobj dobj
+sales<--nn nn
+offer<--nsubj dobj
+markets<--det amod
+volume<--prep
+corporations<--amod
+states<--num
+brands<--amod
+Ford<--rcmod
+increases<--nn
+team<--det amod nn prep
+considering<--nsubj aux vmod
+still<--cc
+movement<--det nn
+make<--xcomp
+charges<--prep
+decline<--poss
+user<--det
+expand<--aux dobj
+offices<--poss
+metals<--amod
+world<--det amod prep
+cents<--num dep num dep
+fall<--amod
+priced<--nsubjpass auxpass prep xcomp
+issue<--det possessive
+comment<--aux prep
+half<--quantmod quantmod
+Max<--possessive
+system<--det amod amod
+problems<--amod prep
+direction<--det
+fact<--det
+Stanley<--nn
+own<--nsubj dobj
+let<--aux ccomp
+sitting<--prep
+Commission<--nn
+image<--det prep
+started<--nsubj aux xcomp
+selling<--amod prep
+from<--pcomp
+climbed<--nsubj prep prep
+of<--pobj pobj
+million<--number number
+residents<--amod
+organization<--det amod
+allies<--poss
+keep<--aux dobj prep
+have<--nsubj advmod dobj
+people<--rcmod
+result<--det prep
+inside<--pobj
+is<--nsubj prep prep
+EST<--num advmod
+newspapers<--nn
+guaranteed<--prep
+companies<--det nn
+battle<--det
+operating<--dobj
+result<--det
+Canada<--possessive
+by<--pobj pcomp
+issues<--amod nn
+says<--ccomp nsubj
+Monday<--nn
+said<--mark nsubj ccomp
+below<--pobj
+days<--det amod
+half<--quantmod prep
+process<--det prep
+stake<--det prep
+dividend<--det
+ratings<--amod nn
+company<--nn
+offering<--det nn
+add<--aux dobj
+Aug.<--num
+debts<--amod
+highway<--det amod
+seeds<--amod
+equal<--nsubj cop prep
+bench<--det
+help<--nsubj aux ccomp
+plan<--det nn
+happen<--nsubj aux prep
+health<--poss
+companies<--prep
+feet<--num amod prep
+National<--nn
+assets<--amod
+capacity<--amod
+retirement<--amod prep
+use<--nn
+market<--det amod nn nn
+producers<--nn
+notion<--det amod prep
+car<--det
+McDonough<--nn
+companies<--num
+Corp.<--nn nn possessive
+converting<--dobj prep
+order<--det prep
+conservatives<--det
+months<--amod
+seems<--nsubj prep ccomp
+claims<--prep
+County<--nn nn
+leads<--nsubj prep
+stock<--poss nn
+receipts<--poss amod nn
+options<--det
+Warren<--nn
+resulted<--nsubj prep
+products<--amod
+created<--nsubj dobj prep
+Price<--nn
+years<--det amod amod
+politics<--amod
+wants<--nsubj dobj
+earnings<--prep rcmod
+pieces<--num
+independence<--poss
+spokesman<--det nn nn
+companies<--vmod
+agreement<--det amod prep
+Brands<--nn
+call<--det
+taking<--nsubj aux dobj
+Street<--nn
+on<--pobj advmod pobj
+war<--det
+appear<--nsubj aux neg xcomp
+attempt<--poss vmod
+%<--number
+computer<--poss
+officer<--amod amod prep
+yield<--aux prep prep
+going<--nsubj aux neg xcomp
+shipping<--dobj
+adults<--num
+environment<--det
+quantities<--amod prep
+length<--det prep
+going<--advmod
+slid<--nsubj dobj prep
+phrase<--det
+watched<--advmod
+maker<--poss amod nn
+months<--det num
+add<--nsubj dobj
+given<--dobj
+Index<--det nn nn
+properties<--nn
+industry<--det nn nn
+cents<--num dep num
+is<--nsubj ccomp
+care<--prep
+start<--nsubj aux xcomp
+decline<--det prep
+form<--amod
+90<--quantmod
+complete<--prep
+volatility<--poss
+eliminate<--aux dobj
+in<--pcomp pobj
+food<--cc conj
+serious<--advmod
+guys<--det
+evidence<--amod vmod
+economy<--det amod cc conj
+Manville<--possessive
+seeking<--xcomp
+thing<--det
+priced<--nsubj prep xcomp
+triggered<--nsubjpass auxpass prep
+Japan<--cc conj
+index<--det nn
+$<--det amod num prep
+soon<--advmod prep
+protect<--aux dobj
+Average<--prep
+study<--aux dobj
+Gould<--nn
+disease<--det
+bidders<--amod
+computers<--nn
+lies<--nsubj prep
+brought<--prep
+retail<--cc conj
+7/8<--number number
+wife<--poss
+Steinhardt<--nn
+share<--num prep
+$<--num prep amod prep
+damage<--prep
+dropped<--nsubj prep prep
+exchanges<--det nn
+limit<--det nn
+A$<--num
+researchers<--prep
+regardless<--prep
+puts<--nsubj dobj prep
+operating<--nsubj prep
+Cowboys<--det
+dangerous<--advmod
+by<--pcomp pobj
+directors<--poss
+100,000<--quantmod
+center<--det prep
+programs<--amod amod
+buy<--aux dobj prep prep
+area<--det nn nn nn
+truck<--det amod
+women<--possessive
+SEC<--det
+for<--preconj pobj cc conj pobj
+tracked<--prep
+Dozen<--nn
+creditors<--det
+those<--vmod
+rally<--det
+waste<--amod
+soon<--advmod ccomp
+testify<--aux prep
+another<--prep
+hands<--det prep
+2<--quantmod
+for<--pobj pobj
+opposition<--det
+areas<--amod
+R.<--dep
+works<--advmod nsubj
+lack<--det prep
+to<--pobj
+rumors<--det
+condition<--poss amod
+history<--poss
+close<--poss
+cleaning<--prt dobj
+want<--nsubj aux neg dobj
+leave<--aux dobj prep
+staff<--poss amod
+job<--det rcmod
+protect<--aux dobj prep
+mid-1990s<--det
+Inc.<--nn nn
+ending<--dobj
+embryo<--det
+open<--aux dobj
+closed<--nsubj advmod prep prep
+scientists<--det
+contains<--nsubj dobj
+keeping<--dobj prep
+president<--amod nn
+compared<--pcomp
+said<--nsubj tmod ccomp
+portfolios<--poss
+chips<--amod
+featuring<--dobj
+indictment<--det
+extend<--aux dobj
+Corp.<--nn appos
+appeal<--det prep
+system<--poss nn nn
+followed<--prep
+asked<--nsubj dobj xcomp
+All<--rcmod
+read<--aux dobj
+law<--det rcmod
+equal<--prep
+investors<--amod amod
+bonds<--amod amod nn
+companies<--det num
+consumption<--nn
+part<--prep prep
+Olivetti<--possessive
+produced<--nsubj dobj
+country<--det amod
+phones<--det
+totaled<--nsubj dobj
+collect<--aux dobj
+House<--det cc conj
+consisting<--prep
+want<--mark nsubj dobj
+Congress<--possessive
+said<--ccomp nsubj xcomp
+others<--det
+worth<--nsubj cop dep
+stocks<--rcmod
+concern<--det amod nn
+Memories<--nn
+tried<--nsubj aux dobj
+Sports<--nn
+sale<--det nn
+property<--amod
+Bank<--nn cc conj
+Earnings<--prep
+plan<--det
+feet<--det amod
+half<--det amod
+concentrate<--aux prep
+plate<--det
+amounts<--prep
+properties<--amod
+IRS<--det
+group<--det amod nn
+Oct.<--num rcmod
+July<--num
+change<--det amod amod prep
+break<--aux prt dobj
+plan<--det amod vmod
+employees<--num cc conj
+leading<--prep
+Sony<--cc conj
+make<--nsubj aux dobj
+lead<--det prep
+rated<--acomp prep
+competition<--det
+used<--prep
+exploit<--aux dobj
+office<--poss
+offer<--det rcmod
+period<--det prep
+sign<--det ccomp
+enterprises<--amod cc conj
+number<--det prep prep
+charges<--amod
+sense<--amod prep
+say<--nsubj advmod ccomp
+seems<--nsubj xcomp
+fell<--nsubj dobj
+CDs<--amod prep
+force<--det nn
+spring<--amod
+issues<--nn
+Maynard<--nn possessive
+close<--aux prep
+continue<--mark nsubj aux xcomp
+called<--nsubj aux prep
+Gardens<--nn
+range<--det amod
+opponents<--poss
+water<--nn
+hearing<--det
+Group<--nn nn
+managers<--nn
+experiments<--amod
+periods<--amod
+Court<--det nn possessive
+Reports<--prep
+Pacific<--nn nn
+plan<--poss amod nn
+ended<--prep
+follows<--nsubj dobj
+legislation<--amod
+joined<--advmod nsubj dobj
+venture<--det rcmod
+land<--amod
+say<--aux dobj
+rose<--prep nsubj dobj prep
+bit<--det prep
+budget<--det
+investors<--nn
+system<--det nn
+issue<--det rcmod
+measurements<--amod
+moment<--det amod
+staff<--poss
+Bank<--det possessive
+market<--poss nn
+chance<--det vmod
+provided<--prep
+million<--quantmod number number
+contributed<--nsubj prep
+board<--det
+situation<--det amod
+alliance<--det amod
+buy<--aux dobj advcl
+Data<--nn
+Estimated<--cc conj
+things<--amod
+network<--det possessive
+Jaguar<--possessive
+tobacco<--conj cc conj
+center<--det amod
+model<--det nn
+negotiations<--prep
+house<--det amod
+10<--det amod
+effect<--det prep
+sentences<--nn
+provision<--det amod amod
+promoting<--dobj
+providing<--dobj
+year<--amod det
+strategy<--det
+unit<--poss amod appos
+Unlike<--pobj
+Co.<--nn possessive
+claim<--poss
+seriously<--advmod
+began<--mark nsubj xcomp
+with<--pobj pobj
+vary<--nsubj advmod prep
+transaction<--det amod
+two<--prep
+announcement<--det
+funds<--prep
+area<--det nn prep
+causing<--dobj
+doubt<--det
+secretary<--det nn
+out<--dep
+shares<--num
+damages<--amod
+boost<--det amod prep
+Americans<--amod
+trade<--det
+flow<--nn
+added<--nsubj dobj prep prep
+Netherlands<--det
+that<--dep
+jobs<--poss
+machines<--det amod
+likely<--xcomp
+is<--mark nsubj
+priced<--nsubj advmod prep xcomp
+Pemex<--possessive
+problems<--poss
+expected<--nsubj xcomp
+fear<--nsubj ccomp
+everyone<--advmod
+areas<--det
+Consider<--dobj
+customers<--poss
+whole<--det
+capital<--nn
+panel<--det nn
+corporation<--det
+able<--mark nsubj aux cop xcomp
+used<--nsubjpass aux auxpass xcomp
+strong<--advmod
+was<--expl neg nsubj
+rose<--prep nsubj dobj
+Telephone<--nn cc conj
+impact<--amod
+employees<--prep
+reputation<--poss
+keeping<--prep
+neighborhoods<--amod
+developed<--nsubj aux dobj
+crimes<--amod
+Geographic<--nn
+private<--cc conj
+departure<--poss
+fend<--aux prt dobj
+stand<--nsubj aux prep
+interviews<--det
+necessary<--mark
+allowed<--xcomp
+is<--dep nsubj
+activists<--amod
+impact<--det
+Thatcher<--nn possessive
+sell-off<--det prep
+reached<--nsubjpass aux neg auxpass
+time<--det amod
+requisitioned<--prep nsubj dobj prep
+hell<--det
+Toronto<--possessive
+convertible<--nsubj cop prep prep
+number<--det
+grow<--aux prep
+charges<--nn
+days<--num prep
+currency<--det
+boom<--det
+costs<--amod amod
+was<--nsubj advmod prep
+Corp.<--nn possessive
+monitor<--aux dobj
+in<--pobj pobj pcomp
+hospital<--det
+shares<--prep
+giving<--dobj prep
+purchase<--det
+resolution<--det prep
+changed<--nsubj aux
+resources<--amod
+computer<--det
+charging<--dobj prep
+Let<--ccomp
+reflected<--nsubj dobj
+yield<--aux prep
+$<--dep
+had<--nsubj dobj prep prep
+Baker<--nn
+talks<--amod
+avoid<--aux dobj prep
+office<--det
+move<--det
+rate<--det amod prep
+church<--det
+come<--aux prt prep
+woman<--det
+bringing<--dobj prep
+odds<--det
+smaller<--advmod
+request<--det
+potential<--amod
+businesses<--amod
+10<--quantmod
+limit<--det
+$<--quantmod number number
+government<--cc conj
+leaders<--det prep
+workers<--amod
+way<--det amod
+arguing<--ccomp
+part<--nsubj cop prep
+arranging<--dobj
+much<--advmod ccomp
+raising<--dobj
+request<--poss
+research<--det
+Francisco<--nn
+buying<--dobj
+notes<--amod amod amod
+point<--det nn
+buildings<--det
+business<--poss nn
+relating<--prep
+weeks<--num
+state<--det amod
+away<--npadvmod
+hour<--det amod
+economist<--amod prep
+economy<--det possessive
+portion<--det prep
+profit<--amod
+successful<--advmod
+sidelines<--det
+assist<--aux dobj prep
+Mexico<--possessive
+Germans<--det
+LIN<--possessive
+priced<--xcomp
+minute<--det
+plan<--nsubj xcomp
+row<--det
+days<--num vmod
+pay<--aux prt dobj
+effect<--det amod prep
+sense<--det prep
+securities<--amod
+effective<--tmod
+is<--advmod nsubj
+shares<--num vmod
+defendants<--det
+comment<--det prep
+programs<--nn
+down<--pobj prep
+effect<--det nn
+Simmons<--nn
+brand<--det
+pick<--aux prt dobj
+firm<--det amod nn nn
+difference<--det prep
+telling<--dobj xcomp
+firm<--det nn nn
+amount<--det amod nn
+types<--amod prep
+1920s<--det
+health<--cc conj
+made<--nsubj aux dobj
+calls<--nsubj prep
+year<--det amod possessive
+pilots<--det
+benefit<--aux prep
+invented<--nsubj dobj
+Stoltzman<--nn
+of<--dep
+predicts<--nsubj ccomp
+board<--poss
+role<--poss prep
+related<--nsubjpass auxpass neg prep
+eliminated<--mark nsubjpass aux auxpass prep
+$<--det amod num
+costs<--poss nn
+release<--det prep
+contract<--det nn nn
+are<--expl nsubj
+taking<--dobj
+games<--det
+little<--advmod
+written<--nsubjpass auxpass prep
+time<--prep
+round<--det amod prep
+insurance<--nn
+Ltd.<--nn nn appos
+Division<--det nn
+absence<--det prep
+Fed<--det
+shareholders<--amod
+head<--prep
+months<--num num
+sector<--det nn
+group<--poss
+said<--nsubj advmod ccomp
+stock<--amod
+landslide<--det
+yield<--det amod prep
+door<--amod
+run<--aux dobj
+Poles<--det
+take<--nsubj aux dobj xcomp
+started<--nsubj xcomp
+earnings<--prep
+post<--det amod
+report<--det amod nn
+Bartlett<--nn possessive
+gas<--det
+third<--det
+of<--dep pobj pobj
+$<--num
+leader<--det amod
+place<--det prep
+reports<--ccomp
+based<--advcl nsubjpass auxpass prep
+amounts<--amod prep
+May<--amod
+between<--pobj
+certificates<--det
+increased<--nsubj prep prep
+Zealand<--nn
+buyers<--det
+businesses<--nn
+maturity<--det amod amod prep
+billions<--prep
+of<--pobj dep pobj
+trading<--nn
+restore<--aux dobj
+CIA<--det
+lack<--poss prep
+margins<--nn
+helped<--nsubj ccomp
+distribution<--det prep
+profit<--aux prep
+make<--nsubj dobj
+taking<--dobj prep
+shares<--num num
+scandal<--det amod nn
+lose<--nsubj aux dobj
+bill<--det amod amod
+little<--prep
+policy<--det amod amod
+leadership<--det amod
+start<--aux dobj
+workers<--poss
+Tiger<--possessive
+bill<--det nn
+thousands<--prep prep
+products<--amod amod
+nation<--det possessive
+sell<--nsubj aux dobj
+run<--nsubj aux prep
+Trelleborg<--possessive
+have<--nsubj aux dobj prep
+amount<--det amod prep
+%<--num num prep
+market<--poss
+price<--det amod nn
+based<--prep
+search<--prep
+before<--advmod pobj
+failing<--xcomp
+scenario<--det
+owned<--prep
+equity<--poss
+to<--pobj pobj pobj pobj
+loss<--det amod prep prep
+$<--num num
+by<--pcomp pcomp
+created<--xcomp
+ensure<--aux dobj
+U.S.<--det det
+Monday<--possessive
+airline<--det
+stage<--det
+Ehrlich<--nn
+using<--dobj xcomp
+course<--det prep
+able<--mark nsubj cop xcomp
+Sept.<--num num
+head<--prep prep
+likely<--advcl nsubj cop xcomp
+listed<--advmod
+lost<--nsubj dobj prep
+policies<--vmod
+colony<--det
+group<--det nn nn nn
+loans<--prep
+shares<--amod
+now<--cc conj
+June<--num
+talking<--prep
+member<--det prep
+provision<--det vmod
+Levine<--nn
+anthers<--det prep
+used<--nsubjpass auxpass advmod prep
+shot<--det
+yesterday<--amod
+worry<--aux prep
+bills<--det
+funds<--det
+construction<--prep
+president<--det amod
+makes<--nsubj dobj advcl
+rate<--det amod amod
+had<--mark nsubj dobj
+by<--pobj pobj
+party<--det
+Source<--dep
+payments<--nn
+do<--mark nsubj aux dobj prep
+retain<--nsubj aux dobj
+about<--pobj pobj
+support<--prep
+Straszheim<--nn
+toxin<--det
+better<--prep
+maker<--det nn nn
+under<--advmod pobj
+wage<--det amod
+hard<--nsubj cop xcomp cc conj
+began<--nsubj xcomp
+country<--det rcmod
+market<--det possessive
+can<--mark nsubj
+announce<--aux dobj
+board<--det nn
+C.D.s<--amod
+later<--npadvmod
+projects<--amod
+services<--amod nn
+seek<--aux dobj
+years<--num num
+claims<--poss
+look<--nsubj prep
+asking<--prep
+Another<--dep
+hopes<--nsubj ccomp
+planning<--amod
+makes<--nsubj dobj
+Without<--pobj
+owners<--det
+magazine<--nn
+Koenig<--nn
+colleagues<--poss amod
+split<--det
+economists<--amod
+service<--amod
+19<--quantmod
+advance<--det
+took<--nsubj dobj parataxis
+bushel<--det det
+criticism<--amod
+reported<--mark advmod
+rules<--det
+space<--amod
+people<--poss
+of<--pcomp pobj
+contract<--det
+copper<--prep
+thing<--num
+ones<--det amod
+talks<--prep prep
+move<--aux advmod prep
+Board<--det nn possessive
+likely<--prep nsubj cop xcomp
+announcing<--dobj
+saw<--nsubj ccomp
+law<--det amod nn
+Council<--det nn nn
+agency<--det
+feet<--num
+see<--aux dobj prep
+for<--pcomp
+deficit<--poss amod nn
+relationship<--poss prep
+has<--nsubj dobj parataxis
+rise<--det amod prep
+Citicorp<--cc conj
+even<--dep
+debut<--poss
+in<--pobj pobj cc conj pobj
+bonds<--nn amod
+Soviets<--det
+yesterday<--possessive
+rights<--det prep
+control<--nsubj dobj
+outline<--aux dobj
+production<--poss
+spite<--prep
+complete<--aux dobj prep
+made<--dobj
+call<--aux prep
+of<--pobj pobj pcomp
+makes<--csubj xcomp
+showed<--nsubj dobj
+thing<--det prep
+mark<--det
+started<--advmod nsubj xcomp
+notes<--det amod amod
+sure<--nsubj cop neg ccomp
+award<--det
+failed<--advmod nsubj xcomp
+spokesman<--det
+backing<--dobj
+committee<--det
+investor<--det possessive
+that<--dep advmod
+in<--pobj cc conj pobj
+laws<--amod
+day<--det prep
+favor<--prep
+buy<--aux dobj prep advcl
+came<--advmod nsubj prep
+like<--pobj pobj
+backed<--prep
+settled<--prep nsubj prep advmod
+value<--det nn prep
+purchases<--amod
+Hugo<--nn
+None<--prep
+$<--nsubj aux cop quantmod number number
+Commission<--det nn nn nn
+shares<--amod rcmod
+make<--nsubj aux neg dobj
+further<--advmod
+declined<--nsubj prep prep
+Ltd.<--nn
+wall<--det
+experience<--amod
+beings<--amod
+sale<--prep
+thereafter<--advmod
+Coast<--amod
+have<--aux xcomp
+relative<--prep
+despite<--pobj
+boosting<--dobj
+hard<--nsubj cop xcomp
+year<--amod
+background<--det
+1,000<--quantmod
+decision<--det prep
+interested<--nsubj cop prep
+November<--amod
+output<--nn
+Corp.<--nn nn cc conj
+get<--aux advmod prep
+Italy<--possessive
+quarter<--det
+Ortiz<--nn
+continue<--aux xcomp
+bonds<--amod nn
+Computer<--nn
+hats<--poss
+venture<--det
+than<--advmod pobj
+chips<--nn
+becoming<--nsubj aux acomp
+five<--quantmod
+Corp<--det nn nn
+March<--num num
+contracts<--nn nn
+team<--det
+city<--det rcmod
+sponsored<--prep
+bolster<--aux dobj
+25<--quantmod
+experience<--poss
+protection<--prep
+Chinese<--det
+weapons<--amod
+study<--det
+People<--prep
+element<--det amod prep
+estimates<--poss
+act<--det prep
+rose<--nsubj dobj prep prep prep
+platinum<--nn
+pieces<--prep
+than<--advmod
+much<--advmod prep
+from<--advmod pobj
+machinists<--det
+child<--det
+said<--nsubj ccomp
+Among<--pobj
+need<--det prep
+experience<--det amod
+rose<--nsubj dobj prep
+support<--poss prep
+$<--quantmod quantmod number
+water<--det
+save<--aux dobj
+Garcia<--nn
+weeks<--amod
+Center<--det nn
+take<--aux prt dobj
+fees<--poss
+meeting<--poss
+help<--aux xcomp
+$<--quantmod quantmod number number
+blames<--nsubj dobj prep
+loans<--amod
+use<--amod
+week<--amod possessive
+movement<--poss amod
+increases<--dobj
+margins<--amod
+letters<--prep
+a<--quantmod
+hopes<--nsubj xcomp
+Dealers<--nn
+PS<--prep
+was<--nsubj advmod prep cc conj
+cause<--det
+CenTrust<--possessive
+companies<--det
+structure<--det amod prep
+13<--quantmod
+good<--advmod
+tapes<--det
+drop<--det prep
+partners<--prep
+1/4<--num
+overseeing<--dobj
+Intel<--possessive
+ads<--det
+first<--nsubj cop det prep
+concluded<--nsubj ccomp
+IBM<--possessive
+benefits<--det amod prep
+average<--det amod
+seen<--nsubj aux ccomp
+something<--amod
+Boyd<--nn
+cuts<--prep
+bonds<--det amod
+predicted<--nsubj ccomp
+survey<--det prep
+pursuing<--dobj
+investment<--poss
+chairman<--cc conj prep
+authorities<--amod
+improvement<--det
+are<--nsubj xcomp
+get<--aux xcomp
+Barre<--nn
+listed<--prep
+$<--num cc conj num dep num cc conj
+far<--advmod ccomp
+securities<--nn nn amod
+service<--det
+continued<--nsubj xcomp
+earned<--prep nsubj dobj
+uncertainty<--amod prep
+share<--det prep
+bank<--poss amod
+selling<--det
+institutions<--amod
+was<--nsubj ccomp
+Stone<--nn
+debentures<--amod amod
+wanted<--nsubj dobj prep
+losses<--amod nn
+block<--aux dobj
+surge<--det amod prep
+repay<--aux dobj
+concerned<--mark nsubjpass auxpass
+line<--det amod
+section<--det prep
+jobs<--amod
+share<--nn
+Act<--det nn nn
+Coast<--det nn
+easy<--nsubj cop xcomp
+well<--advmod mwe
+sell<--nsubj aux
+use<--poss prep
+says<--advmod nsubj ccomp
+Israel<--possessive
+say<--nsubj ccomp
+Sept.<--num
+bought<--advmod nsubj dobj
+equipment<--nn nn
+chromosome<--num
+account<--det nn
+subsidiary<--det amod prep
+delivered<--aux auxpass prep
+account<--nsubj prep
+Stores<--prep
+based<--nsubjpass aux auxpass prep
+approach<--det
+Pilson<--nn
+Rico<--nn
+months<--num prep
+Ltd.<--nn nn
+succeed<--nsubj aux dobj
+assets<--prep
+McDuffie<--nn
+look<--det amod
+types<--det prep
+contend<--nsubj ccomp
+OF<--pobj
+ranging<--prep
+ton<--det amod
+1/4<--number
+C$<--num
+press<--det amod
+priced<--nsubjpass auxpass advmod xcomp
+law<--det amod vmod
+Stocks<--dep
+old<--npadvmod
+6<--quantmod
+Equipment<--nn
+quarter<--det amod prep
+members<--nn
+chairman<--conj cc conj
+results<--poss amod
+contract<--det amod prep
+$<--nsubj cop num
+low<--advmod prep
+is<--nsubj neg prep
+period<--det num
+revenue<--nn
+firm<--det amod
+September<--amod
+capitalists<--nn
+quarter<--det amod vmod
+well<--advmod prep
+Rey<--nn
+offer<--det amod nn prep
+been<--nsubj aux prep
+stocks<--amod nn
+made<--nsubj ccomp
+industry<--det rcmod
+at<--pobj cc conj pobj
+lots<--prep
+plan<--mark nsubj xcomp
+maintain<--aux dobj
+offering<--poss amod nn
+analyst<--det amod prep
+offer<--det prep
+taxes<--amod nn
+traded<--advmod
+left<--nsubj dobj prep
+sell<--aux dobj
+estimates<--nsubj dobj prep
+be<--nsubj aux prep
+lifetime<--poss
+Vegas<--nn
+division<--det amod prep
+at<--advmod pobj
+closed<--nsubj prep advmod
+stems<--nsubj prep
+contractor<--det
+profits<--amod
+40<--quantmod
+pricing<--amod
+position<--det prep
+containing<--dobj
+1/4<--quantmod
+estimated<--nsubjpass auxpass prep advmod
+Insurance<--nn
+Investors<--prep
+higher<--prep
+insists<--nsubj ccomp
+goes<--nsubj prep
+issue<--det det
+about<--pcomp
+fell<--prep nsubj dobj prep prep
+cases<--det
+career<--poss
+someone<--rcmod
+thought<--nsubj neg ccomp
+stake<--det amod nn
+Nissan<--possessive
+mid-1970s<--det
+made<--nsubjpass auxpass prep
+payable<--nsubj cop tmod prep
+profits<--nn
+companies<--det vmod
+sector<--det
+assume<--nsubj ccomp
+until<--pcomp
+died<--nsubj prep
+cents<--num amod dep num amod dep
+closing<--det
+$<--num prep num
+minutes<--det num
+succeeding<--dobj
+determine<--aux advcl
+arrangement<--det amod
+losing<--dobj
+program<--det nn
+president<--det possessive
+landscape<--det
+theft<--det
+legal<--cc conj
+heavily<--advmod
+circumstances<--det
+than<--mwe
+requiring<--xcomp
+prior<--prep
+use<--aux dobj
+reason<--det vmod
+bank<--det
+introduction<--det prep
+clients<--poss amod
+During<--pobj
+balance<--det prep
+sales<--amod nn nn
+money<--nn
+buy<--nsubj aux dobj prep
+put<--aux dobj prep
+coupon<--det amod
+Capital<--nn
+average<--det
+prices<--amod
+sold<--dobj prep
+increased<--nsubj dobj prep
+June<--rcmod
+Industries<--nn
+selling<--dobj prep
+man<--det amod prep
+Commission<--det nn nn
+force<--nsubj aux xcomp
+30<--quantmod
+in<--advmod pobj
+need<--mark nsubj xcomp
+half<--det amod prep
+actions<--poss
+agreement<--det
+run<--aux prep
+courts<--det
+trading<--dobj
+Inc.<--nn nn appos
+shares<--amod amod
+carrier<--det amod
+have<--aux dobj
+door<--det
+figures<--det amod
+bid<--det amod nn
+do<--advcl dobj
+income<--amod amod prep
+few<--quantmod quantmod
+concern<--det nn
+profit<--amod prep
+Secretary<--det prep
+Motor<--nn
+industrials<--det nn
+see<--nsubj dobj
+trade<--aux dobj prep
+Inc.<--nn nn rcmod
+%<--num prep prep
+on<--pobj pobj
+priced<--nsubjpass auxpass xcomp
+as<--dep
+used<--nsubj xcomp cc conj
+phones<--amod
+Bork<--nn
+panel<--det
+got<--nsubj aux xcomp
+consulting<--nn
+currencies<--amod amod
+heat<--det
+start<--aux xcomp
+representatives<--prep
+War<--det nn
+expect<--nsubj xcomp
+collapse<--det prep
+35<--quantmod
+shares<--nsubj cop det amod num
+products<--det
+cause<--mark nsubj aux dobj
+play<--det
+going<--nsubj prep
+Lortie<--nn
+deal<--det
+expensive<--advmod
+Mills<--nn
+Treasury<--det possessive
+moving<--advmod
+Group<--det nn
+Services<--nn nn
+Revenue<--prep
+expansion<--det
+feet<--poss
+Prices<--prep
+Honecker<--nn
+Mitchell<--nn nn nn
+jury<--det amod
+Federal<--possessive
+Co.<--nn appos
+manufacturers<--amod
+Pentagon<--det possessive
+expects<--mark nsubj xcomp
+units<--poss
+charges<--det
+EPA<--det
+expects<--nsubj xcomp
+flow<--amod nn
+week<--det possessive
+month<--amod possessive
+victims<--nn
+work<--nsubj prep
+are<--expl advmod nsubj
+need<--det vmod
+value<--det prep
+average<--det prep
+consumer<--det
+rise<--nsubj aux prep prep
+discovered<--prep
+characters<--poss
+paper<--det amod
+measure<--det amod
+matter<--det prep
+Peladeau<--nn
+image<--poss
+offer<--det amod
+p.m.<--num
+levels<--nn
+lower<--advmod
+filled<--nsubjpass auxpass prep
+claimed<--nsubj ccomp
+yield<--det prep prep
+impact<--det amod prep
+able<--nsubj aux neg cop xcomp
+maker<--det dep prep
+first<--det prep
+for<--pobj advmod pobj
+at<--mwe
+increase<--det prep prep
+atmosphere<--poss
+focus<--nsubj aux prep
+industries<--amod
+plans<--nsubj xcomp
+Nekoosa<--nn nn
+floors<--det prep
+date<--poss nn
+stabilize<--aux dobj
+do<--aux dobj prep
+Service<--det nn nn
+going<--nsubj aux xcomp cc conj
+was<--nsubj advcl
+give<--iobj dobj
+quoted<--prep nsubjpass nsubjpass auxpass prep
+hand<--poss
+goods<--cc conj
+talk<--aux prep
+books<--poss
+suit<--det vmod
+$<--num prep amod
+On<--pobj
+bikes<--det
+Hastings<--nn
+Beyond<--pobj
+increase<--aux dobj
+Jersey<--nn
+demand<--amod nn
+South<--det
+increased<--nsubjpass auxpass prep
+'s<--expl nsubj
+addition<--det amod prep
+members<--prep
+were<--prep nsubj
+basis<--det prep
+announcement<--det amod
+all<--cc conj prep
+were<--nsubj prep prep
+able<--mark nsubj aux neg cop xcomp
+Bank<--prep
+Co.<--nn nn nn
+below<--advmod pobj
+challenge<--det amod
+benefits<--det
+plans<--nsubj advmod xcomp
+literally<--advmod
+people<--num vmod
+came<--nsubj advcl
+taxes<--nn
+Before<--pobj
+directors<--det
+IMF<--det possessive
+traders<--nn nn
+like<--pcomp
+into<--advmod pobj
+lines<--nn
+happen<--aux
+Court<--det nn
+individuals<--amod
+just<--neg
+required<--nsubjpass aux auxpass xcomp
+receive<--nsubj advmod aux dobj
+people<--det rcmod
+sides<--det
+investments<--amod
+groups<--amod amod
+size<--det
+Systems<--nn nn
+bid<--det prep
+research<--amod
+through<--pobj
+70<--quantmod
+Administration<--det nn
+company<--det nn nn nn
+make<--aux acomp
+Committee<--det nn
+Inc<--poss nn nn
+window<--det prep
+outlook<--det prep
+discussions<--amod
+company<--det amod
+majority<--det amod prep
+fight<--aux dobj
+Between<--pobj
+source<--det prep
+costs<--poss
+cars<--det
+buy-back<--det
+meeting<--det nn
+workers<--nn prep
+issue<--det
+pressing<--advmod
+alliance<--det prep
+except<--pobj
+were<--mark nsubj advmod
+purchase<--aux dobj
+Out<--pcomp
+practice<--det
+failure<--poss vmod
+UAW<--det
+products<--amod nn
+63<--quantmod
+market<--det rcmod
+tends<--nsubj xcomp
+Street<--nn possessive
+analysts<--amod
+outflows<--amod prep
+more<--advmod prep
+programs<--amod
+move<--det rcmod
+buy-out<--det
+Chan<--nn
+see<--mark nsubj aux
+rate<--det nn
+did<--nsubj xcomp
+momentum<--poss
+this<--predet
+for<--pobj
+legislation<--vmod
+times<--amod
+prospect<--det prep
+region<--det
+intends<--nsubj xcomp
+Committee<--det nn nn
+buyer<--det
+Chamber<--det nn prep
+energy<--det amod
+rights<--nn prep
+employer<--det
+approach<--poss amod
+July<--amod
+say<--nsubj
+be<--nsubj aux xcomp
+is<--prep nsubj prep
+Americans<--rcmod
+comparable<--nsubj cop neg advmod parataxis
+month<--advmod det
+rose<--nsubj dobj prep parataxis
+Ministry<--det prep
+Barcalounger<--det conj conj cc conj
+Graphics<--nn
+families<--amod
+makers<--amod nn
+settlement<--det prep
+but<--dep
+used<--xcomp
+take<--dobj
+approval<--prep
+Bell<--nn possessive
+spending<--prep
+Casualty<--nn
+use<--prep
+markets<--amod nn
+position<--det amod prep
+fine<--det amod
+focus<--aux prep
+accounts<--det
+Jersey<--nn possessive
+positions<--amod prep
+economy<--poss
+accounts<--poss amod
+need<--nsubj dobj
+test<--det
+end<--det amod
+at<--pobj pobj pobj
+period<--det amod prep
+includes<--nsubj advmod dobj
+allegations<--prep
+Ortega<--nn
+debt<--poss amod
+Washington<--appos
+help<--nsubj ccomp
+accused<--nsubjpass auxpass prep
+partnership<--prep
+Inc<--nn
+share<--poss
+fell<--nsubj dobj prep
+crash<--det
+state<--det possessive
+disobedience<--amod
+war<--det nn
+parties<--amod
+seen<--advmod prep
+offer<--det
+Corp.<--nn nn nn appos
+covering<--dobj
+step<--det amod
+triple-A<--prep
+selling<--dobj
+IAFP<--det
+evidence<--amod prep
+Corp.<--nn nn nn possessive
+anything<--advmod
+firm<--det nn
+fill<--aux prt dobj
+signal<--det amod prep
+in<--pobj pobj
+going<--mark nsubj aux xcomp
+issue<--det amod prep
+points<--num cc conj
+tons<--num
+any<--prep
+Mitchell<--nn
+called<--nsubj xcomp
+town<--det prep
+it<--cc conj
+investors<--rcmod
+investments<--amod amod
+garden<--poss
+do<--aux dobj
+Like<--pobj
+adjustments<--nn
+Boston<--nn
+$<--quantmod quantmod number number num
+know<--aux dobj
+side<--det amod prep
+totaled<--nsubj dobj advmod
+shares<--num nn
+proposals<--det
+responsibility<--det
+sign<--det prep
+article<--det
+up<--pcomp
+looks<--nsubj prep
+dropped<--nsubj dobj prep prep
+orders<--det
+rose<--nsubj prep prep
+press<--aux dobj
+something<--prep
+companies<--nn
+indications<--det nn
+Congress<--det dep
+rumors<--ccomp
+firm<--det nn prep
+have<--advmod nsubj dobj
+stake<--poss amod
+Chapter<--num prep
+creditors<--poss
+controls<--nsubj dobj
+yen<--num num
+agencies<--det
+years<--num prep
+exploration<--cc conj
+situation<--det rcmod
+industrials<--nsubj dobj
+comprises<--nsubj dobj
+Fund<--poss
+$<--number dep
+always<--advmod
+studio<--det
+majority<--det prep
+reduce<--aux dobj
+threatening<--dobj
+investors<--amod prep
+packages<--nn
+Colgate<--possessive
+decline<--det amod prep
+Peters<--nn
+same<--det
+comes<--advmod nsubj prep
+include<--nsubj aux dobj
+changing<--dobj
+court<--det nn
+government<--det nn
+imports<--amod
+ownership<--nn
+rules<--nn
+work<--det
+loans<--det
+losses<--det
+dropped<--prep nsubj dobj prep prep
+doors<--poss
+According<--pcomp
+line<--det
+%<--num prep cc num conj prep
+right<--det vmod
+work<--nsubj
+against<--pobj pobj
+Health<--cc conj
+time<--det amod rcmod
+pay<--nsubj aux dobj prep
+stores<--amod
+news<--det
+purpose<--poss amod
+$<--quantmod number number num
+well<--advmod
+reserves<--amod
+policy<--amod
+Giants<--det
+time<--poss
+fixed<--advmod nsubjpass auxpass tmod
+1970s<--det amod
+traffic<--nn
+men<--det num
+see<--aux dep
+issues<--det
+writing<--dobj
+also<--cc
+holds<--nsubj dobj cc conj
+confirmation<--prep
+turnover<--prep
+connected<--prep
+due<--nsubj cop prep
+decision<--poss vmod
+took<--mark nsubj dobj prep
+profit<--det
+Tokyo<--possessive
+bid<--poss amod prep
+piece<--det prep
+ground<--det
+eight<--quantmod
+thrift<--det
+trading<--amod prep
+risky<--advmod
+unit<--det prep
+respondents<--det
+forces<--nn
+head<--det amod
+party<--det amod nn
+from<--pobj pobj
+placed<--advmod
+3/8<--number
+ad<--det
+life<--poss
+are<--advmod nsubj
+costs<--amod nn
+want<--nsubj aux neg xcomp
+growth<--poss amod
+competition<--amod prep
+posted<--nsubj dobj
+buy<--nsubj
+exposure<--poss
+lines<--det nn
+governing<--dobj
+gold<--nn nn
+regime<--det nn
+is<--expl nsubj
+but<--pobj
+slowdown<--det
+people<--amod
+important<--advmod
+views<--amod prep
+success<--poss
+policies<--amod
+hit<--aux dobj
+executive<--det amod
+funds<--det num amod vmod
+Now<--ccomp
+holds<--nsubj dobj
+%<--dep num
+$<--dep number dep number
+priced<--nsubjpass auxpass prep prep
+markets<--det
+Lynch<--nn
+relations<--nn
+views<--poss
+says<--advcl nsubj ccomp
+Major<--nn
+as<--pobj
+completing<--dobj
+lawyers<--num
+look<--aux prep
+hacker<--det
+Toyota<--possessive
+Chicago<--possessive
+Co<--nn nn
+20,000<--quantmod
+sales<--nn cc conj
+nothing<--rcmod
+building<--dobj
+attempting<--xcomp
+company<--det amod amod
+agency<--det nn nn nn
+Australia<--nn
+Early<--prep
+calls<--nn
+Roberts<--nn
+experiencing<--nsubj aux dobj
+strike<--det
+drop<--det nn
+package<--det amod
+stock<--det
+sides<--det num
+traded<--prep
+Lynch<--nn cc conj
+Co<--nn
+include<--prep nsubj dobj
+improve<--aux dobj
+said<--ccomp
+Inc<--nn nn nn
+firm<--det amod nn
+school<--det
+chunk<--det amod prep
+view<--det amod
+outcome<--det amod
+details<--amod
+California<--possessive
+accounted<--nsubj prep
+government<--det
+debt<--amod amod
+documents<--vmod
+circumstances<--det amod
+history<--det prep
+Secretary<--prep
+segments<--amod prep
+cause<--nsubj aux dobj
+close<--det prep
+host<--det prep
+charge<--det amod vmod
+addition<--prep
+owns<--nsubj dobj
+from<--pobj
+action<--poss
+Inc.<--nn nn nn
+tax<--nn
+market<--det nn nn
+price<--det amod
+pence<--num num appos
+establish<--aux dobj
+risk<--nn
+schedule<--det amod
+value<--det amod prep
+come<--aux
+named<--dep
+reaction<--prep
+downturn<--det amod
+loss<--det amod amod
+groups<--amod
+Malaysia<--possessive
+cracks<--det
+vehicles<--amod
+want<--nsubj dobj
+directors<--num prep
+give<--nsubj aux iobj dobj
+did<--mark nsubj
+in<--advmod pobj pobj
+$<--det num rcmod
+traded<--nsubj advmod prep
+In<--pcomp
+earnings<--poss amod prep
+tend<--nsubj xcomp
+president<--nsubj aux cop cc conj prep
+units<--det amod
+policy<--poss nn
+thousands<--det prep
+'s<--nsubj advcl
+rates<--amod
+Bank<--det nn nn
+we<--det
+lawmakers<--amod
+ANC<--det
+available<--nsubj prep
+sold<--auxpass prep
+7/8<--number
+funds<--amod prep
+came<--nsubj prep
+plans<--amod
+hurricane<--det
+Saatchi<--possessive
+industry<--poss nn
+Salinas<--nn
+judge<--det possessive
+service<--aux dobj
+Brady<--nn
+purchase<--det prep
+spend<--aux
+tenure<--poss
+represents<--nsubj dobj
+Index<--det nn nn nn
+produced<--nsubj aux dobj
+results<--det amod
+PLC<--nn
+up<--prep
+market<--det nn possessive
+Rica<--nn
+foreign<--cc conj
+London<--possessive
+known<--prep
+gain<--det prep
+retains<--nsubj dobj
+rose<--prep nsubj dobj prep prep
+inflation<--amod
+division<--det nn
+arbitrage<--nn
+10,000<--quantmod
+attention<--amod
+year<--amod possessive
+audiences<--poss
+pact<--det
+executives<--det num
+prices<--nn prep
+International<--nn
+crews<--nn
+$<--num cc conj num dep num cc conj num dep
+administration<--det possessive
+ghost<--poss
+income<--nn
+package<--det
+reported<--prep nsubj dobj
+repair<--aux dobj
+sources<--amod
+computers<--prep
+car<--det nn
+America<--amod
+account<--poss amod
+proceeds<--det
+title<--det prep
+about<--pobj
+acquire<--aux dobj prep
+Mixte<--nn
+letter<--det
+point<--det amod nn
+apply<--nsubj aux prep
+directors<--prep
+supposed<--nsubjpass auxpass xcomp
+closed<--prep tmod nsubj prep advmod
+criticism<--amod prep
+Given<--dep
+CFTC<--det
+be<--aux advmod
+contract<--det vmod
+on<--advmod
+says<--ccomp
+creating<--cc conj dobj
+business<--det nn nn
+US$<--num
+bank<--det amod
+lives<--poss
+man<--det rcmod
+see<--nsubj dobj prep
+UAL<--possessive
+had<--advmod nsubj dobj prep
+list<--det prep
+done<--prep
+something<--rcmod
+waiting<--prep
+Gandhi<--nn
+paying<--dobj
+quality<--det prep cc conj
+Association<--det nn nn
+than<--advmod pcomp
+vehicles<--num
+quarter<--poss amod amod
+machine<--det
+amount<--amod nn prep
+stocks<--poss
+barrels<--num prep
+computers<--poss
+script<--det
+trading<--det
+reflects<--nsubj dobj
+account<--det amod
+at<--pobj cc conj
+made<--nsubj aux xcomp
+Field<--nn possessive
+guidelines<--det
+positions<--poss
+ahead<--prep
+freeway<--det
+large<--advmod
+work<--amod nn
+hour<--det amod prep
+downturn<--det
+resolve<--aux dobj
+father<--poss possessive
+team<--poss
+Bell<--nn
+%<--number number
+finance<--amod
+promote<--aux dobj
+court<--det nn prep
+%<--num appos num
+42<--quantmod
+produce<--dobj
+known<--advmod prep
+%<--nsubj cop num
+appreciation<--det amod prep
+thousands<--prep
+rather<--mwe
+high<--advmod prep
+reports<--nn
+of<--pobj
+institutions<--amod amod
+ones<--amod
+conference<--det
+lost<--nsubj dobj prep prep
+coming<--nsubj aux
+involving<--dobj
+unable<--xcomp
+handle<--aux dobj
+cents<--num prep
+rose<--nsubj
+shaped<--prep
+say<--advcl nsubj ccomp
+storm<--det
+Chancellor<--prep
+1/2<--num
+expires<--nsubj tmod
+warrants<--amod
+East<--det
+greater<--advmod
+drop<--det amod
+beyond<--advmod pobj
+aimed<--prep
+example<--det prep
+into<--pobj
+months<--det amod
+describes<--nsubj dobj
+doing<--advmod
+bid<--det
+brain<--det
+care<--nn
+controlled<--prep
+candidates<--nn
+than<--pobj
+bonds<--amod
+Paul<--nn
+capacity<--poss nn
+around<--dep
+with<--pobj cc conj pobj
+introduced<--nsubjpass aux auxpass ccomp
+rights<--amod
+service<--prep
+stem<--nsubj prep
+East<--det nn
+increase<--det amod
+make<--aux ccomp
+in<--pobj advmod pobj
+brokers<--prep
+price<--poss nn prep
+creditors<--amod
+matters<--amod
+futures<--nn
+from<--pcomp pobj
+one<--nsubj cop prep
+far<--advmod
+expressed<--nsubj dobj
+top<--det
+brand<--det amod
+plant<--det
+switch<--aux prep
+require<--nsubj aux neg dobj
+by<--advmod pobj
+effort<--det vmod
+family<--det
+troubles<--poss
+bond<--det amod
+merger<--det
+system<--det amod
+Bakker<--nn
+Guaranteed<--prep
+stocks<--det rcmod
+Using<--dobj
+Park<--nn
+anything<--rcmod
+state<--det amod prep
+meeting<--poss amod
+is<--mark nsubj xcomp
+cars<--num
+charges<--nsubj ccomp
+cent<--num
+revenue<--rcmod
+companies<--amod rcmod
+parent<--poss
+work<--nsubj aux neg
+required<--prep
+told<--nsubj dobj dep
+Along<--pcomp
+says<--ccomp nsubj vmod
+OPEC<--possessive
+unlike<--pobj
+quarter<--det amod
+bad<--advmod
+from<--pobj prep
+planned<--nsubj xcomp
+report<--aux dobj prep
+1990s<--det
+majority<--det amod
+extent<--det prep
+Contras<--det
+violation<--det prep
+treatment<--det
+unit<--det nn nn
+offer<--nsubj aux dobj
+fell<--prep nsubj dobj prep
+cars<--amod
+view<--det amod prep
+Bogart<--nn
+handling<--dobj
+effort<--det amod vmod
+building<--det amod
+ideas<--amod
+fees<--nn
+earlier<--npadvmod
+stock<--cc conj
+mark<--det amod
+amid<--pobj
+$<--num prep amod vmod
+money<--prep
+plans<--xcomp
+under<--advmod
+questions<--amod
+going<--advmod nsubj aux xcomp
+water<--amod
+volume<--nn nn nn nn
+confidence<--nn
+merger<--det prep
+products<--nn cc conj
+recently<--advmod
+issuance<--poss num nn
+catch<--aux prt prep
+million<--number number number number
+change<--aux dobj
+guidelines<--det amod
+without<--advmod pobj
+have<--nsubj aux dobj cc conj
+through<--advmod pobj
+rates<--nn nn
+charges<--det amod
+Wilshire<--nn
+ago<--advmod
+favors<--nsubj dobj
+transaction<--det
+demands<--poss
+news<--ccomp
+evidence<--vmod
+units<--det
+beyond<--pobj
+based<--nsubjpass auxpass prep
+rules<--amod
+penalty<--det nn
+is<--prep nsubj
+thought<--mark nsubj ccomp
+connection<--prep
+markets<--det nn
+recent<--advmod
+system<--det amod prep
+funds<--nn
+rule<--poss amod
+version<--det nn prep
+include<--nsubj aux neg dobj
+appear<--nsubj xcomp
+workers<--num
+$<--num cc conj num dep num
+takes<--nsubj dobj
+sell<--aux dobj prep
+parents<--poss
+workers<--cc conj
+let<--mark nsubj ccomp
+jobs<--det
+rated<--nsubjpass auxpass acomp prep cc conj prep
+20<--quantmod dep
+executives<--nn
+million<--number quantmod number
+costs<--amod
+remarks<--poss
+include<--aux dobj
+Turner<--nn
+top<--prep
+Oil<--nn
+form<--poss amod
+chairman<--prep
+Oct.<--dep
+longer<--dep
+friend<--det
+vote<--det amod
+chairman<--det
+Institutes<--det nn prep
+profits<--poss
+by<--pobj cc conj pobj
+interviewed<--nsubj dobj prep
+centers<--amod nn
+Hutton<--nn nn
+spend<--aux dobj prep
+act<--det num
+Park<--nn appos
+military<--det
+kinds<--det prep
+options<--vmod
+system<--poss amod nn
+profit<--det amod prep
+francs<--num dep
+accounts<--nsubj prep
+affect<--nsubj aux dobj
+spread<--det prep
+arguments<--amod
+process<--det nn
+4<--quantmod
+plans<--nsubj xcomp cc conj
+Exxon<--possessive
+cars<--poss
+comes<--nsubj prt prep
+properties<--det
+Corp.<--nn
+interests<--poss
+had<--nsubj dobj prep
+have<--nsubj aux xcomp
+marks<--num
+side<--det
+say<--cc nsubj ccomp
+fell<--nsubj dobj prep cc conj
+cost<--nsubj aux dobj
+reported<--nsubj dobj prep
+metals<--det
+Korea<--nn
+Renaissance<--possessive
+trying<--prep nsubj aux xcomp
+said<--advmod nsubj ccomp
+%<--num number
+insurance<--amod
+sustain<--aux dobj
+rates<--nn
+buy<--dobj
+enter<--aux dobj
+Strip<--det
+diluted<--advmod
+to<--advmod pobj
+interests<--amod
+needed<--nsubj xcomp
+shape<--amod
+sales<--num prep
+What<--prep
+get<--dobj
+found<--nsubj dobj
+Entertainment<--nn
+operations<--poss amod
+requests<--nn
+amount<--det prep
+hurt<--dobj
+then<--advmod
+magazine<--poss
+little<--det
+goals<--poss amod
+services<--nn prep
+chunks<--amod prep
+is<--advmod nsubj xcomp
+produce<--nsubj dobj
+making<--dobj
+State<--det prep
+week<--det
+operations<--nn
+Giuliani<--nn
+figures<--det
+holders<--amod
+interview<--det
+quarter<--det num
+debt<--nn
+profit<--nn
+participated<--nsubj prep
+fear<--prep
+capture<--aux dobj
+created<--nsubj aux dobj
+grow<--aux
+go<--aux advmod
+slightly<--advmod
+three<--cc conj
+aggressive<--advmod
+production<--prep
+require<--nsubj aux dobj
+price<--det amod prep
+found<--nsubj xcomp
+have<--prep nsubj aux dobj
+option<--det vmod
+performance<--poss
+much<--advmod
+drop<--det amod prep
+unit<--poss nn
+expects<--nsubj advmod xcomp
+acquisition<--det prep
+four<--number dep
+names<--det prep
+estimated<--prep
+control<--aux dobj
+analyst<--num
+April<--num
+failed<--nsubj xcomp
+exports<--amod
+decades<--num
+areas<--prep
+agreement<--det amod
+force<--poss nn
+farmers<--det
+on<--dep pobj
+1987<--amod
+of<--pobj pcomp
+shows<--amod
+spokeswoman<--det
+Digital<--possessive
+field<--det
+issued<--advmod
+members<--num
+buy-out<--det amod
+credibility<--poss
+help<--aux dobj
+are<--nsubj advmod prep
+people<--nn
+stocks<--det
+above<--advmod pobj
+develop<--aux dobj
+more<--prep
+Krenz<--nn
+sell<--aux dobj prep prep
+quarter<--poss amod
+publisher<--prep
+is<--advmod nsubj prep
+decision<--det amod vmod
+%<--number num
+Dec.<--num
+3/4<--number number
+value<--nn
+Square<--nn
+1995-1999<--num cc conj
+operations<--nn prep
+priced<--nsubjpass auxpass prep prep xcomp
+Japanese<--det
+From<--pobj
+money<--amod
+Rich<--nn
+find<--nsubj aux dobj
+size<--det prep
+lot<--det prep
+schools<--amod
+centers<--det
+shares<--prep dep
+make<--mark nsubj aux dobj
+Co.<--nn nn appos
+after<--advmod pcomp
+bench<--poss
+Chapter<--num
+event<--det
+began<--nsubj dobj prep
+chances<--poss prep
+generate<--aux dobj
+gains<--det
+price<--det prep
+levels<--amod nn
+totaling<--dobj
+matter<--det
+associates<--nn
+take<--nsubj aux tmod xcomp
+less<--prep
+were<--nsubj prep advmod
+resistance<--det
+jury<--det
+climbed<--nsubj dobj prep prep
+notes<--amod amod
+Members<--prep
+agreed<--nsubj aux xcomp
+is<--mark nsubj prep
+wave<--det amod prep
+traders<--det
+strength<--amod
+give<--aux dobj prep
+took<--nsubj dobj prep vmod
+take<--mark nsubj aux dobj
+Inc.<--nn nn nn prep
+Most<--prep
+bond<--poss nn amod
+45<--quantmod
+ago<--npadvmod
+clients<--poss
+is<--nsubj xcomp
+affected<--nsubjpass auxpass prep
+floor<--det
+concern<--det nn nn
+carrier<--det
+system<--det amod nn
+April<--amod
+share<--poss prep
+getting<--prep
+reasons<--det
+changes<--nn
+at<--pobj advmod
+compromise<--det
+agencies<--amod
+instead<--mwe
+forced<--nsubjpass auxpass xcomp
+forced<--advmod nsubj xcomp
+stock<--det amod
+room<--det amod nn
+them<--det
+different<--advmod prep
+point<--det
+officer<--amod nn
+Cathay<--possessive
+estimated<--nsubj ccomp
+were<--cc expl nsubj
+adding<--ccomp
+law<--det
+explore<--aux dobj
+job<--det
+figures<--amod
+inches<--num
+surged<--nsubj dobj prep prep
+work<--det prep
+information<--amod prep
+reduce<--nsubj aux dobj prep
+10<--quantmod dep
+trades<--det
+hold<--nsubj dobj
+headed<--prep
+Inc<--nn nn
+will<--amod
+effective<--advmod
+left<--nsubj dobj
+view<--det
+Wolf<--nn cc conj
+companies<--det amod
+one<--det rcmod
+claims<--nsubj ccomp
+imposed<--prep
+fell<--nsubj prep prep
+markets<--poss
+imports<--prep
+rose<--nsubj advmod prep
+bid<--poss prep
+plans<--prep
+steel<--prep
+reason<--det
+Tucson<--dep
+results<--det prep
+winning<--dobj
+day<--det possessive
+employed<--prep
+damage<--amod
+gave<--nsubj iobj dobj parataxis
+nation<--det amod
+give<--aux dobj
+moment<--det
+demand<--amod prep
+Estate<--nn
+away<--prep
+Icahn<--nn
+expand<--aux dobj prep
+that<--vmod
+Rubens<--det
+uncertainty<--prep
+accept<--aux dobj
+believed<--nsubjpass auxpass xcomp
+as<--mwe pobj
+supporting<--mark dobj
+on<--pobj cc conj pobj
+assets<--det
+finance<--dobj
+GM<--possessive
+death<--det prep
+marketplace<--det
+Icahn<--nn appos
+story<--det prep
+One<--prep
+interested<--prep
+trust<--det
+issues<--det amod
+camera<--det
+nature<--det prep
+offer<--poss prep
+says<--dep nsubj
+Carpenter<--nn
+Corp.<--nn cc conj
+attitude<--det amod
+months<--det amod num prep
+Quebecor<--possessive
+process<--det
+needs<--nsubj dobj
+rescue<--aux dobj
+efforts<--poss
+markets<--det amod nn
+session<--det
+get<--nsubj aux dobj prep
+goes<--mark nsubj advmod
+from<--pcomp prep
+run<--nsubj prep
+orders<--prep
+closed<--nsubj cop
+allows<--nsubj xcomp
+went<--nsubj advmod prep
+beneath<--pobj
+year<--det vmod
+Section<--num
+shift<--det
+$<--quantmod number
+division<--det nn prep
+all<--cc conj
+genes<--det
+continue<--nsubj aux prep
+indicating<--dobj
+keep<--aux xcomp
+things<--det amod
+of<--advmod mwe pobj
+industries<--nn
+notes<--det dep amod
+things<--amod vmod
+reports<--prep
+advertising<--amod
+headquarters<--poss
+away<--advmod
+life<--det amod
+began<--xcomp
+securities<--vmod
+reporter<--det prep
+know<--nsubj prep
+coverage<--nn
+offered<--prep
+bill<--det amod rcmod
+1990<--amod
+having<--ccomp
+public<--det amod
+one<--nsubj cop advmod prep
+curb<--aux dobj
+strategies<--nn
+Guber<--nn
+million<--quantmod
+affair<--det nn
+days<--det
+debate<--det amod
+economy<--det amod
+growth<--amod
+francs<--num
+launch<--aux dobj
+operations<--poss amod nn
+systems<--amod amod
+trying<--xcomp
+Dec.<--num num
+hurt<--prep
+times<--prep
+people<--det nn
+on<--advmod pobj
+end<--det
+offering<--dobj prep
+offer<--det amod prep
+decade<--num
+move<--det amod
+Thornburgh<--nn
+upon<--pobj
+premium<--det amod nn prep
+role<--det amod
+try<--advmod nsubj xcomp
+comment<--aux
+shares<--num prep
+improve<--dobj
+of<--advmod pcomp
+seeking<--dobj
+prevent<--aux dobj
+named<--nsubjpass auxpass prep
+Department<--det prep
+session<--det amod
+ad<--num
+pay<--nsubj aux prep
+important<--advmod prep
+Exchequer<--det
+screens<--poss
+volume<--amod nn
+are<--expl nsubj cc conj
+role<--det amod prep
+hours<--amod
+view<--poss
+Oct.<--num num num
+minute<--det amod
+obtaining<--dobj
+systems<--amod
+Corp<--nn nn
+concern<--det dep nn
+future<--det
+man<--num
+August<--amod
+ability<--det vmod
+wanted<--mark nsubj dobj
+offered<--nsubj dobj prep
+those<--amod
+said<--vmod nsubj ccomp
+has<--advcl nsubj dobj
+bills<--nn
+interest<--amod prep
+owned<--advmod prep
+promise<--det prep
+declines<--prep
+spot<--det
+underwriter<--det amod
+pursue<--aux dobj
+decided<--nsubj ccomp
+needs<--mark nsubj dobj
+charge<--det amod prep
+six<--quantmod prep
+land<--det rcmod
+transportation<--dep advmod
+facility<--det amod
+make<--nsubj aux xcomp
+%<--num prep num
+risks<--det
+heavy<--advmod
+shows<--nsubj ccomp
+night<--det
+toward<--pobj
+investor<--det prep
+find<--dobj
+Shearson<--possessive
+sell<--aux
+institution<--det amod
+do<--aux
+called<--dep
+parent<--det
+collection<--det prep
+chairman<--nsubj cop prep
+loss<--det
+music<--det
+parent<--det prep
+sell<--aux dobj advmod
+utilities<--amod
+Line<--nn
+said<--nsubj ccomp cc conj ccomp
+dollar<--det amod rcmod
+for<--advmod pobj
+way<--det amod rcmod
+dollar<--det amod
+rate<--det amod nn
+chips<--det
+failed<--mark nsubj aux xcomp
+invest<--aux prep
+holders<--nn nn
+succeeds<--nsubj dobj
+thing<--num rcmod
+looking<--nsubj aux prep
+have<--dobj prep
+carrier<--det possessive
+sales<--amod nn
+Stearns<--nn
+easily<--advmod
+stake<--det amod prep
+high<--nsubj cop advmod
+1/8<--number number
+measures<--nsubj dobj
+session<--det amod amod
+higher<--advmod
+serve<--aux prep
+report<--det ccomp
+nation<--det
+exchange<--amod
+Pearce<--nn
+denies<--nsubj dobj
+by<--advmod pcomp
+have<--nsubj dobj cc conj
+Baker<--possessive
+people<--amod prep
+half<--amod prep
+doing<--dobj
+reflect<--nsubj dobj
+passed<--prep
+bills<--poss
+idea<--det
+going<--nsubj advmod aux neg xcomp
+rate<--det prep
+made<--advmod nsubj dobj
+deny<--aux dobj
+city<--det prep
+U.S.<--det possessive
+campaign<--det vmod
+business<--poss
+buy<--det amod
+funds<--det nn
+gained<--nsubj dobj prep
+place<--aux dobj
+help<--aux ccomp
+work<--prep
+democracy<--amod
+that<--advmod
+produced<--prep nsubj dobj
+Hollander<--nn
+structure<--det amod
+desk<--poss
+survey<--det
+results<--det
+market<--det amod
+completed<--nsubj dobj
+At<--pobj
+securities<--nn nn dep
+considered<--nsubjpass auxpass acomp
+offering<--det
+Much<--prep
+shares<--nn nn
+data<--amod
+challenge<--det amod prep
+treatment<--amod
+gains<--amod prep
+backed<--nsubjpass auxpass prep cc conj
+market<--det
+managers<--amod nn
+moved<--nsubj prep
+Bank<--nn nn prep
+ended<--nsubj advmod prep
+network<--det amod
+back<--prep
+official<--det
+presence<--poss
+made<--nsubj dobj prep
+African<--amod
+keeping<--nsubj aux xcomp
+reasons<--nn
+means<--nsubj ccomp
+francs<--num amod
+systems<--nn
+Gandhi<--nn possessive
+related<--prep
+takeovers<--amod
+One<--prep appos
+company<--det prep
+funded<--advmod
+concern<--det
+all<--rcmod
+resignation<--det prep
+center<--det nn prep
+Roman<--nn
+heart<--poss
+have<--advcl nsubj xcomp
+in<--pobj
+Office<--det prep
+step<--det amod prep
+divided<--nsubjpass auxpass prep
+tens<--prep
+$<--amod num cc conj num dep
+mentioned<--prep
+issued<--prep
+D.T.<--possessive
+two<--quantmod
+red<--det
+death<--poss
+India<--possessive
+relations<--amod
+law<--amod
+world<--det nn
+stock<--poss
+half<--prep
+series<--det prep
+talked<--nsubj prep
+offered<--nsubjpass auxpass prep prep
+front<--prep
+predict<--nsubj ccomp
+were<--nsubj xcomp
+gives<--nsubj iobj dobj
+out<--pcomp
+promises<--nsubj xcomp
+recession<--det amod
+reasons<--amod
+place<--amod
+system<--det nn prep
+want<--nsubj advmod xcomp
+ways<--amod
+Noriega<--nn possessive
+Lincoln<--possessive
+group<--det prep
+gains<--nn
+behind<--pobj
+know<--nsubj aux neg ccomp
+measures<--amod vmod
+Moody<--possessive cc conj
+coming<--prep
+progress<--amod
+losses<--poss amod
+said<--cc nsubj ccomp
+premiums<--prep
+role<--poss
+Oct.<--num
+investments<--amod prep
+reorganization<--det
+pay<--aux dobj prep
+accomplish<--aux dobj
+operations<--nn nn
+in<--cc conj pcomp
+drop<--det amod nn
+position<--det
+company<--det nn
+Bush<--nn possessive
+likely<--nsubj cop xcomp
+threat<--det prep
+search<--det prep
+strategy<--poss amod
+that<--prep
+Japan<--possessive
+six<--quantmod
+meeting<--det amod prep
+regime<--det
+June<--num num
+Inc.<--poss nn nn
+week<--det prep
+Perspective<--nn nn nn nn appos
+close<--aux dobj prep
+company<--det nn nn
+institute<--det
+century<--det amod amod
+dividend<--poss
+restrictions<--amod prep
+is<--nsubj advcl
+University<--nn
+law<--det amod
+lawyers<--poss
+provide<--nsubj dobj
+stock<--nn nn
+was<--advmod expl nsubj
+match<--aux dobj
+16<--quantmod
+price<--det
+slightly<--advmod prep
+Pacific<--nn
+premium<--det amod prep
+quarter<--det amod det amod
+after<--pobj
+foundation<--poss
+made<--nsubj dobj
+EC<--det
+took<--prep nsubj prt dobj
+had<--nsubj xcomp
+were<--nsubj prep
+portfolios<--nn
+reporting<--dobj
+designed<--xcomp
+Oppenheimer<--cc conj
+seems<--mark nsubj xcomp
+competitors<--amod
+conducted<--prep
+expected<--nsubjpass auxpass xcomp
+Guard<--det nn
+drop<--det
+proposal<--det vmod
+duties<--poss
+author<--det possessive
+Volokh<--nn
+agencies<--nn
+hours<--num dep
+U.S.<--det advmod
+sale<--det prep prep
+river<--det
+futures<--det
+liquidity<--amod
+people<--num
+paying<--dobj prep
+start<--det amod
+steps<--amod
+like<--pobj
+drop<--aux dobj advmod
+key<--det prep
+hand<--det amod
+order<--det nn
+recovery<--det prep
+billion<--number number number number
+%<--num num
+have<--mark nsubj aux dobj advcl
+known<--nsubjpass auxpass prep
+mortgage<--det amod
+jump<--det amod
+adds<--ccomp nsubj
+RTC<--det
+concerns<--prep
+know<--nsubj aux neg advcl
+hire<--aux dobj
+prosecutors<--amod
+costs<--det amod prep
+towel<--det
+executives<--amod
+have<--prep nsubj dobj
+are<--prep nsubj
+canal<--det
+short<--prep
+number<--det amod
+home<--poss
+argue<--nsubj ccomp
+go<--aux prep advcl
+individuals<--det
+purposes<--amod amod
+Young<--cc conj
+believe<--nsubj ccomp
+analyst<--det
+operations<--poss nn
+has<--nsubj dobj
+says<--nsubj advmod ccomp
+remainder<--det prep
+sales<--amod amod nn
+Food<--cc conj
+Rothschilds<--det
+Icahn<--nn possessive
+strength<--det prep
+analysts<--num
+sellers<--amod
+official<--det prep
+company<--det amod nn
+conditions<--amod
+support<--amod prep
+genes<--amod
+ventures<--amod
+Party<--det nn nn
+performance<--poss amod
+campaign<--det nn
+states<--det
+expected<--advcl nsubjpass auxpass xcomp
+hope<--nsubj ccomp
+raise<--aux dobj xcomp
+bill<--det vmod
+Organization<--det prep
+Fireman<--possessive
+toward<--pcomp
+showed<--mark nsubj dobj
+%<--det amod num num
+Jones<--nn nn
+profit<--amod amod prep
+loyalty<--nn
+3/4<--num
+Earth<--det possessive
+worry<--nsubj ccomp
+seconds<--num
+products<--det amod
+fill<--aux dobj
+place<--det amod
+followed<--nsubj dobj
+hands<--poss
+currency<--amod
+subject<--det prep
+sold<--nsubjpass aux auxpass prep
+factories<--amod
+Air<--nn possessive
+having<--dobj
+business<--cc conj
+proposal<--det
+loan<--det
+States<--det nn
+fees<--amod prep
+Cheney<--nn
+vote<--det
+wave<--det amod prep prep
+point<--num nn
+fall<--aux
+economy<--det nn
+style<--det prep
+figure<--det amod prep
+Profit<--prep
+stocks<--amod amod
+says<--prep nsubj ccomp
+opposed<--mark prep
+won<--nsubj dobj prep
+indicates<--nsubj ccomp
+revenue<--prep prep
+programs<--det
+Jan.<--num
+Bartlett<--nn
+offer<--aux dobj
+year<--det rcmod
+client<--det
+up<--pobj pobj
+decline<--det
+holders<--nn
+range<--nsubj prep
+resume<--aux dobj prep
+attorney<--det prep
+cells<--amod amod
+Besides<--pobj
+forces<--amod amod
+volume<--amod
+provide<--aux dobj
+added<--ccomp nsubj
+earnings<--poss
+benefits<--nn
+strike<--poss
+speculation<--ccomp
+fell<--nsubj advmod prep
+unit<--poss nn nn nn
+street<--det
+found<--ccomp
+lure<--aux dobj
+awarded<--nsubj dobj prep
+Corp.<--nn nn rcmod
+acres<--num prep
+quarter<--det num amod
+posted<--prep nsubj dobj
+introduced<--nsubj dobj
+payable<--tmod prep
+services<--poss
+For<--pobj
+question<--det amod
+able<--prep nsubj aux cop xcomp
+except<--pcomp
+during<--pobj
+sell<--nsubj dobj
+unable<--nsubj cop xcomp
+planned<--mark nsubj xcomp
+Washington<--possessive
+early<--advmod prep
+trade<--det amod
+firm<--det nn nn prep
+Ford<--possessive
+Administration<--det nn nn
+begin<--aux xcomp
+discount<--det prep
+majors<--det
+paper<--amod
+dollars<--nn
+Association<--det nn prep
+describing<--dobj
+work<--amod
+say<--mark nsubj ccomp
+of<--mwe pobj
+Oct.<--num num
+put<--nsubj aux dobj prep
+add<--nsubj aux dobj prep
+changes<--det amod prep
+index<--det
+stake<--det amod amod prep
+Fargo<--nn cc conj
+making<--nsubj aux dobj
+judges<--amod
+relief<--nn
+goal<--det
+court<--det
+Airlines<--nn
+even<--pobj
+Senate<--det
+Rock<--nn
+water<--det amod
+traded<--nsubj prep prep prep
+outperform<--aux dobj
+system<--det nn rcmod
+players<--amod
+capacity<--poss amod
+insurance<--amod nn
+problems<--nn
+declined<--nsubj
+developed<--nsubj dobj
+move<--det prep
+confrontation<--det
+have<--mark nsubj aux xcomp
+exchanges<--det
+decide<--aux ccomp
+things<--det
+stocks<--cc conj
+plunged<--nsubj dobj prep prep
+was<--nsubj prep advcl
+80<--quantmod
+this<--cc conj
+afford<--nsubj aux neg xcomp
+sold<--mark nsubjpass aux auxpass prep
+lender<--det
+venture<--det amod prep
+1988<--amod
+lift<--aux dobj
+studying<--dobj
+billion<--number number
+post<--det nn
+want<--mark nsubj aux neg xcomp
+revenue<--prep
+string<--det prep
+board<--det amod
+for<--pcomp pobj
+provide<--aux dobj prep
+date<--det amod
+change<--det prep
+Exchange<--det nn nn nn
+network<--det
+party<--det amod
+runs<--nsubj dobj
+found<--prep
+Airways<--nn
+right<--nsubj cop
+market<--aux dobj
+sweetened<--nsubj dobj prep
+week<--amod amod
+had<--nsubj aux dobj
+U.S.<--det cc conj
+available<--prep
+faces<--nsubj dobj
+Eastern<--possessive
+have<--nsubj dobj
+some<--vmod
+Ltd.<--nn appos
+prices<--poss amod
+$<--quantmod quantmod quantmod number number
+so<--dep
+orders<--amod amod
+office<--det nn nn
+times<--num
+steelmaker<--poss amod
+quoted<--nsubjpass auxpass prep advmod
+close<--nsubj cop prep
+offers<--dobj
+Africa<--nn
+think<--nsubj advmod ccomp
+measure<--det
+risk<--amod
+filed<--prep
+make<--nsubj aux dobj prep
+members<--poss
+officials<--nn
+Treasury<--det
+members<--det
+Weisfield<--possessive
+Inc.<--nn nn nn appos
+blame<--aux
+give<--aux prt dobj
+wife<--poss appos
+fact<--det ccomp
+unavailable<--nsubj cop prep
+trillion<--number
+finance<--aux dobj
+means<--nsubj prep
+companies<--rcmod
+banks<--amod
+confident<--nsubj cop ccomp
+coupon<--det prep
+are<--nsubj dep
+Tisch<--nn
+release<--aux dobj
+parts<--prep
+stop<--aux dobj
+Berlin<--nn
+president<--det nn
+sees<--nsubj dobj
+1/8<--number
+delay<--det
+designed<--nsubjpass auxpass prep
+speech<--det
+looking<--prep
+Achenbaum<--nn
+Hill<--nn
+chains<--det
+From<--pobj prep
+security<--poss amod
+Results<--prep
+practices<--poss nn
+Malcolm<--nn
+reported<--prep
+trend<--det amod
+shareholders<--poss
+Sharon<--possessive
+reported<--advmod nsubj dobj
+heights<--dep
+division<--det prep
+priced<--prep xcomp
+University<--det prep prep
+plan<--poss vmod
+partners<--det amod
+statement<--det amod
+of<--pobj mwe pobj
+if<--pobj
+expense<--det prep
+helping<--ccomp
+expected<--advmod nsubjpass auxpass xcomp
+values<--nn
+managers<--cc conj
+change<--det
+left<--nsubj aux dobj prep
+cuts<--amod nn
+associated<--prep
+$<--det num
+say<--aux ccomp
+day<--num
+past<--det
+investments<--poss
+Management<--nn nn
+threat<--det nn
+Dynamics<--nn
+all<--vmod
+signs<--prep
+plan<--poss
+rates<--amod nn
+funds<--amod nn
+cut<--det amod nn
+was<--prep nsubj advmod prep
+fell<--nsubj prep
+Pinkerton<--possessive
+S&P<--det num
+takes<--dobj nsubj xcomp
+hope<--ccomp
+proposal<--det amod
+investment<--det prep
+figure<--det amod
+plant<--det possessive
+losses<--nn
+Communications<--nn nn
+play<--aux dobj
+floor<--det amod
+ability<--poss vmod
+thing<--det amod
+advantage<--prep
+plan<--det prep
+approval<--poss
+government<--det amod possessive
+$<--num advmod
+children<--amod
+products<--amod cc conj
+individual<--det
+divided<--prep
+be<--aux
+units<--det num
+issues<--amod amod
+rise<--nsubj aux dobj prep
+moving<--advmod prep
+fall<--nsubj aux
+scheme<--det
+interest<--poss amod prep
+possessing<--dobj
+IBM<--rcmod
+has<--dobj
+things<--rcmod
+January<--num
+reform<--amod
+falling<--mark nsubj aux
+Bush<--nn
+when<--advmod
+agency<--det rcmod
+garden<--det
+needed<--xcomp
+Since<--pobj
+subject<--nsubj cop prep
+cover<--aux dobj
+minister<--det amod amod
+yield<--aux dobj aux dobj
+income<--amod
+claims<--nn
+securities<--amod nn
+latter<--det
+plans<--amod nn
+commitments<--amod nn
+buying<--nsubj aux dobj
+shares<--nn
+In<--pobj
+increases<--amod prep
+bonds<--nn
+level<--det
+California<--amod
+hands<--amod
+not<--cc
+Institute<--det nn prep
+magazine<--nn nn
+buying<--advmod dobj
+funds<--det amod
+week<--advmod det
+while<--pobj
+filing<--det nn
+seat<--det prep
+paintings<--amod
+agreed<--nsubj advmod xcomp
+side<--det nn prep
+threatened<--advmod nsubj xcomp
+Morris<--nn
+market<--det prep
+volatility<--det prep
+slid<--nsubj dobj prep prep
+Mae<--nn possessive
+University<--det prep
+posts<--det
+day<--det num
+Procter<--cc conj
+rising<--dobj prep
+sell<--aux dobj xcomp
+gained<--nsubj dobj tmod
+rise<--det
+debts<--poss
+shares<--det amod
+cars<--amod cc conj
+closely<--advmod
+defending<--dobj prep
+help<--poss
+need<--nsubj xcomp
+comments<--poss
+way<--det
+record<--det amod nn
+1980s<--det amod
+Over<--pobj
+Containers<--nn
+declined<--nsubj dobj
+generation<--det amod prep
+operations<--det amod
+has<--nsubj dobj advmod
+started<--xcomp
+wearing<--dobj
+activity<--amod
+man<--det
+offer<--poss nn
+sale<--det prep
+soon<--advmod
+concerns<--nsubj dobj
+getting<--nsubj aux dobj
+abortions<--prep
+producers<--det num
+rose<--nsubj dobj
+has<--mark nsubj dobj
+said<--nsubj aux ccomp
+agreement<--det vmod
+takes<--nsubj dobj prep
+grown<--nsubj aux advmod prep
+satisfy<--aux dobj
+required<--nsubj xcomp
+estimate<--poss prep
+reason<--det amod dep
+Let<--possessive
+data<--amod prep
+drug<--det
+report<--det nn
+manufacturing<--amod
+successor<--poss
+decline<--det amod
+the<--amod prep
+difficult<--advmod
+Americans<--det
+trading<--amod amod
+buy<--aux dobj prep
+issues<--amod amod prep
+Gorbachev<--amod nn nn
+expect<--nsubj aux neg ccomp
+dispute<--det prep
+fees<--amod
+be<--aux prep
+include<--nsubj dobj
+market<--det amod rcmod
+out<--advmod
+was<--expl nsubj
+calls<--dobj nsubj dep
+Fees<--num
+seemed<--nsubj prep
+inventories<--nn
+billion<--number
+comes<--advmod nsubj
+lawyer<--det nn
+year<--amod possessive num
+problems<--det prep
+quarter<--det amod amod
+contracts<--amod
+production<--amod
+purchase<--aux dobj prep
+buy<--aux cc conj dobj
+signed<--nsubj dobj
+Co.<--nn prep
+control<--prep
+now<--advmod
+named<--advmod nsubjpass auxpass xcomp
+expenses<--amod
+help<--nsubj aux xcomp
+expressed<--prep
+domestic<--cc conj
+line<--poss
+reduced<--nsubjpass aux auxpass prep
+naczelnik<--det
+case<--det prep
+within<--pobj
+deal<--aux prep
+effects<--det amod prep
+50<--quantmod
+projects<--nn
+investment<--amod
+has<--nsubj advmod dobj cc conj
+Institute<--nn
+Tomash<--nn
+year<--det
+members<--amod prep
+know<--aux ccomp
+'re<--mark nsubj prep
+are<--nsubj ccomp
+go<--nsubj aux prep
+results<--nn
+refund<--det
+%<--num cc num conj
+for<--pobj pcomp
+profits<--prep
+difficult<--nsubj cop xcomp
+record<--poss prep
+$<--num cc conj num cc conj
+hour<--det prep
+including<--pobj
+setting<--prt dobj
+piece<--det prep prep
+investigating<--nsubj aux dobj
+are<--cc expl nsubj
+Alto<--nn
+1930s<--det
+oust<--aux dobj
+people<--amod vmod
+message<--poss
+publish<--aux dobj
+reluctance<--poss vmod
+have<--nsubj aux dobj
+owning<--dobj
+finance<--nsubj aux dobj
+make<--aux dobj
+Sorrell<--nn
+like<--nsubj aux neg dobj
+amendment<--det
+Smith<--nn possessive
+less<--prep prep
+D.<--dep
+rated<--nsubjpass auxpass acomp prep cc conj
+is<--expl neg nsubj
+Air<--nn
+get<--nsubj dobj
+Vogelstein<--nn
+included<--nsubj dobj
+said<--dobj nsubj ccomp
+dealers<--nn
+television<--amod
+as<--pobj pobj
+crisis<--det
+declined<--nsubj dobj prep
+1940s<--det
+fingers<--poss
+spend<--aux dobj
+removing<--dobj
+like<--nsubj aux xcomp
+Broadcasting<--nn
+magnitude<--det prep
+pay<--aux dobj
+approved<--nsubj dobj
+two-thirds<--advmod prep
+S&L<--nn
+engage<--aux prep
+rated<--nsubjpass auxpass acomp prep
+desire<--det vmod
+financing<--nn
+let<--nsubj ccomp
+obtain<--aux dobj
+elected<--nsubjpass auxpass xcomp xcomp
+resulting<--prep
+issue<--nsubj aux dobj
+$<--num vmod
+country<--det possessive
+is<--nsubj advmod prep
+reduce<--aux dobj prep prep
+report<--poss
+letter<--det prep
+'s<--nsubj neg prep
+losses<--poss
+reason<--num rcmod
+operators<--nn
+Nov.<--num num
+not<--mark dep
+governments<--amod
+looking<--mark nsubj aux prep
+audience<--poss
+identify<--aux dobj
+received<--prep
+stock<--nn
+Nasdaq<--possessive
+problems<--vmod
+school<--nn
+time<--det prep
+cut<--nsubj dobj
+$<--num num advmod
+went<--nsubj prep
+attention<--poss
+agreement<--det prep
+write<--aux dobj
+level<--det amod prep
+election<--det amod
+time<--det
+needs<--nsubj xcomp
+rating<--det amod
+reached<--nsubjpass aux neg auxpass prep
+intended<--nsubjpass auxpass xcomp
+have<--advcl nsubj aux xcomp
+poor<--det
+Cambridge<--appos
+got<--nsubj aux dobj
+summer<--det
+man<--det amod
+battle<--det amod
+along<--prep
+Dun<--cc conj
+financing<--dobj
+chairman<--poss appos
+trading<--prep
+accommodate<--aux dobj
+orders<--amod nn
+oil<--cc conj
+down<--pcomp
+ratio<--poss nn
+lost<--nsubj aux dobj
+volume<--nn
+found<--nsubj
+earthquake<--det amod
+talking<--nsubj aux prep
+financing<--det
+Department<--det nn nn
+Japanese<--amod
+services<--nn
+million<--quantmod quantmod quantmod number
+stemming<--prep
+prices<--amod prep
+effort<--det nn
+announcement<--det prep
+begins<--nsubj prep
+Assets<--prep
+Block<--nn
+risk<--prep
+crowd<--det
+May<--num
+Time<--possessive
+family<--det possessive
+projects<--rcmod
+project<--det amod
+firms<--amod
+Dentsu<--possessive
+program<--det nn nn
+After<--pobj
+case<--det amod prep
+%<--nsubj cop num vmod
+is<--nsubj parataxis ccomp
+litigation<--amod
+yield<--det
+worst<--det
+data<--det
+yields<--amod prep
+officials<--det
+25<--quantmod quantmod quantmod
+hoping<--ccomp
+failed<--xcomp
+accounts<--poss
+like<--nsubj aux advmod xcomp
+sense<--poss prep
+bring<--aux dobj prep
+system<--poss nn
+dream<--det
+generations<--amod
+aid<--amod amod
+followed<--nsubjpass auxpass prep cc conj
+conspiring<--xcomp
+With<--pcomp
+emergence<--det prep
+felt<--nsubj acomp
+group<--det vmod
+have<--nsubj advmod xcomp
+increases<--prep
+subsidiary<--poss nn nn
+businesses<--poss
+FDA<--det
+year<--det amod amod
+introduced<--prep
+levels<--amod prep
+Kellogg<--possessive
+sales<--nn prep
+buy<--dobj prep
+pound<--det
+units<--amod
+1980s<--amod
+of<--pobj pobj pobj pobj pobj
+sense<--det
+Democrats<--nn
+early<--prep
+market<--det amod prep
+restructuring<--det
+Goldman<--conj cc conj
+yields<--amod
+dealer<--det
+build<--aux dobj prep
+handful<--det prep
+was<--nsubj prep
+followed<--nsubj
+cards<--poss
+threat<--det amod
+index<--det nn nn
+prices<--nn nn
+recapitalization<--det
+president<--det nn prep
+started<--nsubj prep
+letting<--ccomp
+days<--det amod prep
+business<--poss amod nn
+loss<--det amod prep
+bonds<--poss
+Columbia<--nn
+increase<--det prep
+for<--pobj cc conj pobj
+capacity<--det vmod
+deficit<--det nn
+held<--nsubj dobj
+used<--nsubj aux xcomp
+ended<--tmod
+statement<--det nn
+supply<--aux dobj prep
+by<--pobj
+hopes<--prep
+on<--pobj
+computer<--det amod
+plan<--det nn vmod
+paid<--nsubj advmod dobj prep
+expected<--mark nsubj
+grow<--nsubj prep
+investment<--det amod prep
+owns<--nsubj
+received<--nsubj dobj
+amendment<--det amod vmod
+executives<--det nn
+net<--poss
+leaves<--mark nsubj dobj
+rates<--prep
+answer<--det
+as<--mwe pcomp
+officials<--amod prep
+damage<--amod prep
+came<--nsubj prep advcl
+buyers<--amod nn
+sales<--amod prep prep
+bill<--det
+guarantees<--amod nn
+states<--amod
+report<--aux dobj
+partner<--det amod
+do<--nsubj aux advmod
+yen<--num advmod num
+Inc.<--nn nn possessive
+increase<--det
+300<--quantmod
+drivers<--nn
+bonds<--nn nn
+over<--nsubj cop
+department<--det nn prep
+Lortie<--nn possessive
+dealers<--det
+name<--det prep
+companies<--amod amod nn
+figures<--amod nn
+show<--nsubj aux dobj
+intention<--poss vmod
+competitors<--poss
+theater<--det
+making<--ccomp
+transaction<--det rcmod
+area<--det rcmod
+doubling<--det prep
+whooping<--dobj
+ensure<--aux ccomp
+vaccine<--det
+are<--mark nsubj prep
+representing<--dobj
+Barron<--possessive
+doing<--nsubj aux dobj
+problems<--prep
+determine<--aux ccomp
+PLC<--nn nn possessive
+Phillips<--nn
+age<--num cc conj
+relationship<--det amod prep
+come<--nsubj aux prep
+Semel<--nn
+close<--det
+according<--pcomp
+block<--det
+fight<--det
+executives<--poss
+%<--num num num
+of<--mwe pobj pobj
+486<--det
+grid<--det
+millions<--prep
+bonds<--det nn
+stocks<--amod
+spokesman<--det prep
+telephone<--det
+long<--advmod ccomp
+president<--cc conj
+win<--aux dobj
+received<--advmod nsubj dobj
+talks<--prep
+used<--nsubj dobj
+raised<--nsubj dobj prep
+committed<--prep
+interest<--det
+$<--det num vmod
+effort<--det amod
+valued<--prep
+earthquake<--poss
+value<--poss nn
+works<--det
+there<--advmod
+volume<--amod prep
+program<--det
+business<--amod
+Europe<--nn
+Ltd<--nn nn nn
+accounts<--amod
+reluctant<--nsubj cop xcomp
+problem<--det nn
+barrels<--num dep
+daughters<--poss
+began<--mark nsubj prep
+product<--det
+without<--pcomp
+houses<--amod
+plunge<--poss amod
+mines<--det
+posts<--poss
+paid<--nsubj prep prep prep
+companies<--poss
+practices<--mark nsubj dobj advcl
+growth<--det
+Office<--det nn nn
+on<--pcomp
+treatment<--amod prep
+information<--det
+try<--xcomp
+operations<--poss nn nn
+holding<--dobj
+others<--prep
+art<--det
+agreed<--tmod nsubj xcomp
+$<--num quantmod quantmod number number
+rate<--det nn prep
+chairman<--det possessive
+Court<--det nn nn
+time<--det amod prep
+raised<--prep
+set<--det prep
+Not<--dep
+family<--det nn
+specialists<--nn
+charge<--det prep prep
+banks<--det amod
+number<--det prep
+cents<--num num
+replace<--nsubj aux dobj
+says<--nsubj
+version<--det amod prep
+production<--nn
+profit<--poss
+Rosen<--nn
+Motors<--nn
+take<--nsubj dobj
+two<--det
+involved<--nsubjpass auxpass prep
+tactics<--amod
+positive<--advmod
+research<--amod nn
+Fidelity<--possessive
+1/2<--quantmod number
+by<--pcomp
+status<--amod
+Proceeds<--prep
+get<--mark nsubj dobj
+Jan.<--num num
+York<--nn possessive
+cost<--aux dobj
+Systems<--nn
+currency<--det amod
+houses<--nn
+interest<--prep
+feel<--nsubj ccomp
+Put<--dobj prep prep xcomp
+refuse<--nsubj xcomp
+operating<--prep
+wanted<--mark nsubj xcomp
+families<--poss
+orders<--nn
+$<--nsubj cop quantmod number number
+by<--pobj pobj pobj
+%<--amod num cc num conj
+from<--pobj pcomp
+Rates<--prep
+with<--pcomp
+in<--pobj cc conj
+case<--det nn
+changes<--det
+spread<--det nn prep
+boost<--aux dobj
+Congress<--det nn
+Poland<--cc conj
+programs<--det nn
+Creek<--nn
+issued<--nsubj dobj
+appears<--nsubj xcomp
+restrictions<--prep
+1/2-year<--number
+heart<--det prep
+only<--dep
+possibility<--det prep
+America<--possessive
+needed<--advmod
+saying<--ccomp
+drop<--det amod amod prep
+regulators<--nn
+free<--prep
+quantities<--amod
+over<--pcomp
+owners<--amod nn
+think<--mark nsubj ccomp
+is<--nsubj advmod prep cc conj
+covered<--prep
+opinion<--poss
+billion<--quantmod number number
+decided<--nsubj xcomp
+consider<--aux dobj
+over<--advmod
+pictures<--prep
+industry<--det nn
+range<--det amod prep
+fight<--det prep
+plans<--mark nsubj xcomp
+filing<--dobj
+at<--pcomp
+As<--pobj
+one<--cc conj
+products<--nn
+life<--amod
+rise<--det prep
+press<--det
+Volume<--dep
+going<--advmod prep
+readers<--amod
+was<--nsubj advmod xcomp
+declined<--nsubj xcomp
+omitted<--nsubjpass auxpass
+contract<--det amod
+used<--nsubjpass aux auxpass prep
+judge<--det amod
+president<--prep
+Merc<--det
+anticipation<--prep
+virus<--det
+position<--poss nn
+dismissal<--poss
+new<--cc conj
+finished<--nsubj advmod prep
+record<--det
+voting<--prep
+Kemp<--nn
+$<--det num prep
+sound<--det prep
+plans<--tmod nsubj xcomp
+1<--quantmod
+conditions<--amod prep
+be<--mark nsubj aux prep
+months<--det amod num
+agencies<--amod nn
+about<--advmod
+Lesko<--nn
+as<--dep pobj
+payment<--prep
+circulated<--prep
+change<--det nn
+are<--advmod nsubj prep
+time<--amod
+section<--det amod prep
+attracting<--dobj
+test<--det amod
+expect<--nsubj aux neg xcomp
+outcry<--det amod
+purchasing<--dobj prep
+share<--det amod
+including<--pcomp
+takeover<--det
+follow<--nsubj aux
+make<--aux xcomp
+attitude<--poss
+$<--num cc conj num
+increased<--nsubj aux dobj prep
+represented<--nsubj dobj
+depends<--nsubj prep
+Carson<--nn
+killing<--dobj
+effort<--poss
+kind<--det prep rcmod
+Aside<--prep
+file<--aux prep
+notes<--det
+cases<--num
+stocks<--prep
+year<--det det
+focusing<--prep
+people<--prep vmod
+throughout<--pobj
+battle<--det prep
+rice<--cc conj
+political<--cc conj
+man<--det prep
+strike<--det amod
+evidence<--amod
+size<--poss
+things<--det rcmod
+gain<--det prep prep
+Jr.<--nn nn
+carry<--nsubj aux dobj
+claims<--amod
+called<--nsubj dep
+level<--det amod
+exchange<--det
+brokers<--nn
+go<--aux prep prep
+earnings<--prep prep
+crisis<--poss amod advmod dep
+longer<--prep
+per<--pobj
+jumped<--nsubj dobj prep prep
+had<--nsubj dobj advmod
+everything<--prep
+had<--nsubj advmod dobj
+computers<--poss amod
+computers<--amod
+union<--det nn nn
+disclose<--nsubj aux neg dobj
+ventures<--amod amod
+development<--prep
+charge<--det amod
+raise<--aux dobj
+gives<--iobj dobj
+made<--nsubj prep xcomp
+out<--pcomp cc conj
+revenue<--poss
+sport<--det
+into<--pobj pobj
+plant<--poss prep
+completion<--prep
+downside<--det
+providing<--dobj prep
+statement<--det
+business<--det amod
+able<--aux cop xcomp
+payment<--det
+chairman<--cc conj
+adopt<--aux dobj
+Jr.<--nn nn appos
+trading<--amod nn nn
+weekend<--det
+partnership<--det amod
+markets<--amod
+something<--vmod
+bought<--nsubj prep
+problems<--poss amod
+raise<--dobj
+Beers<--nn
+sales<--prep
+president<--poss appos
+success<--poss prep
+earnings<--amod amod
+broadly<--advmod
+managers<--amod
+was<--mark nsubj prep
+reject<--aux dobj
+agreed<--nsubj xcomp
+onto<--pobj
+to<--pobj prep
+day<--det
+Alan<--nn
+caused<--prep
+Merksamer<--nn
+passengers<--num
+director<--det
+Democrat<--det nn
+systems<--amod nn
+planners<--amod
+knows<--nsubj ccomp
+moves<--amod
+funds<--amod
+trouble<--prep
+orders<--amod prep
+made<--mark nsubj xcomp
+rate<--det amod
+interests<--nn
+on<--cc conj
+individuals<--cc conj
+rates<--amod prep dep
+River<--det nn
+activities<--amod
+scenario<--det amod
+gone<--nsubj aux advmod prep
+scheduled<--advmod nsubjpass auxpass xcomp
+leave<--aux
+dividends<--amod
+fund<--det possessive
+continues<--mark nsubj xcomp
+subject<--prep
+think<--nsubj ccomp cc conj
+Miller<--nn
+community<--det amod
+cases<--nn
+stocks<--num amod
+eased<--nsubj dobj prep
+officials<--nn nn
+suit<--det
+success<--det prep
+%<--num prep number
+million<--number number prep
+student<--det
+Lee<--nn
+see<--nsubj aux dobj
+Securities<--nn
+agreed<--prep nsubj xcomp
+By<--pcomp
+risk<--det amod
+decision<--det
+portfolio<--det amod
+$<--num cc conj prep
+three<--prep
+Peterson<--nn
+partner<--det prep
+executives<--nn nn
+south<--advmod prep
+scale<--det nn
+plenty<--prep
+will<--nsubj
+loans<--nn nn
+amount<--det amod
+claims<--amod prep
+settle<--aux dobj prep
+coming<--prt prep
+produced<--mark nsubj dobj
+of<--pobj pobj pobj pobj
+show<--det amod nn
+completed<--aux auxpass prep
+costs<--nn nn
+over<--dep pobj
+package<--det nn
+planes<--det
+counter<--aux dobj
+with<--pobj tmod
+acquisition<--poss prep
+product<--det amod
+increase<--det amod prep
+reason<--det amod
+figure<--det
+company<--det amod possessive
+posted<--nsubj dobj prep
+call<--det amod nn
+construction<--amod
+want<--nsubj
+interests<--poss prep
+revolution<--det nn
+Code<--det nn nn
+discuss<--aux dobj
+crash<--det num
+flying<--prep
+Inc.<--nn possessive
+announced<--prep
+along<--pcomp
+investors<--prep
+doing<--dobj prep
+use<--aux dobj prep
+hole<--det
+above<--npadvmod pobj
+invests<--nsubj advmod prep
+popular<--advmod
+manager<--nn prep
+system<--det rcmod
+follow<--aux dobj
+future<--poss
+allow<--aux xcomp
+Since<--pcomp
+management<--nn
+insurers<--amod
+networks<--det
+efforts<--poss amod
+Eagle<--possessive
+in<--pobj pobj pobj
+costs<--nsubj dobj
+sales<--poss amod
+hours<--num
+people<--det
+change<--det amod prep
+sold<--nsubjpass aux auxpass
+third<--det prep
+return<--aux prep
+support<--poss amod prep
+Workers<--det nn
+produced<--prep
+take<--aux dobj prep
+evening<--det
+reported<--advmod
+elections<--det
+hearings<--det
+have<--mark nsubj xcomp
+'s<--mark expl nsubj
+deal<--det amod
+larger<--advmod
+concern<--nn nn
+kept<--nsubj dep
+provides<--nsubj dobj
+strategy<--det prep
+reserves<--poss
+reach<--aux dobj
+spring<--det
+receive<--nsubj aux dobj
+over<--pobj pobj
+yen<--det
+get<--aux prep
+pilots<--poss
+markets<--nn
+way<--det amod vmod
+Evans<--nn
+earnings<--poss amod
+point<--det amod prep
+have<--nsubj aux neg xcomp
+outcome<--det
+equivalent<--prep
+ranged<--nsubj prep
+often<--advmod
+days<--det amod num
+deficit<--det amod nn
+index<--det nn nn amod
+thing<--num prep
+disclosed<--nsubjpass auxpass neg
+delivering<--dobj
+used<--nsubj aux dobj prep
+house<--poss
+miles<--num
+group<--det
+part<--prep
+workers<--rcmod
+payments<--det
+Terms<--prep
+Hancock<--nn
+leaders<--amod
+take<--nsubj aux dobj
+program<--amod nn dep
+spokeswoman<--det nn
+lenders<--amod
+said<--nsubj prep ccomp
+company<--det possessive
+talks<--det
+calls<--nsubj advcl
+job<--det amod

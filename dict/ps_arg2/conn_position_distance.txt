@@ -1,0 +1,501 @@
+for example_right_6
+for example_right_4
+for example_right_5
+for example_right_2
+for example_right_3
+for example_right_0
+for example_right_1
+thereby_left_0
+thereby_left_1
+However_right_5
+However_right_4
+However_right_3
+However_right_2
+previously_left_0
+However_right_0
+still_left_3
+regardless_left_0
+regardless_left_1
+yet_left_0
+For_right_0
+For_right_1
+moreover_right_3
+moreover_right_2
+moreover_right_1
+moreover_right_0
+accordingly_left_0
+accordingly_left_1
+then_left_1
+then_left_0
+then_left_2
+But_right_2
+However_right_6
+by contrast_left_0
+But_right_3
+also_left_1
+also_left_0
+also_left_3
+also_left_2
+also_left_5
+also_left_4
+also_left_6
+for instance_left_0
+for instance_left_1
+However_right_1
+in other words_right_0
+in other words_right_1
+previously_left_1
+though_left_0
+finally_right_0
+finally_right_1
+finally_right_2
+finally_right_3
+finally_right_4
+finally_right_5
+though_right_3
+though_right_2
+On the contrary_right_2
+On the contrary_right_1
+Yet_right_4
+Yet_right_3
+Yet_right_2
+Yet_right_1
+Yet_right_0
+ultimately_right_0
+ultimately_right_1
+by then_left_0
+by comparison_right_0
+meanwhile_right_4
+Later_right_1
+Later_right_0
+Later_right_3
+Later_right_2
+Because_right_1
+Because_right_0
+In contrast_right_0
+In contrast_right_1
+In contrast_right_2
+In contrast_right_3
+In contrast_right_4
+consequently_right_0
+Nonetheless_right_1
+Nonetheless_right_0
+Nonetheless_right_3
+Nonetheless_right_2
+Moreover_right_3
+Moreover_right_2
+Moreover_right_1
+Moreover_right_0
+By comparison_right_1
+By comparison_right_0
+Moreover_right_5
+Moreover_right_4
+furthermore_right_0
+furthermore_right_1
+then_right_3
+then_right_2
+then_right_1
+then_right_0
+then_right_6
+then_right_5
+then_right_4
+by comparison_left_0
+Thus_right_2
+Thus_right_3
+Thus_right_0
+Thus_right_1
+specifically_right_0
+specifically_right_1
+Thus_right_4
+Thus_right_5
+Unless_right_0
+Unless_right_1
+As well_right_0
+when_left_0
+Rather_right_2
+Rather_right_3
+Rather_right_0
+Rather_right_1
+likewise_right_3
+likewise_right_2
+likewise_right_1
+likewise_right_0
+Likewise_right_1
+In the end_right_3
+In the end_right_2
+In the end_right_1
+In the end_right_0
+as a result_left_0
+Meanwhile_right_1
+Meanwhile_right_0
+Meanwhile_right_3
+Meanwhile_right_2
+as well_left_3
+as well_left_2
+as well_left_1
+as well_left_0
+in turn_right_3
+in turn_right_2
+in turn_right_1
+in turn_right_0
+By then_right_0
+in turn_right_5
+in turn_right_4
+finally_left_0
+for example_left_2
+later_right_0
+for example_left_1
+still_left_2
+simultaneously_left_0
+Then_right_3
+Then_right_2
+Then_right_1
+Then_right_0
+Then_right_4
+Further_right_3
+Further_right_2
+Further_right_1
+Further_right_0
+afterwards_right_0
+previously_right_2
+previously_right_3
+previously_right_0
+previously_right_1
+still_right_1
+still_right_0
+still_right_3
+still_right_2
+In fact_right_0
+In fact_right_1
+In fact_right_2
+In fact_right_3
+In fact_right_4
+In addition_right_4
+In addition_right_5
+In addition_right_2
+In addition_right_3
+In addition_right_0
+In addition_right_1
+moreover_left_1
+moreover_left_0
+ultimately_left_0
+later_left_3
+later_left_2
+later_left_1
+later_left_0
+Additionally_right_0
+Additionally_right_1
+Still_right_1
+Still_right_0
+Still_right_3
+Still_right_2
+Still_right_5
+Still_right_4
+indeed_left_1
+indeed_left_0
+indeed_left_2
+Alternatively_right_3
+Alternatively_right_2
+Alternatively_right_1
+Alternatively_right_0
+after_right_1
+after_right_0
+furthermore_right_2
+after_right_2
+additionally_left_0
+instead_right_2
+instead_right_1
+instead_right_0
+in particular_right_1
+in particular_right_0
+in particular_right_3
+in particular_right_2
+in particular_right_4
+meantime_right_0
+meantime_right_1
+Nor_right_0
+Nor_right_1
+Nor_right_2
+Ultimately_right_0
+Ultimately_right_1
+previously_left_2
+on the other hand_left_0
+Hence_right_2
+as well_right_0
+Hence_right_0
+Hence_right_1
+So_right_8
+furthermore_right_3
+So_right_6
+So_right_7
+So_right_4
+So_right_5
+So_right_2
+So_right_3
+So_right_0
+So_right_1
+meantime_left_0
+for instance_right_0
+for instance_right_1
+for instance_right_2
+for instance_right_3
+for instance_right_4
+Thus_right_6
+furthermore_left_0
+Also_right_3
+Also_right_2
+Also_right_1
+Also_right_0
+Also_right_4
+thus_right_2
+thus_right_3
+thus_right_0
+thus_right_1
+On the other hand_right_0
+On the other hand_right_1
+On the other hand_right_2
+On the other hand_right_3
+though_right_5
+though_right_4
+afterwards_right_1
+nonetheless_left_0
+Before_right_1
+Before_right_0
+earlier_left_0
+though_right_1
+simultaneously_right_0
+though_right_0
+Or_right_3
+Or_right_2
+Or_right_1
+Or_right_0
+Or_right_4
+Separately_right_2
+Separately_right_3
+Separately_right_0
+Separately_right_1
+Separately_right_4
+And_right_6
+Afterward_right_2
+Afterward_right_1
+Afterward_right_0
+Instead_right_3
+Instead_right_2
+Instead_right_1
+And_right_5
+And_right_2
+And_right_3
+And_right_0
+Instead_right_4
+Besides_right_0
+Besides_right_1
+Besides_right_2
+Besides_right_3
+Thereafter_right_0
+consequently_left_0
+consequently_left_1
+And_right_4
+by then_right_0
+also_right_8
+also_right_3
+also_right_2
+also_right_1
+also_right_0
+also_right_7
+also_right_6
+also_right_5
+also_right_4
+therefore_left_1
+therefore_left_0
+On the contrary_right_0
+because_left_0
+Indeed_right_5
+Indeed_right_4
+Indeed_right_3
+Indeed_right_2
+Indeed_right_1
+Indeed_right_0
+thus_left_0
+after_left_0
+thereafter_right_0
+thereafter_right_1
+thereafter_right_2
+For instance_right_0
+For instance_right_1
+For instance_right_2
+For instance_right_3
+For instance_right_4
+For instance_right_5
+For instance_right_6
+next_left_1
+next_left_0
+specifically_left_0
+specifically_left_1
+therefore_right_1
+therefore_right_0
+By contrast_right_2
+By contrast_right_3
+By contrast_right_0
+By contrast_right_1
+Accordingly_right_0
+Accordingly_right_1
+Nevertheless_right_2
+Nevertheless_right_3
+Nevertheless_right_0
+Nevertheless_right_1
+Afterwards_right_0
+in contrast_left_0
+in contrast_right_0
+in contrast_right_1
+Previously_right_2
+Previously_right_0
+Previously_right_1
+As a result_right_5
+As a result_right_4
+As a result_right_1
+As a result_right_0
+As a result_right_3
+As a result_right_2
+But_right_4
+But_right_5
+But_right_6
+But_right_7
+But_right_0
+But_right_1
+still_left_1
+still_left_0
+In other words_right_0
+In other words_right_1
+In other words_right_2
+In other words_right_3
+But_right_8
+But_right_9
+by contrast_right_2
+by contrast_right_0
+by contrast_right_1
+In short_right_0
+meanwhile_right_1
+meanwhile_right_0
+meanwhile_right_3
+meanwhile_right_2
+indeed_right_1
+indeed_right_0
+Likewise_right_3
+Likewise_right_2
+when_right_0
+Likewise_right_0
+Earlier_right_1
+Earlier_right_0
+earlier_right_1
+earlier_right_0
+earlier_right_2
+however_left_1
+however_left_0
+however_left_2
+Therefore_right_3
+on the other hand_right_0
+on the other hand_right_1
+on the other hand_right_2
+Therefore_right_2
+however_right_5
+however_right_4
+yet_right_1
+yet_right_0
+in the end_left_0
+as a result_right_0
+in fact_right_0
+in fact_right_1
+in fact_right_2
+in fact_right_3
+instead_left_1
+because_right_0
+instead_left_2
+Specifically_right_0
+Furthermore_right_5
+Otherwise_right_1
+Otherwise_right_0
+Overall_right_2
+Overall_right_3
+Overall_right_0
+Overall_right_1
+Overall_right_4
+Similarly_right_1
+Similarly_right_0
+Similarly_right_3
+Similarly_right_2
+nonetheless_right_1
+nonetheless_right_0
+nonetheless_right_3
+nonetheless_right_2
+nonetheless_right_4
+in turn_left_1
+in turn_left_0
+In particular_right_1
+In particular_right_0
+In particular_right_3
+In particular_right_2
+And_right_7
+For example_right_6
+For example_right_4
+For example_right_5
+For example_right_2
+For example_right_3
+For example_right_0
+For example_right_1
+Instead_right_0
+afterwards_left_0
+later_right_1
+for example_left_3
+for example_left_0
+later_right_2
+thereafter_left_0
+And_right_1
+because_right_1
+thereby_right_0
+thereby_right_1
+thereby_right_2
+instead_left_0
+because_right_2
+Conversely_right_2
+Conversely_right_0
+Conversely_right_1
+in the end_right_0
+in fact_left_4
+in fact_left_5
+in fact_left_6
+in fact_left_0
+in fact_left_1
+in fact_left_2
+in fact_left_3
+however_right_7
+however_right_6
+Therefore_right_1
+Therefore_right_0
+however_right_3
+however_right_2
+however_right_1
+however_right_0
+additionally_right_0
+Furthermore_right_0
+Furthermore_right_1
+Furthermore_right_2
+Furthermore_right_3
+Furthermore_right_4
+Specifically_right_1
+Specifically_right_2
+likewise_left_1
+likewise_left_0
+likewise_left_3
+likewise_left_2
+likewise_left_4
+in particular_left_0
+in other words_left_0
+Consequently_right_2
+Consequently_right_3
+Consequently_right_0
+Consequently_right_1
+meanwhile_left_3
+meanwhile_left_2
+meanwhile_left_1
+meanwhile_left_0
+next_right_0

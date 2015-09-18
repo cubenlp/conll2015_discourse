@@ -1,0 +1,1286 @@
+IN|still
+NNPS|finally
+-RRB-|still
+''|if
+NN|nevertheless
+CC|until
+RBR|but
+VBZ|as long as
+MD|for
+PRP|for
+VB|rather
+VBZ|as though
+,|consequently
+VBD|after
+MD|finally
+NNPS|after
+PRP|finally
+MD|and
+NONE|while
+RP|when
+-LRB-|and
+VBN|by then
+VBN|unless
+VBP|indeed
+DT|after
+,|also
+VBZ|in turn
+NNP|after
+VB|still
+``|if
+IN|as soon as
+VBN|and
+,|as an alternative
+VBD|rather
+RB|as though
+VBZ|except
+VBP|and
+PRP|because
+PRP|furthermore
+JJ|else
+VBG|but
+,|as a result
+NN|besides
+IN|before
+NN|except
+``|now that
+VB|previously
+NN|indeed
+NNPS|also
+VB|as soon as
+PRP|when
+VBZ|neither nor
+VBN|if
+VBP|finally
+IN|either or
+VBZ|either or
+VBZ|thus
+DT|so
+VBG|because
+NONE|since
+,|in contrast
+NNP|further
+VBN|otherwise
+:|also
+.|in fact
+VBP|neither nor
+CC|by comparison
+.|in contrast
+``|for example
+WRB|after
+VBG|likewise
+,|regardless
+``|when
+VBD|previously
+.|afterwards
+CC|afterward
+VB|so
+CC|later
+WDT|neither nor
+''|yet
+NN|in the end
+VBZ|so
+NNP|although
+WP|as
+DT|also
+RP|because
+''|regardless
+TO|then
+DT|or
+MD|indeed
+:|rather
+-LRB-|by comparison
+''|and
+''|moreover
+CC|before
+-LRB-|for
+-RRB-|although
+VB|unless
+TO|as
+NN|or
+:|once
+.|yet
+.|besides
+RP|rather
+RBR|or
+.|further
+VB|similarly
+TO|or
+NNP|when
+.|except
+RB|as long as
+''|however
+RB|as a result
+''|so that
+WRB|or
+,|as well
+PRP|yet
+JJS|and
+NN|once
+RB|then
+IN|when
+CC|then
+-LRB-|as well
+RB|separately
+JJ|yet
+CD|still
+.|when and if
+VBG|for
+VBG|finally
+NNS|also
+WDT|separately
+VBZ|previously
+DT|meanwhile
+VBZ|before
+,|much as
+VBZ|still
+,|lest
+NNP|earlier
+RB|because
+RB|previously
+JJ|until
+VBG|instead
+MD|then
+UH|or
+NNP|except
+.|then
+RP|next
+.|because
+DT|until
+CD|previously
+,|though
+:|when
+RB|as if
+VBD|yet
+VBD|or
+NNS|still
+:|later
+VB|next
+''|still
+NNP|or
+CC|separately
+:|indeed
+TO|overall
+``|since
+,|for instance
+NN|in turn
+RBR|specifically
+CC|after
+``|as soon as
+VBG|next
+NNP|in particular
+NNS|because
+,|however
+NNP|previously
+,|next
+VBD|separately
+NNS|since
+VBG|as if
+VB|however
+-RRB-|but
+.|in the end
+JJS|also
+VBG|or
+RB|as well
+``|yet
+,|in addition
+NN|after
+JJ|plus
+NN|in short
+RB|simultaneously
+IN|while
+.|nonetheless
+''|since
+PRP|neither nor
+-LRB-|in other words
+NN|as
+RB|later
+,|while
+MD|later
+NNS|finally
+CD|else
+VBP|thus
+VBG|while
+MD|so
+RP|and
+WDT|either or
+``|and
+``|as a result
+''|specifically
+:|until
+VBP|thereby
+VBP|further
+NNS|as a result
+``|if then
+PRP|previously
+NNP|as a result
+NNS|in fact
+VBZ|in addition
+CD|while
+''|in fact
+.|additionally
+VBN|until
+NONE|if
+VBP|also
+.|accordingly
+PRP|further
+IN|until
+JJ|also
+``|thus
+VBN|while
+.|as an alternative
+''|in addition
+''|indeed
+''|before
+JJS|until
+:|if
+VBP|specifically
+,|as if
+VBN|earlier
+,|when
+NN|yet
+.|until
+:|finally
+VBD|earlier
+PRP|accordingly
+PRP|earlier
+:|in other words
+VBN|yet
+JJ|if and when
+WDT|since
+,|moreover
+RB|instead
+CD|next
+VBN|further
+CC|nonetheless
+DT|before and after
+VBZ|nevertheless
+TO|finally
+RP|while
+RP|before
+DT|further
+JJS|yet
+NNPS|next
+VBD|as
+:|for example
+CC|though
+RB|but
+JJR|but
+,|meanwhile
+,|in particular
+NNPS|since
+VB|if
+NNS|unless
+VBD|later
+NNS|as well
+''|while
+VBN|as long as
+''|ultimately
+CD|also
+VBP|if then
+JJ|by comparison
+.|as a result
+WP|so
+IN|or
+NNS|simultaneously
+VBZ|yet
+CD|or
+CC|therefore
+POS|next
+CC|in the end
+''|besides
+NN|lest
+,|once
+CC|once
+VBN|because
+RB|otherwise
+RP|since
+MD|neither nor
+.|as soon as
+WDT|so
+WDT|otherwise
+NN|so
+JJ|as a result
+VBD|neither nor
+CD|plus
+NNS|instead
+DT|yet
+''|after
+VBD|while
+VBG|rather
+NNS|or
+,|since
+.|therefore
+NN|as a result
+RBR|as well
+PRP|if
+NNS|in short
+.|though
+NNP|specifically
+NN|before
+JJS|because
+WRB|and
+WP|in fact
+:|still
+VBN|ultimately
+''|neither nor
+''|as
+RB|next
+NNS|when
+WDT|therefore
+NN|while
+``|next
+VBN|till
+VBN|either or
+DT|for
+DT|but
+CC|finally
+``|because
+-LRB-|except
+VBN|nonetheless
+VBN|before
+VBP|in addition
+VBZ|until
+,|or
+NN|instead
+NN|although
+VBN|when
+-LRB-|because
+.|instead
+:|neither nor
+-LRB-|but
+NNPS|for
+PRP|then
+VBP|rather
+JJ|though
+IN|previously
+''|once
+WDT|in turn
+PRP|until
+JJR|because
+CC|although
+,|in fact
+NONE|and
+NN|because
+IN|indeed
+VBD|so
+VB|as if
+NN|as well
+VBZ|likewise
+NNP|as an alternative
+VB|likewise
+''|for
+,|before
+.|once
+''|either or
+VBD|specifically
+-RRB-|so
+DT|before
+VBN|later
+''|in other words
+NNP|therefore
+PRP|after
+RBR|as
+RBR|so
+.|after
+RP|yet
+NONE|but
+NNS|earlier
+CD|as
+WDT|previously
+,|overall
+WP|next
+NNS|except
+NNS|before
+PRP|once
+VBD|when
+.|as if
+``|nor
+NNPS|if
+,|for
+IN|separately
+,|earlier
+``|then
+VB|for
+VBP|either or
+:|except
+JJ|then
+JJ|after
+RB|rather
+VBZ|for
+JJ|next
+.|neither nor
+NN|simultaneously
+VBP|as though
+PRP|before
+VBP|previously
+PRP|ultimately
+PRP|as well
+PRP|so
+NNS|as
+CC|so
+-RRB-|after
+CD|and
+CD|until
+-LRB-|or
+CC|also
+VBG|overall
+''|or
+VBP|yet
+RB|earlier
+,|after
+.|on the other hand
+''|next
+,|in the end
+.|furthermore
+,|furthermore
+CC|when
+''|instead
+VB|once
+VBD|once
+CC|however
+-RRB-|before
+RBR|for
+RP|until
+,|nor
+.|similarly
+NN|further
+VBD|in contrast
+IN|once
+WDT|then
+VB|as though
+``|besides
+,|instead
+DT|else
+''|separately
+''|further
+''|although
+JJR|while
+NN|in addition
+NN|later
+,|as soon as
+.|as long as
+NNS|nevertheless
+NNS|thus
+MD|also
+NNP|as if
+.|however
+IN|although
+WRB|when
+VBG|yet
+VBZ|as
+``|later
+.|still
+RBR|when
+TO|meanwhile
+CC|so that
+NN|separately
+IN|so that
+.|meanwhile
+NONE|once
+VBD|but
+NNP|while
+CC|in addition
+MD|because
+-RRB-|as
+,|until
+RB|yet
+NNS|so
+,|except
+RBS|still
+NNP|instead
+VB|either or
+-LRB-|though
+VBG|either or
+NN|either or
+RB|for
+,|specifically
+JJS|next
+NN|in contrast
+:|thus
+VBN|instead
+VBD|although
+NNS|ultimately
+NNPS|so
+''|earlier
+POS|or
+VB|as well
+JJS|since
+DT|still
+NN|as long as
+NONE|earlier
+VBD|because
+CC|as
+.|specifically
+NN|if
+VBZ|nonetheless
+RB|unless
+DT|overall
+NNS|further
+VBZ|while
+``|after
+,|yet
+VBG|as well
+NNS|afterwards
+,|and
+IN|earlier
+:|nor
+NNS|overall
+NNP|then
+IN|since
+.|rather
+NNP|for
+POS|further
+JJ|except
+NNP|since
+JJ|before
+JJ|for
+-LRB-|while
+NONE|as
+VB|but
+NN|though
+CC|because
+,|meantime
+,|then
+''|then
+,|either or
+:|while
+VBP|nonetheless
+NNP|plus
+VBZ|earlier
+VB|later
+VBD|before
+JJ|since
+DT|though
+CD|for
+VB|overall
+NNS|specifically
+.|likewise
+NNS|next
+POS|also
+RP|till
+VBD|in fact
+VBZ|indeed
+.|later
+``|in the end
+:|much as
+NN|thus
+WP|still
+CD|as a result
+``|though
+VBN|since
+.|although
+VBD|if
+VBD|further
+JJ|insofar as
+NNP|still
+.|or
+:|in fact
+EX|and
+:|plus
+NONE|yet
+CC|yet
+JJ|nor
+''|in contrast
+-RRB-|when
+PRP|therefore
+-RRB-|instead
+``|or
+.|earlier
+CD|when
+CD|unless
+:|although
+NNP|and
+WDT|for
+WP|until
+VB|after
+NNP|if
+RB|as soon as
+RB|except
+,|nonetheless
+WRB|then
+NNP|meanwhile
+NN|else
+CC|in fact
+POS|later
+IN|then
+DT|previously
+.|unless
+-LRB-|since
+JJ|because
+VBG|since
+:|if then
+JJR|or
+-RRB-|also
+DT|meantime
+,|finally
+.|otherwise
+VBG|earlier
+:|instead
+CC|next
+IN|overall
+CC|while
+NNS|and
+JJR|before
+``|before
+TO|also
+JJR|still
+VBG|as a result
+NNS|as if
+''|later
+WDT|still
+DT|earlier
+NN|next
+:|or
+:|meanwhile
+,|thereby
+VB|earlier
+TO|simultaneously
+CD|because
+.|by contrast
+NNPS|and
+JJS|when
+VBN|separately
+-RRB-|thus
+VBZ|as if
+RB|when
+RB|until
+.|overall
+CC|in short
+DT|plus
+.|thus
+CC|since
+:|though
+RP|later
+VBD|then
+VBP|since
+RBR|if
+VBP|after
+NNS|indeed
+JJS|for
+VBG|until
+POS|ultimately
+-LRB-|therefore
+PRP$|otherwise
+RP|unless
+,|in other words
+VBN|after
+NN|still
+.|separately
+``|instead
+CC|still
+PRP$|earlier
+NNPS|but
+-RRB-|for
+IN|if
+RBR|since
+``|further
+EX|also
+VBZ|but
+CD|if
+''|nonetheless
+RP|once
+NN|before and after
+:|unless
+RB|afterward
+DT|while
+WRB|if
+RB|specifically
+``|although
+.|in other words
+``|regardless
+JJR|for
+JJ|or
+NNP|now that
+,|besides
+WRB|so
+JJR|next
+VBN|previously
+''|also
+POS|as
+NONE|after
+NN|nor
+,|whereas
+WP|for
+.|but
+VBD|either or
+NNS|but
+NN|for
+JJ|instead
+WDT|as
+VBZ|since
+WP|earlier
+RB|neither nor
+MD|likewise
+PRP|till
+JJ|earlier
+WP|by then
+WDT|also
+:|so that
+''|because
+VBZ|after
+''|by contrast
+IN|instead
+''|finally
+-RRB-|furthermore
+WP|else
+VBN|regardless
+-RRB-|afterward
+NN|in particular
+.|so
+POS|for
+,|by then
+NNS|if
+NNPS|as well
+,|if
+CC|if then
+:|by contrast
+CC|as long as
+NNS|before and after
+.|ultimately
+``|however
+:|as
+NNS|until
+,|indeed
+JJ|further
+VBD|indeed
+NN|earlier
+VBN|neither nor
+NNPS|then
+VBP|as
+``|while
+JJ|once
+NNP|later
+DT|since
+.|next
+IN|in addition
+RBR|before
+IN|ultimately
+RB|overall
+VBZ|in fact
+''|now that
+VBZ|further
+NN|as an alternative
+TO|as well
+CC|by then
+NNS|yet
+VBD|as well
+PRP$|once
+,|previously
+VBN|nor
+.|hence
+CC|indeed
+JJR|so
+NN|thereafter
+POS|earlier
+IN|and
+VBZ|next
+NN|also
+``|as long as
+VBG|still
+JJ|in the end
+PRP|nevertheless
+VB|before
+''|for instance
+RB|thereafter
+VBN|as well
+VBN|or
+RB|further
+VB|besides
+CC|thus
+NN|unless
+,|later
+VBP|or
+NNPS|until
+WP|once
+NN|afterward
+-RRB-|while
+.|as well
+RP|further
+CC|if
+,|therefore
+-LRB-|after
+EX|still
+VBG|if
+,|in turn
+VBD|similarly
+.|moreover
+''|overall
+CC|as a result
+``|otherwise
+PRP$|overall
+NN|until
+,|ultimately
+VB|or
+TO|if
+NNP|until
+VB|since
+WRB|instead
+IN|but
+.|afterward
+CC|earlier
+JJ|while
+NN|and
+NNP|finally
+:|because
+``|once
+PRP|as a result
+VB|while
+''|furthermore
+.|as
+CC|regardless
+JJ|rather
+VBD|next
+VBZ|then
+:|next
+PRP|still
+MD|simultaneously
+IN|later
+NNS|either or
+CC|rather
+WDT|ultimately
+VBN|but
+-LRB-|plus
+CC|instead
+RBR|yet
+VBG|after
+VBD|for
+JJ|as
+VBD|unless
+RB|or
+MD|thereafter
+NN|specifically
+RB|while
+VBP|then
+WRB|as
+NN|additionally
+WRB|until
+,|still
+:|however
+:|but
+NN|plus
+RB|till
+NNS|in turn
+-RRB-|as well
+,|but
+NNPS|before
+.|in sum
+CD|but
+VBD|likewise
+``|except
+.|either or
+JJR|as
+POS|previously
+DT|separately
+,|hence
+``|in fact
+NNP|either or
+RB|since
+CC|meanwhile
+-RRB-|moreover
+SYM|for
+MD|thereby
+VBZ|and
+TO|and
+RBR|next
+MD|ultimately
+MD|still
+PRP|as soon as
+CD|since
+NNP|also
+VB|by comparison
+CC|overall
+NNP|consequently
+NNPS|as
+``|likewise
+VBN|as
+IN|further
+NNP|as
+WP|also
+RP|either or
+''|similarly
+NNP|but
+NONE|for
+VBN|once
+RB|after
+''|in the end
+,|now that
+JJS|once
+MD|or
+PRP|while
+TO|next
+VB|ultimately
+VBP|before
+DT|because
+JJ|so
+VB|yet
+NN|since
+NNPS|earlier
+NNS|till
+POS|before
+-LRB-|when
+WDT|besides
+VBP|separately
+JJS|so
+IN|as a result
+VB|and
+VB|as a result
+CC|hence
+IN|unless
+,|else
+POS|and
+VBZ|similarly
+.|insofar as
+POS|overall
+.|now that
+NNS|in particular
+VB|specifically
+NNS|then
+VBD|therefore
+,|as though
+,|so that
+-LRB-|so
+.|thereafter
+RP|after
+RBR|now that
+RP|if
+VBP|so
+NNS|as long as
+DT|similarly
+''|but
+RB|so
+RB|as
+RB|still
+CC|ultimately
+RBS|as
+CC|for
+VBN|so
+VB|when
+DT|if
+:|for
+``|for
+PRP|thus
+:|either or
+RBR|thereafter
+NNS|plus
+WP|then
+RB|else
+NN|rather
+:|as a result
+NNS|after
+VBN|now that
+JJ|as well
+RB|much as
+VBD|and
+VBZ|because
+VBP|later
+:|otherwise
+WDT|after
+.|previously
+.|on the contrary
+.|for
+NN|previously
+VB|thereafter
+WP|either or
+NNS|later
+.|finally
+VBZ|later
+NNP|so
+VBZ|once
+:|before
+IN|next
+NN|nonetheless
+VBZ|ultimately
+NNS|thereafter
+CC|as soon as
+.|indeed
+.|whereas
+NNS|while
+SYM|as
+IN|after
+''|except
+NNS|once
+``|on the contrary
+VBG|later
+DT|later
+DT|then
+CC|unless
+CC|now that
+TO|further
+,|because
+IN|finally
+IN|otherwise
+VBZ|as well
+``|as
+IN|neither nor
+IN|except
+IN|as
+RB|so that
+DT|next
+VB|as long as
+''|as a result
+.|for instance
+.|nor
+VBN|then
+``|on the other hand
+NNS|so that
+WP|in turn
+VBZ|or
+WDT|specifically
+VBG|further
+TO|when
+''|rather
+VBZ|finally
+TO|earlier
+VBZ|when
+PRP|or
+NNP|separately
+NN|as soon as
+JJ|when
+JJ|now that
+RP|as long as
+NN|consequently
+WP|previously
+VB|otherwise
+VBN|rather
+RB|once
+RP|for
+WDT|indeed
+WDT|once
+RP|instead
+WP|if
+IN|so
+,|for example
+VBP|if
+VB|further
+IN|in the end
+JJ|unless
+VBD|as though
+RB|now that
+JJR|after
+VBP|in fact
+VBG|and
+``|as well
+VBG|thereafter
+PRP|as
+VB|because
+IN|because
+''|nevertheless
+PRP|unless
+VBN|simultaneously
+:|after
+NONE|next
+NN|accordingly
+.|since
+,|as
+.|alternatively
+CD|overall
+FW|and
+VBG|so
+NN|then
+``|until
+PRP|either or
+VBN|as soon as
+''|so
+NNP|before
+.|if then
+.|by comparison
+CC|otherwise
+MD|either or
+''|for example
+''|as well
+.|by then
+.|when
+VB|then
+VBP|because
+VBD|otherwise
+.|in particular
+RP|or
+,|alternatively
+,|as long as
+``|but
+PRP$|or
+CC|thereby
+RP|as well
+DT|otherwise
+VBD|still
+NNPS|or
+WDT|later
+``|overall
+,|by contrast
+CC|except
+''|in short
+DT|rather
+.|in addition
+``|either or
+RBR|and
+MD|rather
+,|further
+PRP$|before
+,|rather
+``|so
+NNP|unless
+.|meantime
+.|if
+-RRB-|and
+VBD|instead
+JJR|when
+MD|instead
+,|on the other hand
+NNP|rather
+MD|yet
+,|plus
+VBP|for
+:|as well
+-LRB-|as
+''|thus
+RB|also
+``|rather
+TO|so
+PRP$|previously
+IN|as long as
+NN|when
+RP|so
+,|nevertheless
+NNP|nonetheless
+:|then
+``|unless
+NNP|thus
+WP|later
+VBN|next
+WDT|next
+VBZ|if
+NNS|separately
+:|since
+-RRB-|because
+VB|until
+CC|simultaneously
+VBG|before
+NNS|previously
+VBD|in addition
+NNS|in addition
+CD|afterward
+NNS|for
+JJR|if
+PRP|also
+NNPS|when
+-RRB-|besides
+CD|before
+VBG|as soon as
+VBP|instead
+NNP|because
+WDT|earlier
+VBD|also
+NNPS|because
+JJS|as
+,|unless
+.|conversely
+.|and
+VBP|until
+JJ|if
+RP|earlier
+JJS|thus
+NNS|besides
+.|in short
+:|and
+''|until
+VBP|still
+PRP|but
+RB|and
+VBD|as a result
+VBP|next
+RP|as a result
+NNP|once
+PRP|since
+.|nevertheless
+''|though
+-RRB-|since
+CC|in particular
+PRP|and
+,|thus
+NNP|next
+,|although
+''|when
+,|by comparison
+''|meanwhile
+``|earlier
+VBN|in turn
+JJR|since
+JJ|but
+VBD|nonetheless
+VBP|otherwise
+NN|much as
+PDT|as
+WRB|next
+JJR|and
+-RRB-|or
+-RRB-|rather
+CC|further
+MD|further
+.|while
+JJ|and
+NNS|as soon as
+VBN|as a result
+VBP|when
+WDT|if
+.|before
+RB|though
+DT|and
+IN|in contrast
+CC|thereafter
+''|in particular
+IN|yet
+VBD|finally
+NONE|when
+RBR|because
+:|as though
+``|still
+VBD|since
+VBD|until
+MD|once
+CD|then
+-LRB-|indeed
+.|for example
+,|neither nor
+JJ|still
+DT|as
+,|if then
+.|plus
+NNPS|still
+VB|as
+VBZ|separately
+NNP|as well
+PRP|later
+NNP|ultimately
+NN|finally
+NNS|rather
+VBN|specifically
+IN|for
+CC|neither nor
+MD|otherwise
+RP|as
+PRP$|next
+CD|after
+.|consequently
+VBZ|rather
+VBZ|also
+WDT|by then
+VBG|when
+RBR|unless
+DT|once
+NONE|although
+:|so
+NN|but
+CC|and
+RB|before
+RBR|after
+-LRB-|separately
+PRP|instead
+NN|as if
+RB|if
+,|so
+VBG|as
+VBN|for
+.|also
+PRP$|later
+NN|so that

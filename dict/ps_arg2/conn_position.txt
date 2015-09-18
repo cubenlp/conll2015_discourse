@@ -1,0 +1,155 @@
+next_right
+Accordingly_right
+Overall_right
+in particular_left
+finally_right
+accordingly_left
+Afterward_right
+nonetheless_left
+Further_right
+Then_right
+for example_right
+however_left
+Because_right
+Indeed_right
+thus_right
+Earlier_right
+by then_right
+by comparison_left
+therefore_left
+simultaneously_left
+thereafter_right
+instead_right
+for example_left
+as well_left
+Nonetheless_right
+by comparison_right
+when_left
+in the end_right
+by contrast_right
+in the end_left
+yet_right
+still_right
+In contrast_right
+likewise_right
+though_left
+Additionally_right
+Later_right
+Nor_right
+In the end_right
+afterwards_right
+Furthermore_right
+then_right
+simultaneously_right
+However_right
+Specifically_right
+in turn_right
+when_right
+earlier_right
+moreover_right
+Meanwhile_right
+in particular_right
+on the other hand_left
+Previously_right
+though_right
+after_right
+Moreover_right
+Rather_right
+thereafter_left
+ultimately_left
+because_left
+In fact_right
+Thus_right
+regardless_left
+And_right
+thus_left
+Thereafter_right
+later_left
+consequently_right
+in contrast_left
+meanwhile_right
+Besides_right
+still_left
+yet_left
+indeed_left
+Likewise_right
+previously_right
+because_right
+on the other hand_right
+indeed_right
+moreover_left
+meanwhile_left
+additionally_left
+afterwards_left
+consequently_left
+Otherwise_right
+thereby_right
+In short_right
+specifically_left
+Also_right
+meantime_left
+Unless_right
+nonetheless_right
+Afterwards_right
+As well_right
+thereby_left
+Therefore_right
+For example_right
+In other words_right
+furthermore_left
+Consequently_right
+later_right
+meantime_right
+In addition_right
+instead_left
+however_right
+Conversely_right
+in turn_left
+specifically_right
+in fact_left
+As a result_right
+finally_left
+By contrast_right
+likewise_left
+for instance_right
+Yet_right
+Still_right
+after_left
+also_right
+next_left
+ultimately_right
+So_right
+as well_right
+For instance_right
+therefore_right
+then_left
+in other words_right
+On the other hand_right
+in other words_left
+Similarly_right
+Ultimately_right
+previously_left
+Or_right
+by contrast_left
+Before_right
+For_right
+In particular_right
+in contrast_right
+By comparison_right
+But_right
+Separately_right
+additionally_right
+by then_left
+in fact_right
+On the contrary_right
+Hence_right
+as a result_right
+Alternatively_right
+Nevertheless_right
+furthermore_right
+as a result_left
+for instance_left
+Instead_right
+earlier_left
+also_left
+By then_right

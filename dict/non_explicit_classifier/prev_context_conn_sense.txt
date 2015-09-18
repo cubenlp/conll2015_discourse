@@ -1,0 +1,167 @@
+once|Temporal.Asynchronous.Succession
+meanwhile|Expansion.Conjunction
+but|Comparison.Concession
+however|Comparison.Contrast
+in turn|Temporal.Asynchronous
+when|Temporal.Synchrony
+when|Contingency.Condition
+and|Expansion.Conjunction
+as|Comparison
+when|Temporal.Asynchronous.Succession
+accordingly|Contingency.Cause.Result
+and|Expansion
+therefore|Contingency.Cause.Result
+now that|Temporal.Asynchronous.Precedence
+as|Contingency.Cause.Reason
+until|Temporal.Asynchronous.Succession
+but|Contingency.Cause.Result
+so|Contingency.Cause.Result
+thereby|Contingency.Cause.Result
+now that|Contingency.Cause.Result
+in turn|Contingency.Cause.Result
+likewise|Expansion.Conjunction
+but|Temporal.Asynchronous.Precedence
+in particular|Expansion.Restatement
+next|Expansion.Conjunction
+as|Comparison.Contrast
+when|Comparison.Contrast
+lest|Contingency.Condition
+if|Contingency.Condition
+much as|Comparison
+yet|Comparison
+and|Comparison.Contrast
+then|Temporal.Asynchronous.Precedence
+nonetheless|Comparison.Contrast
+conversely|Comparison.Contrast
+when|Temporal.Asynchronous.Precedence
+still|Comparison.Contrast
+overall|Expansion.Conjunction
+till|Temporal.Asynchronous.Precedence
+yet|Comparison.Contrast
+on the contrary|Comparison.Contrast
+nor|Expansion.Conjunction
+but|Expansion.Exception
+though|Comparison.Concession
+once|Temporal.Synchrony
+otherwise|Expansion.Alternative
+earlier|Comparison.Contrast
+separately|Expansion.Conjunction
+indeed|Expansion
+for example|Expansion.Instantiation
+instead|Comparison.Contrast
+when|Comparison.Concession
+on the other hand|Comparison.Contrast
+so that|Contingency.Cause.Result
+nonetheless|Comparison.Concession
+as|Temporal.Asynchronous.Succession
+when|Temporal
+as though|Expansion.Restatement
+if|Contingency.Cause.Result
+however|Comparison.Concession
+in turn|Expansion.Conjunction
+indeed|Expansion.Restatement
+in contrast|Comparison.Contrast
+as if|Expansion
+rather|Expansion.Alternative.Chosen alternative
+also|Expansion.Restatement
+then|Contingency.Cause.Result
+now that|Temporal.Synchrony
+and|Contingency.Condition
+instead|Expansion.Alternative.Chosen alternative
+while|Expansion.Conjunction
+in fact|Expansion.Restatement
+earlier|Temporal.Asynchronous.Succession
+until|Temporal.Asynchronous.Precedence
+while|Temporal.Synchrony
+however|Comparison
+as|Temporal.Synchrony
+else|Expansion.Alternative
+as long as|Temporal.Synchrony
+but|Expansion.Restatement
+neither nor|Expansion.Conjunction
+as soon as|Temporal.Asynchronous.Succession
+nor|Expansion.Alternative
+although|Comparison
+meanwhile|Comparison.Contrast
+or|Expansion.Conjunction
+after|Temporal.Asynchronous.Succession
+but|Expansion.Conjunction
+in fact|Comparison
+yet|Comparison.Concession
+ultimately|Temporal.Asynchronous.Precedence
+still|Comparison.Concession
+specifically|Expansion.Restatement
+when|Expansion.Alternative
+or|Expansion.Alternative
+because|Contingency.Cause.Reason
+though|Comparison.Contrast
+additionally|Expansion.Conjunction
+if and when|Contingency.Condition
+for instance|Expansion.Instantiation
+since|Contingency.Cause.Reason
+moreover|Expansion.Conjunction
+if|Comparison.Contrast
+meanwhile|Temporal.Synchrony
+previously|Temporal.Asynchronous.Succession
+except|Expansion.Exception
+now that|Contingency.Cause.Reason
+but|Comparison.Contrast
+by comparison|Comparison.Contrast
+although|Comparison.Concession
+and|Contingency.Cause.Result
+if then|Contingency.Condition
+or|Expansion.Restatement
+and|Temporal.Asynchronous.Precedence
+similarly|Expansion.Conjunction
+before|Temporal.Asynchronous.Precedence
+once|Contingency.Condition
+unless|Expansion.Alternative
+besides|Expansion.Conjunction
+indeed|Expansion.Conjunction
+as soon as|Temporal.Synchrony
+or|Expansion
+consequently|Contingency.Cause.Result
+separately|Expansion.Alternative
+also|Expansion.Conjunction
+in addition|Expansion.Conjunction
+but|Comparison
+in fact|Expansion.Conjunction
+overall|Expansion.Restatement
+nevertheless|Comparison.Contrast
+NULL
+as well|Expansion.Conjunction
+thus|Contingency.Cause.Result
+whereas|Comparison.Contrast
+furthermore|Expansion.Conjunction
+otherwise|Expansion.Exception
+later|Temporal.Asynchronous.Precedence
+as if|Comparison.Concession
+although|Comparison.Contrast
+then|Expansion.Conjunction
+previously|Comparison.Contrast
+simultaneously|Temporal.Synchrony
+insofar as|Contingency.Cause.Reason
+if|Comparison.Concession
+until|Contingency.Condition
+in turn|Temporal.Asynchronous.Precedence
+as long as|Contingency.Condition
+as|Expansion.Conjunction
+afterward|Temporal.Asynchronous.Precedence
+instead|Expansion.Alternative
+though|Comparison
+by then|Temporal.Asynchronous.Succession
+in other words|Expansion.Restatement
+after|Comparison.Concession
+while|Comparison.Concession
+rather|Expansion.Restatement
+by then|Temporal.Asynchronous.Precedence
+nevertheless|Comparison.Concession
+while|Comparison
+since|Temporal.Asynchronous.Succession
+by contrast|Comparison.Contrast
+meantime|Temporal.Synchrony
+while|Comparison.Contrast
+then|Temporal.Synchrony
+as a result|Contingency.Cause.Result
+thereafter|Temporal.Asynchronous.Precedence
+when|Contingency.Cause.Reason

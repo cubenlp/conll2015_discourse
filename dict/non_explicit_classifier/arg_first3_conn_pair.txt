@@ -1,0 +1,442 @@
+so_IN_if_IN
+and_CC_besides_IN
+NULL_NULL_in contrast_IN NN
+and_CC_also_RB
+though_IN_if_IN
+meanwhile_RB_later_RB
+NULL_NULL_in short_IN JJ
+because_IN_NULL_NULL
+NULL_NULL_unless_IN
+specifically_RB_NULL_NULL
+when_WRB_as_IN
+for_IN_while_IN
+yet_CC_for_IN
+next_IN_NULL_NULL
+while_IN_NULL_NULL
+because_IN_earlier_RBR
+now that_RB DT_NULL_NULL
+after_IN_although_IN
+also_RB_earlier_RBR
+also_RB_for_IN
+so_IN_NULL_NULL
+moreover_RB_for_IN
+NULL_NULL_because_IN
+and_CC_although_IN
+so_RB_and_CC
+however_RB_as soon as_RB RB IN
+NULL_NULL_since_RB
+by contrast_IN NN_for_IN
+and_CC_so_RB
+and_CC_earlier_RB
+NULL_NULL_much as_JJ IN
+but_CC_after_IN
+as_IN_after_IN
+NULL_NULL_finally_RB
+and_CC_when_WRB
+now that_RB IN_NULL_NULL
+then_RB_when_WRB
+and_CC_and_CC
+for_IN_after_IN
+next_JJ_when_WRB
+by comparison_IN NN_NULL_NULL
+else_JJ_NULL_NULL
+conversely_RB_NULL_NULL
+thereafter_RB_if_IN
+although_IN_when_WRB
+until_IN_NULL_NULL
+before_IN_NULL_NULL
+NULL_NULL_since_IN
+and_CC_before_IN
+NULL_NULL_besides_IN
+since_IN_NULL_NULL
+and_CC_as if_IN IN
+for_IN_though_IN
+in addition_IN NN_NULL_NULL
+finally_RB_for_IN
+as long as_RB JJ IN_NULL_NULL
+next_JJ_as_RB
+when_WRB_and_CC
+also_RB_when_WRB
+NULL_NULL_also_RB
+by contrast_IN NN_NULL_NULL
+and_CC_while_IN
+then_RB_as_IN
+in other words_IN JJ NNS_since_IN
+also_RB_as_RB
+and_CC_except_IN
+and_CC_though_IN
+NULL_NULL_next_RB
+after_IN_and_CC
+earlier_RBR_NULL_NULL
+NULL_NULL_though_IN
+since_IN_after_IN
+when_WRB_after_IN
+because_IN_for_IN
+if_IN_once_IN
+thus_RB_NULL_NULL
+alternatively_RB_NULL_NULL
+simultaneously_RB_NULL_NULL
+and_CC_instead_RB
+yet_RB_NULL_NULL
+NULL_NULL_rather_RB
+when_WRB_although_IN
+if_IN_for_IN
+likewise_RB_NULL_NULL
+but_CC_earlier_RB
+but_CC_once_IN
+when_WRB_if_IN
+until_IN_then_RB
+moreover_RB_before_IN
+but_CC_instead_RB
+though_IN_for_IN
+also_RB_once_IN
+nonetheless_RB_NULL_NULL
+NULL_NULL_except_IN
+previously_RB_NULL_NULL
+because_RB_NULL_NULL
+furthermore_RB_NULL_NULL
+as a result_IN DT NN_if_IN
+for_IN_thus_RB
+while_IN_also_RB
+for_IN_now that_RB IN
+NULL_NULL_further_RB
+as a result_IN DT NN_when_WRB
+for_IN_but_CC
+as_IN_besides_IN
+nor_CC_NULL_NULL
+for example_IN NN_before_IN
+also_RB_as_IN
+for instance_IN NN_NULL_NULL
+consequently_RB_NULL_NULL
+and_CC_still_RB
+by contrast_IN NN_since_IN
+still_RB_and_CC
+still_RB_while_IN
+but_CC_overall_JJ
+meantime_NN_NULL_NULL
+when_WRB_while_IN
+NULL_NULL_as long as_RB JJ IN
+and_CC_as_IN
+but_CC_earlier_RBR
+meanwhile_NN_NULL_NULL
+moreover_RB_so_RB
+meantime_RB_NULL_NULL
+still_RB_for_IN
+separately_RB_NULL_NULL
+NULL_NULL_or_CC
+because_IN_before_IN
+unless_IN_NULL_NULL
+rather_RB_NULL_NULL
+as if_RB IN_NULL_NULL
+instead_RB_once_IN
+also_RB_because_IN
+so_RB_after_IN
+but_CC_as_IN
+when_WRB_further_RB
+and_CC_now that_RB DT
+as_IN_as_IN
+after_IN_for_IN
+before_IN_as_IN
+meanwhile_RB_overall_RB
+indeed_RB_and_CC
+next_RB_NULL_NULL
+further_RB_if_IN
+although_IN_as_IN
+for_IN_when_WRB
+also_RB_since_IN
+then_RB_if_IN
+later_RB_once_RB
+however_RB_and_CC
+next_JJ_further_JJ
+although_IN_although_IN
+NULL_NULL_then_RB
+finally_RB_because_IN
+and_CC_NULL_NULL
+but_CC_by then_IN RB
+but_CC_as_RB
+once_IN_when_WRB
+once_RB_as_IN
+NULL_NULL_further_RBR
+also_RB_if_IN
+nor_CC_if_IN
+but_CC_although_IN
+then_RB_for_IN
+so_RB_so_RB
+yet_CC_NULL_NULL
+so_RB_if_IN
+moreover_RB_and_CC
+for_IN_once_RB
+nor_CC_so_RB
+and_CC_rather_RB
+NULL_NULL_earlier_JJR
+in other words_IN JJ NNS_NULL_NULL
+but_CC_when_WRB
+as_IN_when_WRB
+earlier_RB_earlier_RBR
+NULL_NULL_as soon as_RB RB IN
+thereafter_RB_NULL_NULL
+for_IN_earlier_RB
+NULL_NULL_neither..nor_CC CC
+but_CC_though_IN
+moreover_RB_as well_RB RB
+and_CC_for_IN
+for_IN_and_CC
+earlier_JJR_NULL_NULL
+but_CC_next_JJ
+for_IN_also_RB
+because_IN_since_IN
+in fact_IN NN_NULL_NULL
+NULL_NULL_NULL_NULL
+as_IN_if_IN
+in the end_IN DT NN_NULL_NULL
+NULL_NULL_overall_JJ
+since_IN_and_CC
+but_CC_so_RB
+as_IN_so_RB
+separately_RB_earlier_RB
+NULL_NULL_else_RB
+but_CC_if_IN
+but_CC_once_RB
+but_CC_then_RB
+for example_IN NN_when_WRB
+and_CC_because_IN
+still_RB_as_IN
+next_JJ_next_JJ
+and_CC_if_IN
+yet_RB_as_IN
+after_IN_when_WRB
+yet_CC_but_CC
+when_WRB_NULL_NULL
+NULL_NULL_when_WRB
+besides_IN_NULL_NULL
+NULL_NULL_previously_RB
+finally_RB_NULL_NULL
+since_IN_because_IN
+and_CC_whereas_NNS
+NULL_NULL_and_CC
+meanwhile_RB_after_IN
+NULL_NULL_later_RB
+so_RB_as_IN
+NULL_NULL_much as_RB IN
+consequently_RB_for_IN
+for_IN_once_IN
+once_RB_NULL_NULL
+earlier_RB_for_IN
+similarly_RB_if_IN
+after_IN_if_IN
+NULL_NULL_after_IN
+in contrast_IN NN_NULL_NULL
+as well_RB RB_NULL_NULL
+in fact_IN NN_after_IN
+NULL_NULL_earlier_RBR
+when_WRB_because_IN
+though_IN_once_RB
+NULL_NULL_so_CC
+and_CC_so_IN
+since_IN_now that_RB IN
+next_JJ_if_IN
+NULL_NULL_but_CC
+as_IN_for_IN
+but_CC_for_IN
+indeed_RB_for_IN
+overall_RB_NULL_NULL
+NULL_NULL_as_IN
+NULL_NULL_as a result_IN DT NN
+whereas_NNS_NULL_NULL
+in sum_IN NN_for_IN
+however_RB_still_RB
+though_RB_NULL_NULL
+earlier_RBR_for_IN
+as if_IN IN_NULL_NULL
+finally_RB_before_IN
+so_CC_finally_RB
+as long as_RB RB IN_NULL_NULL
+but_CC_now that_RB DT
+if_IN_when_WRB
+moreover_RB_because_IN
+moreover_RB_NULL_NULL
+and_CC_earlier_JJR
+and_CC_until_IN
+if_IN_and_CC
+meanwhile_RB_NULL_NULL
+NULL_NULL_so_RB
+NULL_NULL_once_IN
+before_IN_when_WRB
+when_WRB_when_WRB
+still_RB_next_JJ
+then_RB_NULL_NULL
+NULL_NULL_as long as_RB RB IN
+in addition_IN NN_because_IN
+or_CC_when_WRB
+although_IN_later_RB
+earlier_RB_NULL_NULL
+for_IN_still_RB
+meanwhile_RB_also_RB
+nevertheless_RB_after_IN
+when_WRB_then_RB
+yet_CC_when_WRB
+NULL_NULL_as_RB
+once_RB_until_IN
+NULL_NULL_while_IN
+though_IN_NULL_NULL
+when_WRB_for_IN
+overall_RB_and_CC
+rather_RB_for_IN
+ultimately_RB_NULL_NULL
+as_IN_NULL_NULL
+and_CC_unless_IN
+but_CC_NULL_NULL
+after_IN_NULL_NULL
+unless_IN_if_IN
+in addition_IN NN_until_IN
+instead_RB_NULL_NULL
+in addition_IN NN_for_IN
+however_RB_because_IN
+as_RB_NULL_NULL
+so_RB_NULL_NULL
+next_JJ_NULL_NULL
+instead_RB_while_IN
+however_RB_NULL_NULL
+still_RB_NULL_NULL
+as_IN_while_IN
+but_CC_while_IN
+meanwhile_RB_and_CC
+or_CC_or_CC
+in addition_IN NN_since_IN
+also_RB_after_IN
+once_IN_in addition_IN NN
+in short_IN JJ_NULL_NULL
+NULL_NULL_next_IN
+also_RB_also_RB
+also_RB_although_IN
+so_CC_NULL_NULL
+because_IN_if_IN
+NULL_NULL_earlier_RB
+overall_JJ_NULL_NULL
+once_VBG_NULL_NULL
+NULL_NULL_if_IN
+although_IN_as_RB
+therefore_RB_NULL_NULL
+further_RB_NULL_NULL
+once_IN_NULL_NULL
+NULL_NULL_still_RB
+because_IN_once_RB
+also_RB_rather_RB
+or_CC_NULL_NULL
+further_RB_when_WRB
+NULL_NULL_now that_RB IN
+for_IN_as_IN
+since_IN_when_WRB
+however_RB_if_IN
+NULL_NULL_before_IN
+for_IN_NULL_NULL
+NULL_NULL_later_RBR
+though_IN_besides_IN
+until_IN_when_WRB
+later_RB_after_IN
+but_CC_still_RB
+in particular_IN NN_NULL_NULL
+NULL_NULL_instead_RB
+if_IN_as_IN
+later_RBR_NULL_NULL
+NULL_NULL_and_NNP
+further_JJ_NULL_NULL
+once_IN_but_CC
+but_CC_until_IN
+NULL_NULL_for_IN
+but_CC_because_IN
+still_RB_specifically_RB
+in addition_IN NN_after_IN
+also_RB_so_RB
+however_RB_though_IN
+after_IN_instead_RB
+since_IN_further_JJ
+still_RB_after_IN
+otherwise_RB_NULL_NULL
+next_NNP_NULL_NULL
+besides_RB_until_IN
+as_RB_when_WRB
+so_RB_though_IN
+meanwhile_RB_as_RB
+NULL_NULL_next_JJ
+on the contrary_IN DT NN_NULL_NULL
+NULL_NULL_in addition_IN NN
+also_RB_NULL_NULL
+although_IN_NULL_NULL
+meanwhile_RB_since_IN
+later_RB_NULL_NULL
+as a result_IN DT NN_NULL_NULL
+still_RB_still_RB
+NULL_NULL_specifically_RB
+in addition_IN NN_if_IN
+for_IN_although_IN
+indeed_RB_NULL_NULL
+additionally_RB_NULL_NULL
+also_RB_and_CC
+so_CC_and_CC
+similarly_RB_NULL_NULL
+but_CC_since_IN
+as_IN_since_IN
+NULL_NULL_indeed_RB
+so_RB_since_IN
+NULL_NULL_next_NNP
+in contrast_IN NN_while_IN
+also_RB_while_IN
+earlier_RBR_if_IN
+NULL_NULL_until_IN
+because_IN_so_RB
+while_IN_else_RB
+after_IN_later_RB
+except_IN_NULL_NULL
+although_IN_after_IN
+however_RB_when_WRB
+still_RB_if_IN
+meanwhile_RB_although_IN
+for example_IN NN_NULL_NULL
+so_RB_earlier_RBR
+before_IN_while_IN
+yet_CC_as_IN
+NULL_NULL_although_IN
+before_IN_and_CC
+as_RB_if_IN
+but_CC_now that_RB IN
+finally_RB_since_IN
+although_IN_if_IN
+still_RB_when_WRB
+but_CC_and_CC
+NULL_NULL_so_IN
+if_IN_NULL_NULL
+however_RB_although_IN
+so_RB_else_RB
+unless_IN_for_IN
+yet_CC_if_IN
+once_RB_as_RB
+later_RB_for_IN
+besides_RB_NULL_NULL
+yet_RB_after_IN
+next_JJ_then_RB
+NULL_NULL_further_JJ
+regardless_RB_NULL_NULL
+else_RB_NULL_NULL
+NULL_NULL_thus_RB
+previously_RB_as_IN
+in addition_IN NN_also_RB
+NULL_NULL_yet_RB
+later_JJ_NULL_NULL
+while_IN_and_CC
+rather_RB_if_IN
+and_CC_since_IN
+since_IN_for_IN
+when_WRB_since_IN
+in addition_IN NN_as_IN
+for_IN_for_IN
+previously_RB_because_IN
+NULL_NULL_now that_RB DT
+and_CC_after_IN
+afterward_RB_NULL_NULL
+as_IN_although_IN
+while_NN_as_IN
+since_IN_finally_RB
+nevertheless_RB_NULL_NULL
+NULL_NULL_once_RB
+if_IN_if_IN

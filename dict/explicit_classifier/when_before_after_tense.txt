@@ -1,0 +1,14 @@
+present|past
+past|NULL
+NULL|future
+present|future
+NULL|present
+NULL|NULL
+NULL|past
+NOT_when
+present|NULL
+past|present
+future|present
+future|past
+present|present
+past|past

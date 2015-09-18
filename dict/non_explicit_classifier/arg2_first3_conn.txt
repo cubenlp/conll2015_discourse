@@ -1,0 +1,69 @@
+once_IN
+unless_IN
+until_IN
+after_IN
+thus_RB
+and_CC
+as_IN
+previously_RB
+indeed_RB
+now that_RB IN
+once_RB
+next_NNP
+further_JJ
+though_IN
+as long as_RB RB IN
+as long as_RB JJ IN
+because_IN
+when_WRB
+although_IN
+before_IN
+but_CC
+as_RB
+neither..nor_CC CC
+next_IN
+by then_IN RB
+besides_IN
+since_IN
+specifically_RB
+earlier_JJR
+or_CC
+in short_IN JJ
+next_RB
+overall_RB
+also_RB
+if_IN
+in contrast_IN NN
+else_RB
+finally_RB
+instead_RB
+much as_RB IN
+now that_RB DT
+for_IN
+NULL_NULL
+whereas_NNS
+rather_RB
+since_RB
+later_RB
+overall_JJ
+as if_IN IN
+yet_RB
+earlier_RBR
+so_CC
+still_RB
+as well_RB RB
+further_RB
+much as_JJ IN
+earlier_RB
+further_RBR
+so_RB
+and_NNP
+then_RB
+as soon as_RB RB IN
+so_IN
+while_IN
+except_IN
+later_RBR
+as a result_IN DT NN
+in addition_IN NN
+next_JJ

@@ -1,0 +1,306 @@
+Arg1_VBZ-->says
+Arg1_IN-->in
+Arg1_VBZ-->is
+Arg1_VBD-->said
+Arg1_VP-->VBN PP
+Arg1_S-->NP VP .
+Arg1_NP-->$ CD
+Arg1_NN-->vice
+Arg1_NP-->NP *COMMA* SBAR
+Arg1_VP-->VBP VP
+Arg1_VP-->MD VP
+Arg1_PRP-->We
+Arg1_SBAR-->IN S
+Arg1_CC-->But
+Arg1_NP-->NP *COMMA* NP *COMMA*
+Arg1_SBAR-->WHNP S
+Arg1_NN-->president
+Arg1_NN-->year
+Arg1_NP-->CD NNS
+Arg1_PRP-->they
+Arg1_NP-->NP *COMMA* CC NP
+Arg1_JJ-->due
+Arg1_VP-->VBD NP PP PP
+Arg1_NP-->DT NN
+Arg1_NP-->NP *COMMA* NP
+Arg1_POS-->'s
+Arg1_DT-->The
+Arg1_VBD-->had
+Arg1_RB-->Now
+Arg1_NP-->DT
+Arg1_S-->NP VP
+Arg1_PRP-->It
+Arg1_VBN-->priced
+Arg1_NP-->NNP NNP
+Arg1_NP-->CD NN
+Arg1_JJ-->net
+Arg1_CC-->and
+Arg1_ADJP-->JJ NP
+Arg1_NP-->NP *COMMA* CC NP *COMMA*
+Arg1_NP-->NP VP
+Arg1_TO-->to
+Arg1_NN-->officer
+Arg1_NN-->%
+Arg1_VP-->VBD
+Arg1_NP-->NNP NNP NNP
+Arg1_VP-->VBZ NP
+Arg1_WDT-->which
+Arg1_VBD-->rose
+Arg1_VP-->VBZ
+Arg1_VP-->VBD SBAR
+Arg1_DT-->That
+Arg1_NP-->NNP CD *COMMA* CD
+Arg1_NNP-->Nov.
+Arg1_QP-->$ CD CD
+Arg1_IN-->at
+Arg1_CD-->nine
+Arg1_RB-->n't
+Arg1_NP-->NP PP
+Arg1_PP-->IN NP
+Arg1_IN-->that
+Arg1_NP-->QP NNS
+Arg1_VB-->yield
+Arg1_S-->NP
+Arg1_CC-->or
+Arg1_IN-->by
+Arg1_VBD-->was
+Arg1_NP-->NNP CD
+Arg1_PRP-->we
+Arg1_CD-->1
+Arg1_IN-->from
+Arg1_NN-->company
+Arg1_CC-->&
+Arg1_NNS-->cents
+Arg1_NP-->NP NP
+Arg1_QP-->CD CD
+Arg1_NNP-->Moody
+Arg1_NN-->share
+Arg1_NN-->Revenue
+Arg1_IN-->of
+Arg1_VP-->VBD NP PP
+Arg1_DT-->a
+Arg1_NP-->QP
+Arg1_VBN-->named
+Arg1_RB-->not
+Arg1_NP-->NNP
+Arg1_*COMMA*-->*COMMA*
+Arg1_NNP-->Mr.
+Arg1_$-->$
+Arg1_S-->VP
+Arg1_NNS-->Sales
+Arg1_.-->.
+Arg1_''-->''
+Arg1_CD-->million
+Arg1_PP-->TO NP
+Arg1_NP-->CD
+Arg1_NN-->income
+Arg1_VP-->VBD VP
+Arg1_VBZ-->'s
+Arg1_JJ-->chief
+Arg1_NP-->QP NN
+Arg1_VBP-->are
+Arg1_NP-->PRP
+Arg2_VBZ-->says
+Arg2_IN-->in
+Arg2_VBZ-->is
+Arg2_VBD-->said
+Arg2_VP-->VBN PP
+Arg2_S-->NP VP .
+Arg2_NP-->$ CD
+Arg2_NN-->vice
+Arg2_NP-->NP *COMMA* SBAR
+Arg2_VP-->VBP VP
+Arg2_VP-->MD VP
+Arg2_PRP-->We
+Arg2_SBAR-->IN S
+Arg2_CC-->But
+Arg2_NP-->NP *COMMA* NP *COMMA*
+Arg2_SBAR-->WHNP S
+Arg2_NN-->president
+Arg2_NN-->year
+Arg2_NP-->CD NNS
+Arg2_PRP-->they
+Arg2_NP-->NP *COMMA* CC NP
+Arg2_JJ-->due
+Arg2_VP-->VBD NP PP PP
+Arg2_NP-->DT NN
+Arg2_NP-->NP *COMMA* NP
+Arg2_POS-->'s
+Arg2_DT-->The
+Arg2_VBD-->had
+Arg2_RB-->Now
+Arg2_NP-->DT
+Arg2_S-->NP VP
+Arg2_PRP-->It
+Arg2_VBN-->priced
+Arg2_NP-->NNP NNP
+Arg2_NP-->CD NN
+Arg2_JJ-->net
+Arg2_CC-->and
+Arg2_ADJP-->JJ NP
+Arg2_NP-->NP *COMMA* CC NP *COMMA*
+Arg2_NP-->NP VP
+Arg2_TO-->to
+Arg2_NN-->officer
+Arg2_NN-->%
+Arg2_VP-->VBD
+Arg2_NP-->NNP NNP NNP
+Arg2_VP-->VBZ NP
+Arg2_WDT-->which
+Arg2_VBD-->rose
+Arg2_VP-->VBZ
+Arg2_VP-->VBD SBAR
+Arg2_DT-->That
+Arg2_NP-->NNP CD *COMMA* CD
+Arg2_NNP-->Nov.
+Arg2_QP-->$ CD CD
+Arg2_IN-->at
+Arg2_CD-->nine
+Arg2_RB-->n't
+Arg2_NP-->NP PP
+Arg2_PP-->IN NP
+Arg2_IN-->that
+Arg2_NP-->QP NNS
+Arg2_VB-->yield
+Arg2_S-->NP
+Arg2_CC-->or
+Arg2_IN-->by
+Arg2_VBD-->was
+Arg2_NP-->NNP CD
+Arg2_PRP-->we
+Arg2_CD-->1
+Arg2_IN-->from
+Arg2_NN-->company
+Arg2_CC-->&
+Arg2_NNS-->cents
+Arg2_NP-->NP NP
+Arg2_QP-->CD CD
+Arg2_NNP-->Moody
+Arg2_NN-->share
+Arg2_NN-->Revenue
+Arg2_IN-->of
+Arg2_VP-->VBD NP PP
+Arg2_DT-->a
+Arg2_NP-->QP
+Arg2_VBN-->named
+Arg2_RB-->not
+Arg2_NP-->NNP
+Arg2_*COMMA*-->*COMMA*
+Arg2_NNP-->Mr.
+Arg2_$-->$
+Arg2_S-->VP
+Arg2_NNS-->Sales
+Arg2_.-->.
+Arg2_''-->''
+Arg2_CD-->million
+Arg2_PP-->TO NP
+Arg2_NP-->CD
+Arg2_NN-->income
+Arg2_VP-->VBD VP
+Arg2_VBZ-->'s
+Arg2_JJ-->chief
+Arg2_NP-->QP NN
+Arg2_VBP-->are
+Arg2_NP-->PRP
+Both_VBZ-->says
+Both_IN-->in
+Both_VBZ-->is
+Both_VBD-->said
+Both_VP-->VBN PP
+Both_S-->NP VP .
+Both_NP-->$ CD
+Both_NN-->vice
+Both_NP-->NP *COMMA* SBAR
+Both_VP-->VBP VP
+Both_VP-->MD VP
+Both_PRP-->We
+Both_SBAR-->IN S
+Both_CC-->But
+Both_NP-->NP *COMMA* NP *COMMA*
+Both_SBAR-->WHNP S
+Both_NN-->president
+Both_NN-->year
+Both_NP-->CD NNS
+Both_PRP-->they
+Both_NP-->NP *COMMA* CC NP
+Both_JJ-->due
+Both_VP-->VBD NP PP PP
+Both_NP-->DT NN
+Both_NP-->NP *COMMA* NP
+Both_POS-->'s
+Both_DT-->The
+Both_VBD-->had
+Both_RB-->Now
+Both_NP-->DT
+Both_S-->NP VP
+Both_PRP-->It
+Both_VBN-->priced
+Both_NP-->NNP NNP
+Both_NP-->CD NN
+Both_JJ-->net
+Both_CC-->and
+Both_ADJP-->JJ NP
+Both_NP-->NP *COMMA* CC NP *COMMA*
+Both_NP-->NP VP
+Both_TO-->to
+Both_NN-->officer
+Both_NN-->%
+Both_VP-->VBD
+Both_NP-->NNP NNP NNP
+Both_VP-->VBZ NP
+Both_WDT-->which
+Both_VBD-->rose
+Both_VP-->VBZ
+Both_VP-->VBD SBAR
+Both_DT-->That
+Both_NP-->NNP CD *COMMA* CD
+Both_NNP-->Nov.
+Both_QP-->$ CD CD
+Both_IN-->at
+Both_CD-->nine
+Both_RB-->n't
+Both_NP-->NP PP
+Both_PP-->IN NP
+Both_IN-->that
+Both_NP-->QP NNS
+Both_VB-->yield
+Both_S-->NP
+Both_CC-->or
+Both_IN-->by
+Both_VBD-->was
+Both_NP-->NNP CD
+Both_PRP-->we
+Both_CD-->1
+Both_IN-->from
+Both_NN-->company
+Both_CC-->&
+Both_NNS-->cents
+Both_NP-->NP NP
+Both_QP-->CD CD
+Both_NNP-->Moody
+Both_NN-->share
+Both_NN-->Revenue
+Both_IN-->of
+Both_VP-->VBD NP PP
+Both_DT-->a
+Both_NP-->QP
+Both_VBN-->named
+Both_RB-->not
+Both_NP-->NNP
+Both_*COMMA*-->*COMMA*
+Both_NNP-->Mr.
+Both_$-->$
+Both_S-->VP
+Both_NNS-->Sales
+Both_.-->.
+Both_''-->''
+Both_CD-->million
+Both_PP-->TO NP
+Both_NP-->CD
+Both_NN-->income
+Both_VP-->VBD VP
+Both_VBZ-->'s
+Both_JJ-->chief
+Both_NP-->QP NN
+Both_VBP-->are
+Both_NP-->PRP

@@ -1,0 +1,19 @@
+Comparison
+Expansion.Conjunction
+Contingency.Condition
+Expansion.Alternative
+Comparison.Concession
+Contingency.Cause.Result
+Contingency.Cause.Reason
+Expansion
+Expansion.Exception
+Temporal
+Temporal.Asynchronous
+Temporal.Asynchronous.Succession
+Expansion.Alternative.Chosen alternative
+Temporal.Asynchronous.Precedence
+NULL
+Expansion.Instantiation
+Comparison.Contrast
+Expansion.Restatement
+Temporal.Synchrony
