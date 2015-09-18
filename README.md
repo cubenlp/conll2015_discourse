@@ -38,6 +38,6 @@ such as:
 python parser.py data/conll15-st-03-04-15-dev none data
 ```
 The parser will take the files under the  'data/conll15-st-03-04-15-dev' directory and 
-generate a 'output.json' which contains the discourse relations parsed by the parser under the 'data' directory.
+generate a 'output.json' under the 'data' directory which contains the discourse relations parsed by the parser.
 
 
