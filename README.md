@@ -30,6 +30,7 @@ Then, run the parser using the command in terminal as required by the [CoNLL 201
 python $input_dataset $input_run $output_dir
 ```
 - $input_dataset: the folder of the dataset to parse. The folder structure:
+
     $input_dataset/pdtb-parses.json
     $input_dataset/raw/...
 - $input_run: the folder that contains the model file or other resources. Here, simply set it to 'none' in our parser.
