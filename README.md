@@ -32,6 +32,7 @@ python $input_dataset $input_run $output_dir
 - $input_dataset: the folder of the dataset to parse. The folder structure:
 
     $input_dataset/pdtb-parses.json
+    
     $input_dataset/raw/...
 - $input_run: the folder that contains the model file or other resources. Here, simply set it to 'none' in our parser.
 - $output_dir: the folder that the parser will output 'output.json' to.
