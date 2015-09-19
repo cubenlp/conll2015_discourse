@@ -1,4 +1,4 @@
-A Refined Discourse Parser for CoNLL2015 Shared Task
+A Refined Discourse Parser for CoNLL 2015 Shared Task
 ====================================================
 A Refined End-to-End Discourse Parser participated in CoNLL 2015 Shared Task is described in the paper
 [A Refined End-to-End Discourse Parser](http://aclweb.org/anthology/K15-2002) by Jianxiang Wang and Man Lan.
@@ -15,17 +15,17 @@ A Refined End-to-End Discourse Parser participated in CoNLL 2015 Shared Task is 
 First, change the values of the following two variables in config.py: 
 
 
-1. CWD: current working directory:
-1. MALLET_PATH: mallet bin path:
+1. CWD: current working directory (absolute path).
+1. MALLET_PATH: mallet bin path (absolute path).
 
 
 Such as:
 ```
-CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
-MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
+CWD = "/Users/XXX/Documents/conll2015_discourse/"
+MALLET_PATH = "/Users/XXX/Documents/mallet"
 ```
 
-Then, run the parser using the command in terminal same as required by the [CoNLL 2015 Shared Task Official Blog](http://conll15st.blogspot.com/2015/03/discourse-parser-evaluation.html):
+Then, run the parser using the command in terminal as required by the [CoNLL 2015 Shared Task Official Blog](http://conll15st.blogspot.com/2015/03/discourse-parser-evaluation.html):
 ```
 python $input_dataset $input_run $output_dir
 ```
