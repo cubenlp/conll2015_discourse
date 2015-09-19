@@ -41,11 +41,11 @@ def get_infoGain(svm_light_feat_file, info_gain_output_file, top_n):
 
 def get_top_n_feat_dict_by_info_gain(svm_light_feat_file, info_gain_output_file, top_n, feat_dict, top_n_feat_dict_output):
 
-    # 1. 生成 info gain 文件
+    # 1. generate info gain file
     get_infoGain(svm_light_feat_file, info_gain_output_file, top_n)
 
-    # 读文件，获取top n feature
-    top_n_feat_indices = [] #从一开始计数的哦
+    # read file, obtain the top n features
+    top_n_feat_indices = [] # start from 1
     fin = open(info_gain_output_file)
     for line in fin:
         line = line.strip()
@@ -55,7 +55,7 @@ def get_top_n_feat_dict_by_info_gain(svm_light_feat_file, info_gain_output_file,
         _, index = line.split()
         top_n_feat_indices.append(int(index))
 
-    # index 到 feat 的映射
+    # index to feat
     index_to_feat_dict = {}
     dict_file = open(feat_dict)
     lines = [line.strip() for line in dict_file]
@@ -63,7 +63,7 @@ def get_top_n_feat_dict_by_info_gain(svm_light_feat_file, info_gain_output_file,
         index_to_feat_dict[index+1] = line
     dict_file.close()
 
-    # 写入文件
+    # write to file
     fout = open(top_n_feat_dict_output, "w")
     for index in top_n_feat_indices:
         fout.write("%s\n" % (index_to_feat_dict[index]))
