@@ -41,7 +41,7 @@ For example:
 ```
 python parser.py data/conll15-st-03-04-15-dev none data
 ```
-The parser will take the dataset under the  'data/conll15-st-03-04-15-dev' folder and 
+The parser will take the dataset under the  'data/conll15-st-03-04-15-dev' folder as input and 
 generate a 'output.json' which contains the discourse relations parsed by the parser under the 'data' folder.
 
 
