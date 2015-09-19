@@ -25,19 +25,21 @@ CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
 MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
 ```
 
-Then, run the parser using the command as required by the CoNLL2015 organizers:
+Then, run the parser using the command in terminal same as required by the [CoNLL 2015 Shared Task Official Blog](http://conll15st.blogspot.com/2015/03/discourse-parser-evaluation.html):
 ```
-python input_dataset input_run output_dir
+python $input_dataset $input_run $output_dir
 ```
-- input_dataset
-- input_run
-- output_dir
+- $input_dataset: the folder of the dataset to parse. The folder structure:
+    $input_dataset/pdtb-parses.json
+    $input_dataset/raw/...
+- $input_run: the folder that contains the model file or other resources. Here, simply set it to 'none' in our parser.
+- $output_dir: the folder that the parser will output 'output.json' to.
 
-such as:
+For example:
 ```
 python parser.py data/conll15-st-03-04-15-dev none data
 ```
-The parser will take the files under the  'data/conll15-st-03-04-15-dev' directory and 
-generate a 'output.json' under the 'data' directory which contains the discourse relations parsed by the parser.
+The parser will take the dataset under the  'data/conll15-st-03-04-15-dev' folder and 
+generate a 'output.json' which contains the discourse relations parsed by the parser under the 'data' folder.
 
 
