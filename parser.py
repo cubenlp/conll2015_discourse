@@ -293,13 +293,10 @@ class DiscourseParser():
 
 
 if __name__ == '__main__':
-    # input_dataset = sys.argv[1]
-    # input_run = sys.argv[2]
-    # output_dir = sys.argv[3]
 
-    input_dataset = config.CWD + "data/conll15-st-03-04-15-dev"
-    input_run = ""
-    output_dir = "data"
+    input_dataset = sys.argv[1]
+    input_run = sys.argv[2]
+    output_dir = sys.argv[3]
 
     parser = DiscourseParser(input_dataset, input_run)
     parser.parse()
