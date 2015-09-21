@@ -1,9 +1,15 @@
 #coding:utf-8
 
+
+# change the the value of the following two variables
+
 # current working directory.
 CWD = "/Users/Hunter/Documents/pycharmSpace/conll2015_discourse/"
 # mallet bin path
 MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
+
+
+
 
 
 TRAIN = "train"
