@@ -38,29 +38,13 @@ def all_features(parse_dict, connective):
     left_right_dict = Explicit_dict().left_right_dict
 
     ''' mine '''
-    dict_conn_to_root_path = Explicit_dict().dict_conn_to_root_path
-    dict_conn_next = Explicit_dict().dict_conn_next
-    dict_conn_connCtx = Explicit_dict().dict_conn_connCtx
-    dict_conn_rightSiblingCtx = Explicit_dict().dict_conn_rightSiblingCtx
     dict_conn_parent_category_ctx = Explicit_dict().dict_conn_parent_category_ctx
-    dict_conn_leftSibling_ctx = Explicit_dict().dict_conn_leftSibling_ctx
-    dict_CParent_to_root_path_node_names = Explicit_dict().dict_CParent_to_root_path_node_names
-    dict_conn_parent_category_not_linked_ctx = Explicit_dict().dict_conn_parent_category_not_linked_ctx
-    dict_conn_prev_conn = Explicit_dict().dict_conn_prev_conn
-    dict_prev_conn = Explicit_dict().dict_prev_conn
     dict_as_prev_conn = Explicit_dict().dict_as_prev_conn
     dict_as_prev_connPOS = Explicit_dict().dict_as_prev_connPOS
 
     dict_when_prev_conn = Explicit_dict().dict_when_prev_conn
     dict_when_prev_connPOS = Explicit_dict().dict_when_prev_connPOS
 
-    dict_as_before_after_tense = Explicit_dict().dict_as_before_after_tense
-    dict_is_as_before_after_same_tense = {"YES": 1, "NO": 2, "NOT_as": 3}
-
-    dict_when_is_contain_status = {"YES": 1, "NO": 2, "NOT_when": 3}
-
-    dict_when_before_after_tense = Explicit_dict().dict_when_before_after_tense
-    dict_when_after_lemma_verbs = Explicit_dict().dict_when_after_lemma_verbs
 
     ''' feature '''
     DocID = connective.DocID
@@ -97,29 +81,13 @@ def all_features(parse_dict, connective):
     left_right = "%s|%s" % (left_sibling_category, right_sibling_category)
 
     ''' mine '''
-    # conn_to_root_path = dict_util.get_conn_to_root_path(parse_dict, DocID, sent_index, conn_indices)
-    # conn_next = dict_util.get_conn_next(parse_dict, DocID, sent_index, conn_indices)
-    # conn_connCtx = dict_util.get_conn_connCtx(parse_dict, DocID, sent_index, conn_indices)
-    # conn_rightSiblingCtx = dict_util.get_conn_rightSiblingCtx(parse_dict, DocID, sent_index, conn_indices)
     conn_parent_category_ctx = dict_util.get_conn_parent_category_Ctx(parse_dict, DocID, sent_index, conn_indices)
-    # conn_leftSibling_ctx = dict_util.get_conn_leftSibling_ctx(parse_dict, DocID, sent_index, conn_indices)
-    # CParent_to_root_path_node_names = dict_util.get_CParent_to_root_path_node_names(parse_dict, DocID, sent_index, conn_indices)
-    # conn_parent_category_not_linked_ctx = dict_util.get_conn_parent_category_not_linked_Ctx(parse_dict, DocID, sent_index, conn_indices)
-    # conn_prev_conn = dict_util.get_conn_prev_conn(parse_dict, DocID, sent_index, conn_indices)
-    # prev_conn = dict_util.get_prev_conn(parse_dict, DocID, sent_index, conn_indices)
     as_prev_conn = dict_util.get_as_prev_conn(parse_dict, DocID, sent_index, conn_indices)
     as_prev_connPOS = dict_util.get_as_prev_connPOS(parse_dict, DocID, sent_index, conn_indices)
 
     when_prev_conn = dict_util.get_when_prev_conn(parse_dict, DocID, sent_index, conn_indices)
     when_prev_connPOS = dict_util.get_when_prev_connPOS(parse_dict, DocID, sent_index, conn_indices)
 
-    # as_before_after_tense = dict_util.get_as_before_after_tense(parse_dict, DocID, sent_index, conn_indices)
-    # is_as_before_after_same_tense = dict_util.get_is_as_before_after_same_tense(parse_dict, DocID, sent_index, conn_indices)
-
-    # when_is_contain_status = dict_util.get_when_is_contain_status(parse_dict, DocID, sent_index, conn_indices)
-
-    # when_before_after_tense = dict_util.get_when_before_after_tense(parse_dict, DocID, sent_index, conn_indices)
-    # when_after_lemma_verbs = dict_util.get_when_after_lemma_verbs(parse_dict, DocID, sent_index, conn_indices)
 
     features = []
     features.append(get_feature(feat_dict_CString, dict_CString , CString))
@@ -147,29 +115,13 @@ def all_features(parse_dict, connective):
     features.append(get_feature({}, left_right_dict, left_right))
 
     ''' mine '''
-    # features.append(get_feature_by_feat(dict_conn_to_root_path, conn_to_root_path))
-    # features.append(get_feature_by_feat(dict_conn_next, conn_next))
-    # features.append(get_feature_by_feat(dict_conn_connCtx, conn_connCtx))
-    # features.append(get_feature_by_feat(dict_conn_rightSiblingCtx, conn_rightSiblingCtx))
     features.append(get_feature_by_feat(dict_conn_parent_category_ctx, conn_parent_category_ctx))
-    # features.append(get_feature_by_feat(dict_conn_leftSibling_ctx, conn_leftSibling_ctx))
-    # features.append(get_feature_by_feat_list(dict_CParent_to_root_path_node_names, CParent_to_root_path_node_names))
-    # features.append(get_feature_by_feat(dict_conn_parent_category_not_linked_ctx, conn_parent_category_not_linked_ctx))
-    # features.append(get_feature_by_feat(dict_conn_prev_conn, conn_prev_conn))
-    # features.append(get_feature_by_feat(dict_prev_conn, prev_conn))
     features.append(get_feature_by_feat(dict_as_prev_conn, as_prev_conn))
     features.append(get_feature_by_feat(dict_as_prev_connPOS, as_prev_connPOS))
 
     features.append(get_feature_by_feat(dict_when_prev_conn, when_prev_conn))
     features.append(get_feature_by_feat(dict_when_prev_connPOS, when_prev_connPOS))
 
-    # features.append(get_feature_by_feat(dict_as_before_after_tense, as_before_after_tense))
-    # features.append(get_feature_by_feat(dict_is_as_before_after_same_tense, is_as_before_after_same_tense))
-
-    # features.append(get_feature_by_feat(dict_when_is_contain_status, when_is_contain_status))
-
-    # features.append(get_feature_by_feat(dict_when_before_after_tense, when_before_after_tense))
-    # features.append(get_feature_by_feat(dict_when_after_lemma_verbs, when_after_lemma_verbs))
 
     return util.mergeFeatures(features)
 

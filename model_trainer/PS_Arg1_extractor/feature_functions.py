@@ -49,7 +49,6 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     conn_to_root_path = dict_util.get_conn_to_root_path(arg_clauses, clause_index, parse_dict)
     conn_to_root_compressed_path = dict_util.get_conn_to_root_compressed_path(arg_clauses, clause_index, parse_dict)
     conn_curr_position = dict_util.get_conn_curr_position(arg_clauses, clause_index, parse_dict)
-    is_clause_contain_comma_which = dict_util.get_is_clause_contain_comma_which(arg_clauses, clause_index, parse_dict)
 
 
     features = []
@@ -74,8 +73,6 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     features.append(get_feature_by_feat(dict_conn_to_root_path, conn_to_root_path))
     features.append(get_feature_by_feat(dict_conn_to_root_compressed_path, conn_to_root_compressed_path))
     features.append(get_feature_by_feat(dict_conn_curr_position, conn_curr_position))
-
-    # features.append(get_feature_by_feat(dict_is_clause_contain_comma_which, is_clause_contain_comma_which))
 
     return util.mergeFeatures(features)
 

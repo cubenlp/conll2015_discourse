@@ -32,14 +32,6 @@ def all_features(parse_dict, constituent, i, constituents):
     dict_CON_NT_Path_iLsib = NT_dict().dict_CON_NT_Path_iLsib
 
 
-    dict_NT_prev_curr_Path = NT_dict().dict_NT_prev_curr_Path
-    dict_CON_POS = NT_dict().dict_CON_POS
-    dict_C_Prev = NT_dict().dict_C_Prev
-    dict_NT_Name = NT_dict().dict_NT_Name
-
-    dict_NT_prev_curr_production_rule = NT_dict().dict_NT_prev_curr_production_rule
-
-    dict_nt_ntParent_ctx = NT_dict().dict_nt_ntParent_ctx
 
     ''' feature '''
     conn_indices = connective.token_indices
@@ -62,49 +54,6 @@ def all_features(parse_dict, constituent, i, constituents):
         CON_NT_Path_iLsib = CON_NT_Path + ":<=1"
 
 
-    ''' test new '''
-    NT_prev_curr_Path = dict_util.get_NT_prev_curr_Path(i, constituents)
-
-    # SABR_anc = dict_util.has_SBAR_ancestor(constituent)
-    # if SABR_anc:
-    #     SABR_feat = 1
-    # else:
-    #     SABR_feat = 0
-
-    # if (DocID, sent_index) not in dict_clauses:
-    #     clauses_list = dict_util.get_sent_clauses(parse_dict, DocID, sent_index)
-    #     dict_clauses[(DocID, sent_index)] = clauses_list
-    #
-    # clauses_list = dict_clauses[(DocID, sent_index)]#[[1,2],[4,5,6]]
-    # #为每个constituent ,判断她是否与前面的一个constituent是否处于同一个clause
-    # prev_curr_some_clause = 0
-    # if i > 0:
-    #     curr_clause_NO = -1
-    #     for k, item in enumerate(clauses_list):
-    #         if set(constituents[i].indices) <= set(item):
-    #             curr_clause_NO = k
-    #             break
-    #     prev_clause_NO = -1
-    #     for k, item in enumerate(clauses_list):
-    #         if set(constituents[i - 1].indices) <= set(item):
-    #             prev_clause_NO = k
-    #             break
-    #
-    #     if curr_clause_NO != -1 and prev_clause_NO != -1 and curr_clause_NO == prev_clause_NO:
-    #         prev_curr_some_clause = 1
-    #
-    # CON_POS = dict_util.get_CON_POS(parse_dict, DocID, sent_index, conn_indices)
-
-
-    # nt_ntParent_ctx = dict_util.get_NT_NTparent_Ctx(constituent)
-
-
-    # prev = dict_util.get_prev1(parse_dict, DocID, sent_index, conn_indices)
-    # C_Prev = "%s|%s" % (CON_Str, prev)
-    #
-    # NT_Name = constituent.node.name
-    #
-    # NT_prev_curr_production_rule = dict_util.get_NT_prev_curr_production_rule(i, constituents)
 
     features = []
     features.append(get_feature(feat_dict_CON_Str, dict_CON_Str , CON_Str))
@@ -122,19 +71,6 @@ def all_features(parse_dict, constituent, i, constituents):
     dict_position = {"right": 1, "left": 2}
     features.append(get_feature({}, dict_position , CON_NT_Position))
 
-    #NT_prev_curr_Path
-    # features.append(get_feature({}, dict_NT_prev_curr_Path , NT_prev_curr_Path))
-    # features.append(Feature("", 1, {1: SABR_feat}))
-    # features.append(Feature("", 1, {1: prev_curr_some_clause}))
-    # features.append(Feature("", 1, {1: curr_clause_NO}))
-
-    # features.append(get_feature({}, dict_CON_POS, CON_POS))
-    # features.append(get_feature({}, dict_C_Prev, C_Prev))
-    # features.append(get_feature({}, dict_NT_Name, NT_Name))
-
-    # features.append(get_feature({}, dict_NT_prev_curr_production_rule, NT_prev_curr_production_rule))
-
-    # features.append(get_feature_by_feat(dict_nt_ntParent_ctx, nt_ntParent_ctx))
 
     return util.mergeFeatures(features)
 

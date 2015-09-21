@@ -34,10 +34,6 @@ class Non_Explicit_dict():
 
         self.cp_production_rules = util.load_dict_from_file(config.NON_EXPLICIT_DICT_CP_PRODUCTION_RULES)
 
-        # cluster number
-        self.word2vec_cluster = self.get_word2vec_cluster(5496)
-        # word2vec_cluster pairs
-        self.dict_word2vec_cluster_pairs = util.load_dict_from_file(config.NON_EXPLICIT_DICT_WORD2VEC_CLUSTER_PAIRS)
 
         # MPQA
         self.n_stemmed_word_pos_dict, self.y_stemmed_word_pos_dict = self.get_MAPA_polarity_dict()
@@ -128,14 +124,7 @@ class Non_Explicit_dict():
         fin.close()
         return dict
 
-    def get_word2vec_cluster(self, n_cluster):
-        dict = {}
-        fin = open(config.WORD2VEC_CLUSTER_PATH + str(n_cluster))
-        for line in fin:
-            c, w = line.strip().split("\t")
-            dict[w] = c
-        fin.close()
-        return dict
+
 
     def get_inquirer(self):
         inquirer = {}

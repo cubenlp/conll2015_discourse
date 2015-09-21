@@ -71,15 +71,9 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
     ''' mine '''
     dict_conn_lower_case = Connectives_dict().dict_conn_lower_case
     dict_conn = Connectives_dict().dict_conn
-    # dict_prevPOS_C = Connectives_dict().dict_prevPOS_C
-    # dict_self_category_to_root_path = Connectives_dict().dict_self_category_to_root_path
     dict_CParent_to_root_path_node_names = Connectives_dict().dict_CParent_to_root_path_node_names
-    dict_conn_connCtx = Connectives_dict().dict_conn_connCtx
     dict_conn_rightSiblingCtx = Connectives_dict().dict_conn_rightSiblingCtx
-    # dict_conn_leftSiblingCtx = Connectives_dict().dict_conn_leftSiblingCtx
-    # dict_conn_left_right_SiblingCtx = Connectives_dict().dict_conn_left_right_SiblingCtx
     dict_conn_parent_category_Ctx = Connectives_dict().dict_conn_parent_category_Ctx
-    dict_rightSibling_production_rules = Connectives_dict().dict_rightSibling_production_rules
 
     ''' c pos '''
     pos_tag_list = []
@@ -259,11 +253,6 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
         leftSibling_node = syntax_tree.get_left_sibling_category_node_by_token_indices(conn_indices)
         leftSiblingCtx = dict_util.get_node_linked_Ctx(leftSibling_node, syntax_tree)
 
-    conn_leftSiblingCtx = "%s|%s" % (conn_name, leftSiblingCtx)
-
-    # conn left right sibling ctx
-    conn_left_right_SiblingCtx = "%s|%s|%s" % (conn_name, leftSiblingCtx, rightSiblingCtx)
-
     # conn parent category ctx
     if syntax_tree.tree == None:
         parent_categoryCtx = "NONE_TREE"
@@ -273,12 +262,6 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
 
     conn_parent_categoryCtx = "%s|%s" % (conn_name, parent_categoryCtx)
 
-    #dict_conn_rightSibling_production_rules
-    # if syntax_tree.tree == None:
-    #     rightSibling_production_rules = ["NONE_TREE"]
-    # else:
-    #     rightSibling_node = syntax_tree.get_right_sibling_category_node_by_token_indices(conn_indices)
-    #     rightSibling_production_rules = dict_util.get_node_production_rules(rightSibling_node, syntax_tree)
 
 
     features = []
@@ -327,20 +310,10 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
     ''' mine '''
     features.append(get_feature_by_feat(dict_conn_lower_case, conn_lower_case))
     features.append(get_feature_by_feat(dict_conn, conn_name))
-    # features.append(get_feature_by_feat(dict_prevPOS_C, prevPOS_C))
-    # features.append(get_feature_by_feat(dict_self_category_to_root_path, self_category_to_root_path))
 
     features.append(get_feature_by_feat_list(dict_CParent_to_root_path_node_names, _path.split("-->")))
-    # features.append(get_feature_by_feat(dict_conn_connCtx, conn_connCtx))
     features.append(get_feature_by_feat(dict_conn_rightSiblingCtx, conn_rightSiblingCtx))
-    # features.append(get_feature_by_feat(dict_conn_leftSiblingCtx, conn_leftSiblingCtx))
-    # features.append(get_feature_by_feat(dict_conn_left_right_SiblingCtx, conn_left_right_SiblingCtx))
     features.append(get_feature_by_feat(dict_conn_parent_category_Ctx, conn_parent_categoryCtx))
-    # features.append(get_feature_by_feat_list(dict_rightSibling_production_rules, rightSibling_production_rules))
-
-
-
-
 
     return util.mergeFeatures(features)
 

@@ -283,12 +283,6 @@ class Syntax_tree:
 
 
 if __name__ == "__main__":
-    # from pdtb_parse import PDTB_PARSE
-    # import config
-    # train_pdtb_parse = PDTB_PARSE(config.PARSERS_TRAIN_PATH_JSON, config.PDTB_TRAIN_PATH, config.TRAIN)
-
-
-    # parse_tree = train_pdtb_parse.parse_dict["wsj_1057"]["sentences"][142]["parsetree"].strip()#15
 
     parse_tree = "( (S (S (NP (DT Some)) (VP (MD may) (VP (VB have) (VP (VBN forgotten))))) (: --) (CC and) (S (NP (DT some) (JJR younger) (NNS ones)) (VP (MD may) (ADVP (RB never)) (VP (VB have) (ADJP (JJ experienced)) (: --) (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (VBZ 's) (VP (VB like) (S (VP (TO to) (VP (VB invest) (PP (IN during) (NP (DT a) (NN recession))))))))))))) (. .)) )"
     print parse_tree
@@ -302,20 +296,6 @@ if __name__ == "__main__":
 
     print syntax_tree.tree.get_distance(syntax_tree.tree, syntax_tree.get_leaf_node_by_token_index(0))
 
-    # print _get_subtree(syntax_tree, [0,1,2]).print_tree()
-
-
-
-
-
-
-
-
-
-
-    # for node in syntax_tree.tree.iter
-    #     # Do some analysis on node
-    #     print node.name
 
 
 

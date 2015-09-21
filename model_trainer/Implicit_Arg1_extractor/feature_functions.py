@@ -14,15 +14,9 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_next_first = Implicit_arg1_dict().dict_next_first
     dict_prev_last_curr_first = Implicit_arg1_dict().dict_prev_last_curr_first
     dict_curr_last_next_first = Implicit_arg1_dict().dict_curr_last_next_first
-    dict_curr_production_rule = Implicit_arg1_dict().dict_curr_production_rule
     dict_position = {"left": 1, "middle": 2, "right": 3}
-    dict_arg_label = {"Arg1": 1, "Arg2": 2}
-    dict_is_curr_NNP_prev_PRP_or_NNP = {"NONE": 1, "yes": 2, "no": 2}
-    dict_prev_curr_production_rule = Implicit_arg1_dict().dict_prev_curr_production_rule
     dict_prev_curr_CP_production_rule = Implicit_arg1_dict().dict_prev_curr_CP_production_rule
-    dict_curr_next_CP_production_rule = Implicit_arg1_dict().dict_curr_next_CP_production_rule
     dict_prev2_pos_lemma_verb = Implicit_arg1_dict().dict_prev2_pos_lemma_verb
-    dict_curr_first_to_prev_last_path = Implicit_arg1_dict().dict_curr_first_to_prev_last_path
 
 
     # feature
@@ -41,21 +35,11 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     # the position of current clause
     position = dict_util.get_curr_position(arg_clauses, clause_index, parse_dict)
     # the arg label of current clause
-    arg_label = arg_clauses.Arg
 
-    is_curr_NNP_prev_PRP_or_NNP = dict_util.get_is_curr_NNP_prev_PRP_or_NNP(arg_clauses, clause_index, parse_dict)
-    is_NNP_WP = dict_util.get_is_NNP_WP(arg_clauses, clause_index, parse_dict)
-
-    production_rule_list = dict_util.get_curr_production_rule(arg_clauses, clause_index, parse_dict)
-
-    prev_curr_production_rule = dict_util.get_prev_curr_production_rule(arg_clauses, clause_index, parse_dict)
     prev_curr_CP_production_rule = dict_util.get_prev_curr_CP_production_rule(arg_clauses, clause_index, parse_dict)
-    curr_next_CP_production_rule = dict_util.get_curr_next_CP_production_rule(arg_clauses, clause_index, parse_dict)
 
     prev2_pos_lemma_verb = dict_util.get_2prev_pos_lemma_verb(arg_clauses, clause_index, parse_dict)
 
-    # curr first -> prev last
-    # curr_first_to_prev_last_path = dict_util.get_curr_first_to_prev_last_path(arg_clauses, clause_index, parse_dict)
 
 
     features = []
@@ -72,52 +56,17 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     features.append(Feature("", 1, {"1": clause_word_num}))
 
 
-    # features.append(get_feature_by_feat(dict_arg_label, arg_label))
-    # features.append(get_feature_by_feat(dict_is_curr_NNP_prev_PRP_or_NNP, is_curr_NNP_prev_PRP_or_NNP))
-    # features.append(get_feature_by_feat({"NONE": 1, "yes": 2, "no": 2}, is_NNP_WP))
     features.append(get_feature_by_feat(dict_prev2_pos_lemma_verb, prev2_pos_lemma_verb))
-    # features.append(get_feature_by_feat(dict_curr_first_to_prev_last_path, curr_first_to_prev_last_path))
 
 
     ''' production rules '''
-    # features.append(get_feature_by_feat_list(dict_curr_production_rule, production_rule_list))
-    # features.append(get_feature_by_feat_list(dict_prev_curr_production_rule, prev_curr_production_rule))
     features.append(get_feature_by_feat_list(dict_prev_curr_CP_production_rule, prev_curr_CP_production_rule))
-    # features.append(get_feature_by_feat_list(dict_curr_next_CP_production_rule, curr_next_CP_production_rule))
 
 
     return util.mergeFeatures(features)
 
 def all_features(arg_clauses, clause_index, parse_dict):
-    # feature_function_list = [
-    #     # lowercase_verbs,
-    #     # lemma_verbs,
-    #     # curr_first,
-    #     curr_last,
-    #     # prev_last,
-    #     # next_first,
-    #     # prev_last_curr_first,
-    #     # curr_last_next_first,
-    #     # position,
-    #     # production_rule,
-    #     # is_curr_NNP_prev_PRP_or_NNP,
-    #     # prev_curr_production_rule,
-    #     prev_curr_CP_production_rule,
-    #     # curr_next_CP_production_rule,
-    #     # prev2_pos_lemma_verb,
-    #     curr_first_to_prev_last_path,
-    #     clause_word_num,
-    #     # is_NNP_WP,
-    #
-    # ]
 
-   # # MaxEnt best, arg1 acc : 69.82
-   #  feature_function_list = [
-   #      prev_curr_CP_production_rule,
-   #      curr_last,
-   #  ]
-
-    # MaxEnt , arg1 acc : 70.02
     feature_function_list = [
         prev_curr_CP_production_rule,
         curr_last,

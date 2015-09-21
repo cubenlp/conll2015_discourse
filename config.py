@@ -1,17 +1,16 @@
 #coding:utf-8
 
 # current working directory.
-CWD = "/Users/Hunter/Documents/pycharmSpace/CoNLL2015_final_submit/"
+CWD = "/Users/Hunter/Documents/pycharmSpace/conll2015_discourse/"
 # mallet bin path
 MALLET_PATH = "/Users/Hunter/Documents/conll2015/mallet"
 
 
-
-MALLET_FILE = CWD +"data/train.mallet"
-
 TRAIN = "train"
 DEV = "dev"
 TEST = "test"
+
+DATA_PATH = CWD + "data/"
 
 # train path
 TRAIN_PATH = CWD + "data/conll15-st-03-04-15-train/"
@@ -47,8 +46,8 @@ BROWN_CLUSTER_PATH = CWD + "data/brown_cluster_3200.txt"
 WORD2VEC_CLUSTER_PATH = CWD + "data/word2vec_cluster"
 
 '''Explicit Connectives'''
-ExpConn_PATH = CWD + "dict/ExpConn.txt"
-SORTED_ExpConn_PATH = CWD + "dict/sortedExpConn.txt"
+ExpConn_PATH = CWD + "data/ExpConn.txt"
+SORTED_ExpConn_PATH = CWD + "data/sortedExpConn.txt"
 
 ''' dict  文件夹路径 '''
 DICT_PATH = CWD + "dict/"
@@ -129,18 +128,6 @@ ARG_POSITION_DICT_NEXT2POS_CPOS = ARG_POSITION_DICT_PATH + "next2pos_Cpos_dict.t
 
 ARG_POSITION_DICT_CONN_TO_ROOT_PATH = ARG_POSITION_DICT_PATH + "conn_to_root_path.txt"
 
-
-''' argument extractor dict '''
-ARG_EXTRACTOR_DICT = DICT_PATH + "argment_extractor/"
-''' argument extractor dict 路径下 dict的名称 '''
-ARG_EXTRACTOR_DICT_C_STRING = ARG_EXTRACTOR_DICT + "c_string_dict.txt"
-ARG_EXTRACTOR_DICT_C_CATEGORY = ARG_EXTRACTOR_DICT + "c_category_dict.txt"
-ARG_EXTRACTOR_DICT_C_LEFT_SIBLING_NUMBER = ARG_EXTRACTOR_DICT + "c_left_sibling_number_dict.txt"
-ARG_EXTRACTOR_DICT_C_RIGHT_SIBLING_NUMBER = ARG_EXTRACTOR_DICT + "c_right_sibling_number_dict.txt"
-ARG_EXTRACTOR_DICT_C_CPARENT_TO_NODE_PATH = ARG_EXTRACTOR_DICT + "cparent_to_node_path_dict.txt"
-ARG_EXTRACTOR_DICT_C_CPARENT_TO_NODE_PATH_LEFT_SIBLING_NUMBER  = ARG_EXTRACTOR_DICT + "cparent_to_node_path_left_sibling_number_dict.txt"
-ARG_EXTRACTOR_DICT_C_RELATIVE_POSITION = ARG_EXTRACTOR_DICT + "relative_position_dict.txt"
-ARG_EXTRACTOR_DICT_C_CPARENT_TO_NODE_PATH_LENGTH = ARG_EXTRACTOR_DICT + "cparent_to_node_path_length_dict.txt"
 
 
 ''' constituent-based '''
@@ -259,8 +246,6 @@ NON_EXPLICIT_DICT_WORD2VEC =  NON_EXPLICIT_DICT + "word2vec.txt"
 NON_EXPLICIT_DICT_MAIN_VERB_PAIR = NON_EXPLICIT_DICT + "main_verb_pair.txt"
 # cp production rule
 NON_EXPLICIT_DICT_CP_PRODUCTION_RULES = NON_EXPLICIT_DICT + "cp_production_rules.txt"
-# word2vec cluster
-NON_EXPLICIT_DICT_WORD2VEC_CLUSTER_PAIRS = NON_EXPLICIT_DICT + "word2vec_cluster_pairs.txt"
 # arg1 arg2 tense pair
 NON_EXPLICIT_DICT_ARG1_TENSE = NON_EXPLICIT_DICT + "arg1_tense.txt"
 NON_EXPLICIT_DICT_ARG2_TENSE = NON_EXPLICIT_DICT + "arg2_tense.txt"
@@ -502,14 +487,10 @@ NT_CLASSIFIER_MODEL = MODEL_PATH + "nt_classifier.model"
 EXPLICIT_CLASSIFIER_MODEL = MODEL_PATH + "explicit_classifier.model"
 #non-explicit
 NON_EXPLICIT_CLASSIFIER_MODEL = MODEL_PATH + "non_explicit_classifier.model"
-#attri
-ATTRI_NON_CONNS_CLASSIFIER_MODEL = MODEL_PATH + "attri_non_conns_classifier.model"
 # ps arg2
 PS_ARG2_CLASSIFIER_MODEL = MODEL_PATH + "ps_arg2_classifier.model"
 # ps arg1
 PS_ARG1_CLASSIFIER_MODEL = MODEL_PATH + "ps_arg1_classifier.model"
-# comp contrast
-COMP_CONTRAST_CLASSIFIER_MODEL = MODEL_PATH + "comp_contrast_classifier.model"
 # implicit arg1
 IMPLICIT_ARG1_CLASSIFIER_MODEL = MODEL_PATH + "implicit_arg1_classifier.model"
 # implicit arg2
@@ -518,7 +499,7 @@ IMPLICIT_ARG2_CLASSIFIER_MODEL = MODEL_PATH + "implicit_arg2_classifier.model"
 
 
 ''' connective syntatic category '''
-CONNECTIVE_CATEGORY_PATH = DICT_PATH + "connective-category.txt"
+CONNECTIVE_CATEGORY_PATH = DATA_PATH + "connective-category.txt"
 adverbial = "adverbial"
 Subordinator = "subordinator"
 Coordinator = "coordinator"

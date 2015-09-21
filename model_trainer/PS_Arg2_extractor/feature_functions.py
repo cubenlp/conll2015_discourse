@@ -21,15 +21,9 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     dict_con_str = Ps_arg2_dict().dict_con_str
     dict_con_lstr = Ps_arg2_dict().dict_con_lstr
     dict_con_cat = {"subordinator": 1, "coordinator": 2, "adverbial": 3 }
-    dict_clause_conn_position = {"left": 1,"right": 2} # the relative position of clause and conn
-    dict_conn_position_distance = Ps_arg2_dict().dict_conn_position_distance
-    dict_prev_curr_CP_production_rule = Ps_arg2_dict().dict_prev_curr_CP_production_rule
     dict_conn_to_root_path = Ps_arg2_dict().dict_conn_to_root_path
     dict_conn_to_root_compressed_path = Ps_arg2_dict().dict_conn_to_root_compressed_path
     dict_conn_position = Ps_arg2_dict().dict_conn_position
-    dict_conn_is_adjacent_to_conn = Ps_arg2_dict().dict_conn_is_adjacent_to_conn
-    dict_is_contain_comma_which = {"yes": 1,"no": 2}
-    dict_curr_first_curr_first_lemma_verb = Ps_arg2_dict().dict_curr_first_curr_first_lemma_verb
 
 
     # feature
@@ -52,16 +46,9 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     con_str = dict_util.get_con_str(arg_clauses, clause_index, parse_dict)
     con_lstr = dict_util.get_con_lstr(arg_clauses, clause_index, parse_dict)
     con_cat = dict_util.get_con_cat(arg_clauses, clause_index, parse_dict)
-    # clause_conn_position = dict_util.get_clause_conn_position(arg_clauses, clause_index, parse_dict)
-    # clause_conn_distance = dict_util.get_clause_conn_distance(arg_clauses, clause_index, parse_dict)
-    # conn_position_distance = dict_util.get_conn_position_distance(arg_clauses, clause_index, parse_dict)
-    # prev_curr_CP_production_rule = dict_util.get_prev_curr_CP_production_rule(arg_clauses, clause_index, parse_dict)
     conn_to_root_path = dict_util.get_conn_to_root_path(arg_clauses, clause_index, parse_dict)
     conn_to_root_compressed_path = dict_util.get_conn_to_root_compressed_path(arg_clauses, clause_index, parse_dict)
     conn_position = dict_util.get_conn_position(arg_clauses, clause_index, parse_dict)
-    # conn_is_adjacent_to_conn = dict_util.get_conn_is_adjacent_to_conn(arg_clauses, clause_index, parse_dict)
-    # is_contain_comma_which = dict_util.get_is_contain_comma_which(arg_clauses, clause_index, parse_dict)
-    # curr_first_curr_first_lemma_verb = dict_util.get_curr_first_curr_first_lemma_verb(arg_clauses, clause_index, parse_dict)
 
 
     features = []
@@ -87,48 +74,11 @@ def _all_features(arg_clauses, clause_index, parse_dict):
     features.append(get_feature_by_feat(dict_conn_to_root_compressed_path, conn_to_root_compressed_path))
     features.append(get_feature_by_feat(dict_conn_position, conn_position))
 
-    # features.append(get_feature_by_feat(dict_is_contain_comma_which, is_contain_comma_which))
-    # features.append(get_feature_by_feat(dict_curr_first_curr_first_lemma_verb, curr_first_curr_first_lemma_verb))
-
-
-
-    # features.append(get_feature_by_feat(dict_conn_is_adjacent_to_conn, conn_is_adjacent_to_conn))
-
-    # features.append(get_feature_by_feat(dict_clause_conn_position, clause_conn_position))
-    # features.append(Feature("", 1, {1: clause_conn_distance}))
-    # features.append(get_feature_by_feat(dict_conn_position_distance, conn_position_distance))
-    # features.append(get_feature_by_feat_list(dict_prev_curr_CP_production_rule, prev_curr_CP_production_rule))
-
 
     return util.mergeFeatures(features)
 
 
 def all_features(arg_clauses, clause_index, parse_dict):
-    # # MaxEnt : 76.40
-    # feature_function_list = [
-    #     lowercase_verbs,
-    #     lemma_verbs,
-    #     curr_first,
-    #     curr_last,
-    #     prev_last,
-    #     next_first,
-    #     prev_last_curr_first,
-    #     curr_last_next_first,
-    #     production_rule_list,
-    #     position,
-    #     # mine
-    #     con_str,
-    #     con_lstr,
-    #     con_cat,
-    #     conn_to_root_path,
-    #     conn_to_root_compressed_path,
-    #     conn_position,
-    #     # curr_first_prev_last_parse_path,
-    #     # first_lowercase_verb,
-    #     # first_lemma_verb,
-    # ]
-
-    # MaxEnt: 78.81
     feature_function_list = [
         production_rule_list,
         curr_first,

@@ -43,20 +43,6 @@ def cp_production_rules(relation, parse_dict):
 
     return get_feature_by_feat_list(dict_cp_production_rules, cp_production_rules)
 
-# def production_rules(relation, parse_dict):
-#     '''load dict '''
-#     dict_production_rules = Non_Explicit_dict().dict_production_rules
-#
-#     ''' feature '''
-#     Arg1_production_rules = dict_util.get_Arg_production_rules(relation, "Arg1", parse_dict)
-#     Arg2_production_rules = dict_util.get_Arg_production_rules(relation, "Arg2", parse_dict)
-#     Arg1_and_Arg2_production_rules = list(set(Arg1_production_rules) & set(Arg2_production_rules))
-#
-#     feat_Arg1 = get_feature_by_feat_list(dict_production_rules, Arg1_production_rules)
-#     feat_Arg2 = get_feature_by_feat_list(dict_production_rules, Arg2_production_rules)
-#     feat_Arg1_and_Arg2 = get_feature_by_feat_list(dict_production_rules, Arg1_and_Arg2_production_rules)
-#
-#     return util.mergeFeatures([feat_Arg1, feat_Arg2, feat_Arg1_and_Arg2])
 
 def production_rules(relation, parse_dict):
     '''load dict '''
@@ -75,21 +61,6 @@ def production_rules(relation, parse_dict):
 
     return get_feature_by_feat_list(dict_production_rules, rules)
 
-# def arg_brown_cluster(relation, parse_dict):
-#     # load dict
-#     dict_brown_cluster = Non_Explicit_dict().dict_Arg_brown_cluster
-#     ''' feature '''
-#     Arg1_brown_cluster = dict_util.get_Arg_brown_cluster(relation, "Arg1", parse_dict)
-#     Arg2_brown_cluster = dict_util.get_Arg_brown_cluster(relation, "Arg2", parse_dict)
-#     Both_brown_cluster = list(set(Arg1_brown_cluster) & set(Arg2_brown_cluster))
-#
-#     Arg1_brown_cluster = ["Arg1_%s" % x for x in Arg1_brown_cluster]
-#     Arg2_brown_cluster = ["Arg2_%s" % x for x in Arg2_brown_cluster]
-#     Both_brown_cluster = ["Both_%s" % x for x in Both_brown_cluster]
-#
-#     cluster = Arg1_brown_cluster + Arg2_brown_cluster + Both_brown_cluster
-#
-#     return get_feature_by_feat_list(dict_brown_cluster, cluster)
 
 def arg_brown_cluster(relation, parse_dict):
     # load dict
@@ -196,36 +167,6 @@ def MPQA_polarity_no_strong_weak(relation, parse_dict):
 
     return get_feature_by_list(feature_list)
 
-# # modality
-# def modality(relation, parse_dict):
-#
-#     '''feature'''
-#     Arg1_words = dict_util.get_Arg_Words_List(relation, "Arg1", parse_dict)
-#     Arg2_words = dict_util.get_Arg_Words_List(relation, "Arg2", parse_dict)
-#
-#     Arg1_modality_vec = dict_util.get_modality_vec(Arg1_words)
-#     Arg2_modality_vec = dict_util.get_modality_vec(Arg2_words)
-#     # cp = util.cross_product(Arg1_modality_vec, Arg2_modality_vec)
-#
-#     features = []
-#     # features.append(get_feature_by_list(Arg1_modality_vec))
-#     # features.append(get_feature_by_list(Arg2_modality_vec))
-#     # features.append(get_feature_by_list(cp))
-#     Arg1_feat = 0
-#     if sum(Arg1_modality_vec) > 0:
-#         Arg1_feat = 1
-#
-#     Arg2_feat = 0
-#     if sum(Arg2_modality_vec) > 0:
-#         Arg2_feat = 1
-#
-#     feat_1 = Feature("", 2, {1:Arg1_feat, 2: Arg2_feat})
-#     # 0_0 ,0_1, 1_1,1_0
-#     dict = {"0_0": 1, "0_1": 2, "1_0": 3, "1_1": 4}
-#     feat_2 = get_feature_by_feat(dict, "%d_%d" % (Arg1_feat, Arg2_feat))
-#
-#
-#     return util.mergeFeatures([feat_1, feat_2])
 
 # modality
 def modality(relation, parse_dict):
@@ -239,29 +180,12 @@ def modality(relation, parse_dict):
     Arg2_modality_vec = dict_util.get_modality_vec(Arg2_words)
     cp = util.cross_product(Arg1_modality_vec, Arg2_modality_vec)
 
-    # # presence or absence
-    # Arg1_has_modal = [0, 0]
-    # Arg2_has_modal = [0, 0]
-    # if sum(Arg1_modality_vec) > 0:
-    #     Arg1_has_modal[1] = 1
-    # else:
-    #     Arg1_has_modal[0] = 1
-    #
-    # if sum(Arg2_modality_vec) > 0:
-    #     Arg2_has_modal[1] = 1
-    # else:
-    #     Arg2_has_modal[0] = 1
-
-    # has_cp = util.cross_product(Arg1_has_modal, Arg2_has_modal)
 
     features = []
     features.append(get_feature_by_list(Arg1_modality_vec))
     features.append(get_feature_by_list(Arg2_modality_vec))
     features.append(get_feature_by_list(cp))
 
-    # features.append(get_feature_by_list(Arg1_has_modal))
-    # features.append(get_feature_by_list(Arg2_has_modal))
-    # features.append(get_feature_by_list(has_cp))
 
     return util.mergeFeatures(features)
 
@@ -282,28 +206,16 @@ def verbs(relation, parse_dict):
             if set(c1.split("#")) & set(c2.split("#")) != set([]):
                 count += 1
     feat_1 = Feature("", 1, {1: count})
-    # print feat_1.feat_string
 
-    # # 2. 动词短语的平均长度,int
-    # Arg1_average_length_verb_phrase = dict_util.get_Arg_average_length_verb_phrase(relation, "Arg1", parse_dict)
-    # Arg2_average_length_verb_phrase = dict_util.get_Arg_average_length_verb_phrase(relation, "Arg2", parse_dict)
-    # cp_average_length_verb_phrase = Arg1_average_length_verb_phrase * Arg2_average_length_verb_phrase
-    #
-    # feat_2 = Feature("", 3, {1:Arg1_average_length_verb_phrase, 2: Arg2_average_length_verb_phrase})
-    # # print feat_2.feat_string
-
-    #3. POS of main verb
+    #2. POS of main verb
     Arg1_MV_POS = dict_util.get_main_verb_pos(relation, "Arg1", parse_dict)
     Arg2_MV_POS = dict_util.get_main_verb_pos(relation, "Arg2", parse_dict)
 
-    # cp_MV_POS = util.cross_product(Arg1_MV_POS, Arg2_MV_POS)
 
     MV_POS_feature_list = Arg1_MV_POS + Arg2_MV_POS
 
     MV_POS_feature = get_feature_by_list(MV_POS_feature_list)
 
-    # print Arg1_MV_POS_feature.feat_string
-    # print Arg2_MV_POS_feature.feat_string
 
     return util.mergeFeatures([feat_1, MV_POS_feature])
 

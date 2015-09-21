@@ -17,14 +17,8 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
     feat_dict_prev2_C = {}
     feat_dict_prev2POS_CPOS = {}
 
-    feat_dict_next1 = {}
-    feat_dict_next1POS = {}
-    feat_dict_next1_C = {}
     feat_dict_next1POS_CPOS = {}
     feat_dict_next2 = {}
-    feat_dict_next2POS = {}
-    feat_dict_next2_C = {}
-    feat_dict_next2POS_CPOS = {}
 
     ''' load dict '''
     dict_CString = Arg_position_dict().dict_CString
@@ -40,14 +34,8 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
 
     dict_conn_to_root_path = Arg_position_dict().dict_conn_to_root_path
 
-    dict_next1 = Arg_position_dict().dict_next1
-    dict_next1POS = Arg_position_dict().dict_next1POS
-    dict_next1_C = Arg_position_dict().dict_next1_C
     dict_next1POS_CPOS = Arg_position_dict().dict_next1POS_CPOS
     dict_next2 = Arg_position_dict().dict_next2
-    dict_next2POS = Arg_position_dict().dict_next2POS
-    dict_next2_C = Arg_position_dict().dict_next2_C
-    dict_next2POS_CPOS = Arg_position_dict().dict_next2POS_CPOS
 
     ''' feature '''
     C_String = dict_util.get_C_String(parse_dict, DocID, sent_index, conn_indices)
@@ -66,11 +54,7 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
     next1, next1POS = dict_util.get_next1_next1POS(parse_dict, DocID, sent_index, conn_indices)
     next2, next2POS = dict_util.get_next2_next2POS(parse_dict, DocID, sent_index, conn_indices)
 
-    next1_C = "%s|%s" % (C_String, next1)
     next1POS_CPOS = "%s|%s" % (CPOS, next1POS)
-
-    next2_C = "%s|%s" % (C_String, next2)
-    next2POS_CPOS = "%s|%s" % (CPOS, next2POS)
 
     conn_to_root_path = dict_util.get_conn_to_root_path(parse_dict, DocID, sent_index, conn_indices)
 
@@ -88,34 +72,10 @@ def all_features(parse_dict, DocID, sent_index, conn_indices):
     features.append(get_feature(feat_dict_prev2_C, dict_prev2_C, prev2_C))
     features.append(get_feature(feat_dict_prev2POS_CPOS, dict_prev2POS_CPOS, prev2POS_CPOS))
 
-    # features.append(get_feature(feat_dict_next1, dict_next1, next1))
-    # features.append(get_feature(feat_dict_next1POS, dict_next1POS, next1POS))
-    # features.append(get_feature(feat_dict_next1_C, dict_next1_C, next1_C))
     features.append(get_feature(feat_dict_next1POS_CPOS, dict_next1POS_CPOS, next1POS_CPOS))
     features.append(get_feature(feat_dict_next2, dict_next2, next2))
-    # features.append(get_feature(feat_dict_next2POS, dict_next2POS, next2POS))
-    # features.append(get_feature(feat_dict_next2_C, dict_next2_C, next2_C))
-    # features.append(get_feature(feat_dict_next2POS_CPOS, dict_next2POS_CPOS, next2POS_CPOS))
 
     features.append(get_feature_by_feat(dict_conn_to_root_path, conn_to_root_path))
-
-
-    # C_String,
-    # conn_to_root_path,
-    # prev1_C,
-    # prev2POS_CPOS,
-    # prev1POS,
-    # CPOS,
-    # C_Position_feature,
-    # next1POS_CPOS,
-    # prev2,
-    # prev1POS_CPOS,
-    # next2,
-    # prev2_C,
-    # prev1,
-    # prev2POS,
-
-
 
     return util.mergeFeatures(features)
 
