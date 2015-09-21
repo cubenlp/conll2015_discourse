@@ -25,7 +25,7 @@ CWD = "/Users/XXX/Documents/conll2015_discourse/"
 MALLET_PATH = "/Users/XXX/Documents/mallet"
 ```
 
-Then, run the parser using the command in terminal as required by the [CoNLL 2015 Shared Task Official Blog](http://conll15st.blogspot.com/2015/03/discourse-parser-evaluation.html):
+Then, run the parser using the command in terminal as required in the [CoNLL 2015 Shared Task Official Blog](http://conll15st.blogspot.com/2015/03/discourse-parser-evaluation.html):
 ```
 python $input_dataset $input_run $output_dir
 ```
