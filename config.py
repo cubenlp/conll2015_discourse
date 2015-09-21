@@ -669,22 +669,6 @@ FEATURE_SELECTION_BROWN_CLUSTER = FEATURE_SELECTION_PATH + "brown_cluster.txt"
 FEATURE_SELECTION_BROWN_CLUSTER_INFOGAIN = FEATURE_SELECTION_PATH + "brown_cluster_infoGain.txt"
 FEATURE_SELECTION_DICT_TOP_N_BROWN_CLUSTER = FEATURE_SELECTION_PATH + "top_n_brown_cluster.txt"
 
-# 时态
-tense_dict = {
-    "NULL": 1,
-    "simple_past": 2,
-    "simple_present": 3,
-    "simple_future": 4,
-    "continuous_past": 5,
-    "continuous_present": 6,
-    "continuous_future": 7,
-    "perfect_past": 8,
-    "perfect_present": 9,
-    "perfect_future": 10,
-    "perfect_continuous_past": 11,
-    "perfect_continuous_present": 12,
-    "perfect_continuous_future": 13
-}
 
 MPQA_SUBJECTIVITY_LEXICON_PATH = CWD + "data/MPQA_Subjectivity_Lexicon.txt"
 VERB_NET_PATH = CWD + "data/new_vn"
