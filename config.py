@@ -55,12 +55,12 @@ WORD2VEC_CLUSTER_PATH = CWD + "data/word2vec_cluster"
 ExpConn_PATH = CWD + "data/ExpConn.txt"
 SORTED_ExpConn_PATH = CWD + "data/sortedExpConn.txt"
 
-''' dict  文件夹路径 '''
+''' dict   '''
 DICT_PATH = CWD + "dict/"
 
-''' connnective dict 路径 '''
+''' connnective dict '''
 CONNECTIVE_DICT_PATH = DICT_PATH + "connective/"
-''' connnective dict 路径下 dict的名称 '''
+''' connnective dict names '''
 CONNECTIVE_DICT_CPOS_PATH = CONNECTIVE_DICT_PATH + "cpos_dict.txt"
 CONNECTIVE_DICT_PREV_C_PATH = CONNECTIVE_DICT_PATH +"prev_c_dict.txt"
 CONNECTIVE_DICT_PREVPOS_PATH = CONNECTIVE_DICT_PATH +"prevpos_dict.txt"
@@ -111,7 +111,7 @@ CONNECTIVE_DICT_CONN_RIGHTSIBLING_PRODUCTION_RULES = CONNECTIVE_DICT_PATH + "rig
 
 ''' argument position dict '''
 ARG_POSITION_DICT_PATH = DICT_PATH + "argument_position/"
-''' argument position dict 路径下 dict的名称 '''
+''' argument position dict names '''
 ARG_POSITION_DICT_CSTRING = ARG_POSITION_DICT_PATH + "ctring_dict.txt"
 ARG_POSITION_DICT_CPOS = ARG_POSITION_DICT_PATH + "cpos_dict.txt"
 ARG_POSITION_DICT_PREV1 = ARG_POSITION_DICT_PATH + "prev1_dict.txt"
@@ -413,7 +413,6 @@ PICKLE_POLARITY_PATH = PICKLE_PATH+"polairty.p"
 
 
 FEATURE_OUTPUT_PATH = CWD + "model_trainer/feature_output/"
-''' connective 的特征文件路径 '''
 #feature output
 CONNECTIVE_TRAIN_FEATURE_OUTPUT_PATH = FEATURE_OUTPUT_PATH + "connective_train_feature.txt"
 CONNECTIVE_DEV_FEATURE_OUTPUT_PATH = FEATURE_OUTPUT_PATH + "connective_dev_feature.txt"
