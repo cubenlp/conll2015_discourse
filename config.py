@@ -31,10 +31,6 @@ CONLL_TRAIN_PATH = TRAIN_PATH + "conll_format/"
 CONLL_DEV_PATH = DEV_PATH + "conll_format/"
 
 ''' train & dev pdtb data '''
-# 删除了六个关系
-PDTB_TRAIN_PATH = TRAIN_PATH + "pdtb-data.json"
-PDTB_DEV_PATH = DEV_PATH + "pdtb-data.json"
-# 未删除了六个关系
 PDTB_ORIGIN_DEV_PATH = DEV_PATH + "pdtb-data_origin.json"
 
 ''' train & dev parsers '''
