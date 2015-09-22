@@ -49,11 +49,11 @@ def mergeFeatures(feature_list, name = ""):
     dimension = 0
     feat_string = ""
     for feature in feature_list:
-        if dimension == 0:#第一个
+        if dimension == 0:# first one
             feat_string = feature.feat_string
         else:
             if feature.feat_string != "":
-                #修改当前feature的index
+                # change the indices of the current feature.
                 temp = ""
                 for item in feature.feat_string.split(" "):
                     index, value = item.split(":")
