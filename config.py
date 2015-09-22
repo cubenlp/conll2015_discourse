@@ -672,13 +672,3 @@ FEATURE_SELECTION_DICT_TOP_N_BROWN_CLUSTER = FEATURE_SELECTION_PATH + "top_n_bro
 
 MPQA_SUBJECTIVITY_LEXICON_PATH = CWD + "data/MPQA_Subjectivity_Lexicon.txt"
 VERB_NET_PATH = CWD + "data/new_vn"
-
-PDTB_IMPILICIT_CONNECTIVE = DICT_PATH + "pdtb_implicit_connective"
-LM = CWD + "data/ny_ord5.lm"
-INPUT_LM = CWD + "data/input_lm"
-OUTPUT_LM = CWD + "data/output_lm.ppl"
-
-XUYU_CONNS = CWD + "dict/xuyu_conns.txt"
-
-FREELY_OMISSIBLE_CONN_LIST_PATH = CWD + "data/freely_omissible_conn_list.txt"
-WORD2VEC_CONNS_PATH = CWD + "dict/word2vec_conns.txt"
